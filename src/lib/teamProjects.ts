@@ -87,7 +87,7 @@ export const projects = [
         name: `NOT ALICE`,
         link: '/team/projects/notalice',
         mainImg: '/images/teamProjects/notalice/1.jpg',
-        video: '/images/teamProjects/notalice/1.mp4',
+        ytid: 'zLiUQXpQ5rg',
         style: '4px 10px 10px 5px',
     },
     {
@@ -146,7 +146,7 @@ export const projects = [
         name: `WHAT BOTHERS ME`,
         link: '/team/projects/bother',
         mainImg: '/images/teamProjects/bother/1.jpg',
-        video: '/images/teamProjects/bother/1.mp4',
+        ytid: '_9mf8Qhcank',
         style: '4px 10px 10px 5px',
     },
     {
@@ -167,7 +167,7 @@ export const projects = [
         name: `Zventa Sventana`,
         link: '/team/projects/zventa',
         mainImg: '/images/teamProjects/zventa/1.jpg',
-        video: '/images/teamProjects/zventa/1.mp4',
+        ytid: 'EvA8nzg2znI',
         style: '4px 10px 10px 5px',
     },
 ]

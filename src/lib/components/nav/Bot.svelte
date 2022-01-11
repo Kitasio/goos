@@ -4,7 +4,7 @@
 	export let white
 </script>
 
-{#if $page.path != '/'}
+{#if $page.url.pathname != '/'}
 	<div
 		on:click|stopPropagation={() => goto('/team')}
 		class="flex transition duration-200 hover:shadow-border pl-5 cursor-pointer w-1/2 font-medium py-2 items-center pr-10"

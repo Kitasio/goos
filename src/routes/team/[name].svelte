@@ -113,11 +113,13 @@
 						<Player src={selectedProject['video']} />
 					</div>
 				{:else if selectedProject['ytid']}
-					<iframe
-						class="aspect-video"
-						src="https://www.youtube.com/embed/{selectedProject['ytid']}"
-						title={selectedProject['name']}
-					/>
+					<div class="col-span-7">
+						<iframe
+							class="aspect-video w-full"
+							src="https://www.youtube.com/embed/{selectedProject['ytid']}"
+							title={selectedProject['name']}
+						/>
+					</div>
 				{:else}
 					<div class="col-span-7 space-y-5">
 						<div class="flex justify-between">

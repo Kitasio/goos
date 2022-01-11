@@ -5,7 +5,7 @@
 </script>
 
 {#if toggled}
-	{#if $page.path == '/'}
+	{#if $page.url.pathname == '/'}
 		<div
 			in:fly={{ x: -20, duration: 200 }}
 			class="lg:hidden pt-10 h-screen flex flex-col divide-y divide-black justify-between border-b border-black mb-[0.2px]"

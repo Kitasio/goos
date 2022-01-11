@@ -31,12 +31,12 @@
 </script>
 
 <!-- MOBILE -->
-{#if $page.path != '/'}
+{#if $page.url.pathname != '/'}
 	<div class={toggled ? 'h-screen flex flex-col fixed w-full z-40 bg-white' : ''}>
 		<div
 			class={$page.params.name
-				? 'lg:hidden bg-transparent bg-white fixed w-full flex justify-between divide-x-2 divide-black border-b-2 border-black'
-				: 'lg:hidden bg-white fixed w-full flex justify-between divide-x-2 divide-black border-b-2 border-black'}
+				? 'lg:hidden bg-transparent bg-white fixed w-full flex justify-between divide-x divide-black border-b border-black'
+				: 'lg:hidden bg-white fixed w-full flex justify-between divide-x divide-black border-b border-black'}
 		>
 			<div
 				in:fly={{ x: 20, duration: 200 }}
@@ -77,7 +77,9 @@
 						</svg>
 					</a>
 				{/if}
-				<a href="/" class="ml-10 font-bt uppercase text-center">gooseva komanda</a>
+				<div class="w-full flex items-center justify-center">
+					<a href="/" class="sm:ml-10 font-bt uppercase text-center">gooseva komanda</a>
+				</div>
 			</div>
 			<div on:click={() => (toggled = !toggled)} class="px-2">
 				<Burger {white} {toggled} />
@@ -87,10 +89,10 @@
 		<MobileLinks {toggled} />
 	</div>
 {:else}
-	<div class={toggled ? 'h-screen flex flex-col absolute w-full z-50 bg-white' : ''}>
+	<div class={toggled ? 'h-screen flex flex-col fixed w-full z-50 bg-white' : ''}>
 		<div
 			class:white={white && !toggled}
-			class="lg:hidden flex justify-between divide-x-2 divide-black border-b-2 border-black"
+			class="lg:hidden fixed w-full flex justify-between divide-x divide-black border-b border-black"
 		>
 			{#if toggled}
 				<div
@@ -146,7 +148,7 @@
 			<div in:fly={{ delay: 200 }}>
 				<div class="hidden lg:inline">
 					<div class:white class="hidden w-full lg:flex justify-between border-b border-black">
-						{#if $page.path == '/projects'}
+						{#if $page.url.pathname == '/projects'}
 							<div
 								class={$showFilter
 									? 'flex justify-between items-center cursor-pointer hover:shadow-border w-2/3 xl:w-3/4 border-black border-r bg-white'
@@ -173,7 +175,7 @@
 							</a>
 						{/if}
 						<div
-							class={$page.path == '/'
+							class={$page.url.pathname == '/'
 								? 'w-full lg:flex justify-between'
 								: 'w-1/3 xl:w-1/4 lg:flex justify-between border-r border-black'}
 							on:click={toggleTop}
@@ -194,7 +196,7 @@
 		{:else}
 			<div class="hidden lg:inline w-full bottom-0" in:fly={{ delay: 200 }}>
 				<div class="hidden group w-full lg:flex justify-between border-t border-black" class:white>
-					{#if $page.path == '/'}
+					{#if $page.url.pathname == '/'}
 						<div
 							class={white
 								? 'flex transition duration-200 hover:shadow-white font-medium py-2 w-full items-center'
@@ -210,7 +212,7 @@
 						</div>
 					{/if}
 					<div
-						class={$page.path == '/'
+						class={$page.url.pathname == '/'
 							? 'w-full lg:flex justify-between '
 							: 'w-1/3 xl:w-1/4 lg:flex justify-between'}
 						on:click={toggleBot}
