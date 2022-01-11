@@ -12,7 +12,7 @@
 
 	let project = {};
 	onMount(() => {
-		project = projects.find((x) => x.link === '/team/projects/' + $page.params.name);
+		project = projects.find((x) => x.link === '/team/projects/' + $page.params.member);
 	});
 </script>
 

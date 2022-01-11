@@ -7,7 +7,7 @@
 		$white = false;
 	});
 	let w;
-	$: if (w > 640) goto('/');
+	$: if (w > 1024) goto('/');
 </script>
 
 <svelte:window bind:innerWidth={w} />

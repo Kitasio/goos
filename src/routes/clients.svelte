@@ -7,7 +7,7 @@
 		$white = false;
 	});
 	let w;
-	$: if (w > 640) goto('/');
+	$: if (w > 1024) goto('/');
 	let images = [
 		'/images/companies/cian.png',
 		'/images/companies/lg.png',
