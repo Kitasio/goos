@@ -30,20 +30,18 @@
 	let personProjects = [];
 	onMount(() => {
 		person = people.find((x) => x.link === '/team/' + $page.params.name);
-		for (let i = 0; i < person['projects'].length; i++) {
-			const proj = person['projects'][i];
-			personProjects.push(projects.find((x) => x.link === '/team/projects/' + proj));
-			personProjects = personProjects;
+		if (person['projects']) {
+			for (let i = 0; i < person['projects'].length; i++) {
+				const proj = person['projects'][i];
+				personProjects.push(projects.find((x) => x.link === '/team/projects/' + proj));
+				personProjects = personProjects;
+			}
 		}
 	});
 </script>
 
-
 <div class="lg:hidden">
-	<header
-		class="h-[70vh] bg-cover bg-center"
-		style="background-image: url({person['img']})"
-	>
+	<header class="h-[70vh] bg-cover bg-center" style="background-image: url({person['img']})">
 		<Nav />
 	</header>
 	<h1 class="text-center py-5 text-3xl tracking-wide font-medium border-t border-b border-black">
@@ -84,7 +82,7 @@
 		<h1 class="text-md font-medium">Стилисты</h1>
 		<div>
 			{#each people as i, index (index)}
-				<a href={i.link} class="relative">
+				<a href={i.link} target="_self" class="relative">
 					<img
 						class={'/team/' + $page.params.name === i.link ? 'absolute top-2 -left-7' : 'hidden'}
 						src="/images/arrow.svg"
@@ -138,20 +136,22 @@
 			</div>
 		{:else}
 			<div>
-				<h1 class="text-4xl tracking-wide">{person['text']}</h1>
+				<h1 class="text-4xl tracking-wide">{person['text'] || ''}</h1>
 				<div class="mt-10 flex justify-between">
 					<p class="font-light whitespace-pre-line max-w-lg 2xl:max-w-2xl leading-5">
-						{@html person['about']}
+						{@html person['about'] || ''}
 					</p>
-					<Image src={person['img']} classes="object-cover w-64 h-64"/>
+					<Image src={person['img']} classes="object-cover w-64 h-64" />
 				</div>
 			</div>
-			<div class="flex flex-wrap gap-3">
-				{#each personProjects as i, index (index)}
-					<div class="cursor-pointer flex max-w-xs" on:click={() => openProj(i)}>
-						<Image src={i['mainImg']} classes={'grow object-cover h-32 w-full max-w-sm'} />
-					</div>
-				{/each}
+			<div class="flex flex-wrap items-start gap-3">
+				{#if personProjects}
+					{#each personProjects as i, index (index)}
+						<div class="cursor-pointer " on:click={() => openProj(i)}>
+							<Image src={i['mainImg']} classes={'object-cover h-32'} />
+						</div>
+					{/each}
+				{/if}
 			</div>
 		{/if}
 	</div>

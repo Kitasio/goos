@@ -42,7 +42,7 @@ export const items = {
 		{
 			title: 'AVIAPARK',
 			tagNames: ['#видео', '#реклама', '#женскийстайлинг', '#мужскойстайлинг', '#детскийстайлинг'],
-			tags: ['Видео', 'Реклама', 'Женский', 'Мужской', 'Детскийстайлинг'],
+			tags: ['Видео', 'Реклама', 'Женский', 'Мужской', 'Детский'],
 			mainImg: '/images/projects/AVIAPARK/1.jpg',
 			images: [],
 			video: 'https://www.youtube.com/watch?v=CkL_ahnFXxI&feature=emb_logo',
@@ -110,7 +110,7 @@ export const items = {
 		{
 			title: 'A101',
 			tagNames: ['#видео', '#реклама', '#детскийстайлинг'],
-			tags: ['Видео', 'Реклама', 'Детскийстайлинг'],
+			tags: ['Видео', 'Реклама', 'Детский'],
 			mainImg: '/images/projects/A101/1.jpg',
 			video: 'hlxQMLfyGmQ',
             style: '30px 20px 170px 100px'
@@ -164,7 +164,7 @@ export const items = {
 		{
 			title: 'DELOBANK',
 			tagNames: ['#видео', '#реклама', '#женскийстайлинг', '#мужскойстайлинг', '#детскийстайлинг'],
-			tags: ['Видео', 'Реклама', 'Женский', 'Мужской', 'Детскийстайлинг'],
+			tags: ['Видео', 'Реклама', 'Женский', 'Мужской', 'Детский'],
 			mainImg: '/images/projects/DELOBANK/1.jpg',
 			video: 'Zpu37bReork',
             style: '200px 20px 20px 20px'
@@ -268,7 +268,7 @@ export const items = {
 		{
 			title: 'MEGA',
 			tagNames: ['#видео', '#реклама', '#женскийстайлинг', '#мужскойстайлинг', '#детскийстайлинг'],
-			tags: ['Видео', 'Реклама', 'Женский', 'Мужской', 'Детскийстайлинг'],
+			tags: ['Видео', 'Реклама', 'Женский', 'Мужской', 'Детский'],
 			mainImg: '/images/projects/MEGA/1.jpg',
 			video: 'BmOnHc4_sHQ',
             style: '250px 250px 50px 0'
@@ -342,7 +342,7 @@ export const items = {
 		{
 			title: 'AVON 19 NY kids',
 			tagNames: ['#фото', '#реклама', '#женскийстайлинг', '#мужскойстайлинг', '#детскийстайлинг'],
-			tags: ['Фото', 'Реклама', 'Женский', 'Мужской', 'Детскийстайлинг'],
+			tags: ['Фото', 'Реклама', 'Женский', 'Мужской', 'Детский'],
 			mainImg: '/images/projects/AVON 19 NY KIDS/Копия AVON_NY_II_0801.jpg',
 			images: [
 				'/images/projects/AVON 19 NY KIDS/Копия AVON_NY_II_0801.jpg',
@@ -355,7 +355,7 @@ export const items = {
 		{
 			title: 'LENTA',
 			tagNames: ['#видео', '#реклама', '#женскийстайлинг', '#мужскойстайлинг', '#детскийстайлинг'],
-			tags: ['Видео', 'Реклама', 'Женский', 'Мужской', 'Детскийстайлинг'],
+			tags: ['Видео', 'Реклама', 'Женский', 'Мужской', 'Детский'],
 			mainImg: '/images/projects/LENTA/1.jpg',
 			video: 'WWsp8LsYWIk',
             style: '0 0 300px 150px'
@@ -399,7 +399,7 @@ export const items = {
 		{
 			title: 'ЦДМ',
 			tagNames: ['#видео', '#реклама', '#женскийстайлинг', '#мужскойстайлинг', '#детскийстайлинг'],
-			tags: ['Видео', 'Реклама', 'Женский', 'Мужской', 'Детскийстайлинг'],
+			tags: ['Видео', 'Реклама', 'Женский', 'Мужской', 'Детский'],
 			mainImg: '/images/projects/CDM/1.jpg',
 			localVideo: '/images/projects/CDM/1.mp4',
             style: '200px 0 10px 50px'
@@ -621,7 +621,7 @@ export const items = {
 		{
 			title: 'CITY MOBILE',
 			tagNames: ['#видео', '#реклама', '#женскийстайлинг', '#мужскойстайлинг', '#детскийстайлинг'],
-			tags: ['Видео', 'Реклама', 'Женский', 'Мужской', 'Детскийстайлинг'],
+			tags: ['Видео', 'Реклама', 'Женский', 'Мужской', 'Детский'],
 			mainImg: '/images/projects/CITY MOBILE/1.jpg',
 			video: 'hAwFGQcL7Wo',
             style: '50px 90px 200px 0'
@@ -643,54 +643,49 @@ export const items = {
             style: '5px 20px 200px 0'
 		},
 		{
-			title: "SPRING  RYAZAN'",
-			tagNames: ['#фото', '#фешн', '#женскийстайлинг'],
-			tags: ['Фото', 'Фешн', 'Женский'],
-			mainImg: '/images/projects/SPRING RYAZAN/Копия DSC02505.jpg',
-			images: [
-				'/images/projects/SPRING RYAZAN/Копия DSC02505.jpg',
-				'/images/projects/SPRING RYAZAN/Копия 0053.jpg',
-				'/images/projects/SPRING RYAZAN/Копия DSC02625.jpg'
-			],
-			classes: 'p-2',
-			video: ''
+			title: 'DAVAI BROSAT',
+			tagNames: ['#видео', '#реклама', '#женскийстайлинг', '#мужскойстайлинг'],
+			tags: ['Видео', 'Реклама', 'Женский', 'Мужской'],
+			mainImg: '/images/projects/DAVAI BROSAT/1.jpg',
+			style: '200px 100px 50px 5px',
+			video: 'xb6fL2BrX9o'
 		},
 		{
-			title: 'UTOPIA 1985',
-			tagNames: ['#фото', '#эдиториал', '#женскийстайлинг'],
-			tags: ['Фото', 'Эдиториал', 'Женский'],
-			mainImg: '/images/projects/UTOPIA/4.jpg',
-			images: [
-				'/images/projects/UTOPIA/4.jpg',
-				'/images/projects/UTOPIA/5.jpg',
-				'/images/projects/UTOPIA/2.jpg',
-				'/images/projects/UTOPIA/3.jpg',
-				'/images/projects/UTOPIA/1.jpg'
-			],
-			classes: 'p-2',
-			video: ''
+			title: 'YANDEX MONEY',
+			tagNames: ['#видео', '#реклама', '#женскийстайлинг', '#мужскойстайлинг'],
+			tags: ['Видео', 'Реклама', 'Женский', 'Мужской'],
+			mainImg: '/images/projects/YANDEX MONEY/1.jpg',
+			video: '9HUm8ZchML0',
+			style: '30% 15%',
 		},
 		{
-			title: 'AVON NEW YEAR',
-			tagNames: ['#фото', '#реклама', '#женскийстайлинг', '#мужскойстайлинг', '#детскийстайлинг'],
-			tags: ['Фото', 'Реклама', 'Женский', 'Мужской', 'Детскийстайлинг'],
-			mainImg: '/images/projects/AVON NEW YEAR/Копия IMG_6163.JPG',
-			images: [
-				'/images/projects/AVON NEW YEAR/Копия IMG_6163.JPG',
-				'/images/projects/AVON NEW YEAR/Копия IMG_6164.JPG',
-				'/images/projects/AVON NEW YEAR/Копия IMG_6165.JPG',
-				'/images/projects/AVON NEW YEAR/Копия IMG_6166.JPG',
-				'/images/projects/AVON NEW YEAR/Копия IMG_6219.JPG'
-			],
-			classes: 'p-2',
-			video: ''
+			title: 'Афиша сериала ГРАНД',
+			tagNames: ['#фото', '#реклама', '#женскийстайлинг', '#мужскойстайлинг'],
+			tags: ['Фото', 'Реклама', 'Женский', 'Мужской'],
+			mainImg: '/images/projects/GRAND/1.jpg',
+			images: ['/images/projects/GRAND/1.jpg'],
+			style: '10% 7% 50% 30%',
 		},
-
+		{
+			title: 'MANIQU',
+			tagNames: [],
+			tags: [],
+			mainImg: '/images/projects/MANIQU.RU/2.JPG',
+			images: ['/images/projects/MANIQU.RU/2.JPG', '/images/projects/MANIQU.RU/1.JPG'],
+		},
+		{
+			title: 'SAMOLET',
+			tagNames: ['#видео', '#реклама', '#женскийстайлинг', '#мужскойстайлинг', '#детскийстайлинг'],
+			tags: ['Видео', 'Реклама', 'Женский', 'Мужской', 'Детский'],
+			mainImg: '/images/projects/SAMOLET/1.jpg',
+			style: '40% 7% 20% 4%',
+			video: 'https://www.youtube.com/watch?v=es9atp1aTzY'
+		},
 		{
 			title: 'GERTRUDE / KALTBLUT MAG',
 			tagNames: ['#фото', '#эдиториал', '#женскийстайлинг'],
 			tags: ['Фото', 'Эдиториал', 'Женский'],
-			mainImg: '/images/projects/GERTRUDE:KALTBLUT/Копия IMG_5805.JPG',
+			mainImg: '/images/projects/GERTRUDE:KALTBLUT/Копия IMG_5803.JPG',
 			images: [
 				'/images/projects/GERTRUDE:KALTBLUT/Копия IMG_5805.JPG',
 				'/images/projects/GERTRUDE:KALTBLUT/Копия IMG_5804.JPG',
@@ -702,59 +697,82 @@ export const items = {
 				'/images/projects/GERTRUDE:KALTBLUT/Копия IMG_5801.JPG',
 				'/images/projects/GERTRUDE:KALTBLUT/Копия 8.jpg'
 			],
-			classes: 'p-2',
-			video: ''
+			style: '10% 0 20% 50%'
 		},
 		{
-			title: '',
-			tagNames: [],
-			tags: [],
-			mainImg: '',
-			images: [],
-			classes: 'p-2',
-			video: ''
+			title: 'UTOPIA 1985',
+			tagNames: ['#фото', '#эдиториал', '#женскийстайлинг'],
+			tags: ['Фото', 'Эдиториал', 'Женский'],
+			mainImg: '/images/projects/UTOPIA/1.jpg',
+			images: [
+				'/images/projects/UTOPIA/4.jpg',
+				'/images/projects/UTOPIA/5.jpg',
+				'/images/projects/UTOPIA/2.jpg',
+				'/images/projects/UTOPIA/3.jpg',
+				'/images/projects/UTOPIA/1.jpg'
+			],
 		},
 		{
-			title: 'DAVAI BROSAT',
-			tagNames: ['#видео', '#реклама', '#женскийстайлинг', '#мужскойстайлинг'],
-			tags: ['Видео', 'Реклама', 'Женский', 'Мужской'],
-			mainImg: '',
-			images: [],
-			classes: 'p-2',
-			video: 'https://www.youtube.com/watch?v=xb6fL2BrX9o&feature=emb_logo'
+			title: 'BLINDING x KULTBLUT MAGAZINE',
+			tagNames: ['#фото', '#эдиториал', '#женскийстайлинг', '#созданиекостюма'],
+			tags: ['Фото', 'Эдиториал', 'Женский', 'Созданиекостюма'],
+			mainImg: '/images/projects/BLINDING AND KULTBLUT/main.png',
+			images: [
+				'/images/projects/BLINDING AND KULTBLUT/ 8.jpg',
+				'/images/projects/BLINDING AND KULTBLUT/ 9.jpg',
+				'/images/projects/BLINDING AND KULTBLUT/ 7.jpg',
+				'/images/projects/BLINDING AND KULTBLUT/ 6.jpg',
+				'/images/projects/BLINDING AND KULTBLUT/ 4.jpg',
+				'/images/projects/BLINDING AND KULTBLUT/ 5.jpg',
+				'/images/projects/BLINDING AND KULTBLUT/ 1.jpg',
+				'/images/projects/BLINDING AND KULTBLUT/ 2.jpg',
+				'/images/projects/BLINDING AND KULTBLUT/ 3.jpg'
+			],
+			style: '5% 30% 25% 3%',
 		},
 		{
-			title: 'Афиша сериала ГРАНД',
-			tagNames: ['#фото', '#реклама', '#женскийстайлинг', '#мужскойстайлинг'],
-			tags: ['Фото', 'Реклама', 'Женский', 'Мужской'],
-			mainImg: '/images/projects/GRAND/1.jpg',
-			images: ['/images/projects/GRAND/1.jpg'],
-			classes: 'p-2',
-			video: ''
+			title: 'Режиссеры Меркуловы для “АФИШИ”',
+			tagNames: ['#фото', '#эдиториал', '#женскийстайлинг', '#мужскойстайлинг'],
+			tags: ['Фото', 'Эдиториал', 'Женский', 'Мужской'],
+			mainImg: '/images/projects/DIRECTORS MERKULOVY/Копия 0018.jpg',
+			images: [
+				'/images/projects/DIRECTORS MERKULOVY/Копия 0018.jpg',
+				'/images/projects/DIRECTORS MERKULOVY/Копия 0022.jpg'
+			],
+			style: '40% 7% 7% 50%'
 		},
 		{
-			title: 'Samsung Связной',
-			tagNames: ['#видео', '#реклама', '#женскийстайлинг', '#мужскойстайлинг'],
-			tags: ['Видео', 'Реклама', 'Женский', 'Мужской'],
-			mainImg: '',
-			images: [],
-			classes: 'p-2',
-			video: 'https://drive.google.com/file/d/1jw4WZZ0WYol5EmI56RSE1_EwN2OMfBL6/view?usp=sharing'
+			title: 'Яндекс Маркет',
+			tagNames: ['#видео', '#реклама', '#мужскойстайлинг'],
+			tags: ['Видео', 'Реклама', 'Мужской'],
+			mainImg: '/images/projects/YANDEX/1.jpg',
+			localVideo: '/images/projects/YANDEX/1.mp4'
 		},
 		{
-			title: 'SAMOLET',
-			tagNames: ['#видео', '#реклама', '#женскийстайлинг', '#мужскойстайлинг', '#детскийстайлинг'],
-			tags: ['Видео', 'Реклама', 'Женский', 'Мужской', 'Детскийстайлинг'],
-			mainImg: '',
-			images: [],
-			classes: 'p-2',
-			video: 'https://www.youtube.com/watch?v=es9atp1aTzY'
+			title: 'VOLEN SENTIR (Arrival)',
+			tagNames: ['#видео', '#мужскойстайлинг'],
+			tags: ['Видео', 'Мужской'],
+			mainImg: '/images/projects/VOLEN SENTIR/1.jpg',
+			localVideo: '/images/projects/VOLEN SENTIR/1.mp4',
+			style: '4% 15% 50% 0',
+		},
+		{
+			title: "SPRING  RYAZAN'",
+			tagNames: ['#фото', '#фешн', '#женскийстайлинг'],
+			tags: ['Фото', 'Фешн', 'Женский'],
+			mainImg: '/images/projects/SPRING RYAZAN/main.png',
+			images: [
+				'/images/projects/SPRING RYAZAN/Копия DSC02505.jpg',
+				'/images/projects/SPRING RYAZAN/Копия 0053.jpg',
+				'/images/projects/SPRING RYAZAN/Копия DSC02625.jpg'
+			],
+			style: '10% 5% 0 10%'
 		},
 		{
 			title: 'THE PROVEN POINT / SOLSTICE MAGAZINE',
 			tagNames: ['#фото', '#эдиториал', '#женскийстайлинг'],
 			tags: ['Фото', 'Эдиториал', 'Женский'],
-			mainImg: '/images/projects/THE PROVEN POINT/Копия DSC01264 copy.jpg',
+			mainImg: '/images/projects/THE PROVEN POINT/Копия DSC01545 copy.jpg',
 			images: [
 				'/images/projects/THE PROVEN POINT/Копия DSC01264 copy.jpg',
 				'/images/projects/THE PROVEN POINT/Копия DSC01438 copy.jpg',
@@ -769,10 +787,63 @@ export const items = {
 			video: ''
 		},
 		{
+			title: 'AVON NEW YEAR',
+			tagNames: ['#фото', '#реклама', '#женскийстайлинг', '#мужскойстайлинг', '#детскийстайлинг'],
+			tags: ['Фото', 'Реклама', 'Женский', 'Мужской', 'Детский'],
+			mainImg: '/images/projects/AVON NEW YEAR/Копия IMG_6163.JPG',
+			images: [
+				'/images/projects/AVON NEW YEAR/Копия IMG_6163.JPG',
+				'/images/projects/AVON NEW YEAR/Копия IMG_6164.JPG',
+				'/images/projects/AVON NEW YEAR/Копия IMG_6165.JPG',
+				'/images/projects/AVON NEW YEAR/Копия IMG_6166.JPG',
+				'/images/projects/AVON NEW YEAR/Копия IMG_6219.JPG'
+			],
+			style: '15% 0 15% 30%'
+		},
+		{
+			title: 'GOGEN',
+			tagNames: ['#фото', '#эдиториал', '#женскийстайлинг'],
+			tags: ['Фото', 'Эдиториал', 'Женский'],
+			mainImg: '/images/projects/GOGEN/Копия 07.jpg',
+			images: [
+				'/images/projects/GOGEN/Копия 06.jpg',
+				'/images/projects/GOGEN/Копия 07.jpg',
+				'/images/projects/GOGEN/Копия 03.jpg',
+				'/images/projects/GOGEN/Копия 02.jpg'
+			],
+			classes: 'p-2',
+			video: ''
+		},
+		{
+			title: 'POKERDOM',
+			tagNames: ['#видео', '#реклама', '#женскийстайлинг', '#мужскойстайлинг'],
+			tags: ['Видео', 'Реклама', 'Женский', 'Мужской'],
+			mainImg: '/images/projects/POKERDOM/1.jpg',
+			video: 'oRPspvmBL-8',
+			style: '30% 15% 30% 0',
+		},
+		{
+			title: 'Alone. One with World or Lone? x Contributor Magazine',
+			tagNames: ['#фото', '#эдиториал', '#женскийстайлинг'],
+			tags: ['Фото', 'Эдиториал', 'Женский'],
+			mainImg: '/images/projects/ALONE/Копия 25.jpg',
+			images: [
+				'/images/projects/ALONE/Копия 5.jpg',
+				'/images/projects/ALONE/Копия 4.jpg',
+				'/images/projects/ALONE/Копия 6.jpg',
+				'/images/projects/ALONE/Копия 24.jpg',
+				'/images/projects/ALONE/Копия 25.jpg',
+				'/images/projects/ALONE/Копия 27.jpg',
+				'/images/projects/ALONE/Копия 10.jpg',
+				'/images/projects/ALONE/Копия 12.jpg'
+			],
+			style: '25% 0 25% 55%'
+		},
+		{
 			title: 'WELLA, SEBASTIAN, SYSTEM 2020',
 			tagNames: ['#фото', '#фешн', '#женскийстайлинг', '#мужскойстайлинг'],
 			tags: ['Фото', 'Фешн', 'Женский', 'Мужской'],
-			mainImg: '/images/projects/WELLA, SEBASTIAN, SYSTEM 2021/Копия wella december0798.jpg',
+			mainImg: '/images/projects/WELLA, SEBASTIAN, SYSTEM 2021/Копия wella december0626.jpg',
 			images: [
 				'/images/projects/WELLA, SEBASTIAN, SYSTEM 2021/Копия wella december0798.jpg',
 				'/images/projects/WELLA, SEBASTIAN, SYSTEM 2021/Копия wella december0648.jpg',
@@ -784,121 +855,20 @@ export const items = {
 			video: ''
 		},
 		{
-			title: 'Alone. One with World or Lone? x Contributor Magazine',
-			tagNames: ['#фото', '#эдиториал', '#женскийстайлинг'],
-			tags: ['Фото', 'Эдиториал', 'Женский'],
-			mainImg: '/images/projects/ALONE/Копия 5.jpg',
-			images: [
-				'/images/projects/ALONE/Копия 5.jpg',
-				'/images/projects/ALONE/Копия 4.jpg',
-				'/images/projects/ALONE/Копия 6.jpg',
-				'/images/projects/ALONE/Копия 24.jpg',
-				'/images/projects/ALONE/Копия 25.jpg',
-				'/images/projects/ALONE/Копия 27.jpg',
-				'/images/projects/ALONE/Копия 10.jpg',
-				'/images/projects/ALONE/Копия 12.jpg'
-			],
-			classes: 'p-2',
-			video: ''
-		},
-		{
-			title: 'POKERDOM',
+			title: 'Samsung Связной',
 			tagNames: ['#видео', '#реклама', '#женскийстайлинг', '#мужскойстайлинг'],
 			tags: ['Видео', 'Реклама', 'Женский', 'Мужской'],
-			mainImg: '',
-			images: [],
-			classes: 'p-2',
-			video: 'https://www.youtube.com/watch?v=oRPspvmBL-8'
-		},
-		{
-			title: 'BLINDING x KULTBLUT MAGAZINE',
-			tagNames: ['#фото', '#эдиториал', '#женскийстайлинг', '#созданиекостюма'],
-			tags: ['Фото', 'Эдиториал', 'Женский', 'Созданиекостюма'],
-			mainImg: '/images/projects/BLINDING AND KULTBLUT/ 8.jpg',
-			images: [
-				'/images/projects/BLINDING AND KULTBLUT/ 8.jpg',
-				'/images/projects/BLINDING AND KULTBLUT/ 9.jpg',
-				'/images/projects/BLINDING AND KULTBLUT/ 7.jpg',
-				'/images/projects/BLINDING AND KULTBLUT/ 6.jpg',
-				'/images/projects/BLINDING AND KULTBLUT/ 4.jpg',
-				'/images/projects/BLINDING AND KULTBLUT/ 5.jpg',
-				'/images/projects/BLINDING AND KULTBLUT/ 1.jpg',
-				'/images/projects/BLINDING AND KULTBLUT/ 2.jpg',
-				'/images/projects/BLINDING AND KULTBLUT/ 3.jpg'
-			],
-			classes: 'p-2',
-			video: ''
-		},
-		{
-			title: '',
-			tagNames: [],
-			tags: [],
-			mainImg: '/images/projects/MANIQU.RU/2.JPG',
-			images: ['/images/projects/MANIQU.RU/2.JPG', '/images/projects/MANIQU.RU/1.JPG'],
-			classes: 'p-2',
-			video: ''
-		},
-		{
-			title: 'YANDEX MONEY',
-			tagNames: ['#видео', '#реклама', '#женскийстайлинг', '#мужскойстайлинг'],
-			tags: ['Видео', 'Реклама', 'Женский', 'Мужской'],
-			mainImg: '',
-			images: [],
-			classes: 'p-2',
-			video: 'https://www.youtube.com/watch?v=9HUm8ZchML0'
-		},
-		{
-			title: 'Яндекс Маркет',
-			tagNames: ['#видео', '#реклама', '#мужскойстайлинг'],
-			tags: ['Видео', 'Реклама', 'Мужской'],
-			mainImg: '',
-			images: [],
-			classes: 'p-2',
-			video: 'https://drive.google.com/file/d/1aRMCZbPsbr6UOCFdygMcEFKbAoJ8nycy/view?usp=sharing'
-		},
-		{
-			title: 'GOGEN',
-			tagNames: ['#фото', '#эдиториал', '#женскийстайлинг'],
-			tags: ['Фото', 'Эдиториал', 'Женский'],
-			mainImg: '/images/projects/GOGEN/Копия 06.jpg',
-			images: [
-				'/images/projects/GOGEN/Копия 06.jpg',
-				'/images/projects/GOGEN/Копия 07.jpg',
-				'/images/projects/GOGEN/Копия 03.jpg',
-				'/images/projects/GOGEN/Копия 02.jpg'
-			],
-			classes: 'p-2',
-			video: ''
+			mainImg: '/images/projects/SAMSUNG/1.jpg',
+			localVideo: '/images/projects/SAMSUNG/1.mp4',
+			style: '50% 0 15% 30%'
 		},
 		{
 			title: 'Егор Крид - Холостяк',
 			tagNames: ['#видео', '#реклама', '#женскийстайлинг', '#мужскойстайлинг'],
 			tags: ['Видео', 'Реклама', 'Женский', 'Мужской'],
-			mainImg: '',
-			images: [],
-			classes: 'p-2',
-			video: 'https://www.youtube.com/watch?v=pui1uSE63Wo&t=4s'
-		},
-		{
-			title: 'VOLEN SENTIR (Arrival)',
-			tagNames: ['#видео', '#мужскойстайлинг'],
-			tags: ['Видео', 'Мужской'],
-			mainImg: '',
-			images: [],
-			classes: 'p-2',
-			video: 'https://drive.google.com/drive/u/3/folders/1ZJprtTXYG-xUORBZQ6Jg4USrkgLtAVR4'
-		},
-		{
-			title: 'Режиссеры Меркуловы для “АФИШИ”',
-			tagNames: ['#фото', '#эдиториал', '#женскийстайлинг', '#мужскойстайлинг'],
-			tags: ['Фото', 'Эдиториал', 'Женский', 'Мужской'],
-			mainImg: '/images/projects/DIRECTORS MERKULOVY/Копия 0018.jpg',
-			images: [
-				'/images/projects/DIRECTORS MERKULOVY/Копия 0018.jpg',
-				'/images/projects/DIRECTORS MERKULOVY/Копия 0022.jpg'
-			],
-			classes: 'p-2',
-			video: ''
+			mainImg: '/images/projects/EGOR KRID/1.jpg',
+			video: 'pui1uSE63Wo&t=4s',
+			style: '0 0 50% 7%'
 		},
 	]
 };

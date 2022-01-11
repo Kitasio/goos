@@ -164,6 +164,13 @@
 									alt=""
 								/>
 							</div>
+						{:else if $page.params.name}
+							<a
+								href="/projects"
+								class='flex transition duration-200 hover:shadow-border font-medium py-2 items-center border-r border-black w-2/3 xl:w-3/4'
+							>
+								<h1 class="ml-5 2xl:ml-10">Проекты</h1>
+							</a>	
 						{:else}
 							<a
 								href="/projects"

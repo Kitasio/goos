@@ -2,15 +2,15 @@
 	import { goto } from '$app/navigation';
 	import { page } from '$app/stores';
 	export let white
-</script>
+</script> 
 
 {#if $page.url.pathname != '/'}
-	<div
+	<span
 		on:click|stopPropagation={() => goto('/team')}
 		class="flex transition duration-200 hover:shadow-border pl-5 cursor-pointer w-1/2 font-medium py-2 items-center pr-10"
 	>
 		Команда
-	</div>
+	</span>
 {/if}
 <span
 	class={white

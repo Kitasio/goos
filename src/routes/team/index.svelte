@@ -67,7 +67,7 @@
 				{#key i['shown']}
 					<img
 						transition:fade={{ duration: 500 }}
-						src={i.img}
+						src={i.img + ".jpg"}
 						alt={i.text}
 						class={i['shown']
 							? 'absolute transition duration-500 opacity-100 w-full top-0 h-full object-cover'

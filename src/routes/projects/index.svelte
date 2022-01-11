@@ -67,10 +67,10 @@
 		>
 			{#each items.projects as i, index (index)}
 				{#if (i.tags.some( (e) => $lvl1.includes(capitalize(e)) ) || !$lvl1.length) && (i.tags.some( (e) => $lvl2.includes(capitalize(e)) ) || !$lvl2.length) && (i.tags.some( (e) => $lvl3.includes(capitalize(e)) ) || !$lvl3.length)}
-					<div class="border-b border-r border-black">
-						<div class="border-2 border-black border-opacity-0 hover:border-opacity-100 transition duration-200">
-							<a class="transition duration-200" href={`projects/${index}`}>
-								<div id="img{index}" class="img-anim h-96 xl:h-[34rem] {i.classes}" style="padding: {i.style}">
+					<div class="border-b border-r border-black aspect-square">
+						<div class="w-full h-full border-2 border-black border-opacity-0 hover:border-opacity-100 transition duration-200">
+							<a class="transition duration-200 w-full h-full" href={`projects/${index}`}>
+								<div id="img{index}" class="img-anim w-full h-full {i.classes}" style="padding: {i.style}">
 									<Image src={i.mainImg} classes={`w-full h-full object-cover ${i.classes}`} />
 								</div>
 								<div class="text-center lg:hidden">{i.title}</div>
