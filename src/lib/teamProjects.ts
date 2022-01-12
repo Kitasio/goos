@@ -4,7 +4,7 @@ export const projects = [
         One with World or Lone?
         x Contributor Magazine`,
         link: '/team/projects/alone',
-        images: ['/images/teamProjects/alone/1.jpg', '/images/teamProjects/alone/2.jpg', '/images/teamProjects/alone/3.jpg', ],
+        images: ['/images/teamProjects/alone/1.jpg', '/images/teamProjects/alone/2.jpg', '/images/teamProjects/alone/3.jpg',],
         mainImg: '/images/teamProjects/alone/1.jpg',
         style: '4px 10px 10px 5px',
     },
@@ -51,14 +51,14 @@ export const projects = [
         link: '/team/projects/krivorotov1',
         images: ['/images/teamProjects/krivorotov1/1.jpg'],
         mainImg: '/images/teamProjects/krivorotov1/1.jpg',
-        style: '4px 10px 10px 5px',
+        style: '10% 0 10% 10%'
     },
     {
         name: `Dr. Krivorotov Weekend`,
         link: '/team/projects/krivorotov2',
         mainImg: '/images/teamProjects/krivorotov2/1.png',
         video: '/images/teamProjects/krivorotov2/1.mp4',
-        style: '4px 10px 10px 5px'
+        style: '15% 20% 6% 17%'
     },
     {
         name: `Flowers and shadows
@@ -161,13 +161,219 @@ export const projects = [
         link: '/team/projects/youdrive',
         mainImg: '/images/teamProjects/youdrive/1.jpg',
         video: '/images/teamProjects/youdrive/1.mp4',
-        style: '4px 10px 10px 5px',
+        style: '20%',
     },
     {
         name: `Zventa Sventana`,
         link: '/team/projects/zventa',
         mainImg: '/images/teamProjects/zventa/1.jpg',
         ytid: 'EvA8nzg2znI',
-        style: '4px 10px 10px 5px',
+        style: '20% 5% 8% 25%',
+    },
+    {
+        name: `RAYON - INDABLACK 
+        x RAIDA`,
+        tagNames: ['#видео', '#женскийстайлинг', '#мужскойстайлинг'],
+        tags: ['Видео', 'Женский', 'Мужской'],
+        mainImg: '/images/projects/rayon/1.jpg',
+        link: '/team/projects/rayon',
+        ytid: 'Yvs7O-BLivw',
+        style: '5% 5% 35% 35%'
+    },
+    {
+        name: `Absolut city-park`,
+        link: '/team/projects/absolut',
+        mainImg: '/images/teamProjects/absolut/1.jpg',
+        video: '/images/teamProjects/absolut/1.mp4',
+        style: '4% 20% 0 7%',
+    },
+    {
+        name: 'AVIAPARK',
+        mainImg: '/images/projects/AVIAPARK/1.jpg',
+        link: '/team/projects/aviapark',
+        ytid: 'CkL_ahnFXxI',
+        style: '20% 0 10% 5%',
+    },
+    {
+        name: 'Citymobil',
+        mainImg: '/images/projects/CITY MOBILE/1.jpg',
+        link: '/team/projects/citymobil',
+        ytid: 'hAwFGQcL7Wo',
+        style: '12% 12% 0 33%'
+    },
+    {
+        name: 'Director of Total - Busiest Citizen',
+        link: '/team/projects/director',
+        mainImg: '/images/projects/DIRECTOR/1.jpg',
+        ytid: '7X18S0R-jBE',
+    },
+    {
+        name: 'Dr.Krivorotov - Weekend',
+        mainImg: '/images/projects/WEEKEND/1.jpg',
+        link: '/team/projects/weekend',
+        ytid: 'Dso2sn660GA',
+        style: '15% 10% 5% 20%'
+    },
+    {
+        name: 'HOLOSTYAK - ANTON KRIVOROTOV',
+        link: '/team/projects/holostyak',
+        mainImg: '/images/projects/HOLOSTIAK/Копия d4394489085388a02b800188bfeb6026.jpg',
+        images: [
+            '/images/projects/HOLOSTIAK/1.jpg',
+            '/images/projects/HOLOSTIAK/2.jpg',
+            '/images/projects/HOLOSTIAK/Копия ok-zhurnal-8-02.jpg',
+            '/images/projects/HOLOSTIAK/Копия d4394489085388a02b800188bfeb6026.jpg',
+            '/images/projects/HOLOSTIAK/Копия 72e447bc9980f966eabc570ba2438d62.jpg'
+        ],
+        style: '20% 20%',
+    },
+    {
+        name: 'Mr&Mrs Cash',
+        link: '/team/projects/cash',
+        mainImg: '/images/teamProjects/cash/1.jpg',
+        images: ['/images/teamProjects/cash/1.jpg', '/images/teamProjects/cash/2.jpg', '/images/teamProjects/cash/3.jpg', '/images/teamProjects/cash/4.jpg', '/images/teamProjects/cash/5.jpg', '/images/teamProjects/cash/6.jpg']
+    },
+    {
+        name: 'National priorities',
+        link: '/team/projects/national',
+        mainImg: '/images/teamProjects/national/1.jpg',
+        video: '/images/teamProjects/national/1.mp4',
+        style: '4% 20% 25% 30%'
+    },
+    {
+        name: 'Nyusha - Bye, bye, exes',
+        link: '/team/projects/nyusha',
+        mainImg: '/images/teamProjects/nyusha/1.jpg',
+        video: '/images/teamProjects/nyusha/1.mp4',
+        style: '15% 0 15% 0'
+    },
+    {
+        name: 'Samsung - Svyaznoy',
+        link: '/team/projects/svyaznoy',
+        mainImg: '/images/projects/SAMSUNG/1.jpg',
+        video: '/images/projects/SAMSUNG/1.mp4',
+        style: '10% 0 15% 30%'
+    },
+    {
+        name: "Thank God, it's friday",
+        link: '/team/projects/friday',
+        mainImg: '/images/teamProjects/friday/1.jpg',
+        images: ['/images/teamProjects/friday/1.jpg', '/images/teamProjects/friday/2.jpg', '/images/teamProjects/friday/3.jpg', '/images/teamProjects/friday/4.jpg', '/images/teamProjects/friday/5.jpg', '/images/teamProjects/friday/6.jpg', '/images/teamProjects/friday/7.jpg', '/images/teamProjects/friday/8.jpg', '/images/teamProjects/friday/9.jpg'],
+        style: '5% 5%'
+    },
+    {
+        name: 'Tinavie',
+        link: '/team/projects/tinavie',
+        mainImg: '/images/teamProjects/tinavie/3.jpg',
+        images: ['/images/teamProjects/tinavie/1.jpg', '/images/teamProjects/tinavie/2.jpg', '/images/teamProjects/tinavie/3.jpg', '/images/teamProjects/tinavie/4.jpg', '/images/teamProjects/tinavie/5.jpg', '/images/teamProjects/tinavie/6.jpg', '/images/teamProjects/tinavie/7.jpg', '/images/teamProjects/tinavie/8.jpg',],
+        style: '10% 0 10% 0'
+    },
+    {
+        name: 'VOLEN SENTIR (Arrival)',
+        link: '/team/projects/volen',
+        mainImg: '/images/projects/VOLEN SENTIR/1.jpg',
+        video: '/images/projects/VOLEN SENTIR/1.mp4',
+        style: '4% 15% 30% 0',
+    },
+    {
+        name: 'Yandex Market',
+        link: '/team/projects/market',
+        mainImg: '/images/projects/YANDEX/1.jpg',
+        video: '/images/projects/YANDEX/1.mp4',
+        style: '8%',
+    },
+    {
+        name: 'Colors',
+        link: '/team/projects/colors',
+        mainImg: '/images/teamProjects/colors/1.jpeg',
+        images: [
+            '/images/teamProjects/colors/1.jpeg',
+            '/images/teamProjects/colors/2.jpeg',
+            '/images/teamProjects/colors/3.jpeg',
+            '/images/teamProjects/colors/4.jpeg',
+            '/images/teamProjects/colors/5.jpeg',
+            '/images/teamProjects/colors/6.jpeg',
+            '/images/teamProjects/colors/7.jpeg',
+        ],
+        style: '11% 40% 2% 22%'
+    },
+    {
+        name: 'Dancers',
+        link: '/team/projects/dancers',
+        mainImg: '/images/teamProjects/dancers/1.jpeg',
+        images: ['/images/teamProjects/dancers/1.jpeg', '/images/teamProjects/dancers/2.jpeg', '/images/teamProjects/dancers/3.jpeg'],
+        style: '14% 18% 20% 13%',
+    },
+    {
+        name: 'LEGACY MUSIC',
+        link: '/team/projects/legacy',
+        mainImg: '/images/teamProjects/legacy/1.jpg',
+        video: '/images/teamProjects/legacy/LEGACY.MP4',
+        style: '19%'
+    },
+    {
+        name: 'RAAVA MUSIC',
+        link: '/team/projects/raava',
+        mainImg: '/images/teamProjects/raava/1.jpg',
+        images: ['/images/teamProjects/raava/1.jpg', '/images/teamProjects/raava/2.jpg', '/images/teamProjects/raava/3.jpg', '/images/teamProjects/raava/4.jpg', '/images/teamProjects/raava/5.jpg'],
+    },
+    {
+        name: 'ZHARA Magazine x HYPE HOUSE',
+        link: '/team/projects/zhara2',
+        mainImg: '/images/teamProjects/ZHARA2/1.jpeg',
+        images: ['/images/teamProjects/ZHARA2/1.jpeg', '/images/teamProjects/ZHARA2/2.jpeg']
+    },
+    {
+        name: 'ZHARA Magazine x JOHNY',
+        link: '/team/projects/zhara1',
+        mainImg: '/images/teamProjects/ZHARA1/3.jpeg',
+        images: ['/images/teamProjects/ZHARA1/3.jpeg', '/images/teamProjects/ZHARA1/4.jpeg', '/images/teamProjects/ZHARA1/5.jpeg',]
+    },
+    {
+        name: 'Karina Arakelyan',
+        link: '/team/projects/karina',
+        mainImg: '/images/teamProjects/karina/1.jpeg',
+        images: ['/images/teamProjects/karina/1.jpeg', '/images/teamProjects/karina/2.jpeg']
+    },
+    {
+        name: 'Kate Golden',
+        link: '/team/projects/kate',
+        mainImg: '/images/teamProjects/kate/1.jpeg',
+        images: ['/images/teamProjects/kate/1.jpeg', '/images/teamProjects/kate/2.jpeg']
+    },
+    {
+        name: 'Moremio Lookbook',
+        link: '/team/projects/moremino',
+        mainImg: '/images/teamProjects/moremino/1.jpeg',
+        images: ['/images/teamProjects/moremino/1.jpeg']
+    },
+    {
+        name: 'Nastya Vitonova',
+        link: '/team/projects/nastya',
+        mainImg: '/images/teamProjects/nastya/1.jpeg',
+        images: ['/images/teamProjects/nastya/1.jpeg', '/images/teamProjects/nastya/2.jpeg']
+    },
+    {
+        name: 'Oak glen',
+        link: '/team/projects/oak',
+        mainImg: '/images/teamProjects/oak/1.jpeg',
+        images: ['/images/teamProjects/oak/1.jpeg']
+    },
+    {
+        name: 'Творчество',
+        link: '/team/projects/art',
+        mainImg: '/images/teamProjects/art/1.jpeg',
+        images: [
+            '/images/teamProjects/art/1.jpeg',
+            '/images/teamProjects/art/2.jpeg',
+            '/images/teamProjects/art/3.jpeg',
+            '/images/teamProjects/art/4.jpeg',
+            '/images/teamProjects/art/5.jpeg',
+            '/images/teamProjects/art/6.jpeg',
+            '/images/teamProjects/art/7.jpeg',
+            '/images/teamProjects/art/8.jpeg',
+            '/images/teamProjects/art/9.jpeg',
+            '/images/teamProjects/art/10.jpeg',
+        ]
     },
 ]
