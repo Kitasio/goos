@@ -799,4 +799,95 @@ export const projects = [
         mainImg: '/images/teamProjects/philip/1.jpeg',
         images: ['/images/teamProjects/philip/1.jpeg', '/images/teamProjects/philip/2.jpeg', '/images/teamProjects/philip/3.jpeg', '/images/teamProjects/philip/4.jpeg',]
     },
+    {
+        name: 'FAK BY FAK',
+        link: '/team/projects/fak',
+        mainImg: '/images/projects/FAKBYFAK/Копия AA007.jpg',
+        images: [
+            '/images/projects/FAKBYFAK/Копия fakbyfak3682.jpg',
+            '/images/projects/FAKBYFAK/Копия 000091220034.jpg',
+            '/images/projects/FAKBYFAK/Копия AA007.jpg',
+            '/images/projects/FAKBYFAK/Копия fakbyfak3700.jpg',
+            '/images/projects/FAKBYFAK/Копия fakbyfak3660.jpg'
+        ],
+    },
+    {
+        name: 'Fashion shooting',
+        link: '/team/projects/fashion',
+        mainImg: '/images/teamProjects/fashion/1.jpeg',
+        images: ['/images/teamProjects/fashion/1.jpeg']
+    },
+    {
+        name: 'GOGEN',
+        link: '/team/projects/gogen',
+        mainImg: '/images/projects/GOGEN/Копия 07.jpg',
+        images: [
+            '/images/projects/GOGEN/Копия 06.jpg',
+            '/images/projects/GOGEN/Копия 07.jpg',
+            '/images/projects/GOGEN/Копия 03.jpg',
+            '/images/projects/GOGEN/Копия 02.jpg'
+        ],
+    },
+    {
+        name: 'HUSKY LOOKBOOK',
+        link: '/team/projects/hasky',
+        mainImg: '/images/projects/HASKY LOOKBOOK/Копия Capture One Catalog2344 1.jpg',
+        images: [
+            '/images/projects/HASKY LOOKBOOK/Копия Capture One Catalog1540.jpg',
+            '/images/projects/HASKY LOOKBOOK/Копия Capture One Catalog2344 1.jpg',
+            '/images/projects/HASKY LOOKBOOK/Копия Capture One Catalog2670 1.jpg',
+            '/images/projects/HASKY LOOKBOOK/Копия Capture One Catalog2595.jpg',
+            '/images/projects/HASKY LOOKBOOK/Копия Capture One Catalog2621.jpg',
+            '/images/projects/HASKY LOOKBOOK/Копия Capture One Catalog2655.jpg'
+        ],
+    },
+    {
+        name: "INGRAD",
+        link: '/team/projects/ingrad',
+        mainImg: '/images/teamProjects/ingrad/1.jpeg',
+        video: '/images/teamProjects/ingrad/1.mp4',
+    },
+    {
+        name: 'Look book SABATO',
+        link: '/team/projects/sabato',
+        mainImg: '/images/teamProjects/sabato/1.jpeg',
+        images: [
+            '/images/teamProjects/sabato/1.jpeg',
+        ],
+    },
+    {
+        name: 'Maison Kaleidoskop',
+        link: '/team/projects/maison',
+        mainImg: '/images/teamProjects/maison/1.jpeg',
+        images: [
+            '/images/teamProjects/maison/1.jpeg',
+        ],
+    },
+    {
+        name: 'MEDUZA',
+        link: '/team/projects/meduza',
+        mainImg: '/images/teamProjects/meduza/1.jpg',
+        images: [
+            '/images/teamProjects/meduza/1.jpg',
+            '/images/teamProjects/meduza/2.jpg',
+        ],
+    },
+    {
+        name: 'Shijeco Origami',
+        link: '/team/projects/shijeco',
+        mainImg: '/images/teamProjects/shijeco/1.jpeg',
+        images: ['/images/teamProjects/shijeco/1.jpeg', '/images/teamProjects/shijeco/2.jpeg']
+    },
+    {
+        name: 'The guise of the social world',
+        link: '/team/projects/guise',
+        mainImg: '/images/teamProjects/guise/1.jpeg',
+        images: ['/images/teamProjects/guise/1.jpeg', '/images/teamProjects/guise/2.jpeg', '/images/teamProjects/guise/3.jpeg']
+    },
+    {
+        name: 'TSYM',
+        link: '/team/projects/tsym',
+        mainImg: '/images/teamProjects/tsym/1.jpeg',
+        images: ['/images/teamProjects/tsym/1.jpeg', '/images/teamProjects/tsym/2.jpeg']
+    },
 ]
