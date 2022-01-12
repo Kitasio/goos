@@ -890,4 +890,66 @@ export const projects = [
         mainImg: '/images/teamProjects/tsym/1.jpeg',
         images: ['/images/teamProjects/tsym/1.jpeg', '/images/teamProjects/tsym/2.jpeg']
     },
+    {
+        name: '18',
+        link: '/team/projects/18',
+        mainImg: '/images/teamProjects/18/1.jpeg',
+        images: ['/images/teamProjects/18/1.jpeg', '/images/teamProjects/18/2.jpeg', '/images/teamProjects/18/3.jpeg', '/images/teamProjects/18/4.jpeg', '/images/teamProjects/18/5.jpeg']
+    },
+    {
+        name: 'Adidas x Lamoda',
+        link: '/team/projects/adidas',
+        mainImg: '/images/teamProjects/adidas/1.jpeg',
+        images: ['/images/teamProjects/adidas/1.jpeg']
+    },
+    {
+        name: 'Anya',
+        link: '/team/projects/anya',
+        mainImg: '/images/teamProjects/anya/1.jpeg',
+        images: ['/images/teamProjects/anya/1.jpeg', '/images/teamProjects/anya/2.jpeg']
+    },
+    {
+        name: "BAIKAL",
+        link: '/team/projects/baikal',
+        mainImg: '/images/teamProjects/baikal/1.jpeg',
+        video: '/images/teamProjects/baikal/1.mov',
+    },
+    {
+        name: 'Chistota',
+        link: '/team/projects/chistota',
+        mainImg: '/images/teamProjects/chistota/1.jpeg',
+        images: ['/images/teamProjects/chistota/1.jpeg', '/images/teamProjects/chistota/2.jpeg', '/images/teamProjects/chistota/3.jpeg', '/images/teamProjects/chistota/4.jpeg', '/images/teamProjects/chistota/5.jpeg', '/images/teamProjects/chistota/6.jpeg', '/images/teamProjects/chistota/7.jpg',]
+    },
+    {
+        name: "LENTA - The 8th of March",
+        link: '/team/projects/lenta',
+        mainImg: '/images/teamProjects/lenta/1.jpeg',
+        video: '/images/teamProjects/lenta/1.mp4',
+    },
+    {
+        name: 'ROSKOSMOS',
+        link: '/team/projects/roskosmos',
+        mainImg: '/images/teamProjects/roskosmos/1.jpeg',
+        images: ['/images/teamProjects/roskosmos/1.jpeg']
+    },
+    {
+        name: "TOYOTA",
+        link: '/team/projects/toyota2',
+        mainImg: '/images/teamProjects/toyota2/1.jpeg',
+        video: '/images/teamProjects/toyota2/1.mp4',
+    },
+    {
+        name: 'WHAT ABOUT US',
+        link: '/team/projects/aboutus',
+        mainImg: '/images/projects/WHAT ABOUT US/Копия W_A_U_ 004.jpg',
+        images: [
+            '/images/projects/WHAT ABOUT US/Копия W_A_U_ 009.jpg',
+            '/images/projects/WHAT ABOUT US/Копия W_A_U_ 008.jpg',
+            '/images/projects/WHAT ABOUT US/Копия W_A_U_ 001.jpg',
+            '/images/projects/WHAT ABOUT US/Копия W_A_U_ 002.jpg',
+            '/images/projects/WHAT ABOUT US/Копия W_A_U_ 005.jpg',
+            '/images/projects/WHAT ABOUT US/Копия W_A_U_ 004.jpg',
+            '/images/projects/WHAT ABOUT US/Копия W_A_U_ 010.jpg'
+        ],
+    },
 ]
