@@ -466,4 +466,106 @@ export const projects = [
         mainImg: '/images/teamProjects/cottege/1.jpeg',
         images: ['/images/teamProjects/cottege/1.jpeg']
     },
+    {
+        name: '2cast Kristina Si',
+        link: '/team/projects/2cast',
+        mainImg: '/images/teamProjects/2cast/1.jpeg',
+        video: '/images/teamProjects/2cast/1.mp4',
+    },
+    {
+        name: 'BALOONS',
+        link: '/team/projects/baloons',
+        mainImg: '/images/teamProjects/baloons/1.jpeg',
+        images: ['/images/teamProjects/baloons/1.jpeg', '/images/teamProjects/baloons/2.jpeg', '/images/teamProjects/baloons/3.jpeg']
+    },
+    {
+        name: 'BOYS',
+        link: '/team/projects/boys',
+        mainImg: '/images/teamProjects/boys/1.jpeg',
+        images: ['/images/teamProjects/boys/1.jpeg']
+    },
+    {
+        name: 'DIFFERENT',
+        link: '/team/projects/different',
+        mainImg: '/images/teamProjects/different/1.jpeg',
+        images: ['/images/teamProjects/different/1.jpeg', '/images/teamProjects/different/2.jpeg', '/images/teamProjects/different/3.jpeg']
+    },
+    {
+        name: 'ELDORADO',
+        link: '/team/projects/eldorado',
+        mainImg: '/images/teamProjects/eldorado/1.jpeg',
+        video: '/images/teamProjects/eldorado/1.mp4',
+    },
+    {
+        name: 'ENDYMION',
+        link: '/team/projects/endymion',
+        mainImg: '/images/teamProjects/endymion/1.jpeg',
+        images: ['/images/teamProjects/endymion/1.jpeg']
+    },
+    {
+        name: 'FALCON TEETH',
+        link: '/team/projects/teeth',
+        mainImg: '/images/teamProjects/teeth/1.jpeg',
+        images: ['/images/teamProjects/teeth/1.jpeg', '/images/teamProjects/teeth/2.jpeg', '/images/teamProjects/teeth/3.jpeg']
+    },
+    {
+        name: 'FALCON X NYX',
+        link: '/team/projects/nyx',
+        mainImg: '/images/teamProjects/nyx/1.jpeg',
+        images: ['/images/teamProjects/nyx/1.jpeg', '/images/teamProjects/nyx/2.jpeg', '/images/teamProjects/nyx/3.jpeg', '/images/teamProjects/nyx/4.jpeg',]
+    },
+    {
+        name: 'GLENLIVET',
+        link: '/team/projects/glenlivet',
+        mainImg: '/images/teamProjects/glenlivet/1.jpeg',
+        video: '/images/teamProjects/glenlivet/1.mp4',
+    },
+    {
+        name: 'KABUKI',
+        link: '/team/projects/kabuki',
+        mainImg: '/images/teamProjects/kabuki/1.jpeg',
+        images: ['/images/teamProjects/kabuki/1.jpeg', '/images/teamProjects/kabuki/2.jpeg', '/images/teamProjects/kabuki/3.jpeg']
+    },
+    {
+        name: 'KKOSHKINA JOKER',
+        link: '/team/projects/kkoshkina',
+        mainImg: '/images/teamProjects/kkoshkina/1.jpeg',
+        images: ['/images/teamProjects/kkoshkina/1.jpeg', '/images/teamProjects/kkoshkina/2.jpeg']
+    },
+    {
+        name: 'MARS',
+        link: '/team/projects/mars',
+        mainImg: '/images/teamProjects/mars/1.jpeg',
+        images: ['/images/teamProjects/mars/1.jpeg', '/images/teamProjects/mars/2.jpeg']
+    },
+    {
+        name: 'N KVINT',
+        link: '/team/projects/kvint',
+        mainImg: '/images/teamProjects/kvint/1.jpeg',
+        images: ['/images/teamProjects/kvint/1.jpeg']
+    },
+    {
+        name: 'she',
+        link: '/team/projects/she',
+        mainImg: '/images/teamProjects/she/1.jpeg',
+        images: ['/images/teamProjects/she/1.jpeg', '/images/teamProjects/she/2.jpeg']
+    },
+    {
+        name: 'SPORTMASTER',
+        link: '/team/projects/sportmaster',
+        mainImg: '/images/teamProjects/sportmaster/1.jpeg',
+        video: '/images/teamProjects/sportmaster/1.mp4',
+    },
+    {
+        name: 'TESTS WITH ROMA MASHEVSKIY',
+        link: '/team/projects/tests',
+        mainImg: '/images/teamProjects/tests/1.jpeg',
+        images: ['/images/teamProjects/tests/1.jpeg', '/images/teamProjects/tests/2.jpeg']
+    },
+    {
+        name: 'TSIAN',
+        link: '/team/projects/tsian',
+        mainImg: '/images/teamProjects/tsian/1.jpeg',
+        video: '/images/teamProjects/tsian/1.mp4',
+    },
 ]
