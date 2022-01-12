@@ -634,4 +634,139 @@ export const projects = [
         mainImg: '/images/teamProjects/vtbk/1.jpeg',
         video: '/images/teamProjects/vtbk/1.mp4',
     },
+    {
+        name: 'Alone with my fashion',
+        link: '/team/projects/alone2',
+        mainImg: '/images/teamProjects/alone2/1.jpeg',
+        images: ['/images/teamProjects/alone2/1.jpeg', '/images/teamProjects/alone2/2.jpeg']
+    },
+    {
+        name: 'ALPEN GOLD x Sati Kasanova',
+        link: '/team/projects/alpen',
+        mainImg: '/images/projects/ALPEN GOLD/1.jpg',
+        video: '/images/projects/ALPEN GOLD/1.mp4',
+    },
+    {
+        name: "AORUS",
+        link: '/team/projects/aorus',
+        mainImg: '/images/teamProjects/aorus/1.jpeg',
+        video: '/images/teamProjects/aorus/1.mp4',
+    },
+    {
+        name: "DELOBANK",
+        link: '/team/projects/delobank',
+        mainImg: '/images/teamProjects/delobank/1.jpeg',
+        video: '/images/teamProjects/delobank/1.mp4',
+    },
+    {
+        name: 'HC',
+        link: '/team/projects/hc',
+        mainImg: '/images/teamProjects/hc/1.jpeg',
+        images: ['/images/teamProjects/hc/1.jpeg']
+    },
+    {
+        name: 'MANO',
+        link: '/team/projects/mano',
+        mainImg: '/images/teamProjects/mano/1.jpeg',
+        images: ['/images/teamProjects/mano/1.jpeg', '/images/teamProjects/mano/2.jpeg', '/images/teamProjects/mano/3.jpeg', '/images/teamProjects/mano/4.jpeg',]
+    },
+    {
+        name: 'Mariam',
+        link: '/team/projects/mariam',
+        mainImg: '/images/teamProjects/mariam/1.jpeg',
+        images: ['/images/teamProjects/mariam/1.jpeg']
+    },
+    {
+        name: 'Merkulova & Chupov for Afisha Magazine',
+        link: '/team/projects/afisha',
+        mainImg: '/images/projects/DIRECTORS MERKULOVY/Копия 0018.jpg',
+        images: [
+            '/images/projects/DIRECTORS MERKULOVY/Копия 0018.jpg',
+            '/images/projects/DIRECTORS MERKULOVY/Копия 0022.jpg'
+        ],
+    },
+    {
+        name: 'MIUMIU',
+        link: '/team/projects/miumiu',
+        mainImg: '/images/teamProjects/miumiu/1.jpeg',
+        images: ['/images/teamProjects/miumiu/1.jpeg', '/images/teamProjects/miumiu/2.jpeg', '/images/teamProjects/miumiu/3.jpeg']
+    },
+    {
+        name: "SAMOLET",
+        link: '/team/projects/samolet',
+        mainImg: '/images/teamProjects/samolet/1.jpeg',
+        video: '/images/teamProjects/samolet/1.mp4',
+    },
+    {
+        name: "SBERBANK STUDENT'S DAY",
+        link: '/team/projects/sberstudents',
+        mainImg: '/images/teamProjects/sberstudents/1.jpeg',
+        video: '/images/teamProjects/sberstudents/1.mp4',
+    },
+    {
+        name: "SBERBANK Self-employed",
+        link: '/team/projects/sberself',
+        mainImg: '/images/teamProjects/sberself/1.jpeg',
+        video: '/images/teamProjects/sberself/1.mp4',
+    },
+    {
+        name: 'So sweet...So cocky',
+        link: '/team/projects/sweet',
+        mainImg: '/images/teamProjects/sweet/1.jpeg',
+        images: ['/images/teamProjects/sweet/1.jpeg', '/images/teamProjects/sweet/2.jpeg', '/images/teamProjects/sweet/3.jpeg']
+    },
+    {
+        name: "SOKOLOVA BOGORODSKAYA SS 21",
+        link: '/team/projects/sokolova',
+        mainImg: '/images/teamProjects/sokolova/1.jpeg',
+        video: '/images/teamProjects/sokolova/1.mp4',
+    },
+    {
+        name: 'SOROLLA - FASHION STORY',
+        link: '/team/projects/sorolla',
+        mainImg: '/images/teamProjects/sorolla/1.jpeg',
+        images: ['/images/teamProjects/sorolla/1.jpeg', '/images/teamProjects/sorolla/2.jpeg', '/images/teamProjects/sorolla/3.jpeg']
+    },
+    {
+        name: "VK DONUTS STYLE & PROD DESIGN",
+        link: '/team/projects/vk',
+        mainImg: '/images/teamProjects/vk/1.jpeg',
+        video: '/images/teamProjects/vk/1.mp4',
+    },
+    {
+        name: 'WHO AM I TODAY',
+        link: '/team/projects/whotoday',
+        mainImg: '/images/teamProjects/whotoday/1.jpeg',
+        images: ['/images/teamProjects/whotoday/1.jpeg', '/images/teamProjects/whotoday/2.jpeg', '/images/teamProjects/whotoday/3.jpeg', '/images/teamProjects/whotoday/4.jpeg',]
+    },
+    {
+        name: "Wonderzine x Weleda x Suzanne",
+        link: '/team/projects/wonderzine',
+        mainImg: '/images/teamProjects/wonderzine/1.jpeg',
+        video: '/images/teamProjects/wonderzine/1.mp4',
+    },
+    {
+        name: 'YANA',
+        link: '/team/projects/yana',
+        mainImg: '/images/teamProjects/yana/1.jpeg',
+        images: ['/images/teamProjects/yana/1.jpeg']
+    },
+    {
+        name: 'Artificial object - Map magazine',
+        link: '/team/projects/artificial',
+        mainImg: '/images/teamProjects/artificial/1.jpeg',
+        images: ['/images/teamProjects/artificial/1.jpeg', '/images/teamProjects/artificial/2.jpeg', '/images/teamProjects/artificial/3.jpeg']
+    },
+    {
+        name: 'Blooming rain',
+        link: '/team/projects/blooming',
+        mainImg: '/images/teamProjects/blooming/1.jpeg',
+        images: ['/images/teamProjects/blooming/1.jpeg', '/images/teamProjects/blooming/2.jpeg', '/images/teamProjects/blooming/3.jpeg']
+    },
+    {
+        name: 'Connect with nature - Hauteounchmag',
+        link: '/team/projects/connect',
+        mainImg: '/images/teamProjects/connect/1.jpeg',
+        images: ['/images/teamProjects/connect/1.jpeg', '/images/teamProjects/connect/2.jpeg', '/images/teamProjects/connect/3.jpeg', '/images/teamProjects/connect/4.jpeg', '/images/teamProjects/connect/5.jpg', '/images/teamProjects/connect/6.jpg',]
+    },
 ]
