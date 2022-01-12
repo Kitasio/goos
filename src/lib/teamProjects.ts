@@ -767,6 +767,36 @@ export const projects = [
         name: 'Connect with nature - Hauteounchmag',
         link: '/team/projects/connect',
         mainImg: '/images/teamProjects/connect/1.jpeg',
-        images: ['/images/teamProjects/connect/1.jpeg', '/images/teamProjects/connect/2.jpeg', '/images/teamProjects/connect/3.jpeg', '/images/teamProjects/connect/4.jpeg', '/images/teamProjects/connect/5.jpg', '/images/teamProjects/connect/6.jpg',]
+        images: ['/images/teamProjects/connect/1.jpeg', '/images/teamProjects/connect/2.jpeg', '/images/teamProjects/connect/3.jpeg', '/images/teamProjects/connect/4.jpeg', '/images/teamProjects/connect/5.jpeg', '/images/teamProjects/connect/6.jpeg',]
+    },
+    {
+        name: 'Forest Nymph',
+        link: '/team/projects/forest',
+        mainImg: '/images/teamProjects/forest/1.jpeg',
+        images: ['/images/teamProjects/forest/1.jpeg', '/images/teamProjects/forest/2.jpeg', '/images/teamProjects/forest/3.jpeg', '/images/teamProjects/forest/4.jpeg', '/images/teamProjects/forest/5.jpeg']
+    },
+    {
+        name: 'Gressus - Papmagazine',
+        link: '/team/projects/gressus',
+        mainImg: '/images/teamProjects/gressus/1.jpeg',
+        images: ['/images/teamProjects/gressus/1.jpeg', '/images/teamProjects/gressus/2.jpeg', '/images/teamProjects/gressus/3.jpeg', '/images/teamProjects/gressus/4.jpeg', '/images/teamProjects/gressus/5.jpeg']
+    },
+    {
+        name: 'Lost bridge - Faddymagazine',
+        link: '/team/projects/lost',
+        mainImg: '/images/teamProjects/lost/1.jpeg',
+        images: ['/images/teamProjects/lost/1.jpeg', '/images/teamProjects/lost/2.jpeg', '/images/teamProjects/lost/3.jpeg', '/images/teamProjects/lost/4.jpeg',]
+    },
+    {
+        name: 'Olga Buzova - Hello!',
+        link: '/team/projects/olga',
+        mainImg: '/images/teamProjects/olga/1.jpeg',
+        images: ['/images/teamProjects/olga/1.jpeg', '/images/teamProjects/olga/2.jpeg', '/images/teamProjects/olga/3.jpeg', '/images/teamProjects/olga/4.jpeg', '/images/teamProjects/olga/5.jpeg', '/images/teamProjects/olga/6.jpeg']
+    },
+    {
+        name: 'Philip Avdeev - Hello!',
+        link: '/team/projects/philip',
+        mainImg: '/images/teamProjects/philip/1.jpeg',
+        images: ['/images/teamProjects/philip/1.jpeg', '/images/teamProjects/philip/2.jpeg', '/images/teamProjects/philip/3.jpeg', '/images/teamProjects/philip/4.jpeg',]
     },
 ]

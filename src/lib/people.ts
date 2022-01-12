@@ -41,7 +41,7 @@ export const people = [
 		about: `В&nbsp;начале своего карьерного пути стилизовала кейсы по&nbsp;созданию визуального контента. Ассистировала на&nbsp;рекламных проектах Яндекс, Avon, Крокус Сити Молл, Glo x&nbsp;Simach и&nbsp;др. Стажировалась в&nbsp;Elle Russia. Неоднократно ассистировала на&nbsp;съемках для Flacon Magazine. Вела самостоятельные проекты для журнала Hello!
 		
 		К&nbsp;работе Лена всегда относится ответственно и&nbsp;с&nbsp;полной отдачей. Если нужно,чтобы костюм поменял цвет, и&nbsp;на&nbsp;это есть несколько часов&nbsp;&mdash; значит сделает!`,
-		projects: ['artificial', 'blooming', 'connect',]
+		projects: ['artificial', 'blooming', 'connect', 'forest', 'gressus', 'lost', 'olga', 'philip']
 	},
 	{
 		text: 'Катя Баранова',
