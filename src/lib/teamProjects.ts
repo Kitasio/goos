@@ -6,14 +6,14 @@ export const projects = [
         link: '/team/projects/alone',
         images: ['/images/teamProjects/alone/1.jpg', '/images/teamProjects/alone/2.jpg', '/images/teamProjects/alone/3.jpg',],
         mainImg: '/images/teamProjects/alone/1.jpg',
-        style: '4px 10px 10px 5px',
+
     },
     {
         name: 'Phd',
         link: '/team/projects/phd',
         images: ['/images/teamProjects/phd/phd1.jpg', '/images/teamProjects/phd/phd2.jpg', '/images/teamProjects/phd/phd3.jpg'],
         mainImg: '/images/teamProjects/phd/phd1.jpg',
-        style: '4px 10px 10px 5px',
+
     },
     {
         name: 'A 101 Advertising',
@@ -27,7 +27,7 @@ export const projects = [
         link: '/team/projects/kaltblut',
         images: ['/images/teamProjects/kaltblut/1.jpg', '/images/teamProjects/kaltblut/2.jpg'],
         mainImg: '/images/teamProjects/kaltblut/1.jpg',
-        style: '4px 10px 10px 5px',
+
     },
     {
         name: `Boneless
@@ -36,14 +36,14 @@ export const projects = [
         link: '/team/projects/boneless',
         images: ['/images/teamProjects/boneless/1.jpg', '/images/teamProjects/boneless/2.jpg'],
         mainImg: '/images/teamProjects/boneless/1.jpg',
-        style: '4px 10px 10px 5px',
+
     },
     {
         name: 'CHIKI',
         link: '/team/projects/chiki',
         images: ['/images/teamProjects/chiki/1.jpg'],
         mainImg: '/images/teamProjects/chiki/1.jpg',
-        style: '4px 10px 10px 5px',
+
     },
     {
         name: `Dr. Krivorotov
@@ -51,14 +51,14 @@ export const projects = [
         link: '/team/projects/krivorotov1',
         images: ['/images/teamProjects/krivorotov1/1.jpg'],
         mainImg: '/images/teamProjects/krivorotov1/1.jpg',
-        style: '10% 0 10% 10%'
+
     },
     {
         name: `Dr. Krivorotov Weekend`,
         link: '/team/projects/krivorotov2',
         mainImg: '/images/teamProjects/krivorotov2/1.png',
         video: '/images/teamProjects/krivorotov2/1.mp4',
-        style: '15% 20% 6% 17%'
+
     },
     {
         name: `Flowers and shadows
@@ -66,7 +66,7 @@ export const projects = [
         link: '/team/projects/flowers',
         images: ['/images/teamProjects/flowers/1.jpg'],
         mainImg: '/images/teamProjects/flowers/1.jpg',
-        style: '4px 10px 10px 5px',
+
     },
     {
         name: `Gertrude x Unlace
@@ -74,28 +74,28 @@ export const projects = [
         link: '/team/projects/gertrude',
         images: ['/images/teamProjects/gertrude/1.jpg'],
         mainImg: '/images/teamProjects/gertrude/1.jpg',
-        style: '4px 10px 10px 5px',
+
     },
     {
         name: `LA CHAMBRE VERTE`,
         link: '/team/projects/lachambre',
         images: ['/images/teamProjects/lachambre/1.jpg', '/images/teamProjects/lachambre/2.jpg'],
         mainImg: '/images/teamProjects/lachambre/1.jpg',
-        style: '4px 10px 10px 5px',
+
     },
     {
         name: `NOT ALICE`,
         link: '/team/projects/notalice',
         mainImg: '/images/teamProjects/notalice/1.jpg',
         ytid: 'zLiUQXpQ5rg',
-        style: '4px 10px 10px 5px',
+
     },
     {
         name: 'oriflame',
         link: '/team/projects/oriflame',
         mainImg: '/images/teamProjects/oriflame/1.jpg',
         video: '/images/teamProjects/oriflame/1.mp4',
-        style: '4px 10px 10px 5px',
+
     },
     {
         name: `Schiap 
@@ -103,21 +103,21 @@ export const projects = [
         link: '/team/projects/schiap',
         mainImg: '/images/teamProjects/schiap/1.jpg',
         images: ['/images/teamProjects/schiap/1.jpg', '/images/teamProjects/schiap/2.jpg', '/images/teamProjects/schiap/3.jpg',],
-        style: '',
+
     },
     {
         name: 'STACY',
         link: '/team/projects/stacy',
         mainImg: '/images/teamProjects/stacy/1.jpg',
         video: '/images/teamProjects/stacy/1.mp4',
-        style: '4px 10px 10px 5px',
+
     },
     {
         name: `Styling for Dr.Krivorotov`,
         link: '/team/projects/krivorotov3',
         mainImg: '/images/teamProjects/krivorotov3/1.jpg',
         video: '/images/teamProjects/krivorotov3/1.mp4',
-        style: '4px 10px 10px 5px',
+
     },
     {
         name: `Trapeze of Malevich
@@ -125,7 +125,7 @@ export const projects = [
         link: '/team/projects/trapeze',
         mainImg: '/images/teamProjects/trapeze/1.jpg',
         images: ['/images/teamProjects/trapeze/1.jpg', '/images/teamProjects/trapeze/2.jpg', '/images/teamProjects/trapeze/3.jpg',],
-        style: '',
+
     },
     {
         name: `TTSWTRS
@@ -133,42 +133,42 @@ export const projects = [
         link: '/team/projects/ttswtrs',
         mainImg: '/images/teamProjects/ttswtrs/1.jpg',
         images: ['/images/teamProjects/ttswtrs/1.jpg', '/images/teamProjects/ttswtrs/2.jpg'],
-        style: '',
+
     },
     {
         name: `Vogue Italia`,
         link: '/team/projects/vogue',
         mainImg: '/images/teamProjects/vogue/1.jpeg',
         images: ['/images/teamProjects/vogue/1.jpeg', '/images/teamProjects/vogue/2.jpg', '/images/teamProjects/vogue/3.jpg',],
-        style: '',
+
     },
     {
         name: `WHAT BOTHERS ME`,
         link: '/team/projects/bother',
         mainImg: '/images/teamProjects/bother/1.jpg',
         ytid: '_9mf8Qhcank',
-        style: '4px 10px 10px 5px',
+
     },
     {
         name: `Who I am`,
         link: '/team/projects/whoiam',
         mainImg: '/images/teamProjects/whoiam/1.jpg',
         images: ['/images/teamProjects/whoiam/1.jpg', '/images/teamProjects/whoiam/2.jpg', '/images/teamProjects/whoiam/3.jpg',],
-        style: '',
+
     },
     {
         name: `You Drive`,
         link: '/team/projects/youdrive',
         mainImg: '/images/teamProjects/youdrive/1.jpg',
         video: '/images/teamProjects/youdrive/1.mp4',
-        style: '20%',
+
     },
     {
         name: `Zventa Sventana`,
         link: '/team/projects/zventa',
         mainImg: '/images/teamProjects/zventa/1.jpg',
         ytid: 'EvA8nzg2znI',
-        style: '20% 5% 8% 25%',
+
     },
     {
         name: `RAYON - INDABLACK 
@@ -178,28 +178,28 @@ export const projects = [
         mainImg: '/images/projects/rayon/1.jpg',
         link: '/team/projects/rayon',
         ytid: 'Yvs7O-BLivw',
-        style: '5% 5% 35% 35%'
+
     },
     {
         name: `Absolut city-park`,
         link: '/team/projects/absolut',
         mainImg: '/images/teamProjects/absolut/1.jpg',
         video: '/images/teamProjects/absolut/1.mp4',
-        style: '4% 20% 0 7%',
+
     },
     {
         name: 'AVIAPARK',
         mainImg: '/images/projects/AVIAPARK/1.jpg',
         link: '/team/projects/aviapark',
         ytid: 'CkL_ahnFXxI',
-        style: '20% 0 10% 5%',
+
     },
     {
         name: 'Citymobil',
         mainImg: '/images/projects/CITY MOBILE/1.jpg',
         link: '/team/projects/citymobil',
         ytid: 'hAwFGQcL7Wo',
-        style: '12% 12% 0 33%'
+
     },
     {
         name: 'Director of Total - Busiest Citizen',
@@ -212,7 +212,7 @@ export const projects = [
         mainImg: '/images/projects/WEEKEND/1.jpg',
         link: '/team/projects/weekend',
         ytid: 'Dso2sn660GA',
-        style: '15% 10% 5% 20%'
+
     },
     {
         name: 'HOLOSTYAK - ANTON KRIVOROTOV',
@@ -225,7 +225,7 @@ export const projects = [
             '/images/projects/HOLOSTIAK/Копия d4394489085388a02b800188bfeb6026.jpg',
             '/images/projects/HOLOSTIAK/Копия 72e447bc9980f966eabc570ba2438d62.jpg'
         ],
-        style: '20% 20%',
+
     },
     {
         name: 'Mr&Mrs Cash',
@@ -238,49 +238,49 @@ export const projects = [
         link: '/team/projects/national',
         mainImg: '/images/teamProjects/national/1.jpg',
         video: '/images/teamProjects/national/1.mp4',
-        style: '4% 20% 25% 30%'
+
     },
     {
         name: 'Nyusha - Bye, bye, exes',
         link: '/team/projects/nyusha',
         mainImg: '/images/teamProjects/nyusha/1.jpg',
         video: '/images/teamProjects/nyusha/1.mp4',
-        style: '15% 0 15% 0'
+
     },
     {
         name: 'Samsung - Svyaznoy',
         link: '/team/projects/svyaznoy',
         mainImg: '/images/projects/SAMSUNG/1.jpg',
         video: '/images/projects/SAMSUNG/1.mp4',
-        style: '10% 0 15% 30%'
+
     },
     {
         name: "Thank God, it's friday",
         link: '/team/projects/friday',
         mainImg: '/images/teamProjects/friday/1.jpg',
         images: ['/images/teamProjects/friday/1.jpg', '/images/teamProjects/friday/2.jpg', '/images/teamProjects/friday/3.jpg', '/images/teamProjects/friday/4.jpg', '/images/teamProjects/friday/5.jpg', '/images/teamProjects/friday/6.jpg', '/images/teamProjects/friday/7.jpg', '/images/teamProjects/friday/8.jpg', '/images/teamProjects/friday/9.jpg'],
-        style: '5% 5%'
+
     },
     {
         name: 'Tinavie',
         link: '/team/projects/tinavie',
         mainImg: '/images/teamProjects/tinavie/3.jpg',
         images: ['/images/teamProjects/tinavie/1.jpg', '/images/teamProjects/tinavie/2.jpg', '/images/teamProjects/tinavie/3.jpg', '/images/teamProjects/tinavie/4.jpg', '/images/teamProjects/tinavie/5.jpg', '/images/teamProjects/tinavie/6.jpg', '/images/teamProjects/tinavie/7.jpg', '/images/teamProjects/tinavie/8.jpg',],
-        style: '10% 0 10% 0'
+
     },
     {
         name: 'VOLEN SENTIR (Arrival)',
         link: '/team/projects/volen',
         mainImg: '/images/projects/VOLEN SENTIR/1.jpg',
         video: '/images/projects/VOLEN SENTIR/1.mp4',
-        style: '4% 15% 30% 0',
+
     },
     {
         name: 'Yandex Market',
         link: '/team/projects/market',
         mainImg: '/images/projects/YANDEX/1.jpg',
         video: '/images/projects/YANDEX/1.mp4',
-        style: '8%',
+
     },
     {
         name: 'Colors',
@@ -295,21 +295,21 @@ export const projects = [
             '/images/teamProjects/colors/6.jpeg',
             '/images/teamProjects/colors/7.jpeg',
         ],
-        style: '11% 40% 2% 22%'
+
     },
     {
         name: 'Dancers',
         link: '/team/projects/dancers',
         mainImg: '/images/teamProjects/dancers/1.jpeg',
         images: ['/images/teamProjects/dancers/1.jpeg', '/images/teamProjects/dancers/2.jpeg', '/images/teamProjects/dancers/3.jpeg'],
-        style: '14% 18% 20% 13%',
+
     },
     {
         name: 'LEGACY MUSIC',
         link: '/team/projects/legacy',
         mainImg: '/images/teamProjects/legacy/1.jpg',
         video: '/images/teamProjects/legacy/LEGACY.MP4',
-        style: '19%'
+
     },
     {
         name: 'RAAVA MUSIC',

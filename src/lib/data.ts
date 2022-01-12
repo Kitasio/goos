@@ -13,9 +13,8 @@ export const items = {
 			title: 'BAIKAL',
 			tagNames: ['#фото', '#реклама', '#женскийстайлинг', '#мужскойстайлинг'],
 			tags: ['Фото', 'Реклама', 'Женский', 'Мужской'],
-			mainImg: '/images/projects/BAIKAL1/5.jpg',
+			mainImg: '/images/projects/BAIKAL1/main.png',
 			images: ['/images/projects/BAIKAL1/1.jpg', '/images/projects/BAIKAL1/2.jpg', '/images/projects/BAIKAL1/3.jpg', '/images/projects/BAIKAL1/4.jpg', '/images/projects/BAIKAL1/5.jpg'],
-			style: '10px 200px 10px 100px'
 		},
 		{
 			title: 'SPIN4SPIN',
@@ -77,20 +76,19 @@ export const items = {
 			tags: ['Видео', 'Реклама', 'Мужской'],
 			mainImg: '/images/projects/1XBET/1.jpg',
 			localVideo: '/images/projects/1XBET/1.mp4',
-            style: '30px 250px 200px 15px'
+            style: '10% 50% 50% 5%'
 		},
 		{
 			title: 'Avon sale zone 19',
 			tagNames: ['#фото', '#реклама', '#женскийстайлинг', '#мужскойстайлинг'],
 			tags: ['Фото', 'Реклама', 'Женский', 'Мужской'],
-			mainImg: '/images/projects/AVON SALE ZONE 19/Копия IMG_69409.jpg',
+			mainImg: '/images/projects/AVON SALE ZONE 19/main.png',
 			images: [
 				'/images/projects/AVON SALE ZONE 19/Копия IMG_69943.jpg',
 				'/images/projects/AVON SALE ZONE 19/Копия IMG_69409.jpg',
 				'/images/projects/AVON SALE ZONE 19/Копия IMG_70937_3.jpg',
 				'/images/projects/AVON SALE ZONE 19/Копия IMG_69694_2.jpg'
 			],
-			style: '0 250px 0 0'
 		},
 		{
 			title: 'MANO',
@@ -133,7 +131,7 @@ export const items = {
 			tagNames: ['#видео', '#женскийстайлинг', '#мужскойстайлинг', '#созданиекостюмов'],
 			tags: ['Видео', 'Женский', 'Мужской'],
 			mainImg: '/images/projects/ZVETANASVENTANA/1.jpg',
-			style: '100px 0 100px 50px',
+			style: '20% 0 20% 10%',
 			video: 'gAzNUY9yKv8'
 		},
 		{
@@ -167,7 +165,7 @@ export const items = {
 			tags: ['Видео', 'Реклама', 'Женский', 'Мужской', 'Детский'],
 			mainImg: '/images/projects/DELOBANK/1.jpg',
 			video: 'Zpu37bReork',
-            style: '200px 20px 20px 20px'
+            style: '50% 5% 5% 5%'
 		},
 		{
 			title: 'SEBASTIAN + SYSTEM 2019',
@@ -198,7 +196,7 @@ export const items = {
 				'/images/projects/WHO I AM/WHOIAM 033.JPG',
 				'/images/projects/WHO I AM/WHOIAM 032.JPG'
 			],
-			style: '40px 240px 90px 20px'
+			style: '15% 50% 30% 5%'
 		},
 		{
 			title: 'ДИРЕКТОР ВСЕГО “Занятой гражданин”',
@@ -206,7 +204,7 @@ export const items = {
 			tags: ['Видео', 'Женский', 'Мужской'],
 			mainImg: '/images/projects/DIRECTOR/1.jpg',
 			video: '7X18S0R-jBE',
-            style: '20px 20px 300px 200px'
+            style: '7% 5% 50% 50%'
 		},
 		{
 			title: 'PERFUME FOR PROJECT 314',
@@ -219,7 +217,7 @@ export const items = {
 				'/images/projects/PERFUME FOR PROJECT 314/3.jpg',
 				'/images/projects/PERFUME FOR PROJECT 314/1.jpg'
 			],
-			style: '250px 50px 100px 300px'
+			style: '50% 5% 5% 50%'
 		},
 		{
 			title: 'TRAPEZE OF MALEVICH x CNS MAGAZINE',
@@ -246,13 +244,13 @@ export const items = {
 			tags: ['Видео', 'Мужской'],
 			mainImg: '/images/projects/MONAMI/1.jpg',
 			video: '9Wptoc-ejf0',
-            style: '40px 40px 300px 0'
+            style: '10% 10% 60% 0'
 		},
 		{
 			title: 'WHAT ABOUT US',
 			tagNames: ['#фото', '#фешн', '#женскийстайлинг', '#мужскойстайлинг'],
 			tags: ['Фото', 'Фешн', 'Женский', 'Мужской'],
-			mainImg: '/images/projects/WHAT ABOUT US/Копия W_A_U_ 004.jpg',
+			mainImg: '/images/projects/WHAT ABOUT US/main.png',
 			images: [
 				'/images/projects/WHAT ABOUT US/Копия W_A_U_ 009.jpg',
 				'/images/projects/WHAT ABOUT US/Копия W_A_U_ 008.jpg',
@@ -271,7 +269,7 @@ export const items = {
 			tags: ['Видео', 'Реклама', 'Женский', 'Мужской', 'Детский'],
 			mainImg: '/images/projects/MEGA/1.jpg',
 			video: 'BmOnHc4_sHQ',
-            style: '250px 250px 50px 0'
+            style: '50% 50% 15% 0'
 		},
 		{
 			title: 'DR KRIVOROTOV COVER SHOOT',
@@ -293,7 +291,7 @@ export const items = {
 			tags: ['Видео', 'Реклама', 'Мужской'],
 			mainImg: '/images/projects/SBERBANK/1.jpg',
 			video: '0TQAb6feqaU',
-            style: '300px 200px 50px 20px'
+            style: '60% 50% 10% 5%'
 		},
 		// {
 		// 	title: 'FAK BY FAK by Emi America',
@@ -337,7 +335,7 @@ export const items = {
 			tags: ['Видео', 'Женский'],
 			mainImg: '/images/projects/KRASSNA/1.jpg',
 			video: '4Vo3kB6glAg',
-            style: '300px 250px 100px 100px'
+            style: '50% 50% 20% 20%'
 		},
 		// {
 		// 	title: 'AVON 19 NY kids',
@@ -358,7 +356,7 @@ export const items = {
 			tags: ['Видео', 'Реклама', 'Женский', 'Мужской', 'Детский'],
 			mainImg: '/images/projects/LENTA/1.jpg',
 			video: 'WWsp8LsYWIk',
-            style: '0 0 300px 150px'
+            style: '0 0 60% 40%'
 		},
 		{
 			title: 'ДИРЕКТОР ВСЕГО "MBA" #',
@@ -394,7 +392,7 @@ export const items = {
 			tags: ['Видео', 'Реклама', 'Мужской'],
 			mainImg: '/images/projects/MELLER/1.jpg',
 			video: '3GYMgZnxW0s',
-            style: '200px 30px 200px 270px'
+            style: '30% 5% 30% 50%'
 		},
 		{
 			title: 'ЦДМ',
@@ -410,7 +408,7 @@ export const items = {
 			tags: ['Видео', 'Реклама', 'Женский', 'Мужской'],
 			mainImg: '/images/projects/MEGAELKA/1.jpg',
 			localVideo: '/images/projects/MEGAELKA/1.mp4',
-            style: '200px 0 200px 100px'
+            style: '30% 0 30% 20%'
 		},
         {
             title: 'AUSHAN',
@@ -418,7 +416,7 @@ export const items = {
             tags: ['Видео', 'Реклама', 'Женский', 'Мужской'],
             mainImg: '/images/projects/AUSHAN/1.jpg',
             video: 'ZAN-1BmxcS4',
-            style: '300px 50px 50px 100px'
+            style: '60% 10% 10% 20%'
         },
 		// {
 		// 	title: 'Alpen Gold',
@@ -434,7 +432,7 @@ export const items = {
 			tags: ['Видео', 'Реклама', 'Женский', 'Мужской'],
 			mainImg: '/images/projects/MEGAFON/1.jpg',
 			video: 'd3-eeTvDiyE',
-            style: ''
+            style: '20% 20% 50% 30%'
 		},
 		{
 			title: 'TTSWTR for Pushkinsiy Museum',
@@ -448,13 +446,13 @@ export const items = {
 				'/images/projects/TTSWTR/Копия ttswtrs-005.jpg',
 				'/images/projects/TTSWTR/Копия FSM_-001.jpg'
 			],
-            style: '300px 30px 0 300px'
+            style: '50% 10% 0 50%'
 		},
 		{
 			title: 'DOKUCHAEVA',
 			tagNames: ['#фото', '#фешн', '#женскийстайлинг', '#мужскойстайлинг'],
 			tags: ['Фото', 'Фешн', 'Женский', 'Мужской'],
-			mainImg: '/images/projects/DOKUCHAEVA/Копия Dokuchaeva_200910_10555 copy.jpg',
+			mainImg: '/images/projects/DOKUCHAEVA/main.png',
 			images: [
 				'/images/projects/DOKUCHAEVA/Копия Dokuchaeva_200910_11839 copy.jpg',
 				'/images/projects/DOKUCHAEVA/Копия Dokuchaeva_200910_11724 copy.jpg',
@@ -464,7 +462,6 @@ export const items = {
 				'/images/projects/DOKUCHAEVA/Копия Dokuchaeva_200910_11411 copy.jpg',
 				'/images/projects/DOKUCHAEVA/Копия Dokuchaeva_200910_10555 copy.jpg'
 			],
-			style: '0 350px 250px 0'
 		},
 		{
 			title: 'AUROUS',
@@ -472,7 +469,7 @@ export const items = {
 			tags: ['Видео', 'Реклама', 'Мужской'],
 			mainImg: '/images/projects/AUROUS/1.jpg',
 			video: '5ZoFvmUIa9g',
-            style: '150px 90px 150px 0'
+            style: '34% 30% 34% 0'
 		},
 		{
 			title: 'Антон Криворотов для обложек холостяка',
@@ -512,7 +509,7 @@ export const items = {
 			tags: ['Видео', 'Женский', 'Мужской'],
 			mainImg: '/images/projects/WEEKEND/1.jpg',
 			video: 'Dso2sn660GA',
-            style: '100px 60px 200px 0'
+            style: '30% 10% 40% 0'
 		},
 		{
 			title: 'KUNST MAGAZINE',
@@ -580,7 +577,7 @@ export const items = {
 			title: 'HUSKY LOOKBOOK 2',
 			tagNames: ['#фото', '#фешн', '#женскийстайлинг', '#мужскойстайлинг'],
 			tags: ['Фото', 'Фешн', 'Женский', 'Мужской'],
-			mainImg: '/images/projects/HASKY LOOKBOOK/Копия Capture One Catalog2344 1.jpg',
+			mainImg: '/images/projects/HASKY LOOKBOOK/main.png',
 			images: [
 				'/images/projects/HASKY LOOKBOOK/Копия Capture One Catalog1540.jpg',
 				'/images/projects/HASKY LOOKBOOK/Копия Capture One Catalog2344 1.jpg',
@@ -589,7 +586,6 @@ export const items = {
 				'/images/projects/HASKY LOOKBOOK/Копия Capture One Catalog2621.jpg',
 				'/images/projects/HASKY LOOKBOOK/Копия Capture One Catalog2655.jpg'
 			],
-			style: '0 200px 0 0'
 		},
 		{
 			title: 'BONELESS VLADIMIR VARNAVA / HIPO PLATFORM',
@@ -632,7 +628,7 @@ export const items = {
 			tags: ['Видео', 'Реклама', 'Женский', 'Мужской'],
 			mainImg: '/images/projects/MTS SAMSUNG/1.jpg',
 			video: 'lgjKoxhoJcw',
-            style: '220px 0 100px 0'
+            style: '40% 5% 20% 0'
 		},
 		{
 			title: 'YOU DRIVE',
