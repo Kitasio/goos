@@ -376,4 +376,64 @@ export const projects = [
             '/images/teamProjects/art/10.jpeg',
         ]
     },
+    {
+        name: 'Butler Restaurant',
+        link: '/team/projects/butler',
+        mainImg: '/images/teamProjects/butler/1.jpeg',
+        images: ['/images/teamProjects/butler/1.jpeg', '/images/teamProjects/butler/2.jpeg']
+    },
+    {
+        name: 'Halva card',
+        link: '/team/projects/halva',
+        mainImg: '/images/teamProjects/halva/1.jpg',
+        video: '/images/teamProjects/halva/1.mp4'
+    },
+    {
+        name: '«That you won» - 1xBet',
+        link: '/team/projects/won',
+        mainImg: '/images/teamProjects/won/1.jpeg',
+        video: '/images/teamProjects/won/1.mp4'
+    },
+    {
+        name: 'CS GO 1xBet',
+        link: '/team/projects/cs',
+        mainImg: '/images/projects/1XBET/1.jpg',
+        video: '/images/projects/1XBET/1.mp4',
+    },
+    {
+        name: 'Hyundai',
+        link: '/team/projects/hyundai',
+        mainImg: '/images/teamProjects/hyundai/1.jpg',
+        video: '/images/teamProjects/hyundai/1.mp4'
+    },
+    {
+        name: 'KRASSNA AHEAD',
+        link: '/team/projects/ahead',
+        mainImg: '/images/teamProjects/ahead/1.jpg',
+        video: '/images/teamProjects/ahead/1.mp4'
+    },
+    {
+        name: 'KRASSNA',
+        link: '/team/projects/krassna',
+        mainImg: '/images/teamProjects/krassna/1.jpeg',
+        images: ['/images/teamProjects/krassna/1.jpeg', '/images/teamProjects/krassna/2.jpeg', '/images/teamProjects/krassna/3.jpeg']
+    },
+    {
+        name: 'TOYOTA',
+        link: '/team/projects/toyota',
+        mainImg: '/images/teamProjects/toyota/1.jpg',
+        video: '/images/teamProjects/toyota/1.mp4'
+    },
+    {
+        name: 'WELLA, SEBASTIAN, SYSTEM 2020',
+        link: '/team/projects/wella',
+        mainImg: '/images/projects/WELLA, SEBASTIAN, SYSTEM 2021/Копия wella december0626.jpg',
+        images: [
+            '/images/projects/WELLA, SEBASTIAN, SYSTEM 2021/Копия wella december0798.jpg',
+            '/images/projects/WELLA, SEBASTIAN, SYSTEM 2021/Копия wella december0648.jpg',
+            '/images/projects/WELLA, SEBASTIAN, SYSTEM 2021/Копия wella december0525.jpg',
+            '/images/projects/WELLA, SEBASTIAN, SYSTEM 2021/Копия wella december0626.jpg',
+            '/images/projects/WELLA, SEBASTIAN, SYSTEM 2021/Копия wella december0592.jpg'
+        ],
+    },
 ]
