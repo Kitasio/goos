@@ -76,7 +76,7 @@ export const items = {
 			tagNames: ['#видео', '#реклама', '#мужскойстайлинг'],
 			tags: ['Видео', 'Реклама', 'Мужской'],
 			mainImg: '/images/projects/1XBET/1.jpg',
-			video: 'Q_Xqmbva_U0',
+			localVideo: '/images/projects/1XBET/1.mp4',
             style: '30px 250px 200px 15px'
 		},
 		{
@@ -153,14 +153,14 @@ export const items = {
 			video: 'L6XPlM6ACNA',
             style: '100px 40px 80px 20px'
 		},
-		{
-			title: 'ADRENALINE RUSH',
-			tagNames: ['#видео', '#реклама', '#женскийстайлинг', '#мужскойстайлинг'],
-			tags: ['Видео', 'Реклама', 'Женский', 'Мужской'],
-			mainImg: '/images/projects/ADRENALINE/1.jpg',
-			video: 'xMCWP6V3X2c',
-            style: '20px 20px 250px 250px'
-		},
+		// {
+		// 	title: 'ADRENALINE RUSH',
+		// 	tagNames: ['#видео', '#реклама', '#женскийстайлинг', '#мужскойстайлинг'],
+		// 	tags: ['Видео', 'Реклама', 'Женский', 'Мужской'],
+		// 	mainImg: '/images/projects/ADRENALINE/1.jpg',
+		// 	video: 'xMCWP6V3X2c',
+        //     style: '20px 20px 250px 250px'
+		// },
 		{
 			title: 'DELOBANK',
 			tagNames: ['#видео', '#реклама', '#женскийстайлинг', '#мужскойстайлинг', '#детскийстайлинг'],
@@ -295,20 +295,20 @@ export const items = {
 			video: '0TQAb6feqaU',
             style: '300px 200px 50px 20px'
 		},
-		{
-			title: 'FAK BY FAK by Emi America',
-			tagNames: ['#фото', '#фешн', '#женскийстайлинг'],
-			tags: ['Фото', 'Фешн', 'Женский'],
-			mainImg: '/images/projects/FAKBYFAK/Копия AA007.jpg',
-			images: [
-				'/images/projects/FAKBYFAK/Копия fakbyfak3682.jpg',
-				'/images/projects/FAKBYFAK/Копия 000091220034.jpg',
-				'/images/projects/FAKBYFAK/Копия AA007.jpg',
-				'/images/projects/FAKBYFAK/Копия fakbyfak3700.jpg',
-				'/images/projects/FAKBYFAK/Копия fakbyfak3660.jpg'
-			],
-            style: '20px 0 200px 150px'
-		},
+		// {
+		// 	title: 'FAK BY FAK by Emi America',
+		// 	tagNames: ['#фото', '#фешн', '#женскийстайлинг'],
+		// 	tags: ['Фото', 'Фешн', 'Женский'],
+		// 	mainImg: '/images/projects/FAKBYFAK/Копия AA007.jpg',
+		// 	images: [
+		// 		'/images/projects/FAKBYFAK/Копия fakbyfak3682.jpg',
+		// 		'/images/projects/FAKBYFAK/Копия 000091220034.jpg',
+		// 		'/images/projects/FAKBYFAK/Копия AA007.jpg',
+		// 		'/images/projects/FAKBYFAK/Копия fakbyfak3700.jpg',
+		// 		'/images/projects/FAKBYFAK/Копия fakbyfak3660.jpg'
+		// 	],
+        //     style: '20px 0 200px 150px'
+		// },
 		{
 			title: 'EVOLUTION 2.0 / HUF MAGAZINE',
 			tagNames: ['#фото', '#эдиториал', '#женскийстайлинг', '#мужскойстайлинг'],
@@ -339,19 +339,19 @@ export const items = {
 			video: '4Vo3kB6glAg',
             style: '300px 250px 100px 100px'
 		},
-		{
-			title: 'AVON 19 NY kids',
-			tagNames: ['#фото', '#реклама', '#женскийстайлинг', '#мужскойстайлинг', '#детскийстайлинг'],
-			tags: ['Фото', 'Реклама', 'Женский', 'Мужской', 'Детский'],
-			mainImg: '/images/projects/AVON 19 NY KIDS/Копия AVON_NY_II_0801.jpg',
-			images: [
-				'/images/projects/AVON 19 NY KIDS/Копия AVON_NY_II_0801.jpg',
-				'/images/projects/AVON 19 NY KIDS/Копия AVON_NY_I_00711.jpg',
-				'/images/projects/AVON 19 NY KIDS/Копия EmptyName 34.jpg',
-				'/images/projects/AVON 19 NY KIDS/Копия AVON_NY_II_1521.jpg'
-			],
-            style: '150px 0 70px 50px'
-		},
+		// {
+		// 	title: 'AVON 19 NY kids',
+		// 	tagNames: ['#фото', '#реклама', '#женскийстайлинг', '#мужскойстайлинг', '#детскийстайлинг'],
+		// 	tags: ['Фото', 'Реклама', 'Женский', 'Мужской', 'Детский'],
+		// 	mainImg: '/images/projects/AVON 19 NY KIDS/Копия AVON_NY_II_0801.jpg',
+		// 	images: [
+		// 		'/images/projects/AVON 19 NY KIDS/Копия AVON_NY_II_0801.jpg',
+		// 		'/images/projects/AVON 19 NY KIDS/Копия AVON_NY_I_00711.jpg',
+		// 		'/images/projects/AVON 19 NY KIDS/Копия EmptyName 34.jpg',
+		// 		'/images/projects/AVON 19 NY KIDS/Копия AVON_NY_II_1521.jpg'
+		// 	],
+        //     style: '150px 0 70px 50px'
+		// },
 		{
 			title: 'LENTA',
 			tagNames: ['#видео', '#реклама', '#женскийстайлинг', '#мужскойстайлинг', '#детскийстайлинг'],
@@ -420,21 +420,21 @@ export const items = {
             video: 'ZAN-1BmxcS4',
             style: '300px 50px 50px 100px'
         },
-		{
-			title: 'Alpen Gold',
-			tagNames: ['#видео', '#реклама', '#женскийстайлинг', '#мужскойстайлинг'],
-			tags: ['Видео', 'Реклама', 'Женский', 'Мужской'],
-			mainImg: '/images/projects/ALPEN GOLD/1.jpg',
-			localVideo: '/images/projects/ALPEN GOLD/1.mp4',
-            style: '100px 10px 100px 0'
-		},
+		// {
+		// 	title: 'Alpen Gold',
+		// 	tagNames: ['#видео', '#реклама', '#женскийстайлинг', '#мужскойстайлинг'],
+		// 	tags: ['Видео', 'Реклама', 'Женский', 'Мужской'],
+		// 	mainImg: '/images/projects/ALPEN GOLD/1.jpg',
+		// 	localVideo: '/images/projects/ALPEN GOLD/1.mp4',
+        //     style: '100px 10px 100px 0'
+		// },
 		{
 			title: 'MEGAFON',
 			tagNames: ['#видео', '#реклама', '#женскийстайлинг', '#мужскойстайлинг'],
 			tags: ['Видео', 'Реклама', 'Женский', 'Мужской'],
 			mainImg: '/images/projects/MEGAFON/1.jpg',
 			video: 'd3-eeTvDiyE',
-            style: '120px 0 300px 250px'
+            style: ''
 		},
 		{
 			title: 'TTSWTR for Pushkinsiy Museum',
@@ -610,14 +610,14 @@ export const items = {
 			classes: 'p-2',
 			video: ''
 		},
-		{
-			title: 'VK Donuts',
-			tagNames: ['#видео', '#реклама', '#женскийстайлинг'],
-			tags: ['Видео', 'Реклама', 'Женский'],
-			mainImg: '/images/projects/VK DONUTS/1.jpg',
-			localVideo: '/images/projects/VK DONUTS/1.mp4',
-            style: '100px 0 200px 100px'
-		},
+		// {
+		// 	title: 'VK Donuts',
+		// 	tagNames: ['#видео', '#реклама', '#женскийстайлинг'],
+		// 	tags: ['Видео', 'Реклама', 'Женский'],
+		// 	mainImg: '/images/projects/VK DONUTS/1.jpg',
+		// 	localVideo: '/images/projects/VK DONUTS/1.mp4',
+        //     style: '100px 0 200px 100px'
+		// },
 		{
 			title: 'CITY MOBILE',
 			tagNames: ['#видео', '#реклама', '#женскийстайлинг', '#мужскойстайлинг', '#детскийстайлинг'],
@@ -730,24 +730,24 @@ export const items = {
 			],
 			style: '5% 30% 25% 3%',
 		},
-		{
-			title: 'Режиссеры Меркуловы для “АФИШИ”',
-			tagNames: ['#фото', '#эдиториал', '#женскийстайлинг', '#мужскойстайлинг'],
-			tags: ['Фото', 'Эдиториал', 'Женский', 'Мужской'],
-			mainImg: '/images/projects/DIRECTORS MERKULOVY/Копия 0018.jpg',
-			images: [
-				'/images/projects/DIRECTORS MERKULOVY/Копия 0018.jpg',
-				'/images/projects/DIRECTORS MERKULOVY/Копия 0022.jpg'
-			],
-			style: '40% 7% 7% 50%'
-		},
-		{
-			title: 'Яндекс Маркет',
-			tagNames: ['#видео', '#реклама', '#мужскойстайлинг'],
-			tags: ['Видео', 'Реклама', 'Мужской'],
-			mainImg: '/images/projects/YANDEX/1.jpg',
-			localVideo: '/images/projects/YANDEX/1.mp4'
-		},
+		// {
+		// 	title: 'Режиссеры Меркуловы для “АФИШИ”',
+		// 	tagNames: ['#фото', '#эдиториал', '#женскийстайлинг', '#мужскойстайлинг'],
+		// 	tags: ['Фото', 'Эдиториал', 'Женский', 'Мужской'],
+		// 	mainImg: '/images/projects/DIRECTORS MERKULOVY/Копия 0018.jpg',
+		// 	images: [
+		// 		'/images/projects/DIRECTORS MERKULOVY/Копия 0018.jpg',
+		// 		'/images/projects/DIRECTORS MERKULOVY/Копия 0022.jpg'
+		// 	],
+		// 	style: '40% 7% 7% 50%'
+		// },
+		// {
+		// 	title: 'Яндекс Маркет',
+		// 	tagNames: ['#видео', '#реклама', '#мужскойстайлинг'],
+		// 	tags: ['Видео', 'Реклама', 'Мужской'],
+		// 	mainImg: '/images/projects/YANDEX/1.jpg',
+		// 	localVideo: '/images/projects/YANDEX/1.mp4'
+		// },
 		{
 			title: 'VOLEN SENTIR (Arrival)',
 			tagNames: ['#видео', '#мужскойстайлинг'],
@@ -786,20 +786,20 @@ export const items = {
 			classes: 'p-2',
 			video: ''
 		},
-		{
-			title: 'AVON NEW YEAR',
-			tagNames: ['#фото', '#реклама', '#женскийстайлинг', '#мужскойстайлинг', '#детскийстайлинг'],
-			tags: ['Фото', 'Реклама', 'Женский', 'Мужской', 'Детский'],
-			mainImg: '/images/projects/AVON NEW YEAR/Копия IMG_6163.JPG',
-			images: [
-				'/images/projects/AVON NEW YEAR/Копия IMG_6163.JPG',
-				'/images/projects/AVON NEW YEAR/Копия IMG_6164.JPG',
-				'/images/projects/AVON NEW YEAR/Копия IMG_6165.JPG',
-				'/images/projects/AVON NEW YEAR/Копия IMG_6166.JPG',
-				'/images/projects/AVON NEW YEAR/Копия IMG_6219.JPG'
-			],
-			style: '15% 0 15% 30%'
-		},
+		// {
+		// 	title: 'AVON NEW YEAR',
+		// 	tagNames: ['#фото', '#реклама', '#женскийстайлинг', '#мужскойстайлинг', '#детскийстайлинг'],
+		// 	tags: ['Фото', 'Реклама', 'Женский', 'Мужской', 'Детский'],
+		// 	mainImg: '/images/projects/AVON NEW YEAR/Копия IMG_6163.JPG',
+		// 	images: [
+		// 		'/images/projects/AVON NEW YEAR/Копия IMG_6163.JPG',
+		// 		'/images/projects/AVON NEW YEAR/Копия IMG_6164.JPG',
+		// 		'/images/projects/AVON NEW YEAR/Копия IMG_6165.JPG',
+		// 		'/images/projects/AVON NEW YEAR/Копия IMG_6166.JPG',
+		// 		'/images/projects/AVON NEW YEAR/Копия IMG_6219.JPG'
+		// 	],
+		// 	style: '15% 0 15% 30%'
+		// },
 		{
 			title: 'GOGEN',
 			tagNames: ['#фото', '#эдиториал', '#женскийстайлинг'],
@@ -854,14 +854,14 @@ export const items = {
 			classes: 'p-2',
 			video: ''
 		},
-		{
-			title: 'Samsung Связной',
-			tagNames: ['#видео', '#реклама', '#женскийстайлинг', '#мужскойстайлинг'],
-			tags: ['Видео', 'Реклама', 'Женский', 'Мужской'],
-			mainImg: '/images/projects/SAMSUNG/1.jpg',
-			localVideo: '/images/projects/SAMSUNG/1.mp4',
-			style: '50% 0 15% 30%'
-		},
+		// {
+		// 	title: 'Samsung Связной',
+		// 	tagNames: ['#видео', '#реклама', '#женскийстайлинг', '#мужскойстайлинг'],
+		// 	tags: ['Видео', 'Реклама', 'Женский', 'Мужской'],
+		// 	mainImg: '/images/projects/SAMSUNG/1.jpg',
+		// 	localVideo: '/images/projects/SAMSUNG/1.mp4',
+		// 	style: '50% 0 15% 30%'
+		// },
 		{
 			title: 'Егор Крид - Холостяк',
 			tagNames: ['#видео', '#реклама', '#женскийстайлинг', '#мужскойстайлинг'],
@@ -869,6 +869,30 @@ export const items = {
 			mainImg: '/images/projects/EGOR KRID/1.jpg',
 			video: 'pui1uSE63Wo&t=4s',
 			style: '0 0 50% 7%'
+		},
+		{
+			title: 'EMPIRE V',
+			tagNames: ['#видео', '#женскийстайлинг', '#мужскойстайлинг'],
+			tags: ['Видео', 'Женский', 'Мужской'],
+			mainImg: '/images/projects/EmpireV/1.jpg',
+			video: '2iwZnD_kevE',
+			style: '35% 3% 20% 5%'
+		},
+		{
+			title: 'GOOGLE x MANIZHA',
+			tagNames: ['#видео' , '#женскийстайлинг', '#мужскойстайлинг'],
+			tags: ['Видео', 'Женский', 'Мужской'],
+			mainImg: '/images/projects/google/1.jpg',
+			video: '6TVvZCdOWDE',
+			style: '4% 0 53% 10%'
+		},
+		{
+			title: "L'ONE",
+			tagNames: ['#видео', '#женскийстайлинг', '#мужскойстайлинг'],
+			tags: ['Видео', 'Женский', 'Мужской'],
+			mainImg: '/images/projects/LONE/1.jpg',
+			video: 'IadRjeHrUaM',
+			style: '44% 5% 5% 22%'
 		},
 	]
 };
