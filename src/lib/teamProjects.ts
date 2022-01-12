@@ -436,4 +436,34 @@ export const projects = [
             '/images/projects/WELLA, SEBASTIAN, SYSTEM 2021/Копия wella december0592.jpg'
         ],
     },
+    {
+        name: 'Swatch',
+        link: '/team/projects/swatch',
+        mainImg: '/images/teamProjects/swatch/1.jpg',
+        video: '/images/teamProjects/swatch/1.mp4'
+    },
+    {
+        name: 'Aesthetics: combining the forms of the beautiful and the imperfect',
+        link: '/team/projects/aesthetics',
+        mainImg: '/images/teamProjects/aesthetics/1.jpeg',
+        images: ['/images/teamProjects/aesthetics/1.jpeg', '/images/teamProjects/aesthetics/2.jpeg', '/images/teamProjects/aesthetics/3.jpeg']
+    },
+    {
+        name: 'Catsuit',
+        link: '/team/projects/catsuit',
+        mainImg: '/images/teamProjects/catsuit/1.jpeg',
+        images: ['/images/teamProjects/catsuit/1.jpeg', '/images/teamProjects/catsuit/2.jpeg', '/images/teamProjects/catsuit/3.jpeg']
+    },
+    {
+        name: 'Sbermarketing',
+        link: '/team/projects/sbermarketing',
+        mainImg: '/images/teamProjects/sbermarketing/1.jpeg',
+        video: '/images/teamProjects/sbermarketing/1.mp4'
+    },
+    {
+        name: 'Style Cottege',
+        link: '/team/projects/cottege',
+        mainImg: '/images/teamProjects/cottege/1.jpeg',
+        images: ['/images/teamProjects/cottege/1.jpeg']
+    },
 ]

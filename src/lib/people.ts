@@ -74,6 +74,7 @@ export const people = [
 		link: '/team/gorelikova',
 		profession: `Стилист, ассистент`,
 		about: `Два года работает в&nbsp;индустрии. Иллария&nbsp;&mdash; девушка командная, исполнительная, любит брать на&nbsp;себя множество задач и&nbsp;всегда работает на&nbsp;результат. Специализируется на&nbsp;fashion съемках и&nbsp;рекламе.`,
+		projects: ['swatch', 'aesthetics', 'catsuit', 'sbermarketing', 'cottege']
 	},
 	{
 		text: 'Женя Леонтьева',
