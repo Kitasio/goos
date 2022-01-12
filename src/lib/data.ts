@@ -894,5 +894,44 @@ export const items = {
 			video: 'IadRjeHrUaM',
 			style: '44% 5% 5% 22%'
 		},
+		{
+			title: "MANIZHA - NOW OR NEVER",
+			tagNames: ['#фото', '#женскийстайлинг'],
+			tags: ['Фото', 'Женский'],
+			mainImg: '/images/projects/manizha/1.jpg',
+			localVideo: '/images/projects/manizha/1.mp4'
+		},
+		{
+			title: 'MUJUICE - ZODIAC',
+			tagNames: ['#видео', '#мужскойстайлинг'],
+			tags: ['Видео', 'Мужской'],
+			mainImg: '/images/projects/mujuice/1.jpg',
+			video: 'kH_w5ks9GB4',
+			style: '8% 10% 39% 2%'
+		},
+		{
+			title: 'NOT ALICE x PAP Magazine',
+			tagNames: ['#видео', '#женскийстайлинг', '#мужскойстайлинг'],
+			tags: ['Видео', 'Женский', 'Мужской'],
+			mainImg: '/images/teamProjects/notalice/1.jpg',
+			video: 'zLiUQXpQ5rg',
+			style: '50% 0 10% 0'
+		},
+		{
+			title: 'ORIFLAME',
+			tagNames: ['#видео', '#женскийстайлинг'],
+			tags: ['Видео', 'Женский'],
+			mainImg: '/images/teamProjects/oriflame/1.jpg',
+			localVideo: '/images/teamProjects/oriflame/1.mp4',
+			style: '19% 5% 22% 15%'
+		},
+		{
+			title: 'RAYON - INDABLACK x RAIDA',
+			tagNames: ['#видео', '#женскийстайлинг' , '#мужскойстайлинг'],
+			tags: ['Видео', 'Женский', 'Мужской'],
+			mainImg: '/images/projects/rayon/1.jpg',
+			video: 'Yvs7O-BLivw',
+			style: '5% 5% 35% 35%'
+		}
 	]
 };
