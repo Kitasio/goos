@@ -159,7 +159,7 @@
 								<img
 									class={$showFilter
 										? 'w-4 h-4 mt-1 mr-5 rotate-90 transition'
-										: 'w-4 h-4 mt-1 mr-5 rotate-180 transition'}
+										: 'w-4 h-4 mt-1 mr-5 -rotate-90 transition'}
 									src="/images/arrow.svg"
 									alt=""
 								/>

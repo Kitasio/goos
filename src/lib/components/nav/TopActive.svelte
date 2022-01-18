@@ -87,8 +87,12 @@
 		<p>gooseva.style@gmail.com</p>
 
 		<p class="mt-3">Instagram</p>
-		<p class="font-bold">@guseva_stylist</p>
-		<a href="https://www.instagram.com/gooseva_komanda" class="font-bold">@gooseva_komanda</a>
+		<div>
+			<a href="https://www.instagram.com/guseva_stylist" target="_blank" class="font-bold">@guseva_stylist</a>
+		</div>
+		<div>
+			<a href="https://www.instagram.com/gooseva_komanda" target="_blank" class="font-bold">@gooseva_komanda</a>
+		</div>
 		<p class="mt-3">
 			Если вы&nbsp;хотите присоединиться к&nbsp;нашей команде, поделиться новостями или просто
 			познакомиться с&nbsp;нами, напишите на&nbsp;goosevastyle@gmail.com

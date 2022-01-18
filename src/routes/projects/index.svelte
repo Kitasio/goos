@@ -45,7 +45,7 @@
 		<h1>Навигация по проектам</h1>
 		<p class="mt-1">
 			<img
-				class={$showFilter ? 'rotate-180 transition' : 'transition'}
+				class={$showFilter ? '-rotate-90 transition' : 'rotate-90 transition'}
 				src="/images/arrow.svg"
 				alt="arrow"
 			/>
@@ -63,7 +63,7 @@
 	{#key $lvl1 || $lvl2 || $lvl3}
 		<div
 			in:fade
-			class="pt-[102px] lg:pt-0 w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 lg:my-10"
+			class={$showFilter ? "pt-[102px] lg:pt-[135px] w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 lg:my-10": "pt-[102px] lg:pt-0 w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 lg:my-10"}
 		>
 			{#each items.projects as i, index (index)}
 				{#if (i.tags.some( (e) => $lvl1.includes(capitalize(e)) ) || !$lvl1.length) && (i.tags.some( (e) => $lvl2.includes(capitalize(e)) ) || !$lvl2.length) && (i.tags.some( (e) => $lvl3.includes(capitalize(e)) ) || !$lvl3.length)}
