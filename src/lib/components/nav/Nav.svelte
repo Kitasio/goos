@@ -155,7 +155,7 @@
 									: 'flex justify-between items-center cursor-pointer hover:shadow-border w-2/3 xl:w-3/4 border-black border-r'}
 								on:click={toggleFilter}
 							>
-								<h1 class="ml-5 font-medium whitespace-nowrap">Навигация по проектам</h1>
+								<h1 class="ml-5 2xl:ml-10 font-medium whitespace-nowrap">Навигация по проектам</h1>
 								<img
 									class={$showFilter
 										? 'w-4 h-4 mt-1 mr-5 rotate-90 transition'
@@ -209,7 +209,7 @@
 								? 'flex transition duration-200 hover:shadow-white font-medium py-2 w-full items-center'
 								: 'flex transition duration-200 hover:shadow-border font-medium py-2 w-full items-center'}
 						>
-							<a href="/team" class="ml-5 w-full">Команда</a>
+							<a href="/team" class="ml-5 2xl:ml-10 w-full">Команда</a>
 						</div>
 					{:else}
 						<div

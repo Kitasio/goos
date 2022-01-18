@@ -21,7 +21,6 @@
 			>
 				<div class="flex space-x-3 items-center cursor-pointer">
 					<img class="w-5 h-5" src="/images/arrow-left.svg" alt="" />
-					<p class="font-light">Назад</p>
 				</div>
 			</a>
 			<a
@@ -42,15 +41,21 @@
 	</div>
 
 	{#if items.projects[id].video}
-		<div class="px-5 pb-20 xl:px-20 2xl:px-32 col-span-3 lg:h-screen flex">
+		<div class="px-5 pb-16 xl:px-20 2xl:px-32 col-span-3 lg:h-screen flex">
 			<div class="w-full self-end">
 				<Youtube id={items.projects[id].video} />
 			</div>
 		</div>
 	{:else if items.projects[id].localVideo}
-		<div class="px-5 pb-20 xl:px-20 2xl:px-32 col-span-3 lg:h-screen flex">
+		<div class="px-5 pb-16 xl:px-20 2xl:px-32 col-span-3 lg:h-screen flex">
 			<div class="w-full self-end">
 				<Player src={items.projects[id].localVideo} />
+			</div>
+		</div>
+	{:else if items.projects[id].images.length == 1}
+		<div class="px-5 pb-16 xl:px-20 2xl:px-32 col-span-3 lg:h-screen flex">
+			<div class="w-full self-end">
+				<Image src={items.projects[id].images[0]} classes={'w-full'} />
 			</div>
 		</div>
 	{:else}
@@ -59,7 +64,7 @@
 		>
 			{#each items.projects[id].images as i, index (index)}
 				<div class="">
-					<Image src={i} classes={'mx-auto'} />
+					<Image src={i} classes={'w-full'} />
 				</div>
 			{/each}
 		</div>

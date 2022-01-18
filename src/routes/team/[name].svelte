@@ -8,22 +8,26 @@
 	import Player from '$lib/components/Player.svelte';
 
 	let projectOpen = false;
-	let selectedProject = {};
+	let selectedProject = 0;
 
-	const openProj = (proj) => {
+	const openProj = (index) => {
 		projectOpen = true;
-		selectedProject = proj;
+		selectedProject = index;
 	};
 
-	const prevImg = () => {
-		let items = selectedProject['images'];
-		items = [items[items.length - 1], ...items.slice(0, items.length - 1)];
-		selectedProject['images'] = items;
+	const prevProj = () => {
+		if (selectedProject == 0) {
+			selectedProject = personProjects.length - 1;
+		} else {
+			selectedProject -= 1;
+		}
 	};
-	const nextImg = () => {
-		let items = selectedProject['images'];
-		items = [...items.slice(1, items.length), items[0]];
-		selectedProject['images'] = items;
+	const nextProj = () => {
+		if (selectedProject + 1 === personProjects.length) {
+			selectedProject = 0;
+		} else {
+			selectedProject += 1;
+		}
 	};
 
 	let person = {};
@@ -78,61 +82,65 @@
 	<Nav />
 </div>
 <div class="hidden lg:grid grid-cols-4 h-screen py-10">
-	<div class="border-r border-black col-span-1 p-5 2xl:p-10 flex space-x-8 xl:space-x-14">
-		<h1 class="text-md font-medium">Стилисты</h1>
-		<div>
-			{#each people as i, index (index)}
-				<a href={i.link} target="_self" class="relative">
-					<img
-						class={'/team/' + $page.params.name === i.link ? 'absolute top-2 -left-7' : 'hidden'}
-						src="/images/arrow.svg"
-						alt=""
-					/>
-					<p
-						class={'/team/' + $page.params.name == i.link
-							? 'leading-7 underline font-light whitespace-nowrap'
-							: 'leading-7 hover:underline font-light whitespace-nowrap'}
-					>
-						{i.text}
-					</p>
-				</a>
-			{/each}
-		</div>
+	<div class="border-r border-black col-span-1 p-5 2xl:p-10">
+		<!-- <div> -->
+			<h1 class="text-md font-medium fixed">Стилисты</h1>
+			<div class="fixed ml-28 xl:ml-32">
+				{#each people as i, index (index)}
+					<a href={i.link} target="_self" class="relative flex">
+						<img
+							class={'/team/' + $page.params.name === i.link
+								? 'w-4 absolute top-2 -left-7'
+								: 'hidden w-4'}
+							src="/images/arrow.svg"
+							alt=""
+						/>
+						<p
+							class={'/team/' + $page.params.name == i.link
+								? 'leading-7 underline font-light whitespace-nowrap'
+								: 'leading-7 hover:underline font-light whitespace-nowrap'}
+						>
+							{i.text}
+						</p>
+					</a>
+				{/each}
+			</div>
+		<!-- </div> -->
 	</div>
 	<div class="relative col-span-3 p-5 2xl:p-10 flex flex-col justify-between space-y-5">
 		{#if projectOpen}
 			<div class="grid grid-cols-12 h-full">
-				<div class="col-span-5 flex flex-col justify-between h-full">
-					<div class="cursor-pointer" on:click={() => (projectOpen = false)}>Х Закрыть</div>
-					<div class="font-bt text-4xl max-w-md whitespace-pre-line">{selectedProject['name']}</div>
-				</div>
-				{#if selectedProject['video']}
-					<div class="col-span-7">
-						<Player src={selectedProject['video']} />
+				<div class="col-span-5 flex flex-col  h-full">
+					<div class="cursor-pointer font-light fixed" on:click={() => (projectOpen = false)}>
+						Закрыть
 					</div>
-				{:else if selectedProject['ytid']}
-					<div class="col-span-7">
+					<div class="font-bt text-3xl max-w-md whitespace-pre-line fixed bottom-16">
+						{personProjects[selectedProject]['name']}
+					</div>
+				</div>
+				<div class="col-span-7 space-y-5">
+					<div class="flex justify-between">
+						<div class="cursor-pointer" on:click={prevProj}>
+							<img class="w-5 h-5" src="/images/arrow-left.svg" alt="" />
+						</div>
+						<div class="cursor-pointer" on:click={nextProj}>
+							<img class="w-5 h-5" src="/images/arrow.svg" alt="" />
+						</div>
+					</div>
+					{#if personProjects[selectedProject]['video']}
+						<Player src={personProjects[selectedProject]['video']} />
+					{:else if personProjects[selectedProject]['ytid']}
 						<iframe
 							class="aspect-video w-full"
-							src="https://www.youtube.com/embed/{selectedProject['ytid']}"
-							title={selectedProject['name']}
+							src="https://www.youtube.com/embed/{personProjects[selectedProject]['ytid']}"
+							title={personProjects[selectedProject]['name']}
 						/>
-					</div>
-				{:else}
-					<div class="col-span-7 space-y-5">
-						<div class="flex justify-between">
-							<div class="cursor-pointer" on:click={prevImg}>
-								<img class="w-5 h-5" src="/images/arrow-left.svg" alt="" />
-							</div>
-							<div class="cursor-pointer" on:click={nextImg}>
-								<img class="w-5 h-5" src="/images/arrow.svg" alt="" />
-							</div>
-						</div>
-						{#if selectedProject['images']}
-							<Image src={selectedProject['images'][0]} alt="" classes={'mx-auto max-h-[70vh]'} />
-						{/if}
-					</div>
-				{/if}
+					{:else if personProjects[selectedProject]['images']}
+						{#each personProjects[selectedProject]['images'] as img}
+							<Image src={img} alt="" classes={'mx-auto w-full object-cover max-h-[70vh]'} />
+						{/each}
+					{/if}
+				</div>
 			</div>
 		{:else}
 			<div>
@@ -147,8 +155,8 @@
 			<div class="flex flex-wrap items-start gap-3">
 				{#if personProjects}
 					{#each personProjects as i, index (index)}
-						<div class="cursor-pointer " on:click={() => openProj(i)}>
-							<Image src={i['mainImg']} classes={'object-cover h-32'} />
+						<div class="cursor-pointer" on:click={() => openProj(index)}>
+							<Image src={i['mainImg']} classes={'object-cover h-24'} />
 						</div>
 					{/each}
 				{/if}

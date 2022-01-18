@@ -111,7 +111,7 @@
 		<a href="/team" class="hidden xl:flex flex-none font-medium w-4/12 xl:w-3/12 items-end">
 			<h1 class="pl-5 w-full border-black border-t py-2 bg-white">Команда</h1>
 		</a>
-		<main class="grid grid-cols-2 w-full font-medium divide-x divide-black bg-white">
+		<main class="grid grid-cols-2 w-full font-medium divide-x divide-black bg-white -ml-[1px]">
 			<div class="px-5 2xl:px-7 pt-10 pb-20 text-sm border-black border-t border-l overflow-y-scroll max-h-[60vh]">
 				<p class="font-bold">Артисты и селебрити</p>
 				<p class="font-normal mt-5 2xl:whitespace-pre-line">

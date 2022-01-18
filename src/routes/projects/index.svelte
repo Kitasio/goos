@@ -63,15 +63,19 @@
 	{#key $lvl1 || $lvl2 || $lvl3}
 		<div
 			in:fade
-			class={$showFilter ? "pt-[102px] lg:pt-[135px] w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 lg:my-10": "pt-[102px] lg:pt-0 w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 lg:my-10"}
+			class={$showFilter ? "pt-[102px] lg:pt-[136px] w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 lg:my-10": "pt-[102px] lg:pt-0 w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 lg:my-10"}
 		>
 			{#each items.projects as i, index (index)}
 				{#if (i.tags.some( (e) => $lvl1.includes(capitalize(e)) ) || !$lvl1.length) && (i.tags.some( (e) => $lvl2.includes(capitalize(e)) ) || !$lvl2.length) && (i.tags.some( (e) => $lvl3.includes(capitalize(e)) ) || !$lvl3.length)}
-					<div class="border-b border-r border-black sm:aspect-square">
-						<div class="w-full h-96 sm:h-full border-2 border-black border-opacity-0 hover:border-opacity-100 transition duration-200">
+					<div class="border-b border-r border-black sm:aspect-square group">
+						<div class="w-full h-96 sm:h-full relative">
 							<a class="transition duration-200 w-full h-96 sm:h-full" href={`projects/${index}`}>
 								<div id="img{index}" class="img-anim w-full h-96 sm:h-full {i.classes}" style="padding: {i.style}">
 									<Image src={i.mainImg} classes={`w-full h-full object-cover ${i.classes}`} />
+									<div class="absolute top-0 left-0 w-full h-full group-hover:shadow-border transition duration-200"></div>
+									<div class="absolute text-center font-bt p-3 text-sm bottom-0 left-0 w-full bg-white border-t-[3px] border-l-2 border-b-2 border-r-2 border-black opacity-0 group-hover:opacity-100 transition duration-200">
+										{i.title}
+									</div>
 								</div>
 								<!-- <div class="text-center lg:hidden font-bt py-10">{i.title}</div> -->
 							</a>
