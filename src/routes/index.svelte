@@ -12,25 +12,23 @@
 	let item = 1;
 	let time;
 	let hover = (isWhite, num) => {
-		clearTimeout(time);
+/* 		clearTimeout(time);
 		time = setTimeout(() => {
 			white = isWhite;
 			item = num;
-		}, 400);
+		}, 400); */
 	};
 
 	onMount(() => {
-		if (browser && window.innerWidth < 1024) {
-			const tl = gsap.timeline({ repeat: 5 });
-			tl.to('.img2', { duration: 1, opacity: 1, delay: 3, onStart: () => (white = false) });
-			tl.to('.img1', { duration: 1, opacity: 0 }, '-=1');
-			tl.to('.img3', { duration: 1, opacity: 1, delay: 3, onStart: () => (white = true) });
-			tl.to('.img2', { duration: 1, opacity: 0 }, '-=1');
-			tl.to('.img4', { duration: 1, opacity: 1, delay: 3, onStart: () => (white = false) });
-			tl.to('.img3', { duration: 1, opacity: 0 }, '-=1');
-			tl.to('.img1', { duration: 1, opacity: 1, delay: 3, onStart: () => (white = true) });
-			tl.to('.img4', { duration: 1, opacity: 0 }, '-=1');
-		}
+		const tl = gsap.timeline({ repeat: 5 });
+		tl.to('.img2', { duration: 1, opacity: 1, delay: 3, onStart: () => (white = false) });
+		tl.to('.img1', { duration: 1, opacity: 0 }, '-=1');
+		tl.to('.img3', { duration: 1, opacity: 1, delay: 3, onStart: () => (white = true) });
+		tl.to('.img2', { duration: 1, opacity: 0 }, '-=1');
+		tl.to('.img4', { duration: 1, opacity: 1, delay: 3, onStart: () => (white = false) });
+		tl.to('.img3', { duration: 1, opacity: 0 }, '-=1');
+		tl.to('.img1', { duration: 1, opacity: 1, delay: 3, onStart: () => (white = true) });
+		tl.to('.img4', { duration: 1, opacity: 0 }, '-=1');
 	});
 
 	const toggleOff = () => {
@@ -72,7 +70,7 @@
 		</div>
 	{/if}
 
-	<div class="lg:hidden absolute w-full h-full">
+	<!-- <div class="lg:hidden absolute w-full h-full">
 		<div class="img1 w-full object-cover h-screen absolute top-0 opacity-1">
 			<Image
 				srcMobile={'/images/index/1Mobile.jpg'}
@@ -97,49 +95,44 @@
 			alt=""
 			class="img3 w-full object-cover h-screen absolute top-0 opacity-0"
 		/>
-	</div>
-	<div on:click={toggleOff} class="hidden lg:grid grid-cols-3 absolute w-full h-full">
-		{#if item == 1}
+	</div> -->
+	<div on:click={toggleOff} class="grid grid-cols-3 absolute w-full h-full">
 			<div
 				transition:fade={{ duration: 100 }}
 				class="img1 w-full object-cover h-screen absolute top-0 opacity-1"
 			>
 				<Image
-					srcMobile={'/images/index/1Mobile.jpg'}
-					src={'/images/index/1.jpg'}
+					srcMobile={'/images/index/1.gif'}
+					src={'/images/index/1.gif'}
 					alt={'main image'}
 					classes={'w-full object-cover h-screen absolute top-0'}
 				/>
 			</div>
-		{:else if item == 2}
 			<div
 				transition:fade={{ duration: 100 }}
-				class="img2 absolute w-full h-screen flex items-center justify-end overflow-hidden opacity-1"
+				class="img2 absolute w-full h-screen flex items-center justify-end overflow-hidden opacity-0"
 			>
 				<div class="flex flex-col md:flex-row overflow-hidden">
 					<Image src={'/images/index/2.1.jpg'} classes={'ml-28 mt-20 md:m-0 object-cover'} />
 					<Image classes="object-cover" src={'/images/index/2.2.jpg'} />
 				</div>
 			</div>
-		{:else if item == 3}
 			<div
 				transition:fade={{ duration: 100 }}
-				class="img4 absolute w-full h-screen flex items-center justify-center opacity-1"
+				class="img4 absolute w-full h-screen flex items-center justify-center opacity-0"
 			>
 				<img src="/images/index/4.jpg" alt="" />
 			</div>
-		{:else if item == 4}
 			<img
 				transition:fade={{ duration: 100 }}
 				src="/images/index/3.jpg"
 				alt=""
-				class="img3 w-full object-cover h-screen absolute top-0 opacity-1"
+				class="img3 w-full object-cover h-screen absolute top-0 opacity-0"
 			/>
-		{/if}
 	</div>
 </div>
 
-<div
+<!-- <div
 	on:click={toggleOff}
 	class={$topActive || $botActive
 		? 'hidden'
@@ -149,4 +142,4 @@
 	<div on:mouseenter={() => hover(false, 2)} />
 	<div on:mouseenter={() => hover(false, 3)} />
 	<div on:mouseenter={() => hover(true, 4)} />
-</div>
+</div> -->
