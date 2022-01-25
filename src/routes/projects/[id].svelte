@@ -30,9 +30,9 @@
 				<img class="w-5 h-5 cursor-pointer" src="/images/arrow.svg" alt="" />
 			</a>
 		</div>
-		<div class="space-y-1 2xl:px-5">
-			<h1 class="font-bt font-thin text-2xl">{items.projects[id].title}</h1>
-			<div class="flex font-light flex-wrap">
+		<div class=" 2xl:px-5">
+			<h1 class="font-bt font-thin text-2xl leading-5">{items.projects[id].title}</h1>
+			<div class="flex font-light flex-wrap leading-5 text-sm">
 				{#each items.projects[id].tagNames as tag, index (index)}
 					<span class="mr-1">{tag}</span>
 				{/each}

@@ -32,11 +32,11 @@
 
 <!-- MOBILE -->
 {#if $page.url.pathname != '/'}
-	<div class={toggled ? 'h-screen flex flex-col fixed w-full z-40 bg-white' : ''}>
+	<div class={toggled ? 'h-screen flex flex-col fixed w-full z-50 bg-white' : ''}>
 		<div
 			class={$page.params.name
 				? 'lg:hidden bg-transparent bg-white fixed w-full flex justify-between divide-x divide-black border-b border-black'
-				: 'lg:hidden bg-white fixed w-full flex justify-between divide-x divide-black border-b border-black'}
+				: 'lg:hidden bg-white fixed z-50 w-full flex justify-between divide-x divide-black border-b border-black'}
 		>
 			<div
 				in:fly={{ x: 20, duration: 200 }}
