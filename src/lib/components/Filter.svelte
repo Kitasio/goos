@@ -119,7 +119,7 @@
 			{#each lvl1Options as option}
 				<label class="whitespace-nowrap space-x-1">
 					<input
-						class="text-black border-2 border-black w-4 h-4 focus:ring-0 mb-1"
+						class="text-black border border-black w-4 h-4 focus:ring-0 mb-1"
 						type="checkbox"
 						bind:group={$lvl1}
 						value={option}
@@ -130,7 +130,7 @@
 		</div>
 		<label class="col-span-1 justify-self-end space-x-1">
 			<input
-				class="text-black border-2 border-black w-4 h-4 focus:ring-0 mb-1"
+				class="text-black border border-black w-4 h-4 focus:ring-0 mb-1"
 				type="checkbox"
 				bind:checked={$lvl1All}
 			/>
@@ -144,7 +144,7 @@
 			{#each lvl2Options as option}
 				<label class="whitespace-nowrap space-x-1">
 					<input
-						class="text-black border-2 border-black w-4 h-4 focus:ring-0 mb-1"
+						class="text-black border border-black w-4 h-4 focus:ring-0 mb-1"
 						type="checkbox"
 						bind:group={$lvl2}
 						value={option}
@@ -155,7 +155,7 @@
 		</div>
 		<label class="col-span-1 justify-self-end space-x-1">
 			<input
-				class="text-black border-2 border-black w-4 h-4 focus:ring-0 mb-1"
+				class="text-black border border-black w-4 h-4 focus:ring-0 mb-1"
 				type="checkbox"
 				bind:checked={$lvl2All}
 			/>
@@ -169,7 +169,7 @@
 			{#each lvl3Options as option}
 				<label class="whitespace-nowrap space-x-1">
 					<input
-						class="text-black border-2 border-black w-4 h-4 focus:ring-0 mb-1"
+						class="text-black border border-black w-4 h-4 focus:ring-0 mb-1"
 						type="checkbox"
 						bind:group={$lvl3}
 						value={option}
@@ -180,7 +180,7 @@
 		</div>
 		<label class="col-span-1 justify-self-end space-x-1">
 			<input
-				class="text-black border-2 border-black w-4 h-4 focus:ring-0 mb-1"
+				class="text-black border border-black w-4 h-4 focus:ring-0 mb-1"
 				type="checkbox"
 				bind:checked={$lvl3All}
 			/>

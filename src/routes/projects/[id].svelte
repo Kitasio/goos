@@ -10,25 +10,27 @@
 </script>
 
 <Nav />
-<div class="lg:grid grid-cols-4">
+<div class="lg:grid grid-cols-4 w-full">
 	<div
 		class="mt-10 lg:my-10 p-5 lg:mx-0 col-span-1 lg:flex flex-col justify-between lg:border-r border-black"
 	>
-		<div class="lg:mt-5 2xl:px-5 hidden lg:flex justify-between">
-			<a
-				href="/projects/{parseInt(id) == 0 ? items.projects.length - 1 : parseInt(id) - 1}"
-				rel="external"
-			>
-				<div class="flex space-x-3 items-center cursor-pointer">
-					<img class="w-5 h-5" src="/images/arrow-left.svg" alt="" />
-				</div>
-			</a>
-			<a
-				href="/projects/{parseInt(id) + 1 >= items.projects.length ? '0' : parseInt(id) + 1}"
-				rel="external"
-			>
-				<img class="w-5 h-5 cursor-pointer" src="/images/arrow.svg" alt="" />
-			</a>
+		<div class="fixed w-screen bottom-10 pr-10 lg:static lg:pr-0 lg:w-full">
+			<div class="lg:mt-5 2xl:px-5 flex justify-between">
+				<a
+					href="/projects/{parseInt(id) == 0 ? items.projects.length - 1 : parseInt(id) - 1}"
+					rel="external"
+				>
+					<div class="flex space-x-3 items-center cursor-pointer">
+						<img class="w-5 h-5" src="/images/arrow-left.svg" alt="" />
+					</div>
+				</a>
+				<a
+					href="/projects/{parseInt(id) + 1 >= items.projects.length ? '0' : parseInt(id) + 1}"
+					rel="external"
+				>
+					<img class="w-5 h-5 cursor-pointer" src="/images/arrow.svg" alt="" />
+				</a>
+			</div>
 		</div>
 		<div class=" 2xl:px-5">
 			<h1 class="font-bt font-thin text-2xl leading-5">{items.projects[id].title}</h1>
@@ -42,7 +44,7 @@
 
 	{#if items.projects[id].video}
 		<div class="px-5 pb-16 xl:px-20 2xl:px-32 col-span-3 lg:h-screen flex">
-			<div class="w-full self-end">
+			<div class="w-full self-end aspect-video">
 				<Youtube id={items.projects[id].video} />
 			</div>
 		</div>

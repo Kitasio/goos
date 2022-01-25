@@ -1,7 +1,7 @@
 <script>
 	import { fly } from 'svelte/transition';
 	export let toggled = false;
-	export let white
+	export let white;
 </script>
 
 <div class="cursor-pointer">
@@ -12,9 +12,9 @@
 	{:else}
 		<div class="pt-0.5">
 			<div in:fly={{ x: -20, duration: 200 }} class="space-y-1.5 m-3">
-				<div class:white={white} class="w-7 h-0.5 bg-black" />
-				<div class:white={white} class="w-7 h-0.5 bg-black" />
-				<div class:white={white} class="w-7 h-0.5 bg-black" />
+				<div class:white class="w-7 h-0.5 bg-black" />
+				<div class:white class="w-7 h-0.5 bg-black" />
+				<div class:white class="w-7 h-0.5 bg-black" />
 			</div>
 		</div>
 	{/if}

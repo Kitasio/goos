@@ -40,12 +40,12 @@
 <div>
 	<div
 		on:click={() => ($showFilter = !$showFilter)}
-		class="flex mt-10 fixed w-full bg-white z-50 lg:hidden justify-between items-center px-7 py-5 border-b border-t border-black text-sm flex-auto"
+		class="flex mt-10 fixed w-full bg-white z-40 lg:hidden justify-between items-center px-7 py-5 border-b border-t border-black flex-auto"
 	>
 		<h1>Навигация по проектам</h1>
 		<p class="mt-1">
 			<img
-				class={$showFilter ? '-rotate-90 transition' : 'rotate-90 transition'}
+				class={$showFilter ? 'rotate-90 transition' : '-rotate-90 transition'}
 				src="/images/arrow.svg"
 				alt="arrow"
 			/>

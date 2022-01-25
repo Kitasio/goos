@@ -40,9 +40,9 @@
 		>
 			<div
 				in:fly={{ x: 20, duration: 200 }}
-				class="flex font-medium py-2 w-full px-5 items-center"
+				class="flex font-medium py-2 w-full px-5"
 			>
-				{#if $page.params.name}
+				<!-- {#if $page.params.name}
 					<a href="/team">
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
@@ -76,9 +76,9 @@
 							/>
 						</svg>
 					</a>
-				{/if}
-				<div class="w-full flex items-center justify-center">
-					<a href="/" class="sm:ml-10 font-bt uppercase text-center">gooseva komanda</a>
+				{/if} -->
+				<div class="w-full flex items-center pl-2">
+					<a href="/" class="sm:ml-10 font-bt uppercase">gooseva komanda</a>
 				</div>
 			</div>
 			<div on:click={() => (toggled = !toggled)} class="px-2">
