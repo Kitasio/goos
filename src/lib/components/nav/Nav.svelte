@@ -77,7 +77,7 @@
 						</svg>
 					</a>
 				{/if} -->
-				<div class="w-full flex items-center pl-2">
+				<div class="w-full flex items-center">
 					<a href="/" class="sm:ml-10 font-bt uppercase">gooseva komanda</a>
 				</div>
 			</div>

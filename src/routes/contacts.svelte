@@ -20,13 +20,11 @@
 
 	<p class="mt-3">Instagram</p>
 	<div>
-		<a href="https://www.instagram.com/guseva_stylist" target="_blank" class="font-bold">@guseva_stylist</a>
+			<a href="https://www.instagram.com/guseva_director" target="_blank" class="font-bold"
+				>@guseva_director</a
+			>
 	</div>
 	<div>
 		<a href="https://www.instagram.com/gooseva_komanda" target="_blank" class="font-bold">@gooseva_komanda</a>
 	</div>
-	<p class="mt-3">
-		Если вы&nbsp;хотите присоединиться к&nbsp;нашей команде, поделиться новостями или просто
-		познакомиться с&nbsp;нами, напишите на&nbsp;goosevastyle@gmail.com
-	</p>
 </div>

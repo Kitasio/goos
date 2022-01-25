@@ -21,15 +21,15 @@
 
 	onMount(() => {
 		const tl = gsap.timeline({ repeat: 5 });
-		tl.to('.img2', { duration: 1, opacity: 1, delay: 3, onStart: () => (white = false) });
+		tl.to('.img2', { duration: 1, opacity: 1, delay: 5, onStart: () => (white = false) });
 		tl.to('.img1', { duration: 1, opacity: 0 }, '-=1');
-		tl.to('.img3', { duration: 1, opacity: 1, delay: 3, onStart: () => (white = true) });
+		tl.to('.img3', { duration: 1, opacity: 1, delay: 5, onStart: () => (white = true) });
 		tl.to('.img2', { duration: 1, opacity: 0 }, '-=1');
-		tl.to('.img4', { duration: 1, opacity: 1, delay: 3, onStart: () => (white = false) });
+		tl.to('.img4', { duration: 1, opacity: 1, delay: 5, onStart: () => (white = false) });
 		tl.to('.img3', { duration: 1, opacity: 0 }, '-=1');
-		tl.to('.img5', { duration: 1, opacity: 1, delay: 3, onStart: () => (white = false) });
+		tl.to('.img5', { duration: 1, opacity: 1, delay: 5, onStart: () => (white = false) });
 		tl.to('.img4', { duration: 1, opacity: 0 }, '-=1');
-		tl.to('.img1', { duration: 1, opacity: 1, delay: 3, onStart: () => (white = true) });
+		tl.to('.img1', { duration: 1, opacity: 1, delay: 5, onStart: () => (white = true) });
 		tl.to('.img5', { duration: 1, opacity: 0 }, '-=1');
 	});
 

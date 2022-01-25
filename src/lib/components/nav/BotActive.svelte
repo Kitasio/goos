@@ -5,6 +5,29 @@
 	const closeBot = () => {
 		dispatch('closeBot');
 	};
+	let media = [
+		'/images/media/1.png',
+		'/images/media/2.png',
+		'/images/media/3.png',
+		'/images/media/4.png',
+		'/images/media/5.png',
+		'/images/media/6.png',
+		'/images/media/7.png',
+		'/images/media/8.png',
+		'/images/media/9.png',
+		'/images/media/10.png',
+		'/images/media/11.png',
+		'/images/media/12.png',
+		'/images/media/13.png',
+		'/images/media/14.png',
+		'/images/media/15.png',
+		'/images/media/16.jpeg',
+		'/images/media/17.png',
+		'/images/media/18.png',
+		'/images/media/19.png',
+		'/images/media/20.png',
+		'/images/media/21.png',
+	]
 	let images = [
 		'/images/companies/1.png',
 		'/images/companies/2.png',
@@ -121,9 +144,11 @@
 					Nonative, Rayda, Indablack, Варнава, Manizha
 				</p>
 				<p class="font-bold mt-5">Медиа и журналы</p>
-				<p class="mt-5 font-normal 2xl:whitespace-pre-line">
-					РБК, GLAMOUR, Wonderzine, HIPO , SNC, MarieСlaire
-				</p>
+				<div class="mt-5 grid grid-cols-6 gap-5">
+					{#each media as img, index (index)}
+						<img class="w-16 object-cover" src={img} alt="" />
+					{/each}
+				</div>
 				<p class="font-bold mt-5">Бренды и компании</p>
 				<div class="mt-5 grid grid-cols-6 gap-5">
 					{#each images as img, index (index)}

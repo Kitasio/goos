@@ -113,7 +113,7 @@
 
 <!-- MOBILE -->
 <div class="bg-white lg:hidden">
-	<div class="px-7 py-5 grid grid-cols-4 border-b border-black">
+	<div class="px-5 py-5 grid grid-cols-4 border-b border-black">
 		<h1 class="col-span-2">Проект</h1>
 		<div class="col-span-1 flex flex-col space-y-2">
 			{#each lvl1Options as option}
@@ -138,7 +138,7 @@
 		</label>
 	</div>
 
-	<div class="p-7 grid grid-cols-4 border-b border-black">
+	<div class="p-5 grid grid-cols-4 border-b border-black">
 		<h1 class="col-span-2">Направление</h1>
 		<div class="col-span-1 flex flex-col space-y-2">
 			{#each lvl2Options as option}
@@ -163,7 +163,7 @@
 		</label>
 	</div>
 
-	<div class="p-7 grid grid-cols-4 border-b border-black">
+	<div class="p-5 grid grid-cols-4 border-b border-black">
 		<h1 class="col-span-2">Стайлинг</h1>
 		<div class="col-span-1 flex flex-col space-y-2">
 			{#each lvl3Options as option}
