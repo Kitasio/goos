@@ -5,12 +5,25 @@
 	import Player from '$lib/components/Player.svelte';
 	import Nav from '$lib/components/nav/Nav.svelte';
 	import Youtube from '$lib/components/Youtube.svelte';
+	import { onMount } from 'svelte';
+	import { botActive, topActive } from '$lib/functions/utils';
 
 	let id = $page.params.id;
+
+	onMount(() => {
+		$botActive = false;
+		$topActive = false;
+	});
+	const toggleOff = () => {
+		if ($topActive || $botActive) {
+			$botActive = false;
+			$topActive = false;
+		}
+	};
 </script>
 
 <Nav />
-<div class="lg:grid grid-cols-4 w-full">
+<div on:click={toggleOff} class="lg:grid grid-cols-4 w-full">
 	<div
 		class="mt-10 lg:my-10 p-5 lg:mx-0 col-span-1 lg:flex flex-col justify-between lg:border-r border-black"
 	>

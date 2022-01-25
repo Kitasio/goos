@@ -26,8 +26,8 @@
 			visibility: visible;
 		}
 		100% {
-			-webkit-transform: translate3d(-100%, 0, 0);
-			transform: translate3d(-100%, 0, 0);
+			-webkit-transform: translate3d(-80%, 0, 0);
+			transform: translate3d(-80%, 0, 0);
 		}
 	}
 	@keyframes ticker {
@@ -37,8 +37,8 @@
 			visibility: visible;
 		}
 		100% {
-			-webkit-transform: translate3d(-100%, 0, 0);
-			transform: translate3d(-100%, 0, 0);
+			-webkit-transform: translate3d(-80%, 0, 0);
+			transform: translate3d(-80%, 0, 0);
 		}
 	}
 	.ticker-wrap {

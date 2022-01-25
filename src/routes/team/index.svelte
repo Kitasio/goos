@@ -27,7 +27,7 @@
 		gsap.registerPlugin(ScrollToPlugin);
 		gsap.to(window, {
 			duration: 0,
-			scrollTo: '#item' + Math.floor(items.length / 3).toString()
+			scrollTo: '#item11'
 		});
 		for (let i = 0; i < items.length; i++) {
 			gsap.to(`#item${i}`, {

@@ -1,22 +1,5 @@
 export const people = [
 	{
-		text: 'Иллария Гореликова',
-		img: '/images/team/6.jpg',
-		link: '/team/gorelikova',
-		profession: `Стилист, ассистент`,
-		about: `Два года работает в&nbsp;индустрии. Иллария&nbsp;&mdash; девушка командная, исполнительная, любит брать на&nbsp;себя множество задач и&nbsp;всегда работает на&nbsp;результат. Специализируется на&nbsp;fashion съемках и&nbsp;рекламе.`,
-		projects: ['swatch', 'aesthetics', 'catsuit', 'sbermarketing', 'cottege']
-	},
-	{
-		text: 'Анастасия Меньшова',
-		img: '/images/team/1.jpg',
-		link: '/team/menshova',
-		profession: `Ассистент стилиста`,
-		about: `Выпускница Института Современного Искусства. Закончила курс &laquo;Fashion Stylist&raquo; в&nbsp;&laquo;Self Made Studio&raquo;.
-		
-		Профессионально ориентируясь в&nbsp;фото и&nbsp;видео редакторах (Adobe Photoshop&nbsp;/ Final Cut), быстро и&nbsp;качественно составляет мудборды и&nbsp;референсы в&nbsp;ходе подготовительного процесса к&nbsp;съемке. Опыт в&nbsp;организации различных творческих мероприятий помогает ответственно подходить к&nbsp;выполнению креативного задания и&nbsp;при этом предполагает дружелюбную атмосферу на&nbsp;площадке.`,
-	}, 
-	{
 		text: 'Анна Гусева',
 		img: '/images/team/guseva.jpg',
 		link: '/team/gooseva',
@@ -132,4 +115,21 @@ export const people = [
 		Лера нежная девушка со&nbsp;стойким характером, а&nbsp;ее&nbsp;организаторским способностям позавидует любой проджект менеджер. Ее&nbsp;работа на&nbsp;съемочной площадке всегда четкая, быстрая и&nbsp;максимально структурированная.`,
 		projects: ['colors', 'dancers', 'legacy', 'raava', 'zhara2', 'zhara1']
 	},
+	{
+		text: 'Иллария Гореликова',
+		img: '/images/team/6.jpg',
+		link: '/team/gorelikova',
+		profession: `Стилист, ассистент`,
+		about: `Два года работает в&nbsp;индустрии. Иллария&nbsp;&mdash; девушка командная, исполнительная, любит брать на&nbsp;себя множество задач и&nbsp;всегда работает на&nbsp;результат. Специализируется на&nbsp;fashion съемках и&nbsp;рекламе.`,
+		projects: ['swatch', 'aesthetics', 'catsuit', 'sbermarketing', 'cottege']
+	},
+	{
+		text: 'Анастасия Меньшова',
+		img: '/images/team/1.jpg',
+		link: '/team/menshova',
+		profession: `Ассистент стилиста`,
+		about: `Выпускница Института Современного Искусства. Закончила курс &laquo;Fashion Stylist&raquo; в&nbsp;&laquo;Self Made Studio&raquo;.
+		
+		Профессионально ориентируясь в&nbsp;фото и&nbsp;видео редакторах (Adobe Photoshop&nbsp;/ Final Cut), быстро и&nbsp;качественно составляет мудборды и&nbsp;референсы в&nbsp;ходе подготовительного процесса к&nbsp;съемке. Опыт в&nbsp;организации различных творческих мероприятий помогает ответственно подходить к&nbsp;выполнению креативного задания и&nbsp;при этом предполагает дружелюбную атмосферу на&nbsp;площадке.`,
+	}, 
 ];

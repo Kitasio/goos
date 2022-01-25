@@ -152,7 +152,7 @@
 							<div
 								class={$showFilter
 									? 'flex justify-between items-center cursor-pointer hover:shadow-border w-2/3 xl:w-3/4 border-black border-r bg-white'
-									: 'flex justify-between items-center cursor-pointer hover:shadow-border w-2/3 xl:w-3/4 border-black border-r'}
+									: 'flex justify-between items-center cursor-pointer hover:shadow-border w-2/3 xl:w-3/4 border-black border-r bg-white'}
 								on:click={toggleFilter}
 							>
 								<h1 class="ml-5 2xl:ml-10 font-medium whitespace-nowrap">Навигация по проектам</h1>
@@ -213,14 +213,14 @@
 						</div>
 					{:else}
 						<div
-							class="flex transition duration-200 hover:shadow-border font-medium py-2 w-2/3 xl:w-3/4 items-center border-r border-black"
+							class="flex transition duration-200 hover:shadow-border font-medium py-2 w-2/3 xl:w-3/4 items-center border-r border-black bg-white"
 						>
 							<a href="/" class="ml-5 2xl:ml-10 font-bt uppercase w-full">gooseva komanda</a>
 						</div>
 					{/if}
 					<div
 						class={$page.url.pathname == '/'
-							? 'w-full lg:flex justify-between '
+							? 'w-full lg:flex justify-between'
 							: 'w-1/3 xl:w-1/4 lg:flex justify-between'}
 						on:click={toggleBot}
 					>

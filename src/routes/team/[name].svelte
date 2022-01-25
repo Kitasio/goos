@@ -6,6 +6,7 @@
 	import { projects } from '$lib/teamProjects';
 	import { onMount } from 'svelte';
 	import Player from '$lib/components/Player.svelte';
+import { botActive, topActive } from '$lib/functions/utils';
 
 	let projectOpen = false;
 	let selectedProject = 0;
@@ -33,6 +34,8 @@
 	let person = {};
 	let personProjects = [];
 	onMount(() => {
+		$botActive = false
+		$topActive = false
 		person = people.find((x) => x.link === '/team/' + $page.params.name);
 		if (person['projects']) {
 			for (let i = 0; i < person['projects'].length; i++) {
@@ -42,6 +45,12 @@
 			}
 		}
 	});
+	const toggleOff = () => {
+		if ($topActive || $botActive) {
+			$botActive = false;
+			$topActive = false;
+		}
+	};
 </script>
 
 <div class="lg:hidden">
@@ -81,7 +90,7 @@
 <div class="hidden lg:block">
 	<Nav />
 </div>
-<div class="hidden lg:grid grid-cols-4 h-screen py-10">
+<div on:click={toggleOff} class="hidden lg:grid grid-cols-4 h-screen py-10">
 	<div class="border-r border-black col-span-1 p-5 2xl:p-10">
 		<!-- <div> -->
 			<h1 class="text-md font-medium fixed">Стилисты</h1>

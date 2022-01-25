@@ -1,9 +1,9 @@
 <script>
-	import { showFilter } from '$lib/functions/utils';
+	import { page } from "$app/stores"
 	export let white;
 </script>
 
-{#if $showFilter}
+{#if $page.url.pathname !== '/'}
 	<span
 		class="flex transition border-black bg-white border-r duration-200 hover:shadow-white pl-5 cursor-pointer w-1/3 font-medium py-2 items-center pr-10"
 	>
