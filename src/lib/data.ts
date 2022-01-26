@@ -230,15 +230,15 @@ export const items = {
             style: '50% 5% 5% 5%'
 		},
 		{
-			title: 'SEBASTIAN + SYSTEM 2019',
+			title: 'SEBASTIAN / SYSTEM 2019',
 			tagNames: ['#фото', '#фешн', '#женскийстайлинг'],
 			tags: ['Фото', 'Фешн', 'Женский'],
-			mainImg: '/images/projects/SEBASTIAM+SYSTEM 2019/4.jpg',
+			mainImg: '/images/projects/SEBASTIAM/SYSTEM 2019/4.jpg',
 			images: [
-				'/images/projects/SEBASTIAM+SYSTEM 2019/4.jpg',
-				'/images/projects/SEBASTIAM+SYSTEM 2019/2.jpg',
-				'/images/projects/SEBASTIAM+SYSTEM 2019/3.jpg',
-				'/images/projects/SEBASTIAM+SYSTEM 2019/1.jpg'
+				'/images/projects/SEBASTIAM/SYSTEM 2019/4.jpg',
+				'/images/projects/SEBASTIAM/SYSTEM 2019/2.jpg',
+				'/images/projects/SEBASTIAM/SYSTEM 2019/3.jpg',
+				'/images/projects/SEBASTIAM/SYSTEM 2019/1.jpg'
 			],
 		},
 		{
