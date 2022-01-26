@@ -264,7 +264,7 @@ export const projects = [
     {
         name: 'Tinavie',
         link: '/team/projects/tinavie',
-        mainImg: '/images/teamProjects/tinavie/3.jpg',
+        mainImg: '/images/teamProjects/tinavie/1.jpg',
         images: ['/images/teamProjects/tinavie/1.jpg', '/images/teamProjects/tinavie/2.jpg', '/images/teamProjects/tinavie/3.jpg', '/images/teamProjects/tinavie/4.jpg', '/images/teamProjects/tinavie/5.jpg', '/images/teamProjects/tinavie/6.jpg', '/images/teamProjects/tinavie/7.jpg', '/images/teamProjects/tinavie/8.jpg',],
 
     },
@@ -308,7 +308,8 @@ export const projects = [
         name: 'LEGACY MUSIC',
         link: '/team/projects/legacy',
         mainImg: '/images/teamProjects/legacy/1.jpg',
-        video: '/images/teamProjects/legacy/LEGACY.MP4',
+        ytid: 'kB3-I2Go8Ww',
+        // video: '/images/teamProjects/legacy/LEGACY.MP4',
 
     },
     {
@@ -719,7 +720,7 @@ export const projects = [
         name: "SOKOLOVA BOGORODSKAYA SS 21",
         link: '/team/projects/sokolova',
         mainImg: '/images/teamProjects/sokolova/1.jpeg',
-        video: '/images/teamProjects/sokolova/1.mp4',
+        images: ['/images/teamProjects/sokolova/1.jpeg', '/images/teamProjects/sokolova/2.jpg']
     },
     {
         name: 'SOROLLA - FASHION STORY',
