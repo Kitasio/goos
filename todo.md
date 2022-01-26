@@ -3,6 +3,7 @@
 3. burger mobile links still suck
 <!-- 4. ticker ends -->
 <!-- 5. on not index pages navbar bg-white -->
+<!-- 6. new to top -->
 
 lost:
 

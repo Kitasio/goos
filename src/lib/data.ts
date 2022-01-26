@@ -1,6 +1,69 @@
 export const items = {
 	projects: [
 		{
+			title: 'EMPIRE V',
+			tagNames: ['#видео', '#женскийстайлинг', '#мужскойстайлинг'],
+			tags: ['Видео', 'Женский', 'Мужской'],
+			mainImg: '/images/projects/EmpireV/1.jpg',
+			video: '2iwZnD_kevE',
+			style: '35% 3% 20% 5%'
+		},
+		{
+			title: 'GOOGLE x MANIZHA',
+			tagNames: ['#видео' , '#женскийстайлинг', '#мужскойстайлинг'],
+			tags: ['Видео', 'Женский', 'Мужской'],
+			mainImg: '/images/projects/google/1.jpg',
+			video: '6TVvZCdOWDE',
+			style: '4% 0 53% 10%'
+		},
+		{
+			title: "L'ONE",
+			tagNames: ['#видео', '#женскийстайлинг', '#мужскойстайлинг'],
+			tags: ['Видео', 'Женский', 'Мужской'],
+			mainImg: '/images/projects/LONE/1.jpg',
+			video: 'IadRjeHrUaM',
+			style: '44% 5% 5% 22%'
+		},
+		{
+			title: "MANIZHA - NOW OR NEVER",
+			tagNames: ['#фото', '#женскийстайлинг'],
+			tags: ['Фото', 'Женский'],
+			mainImg: '/images/projects/manizha/1.jpg',
+			localVideo: '/images/projects/manizha/1.mp4'
+		},
+		{
+			title: 'MUJUICE - ZODIAC',
+			tagNames: ['#видео', '#мужскойстайлинг'],
+			tags: ['Видео', 'Мужской'],
+			mainImg: '/images/projects/mujuice/1.jpg',
+			video: 'kH_w5ks9GB4',
+			style: '8% 10% 39% 2%'
+		},
+		{
+			title: 'NOT ALICE x PAP Magazine',
+			tagNames: ['#видео', '#женскийстайлинг', '#мужскойстайлинг'],
+			tags: ['Видео', 'Женский', 'Мужской'],
+			mainImg: '/images/teamProjects/notalice/1.jpg',
+			video: 'zLiUQXpQ5rg',
+			style: '50% 0 10% 0'
+		},
+		{
+			title: 'ORIFLAME',
+			tagNames: ['#видео', '#женскийстайлинг'],
+			tags: ['Видео', 'Женский'],
+			mainImg: '/images/teamProjects/oriflame/1.jpg',
+			localVideo: '/images/teamProjects/oriflame/1.mp4',
+			style: '19% 5% 22% 15%'
+		},
+		{
+			title: 'RAYON - INDABLACK x RAIDA',
+			tagNames: ['#видео', '#женскийстайлинг' , '#мужскойстайлинг'],
+			tags: ['Видео', 'Женский', 'Мужской'],
+			mainImg: '/images/projects/rayon/1.jpg',
+			video: 'Yvs7O-BLivw',
+			style: '5% 5% 35% 35%'
+		},
+		{
 			title: 'WHAT BOTHER ME',
 			tagNames: ['#видео', '#женскийстайлинг', '#мужскойстайлинг'],
 			tags: ['Видео', 'Женский', 'Мужской'],
@@ -20,22 +83,21 @@ export const items = {
 			title: 'SPIN4SPIN',
 			tagNames: ['#фото', '#фешн', '#женскийстайлинг', '#мужскойстайлинг'],
 			tags: ['Фото', 'Фешн', 'Женский', 'Мужской'],
-			mainImg: '/images/projects/SPIN4SPIN/  -03.jpg',
+			mainImg: '/images/projects/SPIN4SPIN/11.jpg',
 			images: [
-				'/images/projects/SPIN4SPIN/  -01.jpg',
-				'/images/projects/SPIN4SPIN/  -03.jpg',
-				'/images/projects/SPIN4SPIN/  -02.jpg',
-				'/images/projects/SPIN4SPIN/  -06.jpg',
-				'/images/projects/SPIN4SPIN/  -12.jpg',
-				'/images/projects/SPIN4SPIN/  -07.jpg',
-				'/images/projects/SPIN4SPIN/  -11.jpg',
-				'/images/projects/SPIN4SPIN/  -05.jpg',
-				'/images/projects/SPIN4SPIN/  -04.jpg',
-				'/images/projects/SPIN4SPIN/  -10.jpg',
-				'/images/projects/SPIN4SPIN/  -09.jpg',
-				'/images/projects/SPIN4SPIN/  -08.jpg'
+				'/images/projects/SPIN4SPIN/1.jpg',
+				'/images/projects/SPIN4SPIN/2.jpg',
+				'/images/projects/SPIN4SPIN/3.jpg',
+				'/images/projects/SPIN4SPIN/4.jpg',
+				'/images/projects/SPIN4SPIN/5.jpg',
+				'/images/projects/SPIN4SPIN/6.jpg',
+				'/images/projects/SPIN4SPIN/7.jpg',
+				'/images/projects/SPIN4SPIN/8.jpg',
+				'/images/projects/SPIN4SPIN/9.jpg',
+				'/images/projects/SPIN4SPIN/10.jpg',
+				'/images/projects/SPIN4SPIN/11.jpg',
+				'/images/projects/SPIN4SPIN/12.jpg'
 			],
-			classes: 'p-2',
 			video: ''
 		},
 		{
@@ -223,7 +285,7 @@ export const items = {
 			title: 'TRAPEZE OF MALEVICH x CNS MAGAZINE',
 			tagNames: ['#фото', '#эдиториал', '#женскийстайлинг'],
 			tags: ['Фото', 'Эдиториал', 'Женский'],
-			mainImg: '/images/projects/TRAPEZE OF MALEVICH/10.jpg',
+			mainImg: '/images/projects/TRAPEZE OF MALEVICH/8.jpg',
 			images: [
 				'/images/projects/TRAPEZE OF MALEVICH/8.jpg',
 				'/images/projects/TRAPEZE OF MALEVICH/9.jpg',
@@ -475,24 +537,24 @@ export const items = {
 			title: 'Антон Криворотов для обложек холостяка',
 			tagNames: ['#фото', '#реклама', '#мужскойстайлинг'],
 			tags: ['Фото', 'Реклама', 'Мужской'],
-			mainImg: '/images/projects/HOLOSTIAK/Копия d4394489085388a02b800188bfeb6026.jpg',
+			mainImg: '/images/projects/HOLOSTIAK/5.jpg',
 			images: [
-				'/images/projects/HOLOSTIAK/Копия ok-zhurnal-8-02.jpg',
-				'/images/projects/HOLOSTIAK/Копия d4394489085388a02b800188bfeb6026.jpg',
-				'/images/projects/HOLOSTIAK/Копия 72e447bc9980f966eabc570ba2438d62.jpg'
+				'/images/projects/HOLOSTIAK/5.jpg',
+				'/images/projects/HOLOSTIAK/4.jpg',
+				'/images/projects/HOLOSTIAK/3.jpg'
 			],
 		},
 		{
 			title: 'РБК СПЕЦПРОЕКТ',
 			tagNames: ['#фото', '#реклама', '#мужскойстайлинг'],
 			tags: ['Фото', 'Реклама', 'Мужской'],
-			mainImg: '/images/projects/RBK/Копия main-img-1.jpg',
+			mainImg: '/images/projects/RBK/1.jpg',
 			images: [
-				'/images/projects/RBK/Копия review-sisoev.jpg',
-				'/images/projects/RBK/Копия main-img-2.jpg',
-				'/images/projects/RBK/Копия main-img-1.jpg',
-				'/images/projects/RBK/Копия review-marko.jpg',
-				'/images/projects/RBK/Копия review-marko-2.jpg'
+				'/images/projects/RBK/1.jpg',
+				'/images/projects/RBK/2.jpg',
+				'/images/projects/RBK/3.jpg',
+				'/images/projects/RBK/4.jpg',
+				'/images/projects/RBK/5.jpg'
 			],
 		},
 		{
@@ -560,17 +622,17 @@ export const items = {
 			title: 'SCHIAP / VGXW MAG',
 			tagNames: ['#фото', '#эдиториал', '#женскийстайлинг'],
 			tags: ['Фото', 'Эдиториал', 'Женский'],
-			mainImg: '/images/projects/SCHIAP:VGXW/Копия 2019_11_17_SCHIAP_7090.jpg',
+			mainImg: '/images/projects/SCHIAP_VGXW/Копия 2019_11_17_SCHIAP_7090.jpg',
 			images: [
-				'/images/projects/SCHIAP:VGXW/Копия 2019_11_17_SCHIAP_6825.jpg',
-				'/images/projects/SCHIAP:VGXW/Копия 2019_11_17_SCHIAP_7090.jpg',
-				'/images/projects/SCHIAP:VGXW/Копия 2019_11_17_SCHIAP_6402.jpg',
-				'/images/projects/SCHIAP:VGXW/Копия 2019_11_17_SCHIAP_6412.jpg',
-				'/images/projects/SCHIAP:VGXW/Копия 2019_11_17_SCHIAP_6981.jpg',
-				'/images/projects/SCHIAP:VGXW/Копия 2019_11_17_SCHIAP_6185.jpg',
-				'/images/projects/SCHIAP:VGXW/Копия 2019_11_17_SCHIAP_6620.jpg',
-				'/images/projects/SCHIAP:VGXW/Копия 2019_11_17_SCHIAP_6751.jpg',
-				'/images/projects/SCHIAP:VGXW/Копия 2019_11_17_SCHIAP_6888.jpg'
+				'/images/projects/SCHIAP_VGXW/Копия 2019_11_17_SCHIAP_6825.jpg',
+				'/images/projects/SCHIAP_VGXW/Копия 2019_11_17_SCHIAP_7090.jpg',
+				'/images/projects/SCHIAP_VGXW/Копия 2019_11_17_SCHIAP_6402.jpg',
+				'/images/projects/SCHIAP_VGXW/Копия 2019_11_17_SCHIAP_6412.jpg',
+				'/images/projects/SCHIAP_VGXW/Копия 2019_11_17_SCHIAP_6981.jpg',
+				'/images/projects/SCHIAP_VGXW/Копия 2019_11_17_SCHIAP_6185.jpg',
+				'/images/projects/SCHIAP_VGXW/Копия 2019_11_17_SCHIAP_6620.jpg',
+				'/images/projects/SCHIAP_VGXW/Копия 2019_11_17_SCHIAP_6751.jpg',
+				'/images/projects/SCHIAP_VGXW/Копия 2019_11_17_SCHIAP_6888.jpg'
 			],
 		},
 		{
@@ -681,17 +743,17 @@ export const items = {
 			title: 'GERTRUDE / KALTBLUT MAG',
 			tagNames: ['#фото', '#эдиториал', '#женскийстайлинг'],
 			tags: ['Фото', 'Эдиториал', 'Женский'],
-			mainImg: '/images/projects/GERTRUDE:KALTBLUT/Копия IMG_5803.JPG',
+			mainImg: '/images/projects/GERTRUDE_KALTBLUT/Копия IMG_5803.JPG',
 			images: [
-				'/images/projects/GERTRUDE:KALTBLUT/Копия IMG_5805.JPG',
-				'/images/projects/GERTRUDE:KALTBLUT/Копия IMG_5804.JPG',
-				'/images/projects/GERTRUDE:KALTBLUT/Копия IMG_5806.JPG',
-				'/images/projects/GERTRUDE:KALTBLUT/Копия IMG_5807.JPG',
-				'/images/projects/GERTRUDE:KALTBLUT/Копия IMG_5803.JPG',
-				'/images/projects/GERTRUDE:KALTBLUT/Копия IMG_5802.JPG',
-				'/images/projects/GERTRUDE:KALTBLUT/Копия IMG_5800.JPG',
-				'/images/projects/GERTRUDE:KALTBLUT/Копия IMG_5801.JPG',
-				'/images/projects/GERTRUDE:KALTBLUT/Копия 8.jpg'
+				'/images/projects/GERTRUDE_KALTBLUT/Копия IMG_5805.JPG',
+				'/images/projects/GERTRUDE_KALTBLUT/Копия IMG_5804.JPG',
+				'/images/projects/GERTRUDE_KALTBLUT/Копия IMG_5806.JPG',
+				'/images/projects/GERTRUDE_KALTBLUT/Копия IMG_5807.JPG',
+				'/images/projects/GERTRUDE_KALTBLUT/Копия IMG_5803.JPG',
+				'/images/projects/GERTRUDE_KALTBLUT/Копия IMG_5802.JPG',
+				'/images/projects/GERTRUDE_KALTBLUT/Копия IMG_5800.JPG',
+				'/images/projects/GERTRUDE_KALTBLUT/Копия IMG_5801.JPG',
+				'/images/projects/GERTRUDE_KALTBLUT/Копия 8.jpg'
 			],
 			style: '10% 0 20% 50%'
 		},
@@ -866,68 +928,5 @@ export const items = {
 			video: 'pui1uSE63Wo&t=4s',
 			style: '0 0 50% 7%'
 		},
-		{
-			title: 'EMPIRE V',
-			tagNames: ['#видео', '#женскийстайлинг', '#мужскойстайлинг'],
-			tags: ['Видео', 'Женский', 'Мужской'],
-			mainImg: '/images/projects/EmpireV/1.jpg',
-			video: '2iwZnD_kevE',
-			style: '35% 3% 20% 5%'
-		},
-		{
-			title: 'GOOGLE x MANIZHA',
-			tagNames: ['#видео' , '#женскийстайлинг', '#мужскойстайлинг'],
-			tags: ['Видео', 'Женский', 'Мужской'],
-			mainImg: '/images/projects/google/1.jpg',
-			video: '6TVvZCdOWDE',
-			style: '4% 0 53% 10%'
-		},
-		{
-			title: "L'ONE",
-			tagNames: ['#видео', '#женскийстайлинг', '#мужскойстайлинг'],
-			tags: ['Видео', 'Женский', 'Мужской'],
-			mainImg: '/images/projects/LONE/1.jpg',
-			video: 'IadRjeHrUaM',
-			style: '44% 5% 5% 22%'
-		},
-		{
-			title: "MANIZHA - NOW OR NEVER",
-			tagNames: ['#фото', '#женскийстайлинг'],
-			tags: ['Фото', 'Женский'],
-			mainImg: '/images/projects/manizha/1.jpg',
-			localVideo: '/images/projects/manizha/1.mp4'
-		},
-		{
-			title: 'MUJUICE - ZODIAC',
-			tagNames: ['#видео', '#мужскойстайлинг'],
-			tags: ['Видео', 'Мужской'],
-			mainImg: '/images/projects/mujuice/1.jpg',
-			video: 'kH_w5ks9GB4',
-			style: '8% 10% 39% 2%'
-		},
-		{
-			title: 'NOT ALICE x PAP Magazine',
-			tagNames: ['#видео', '#женскийстайлинг', '#мужскойстайлинг'],
-			tags: ['Видео', 'Женский', 'Мужской'],
-			mainImg: '/images/teamProjects/notalice/1.jpg',
-			video: 'zLiUQXpQ5rg',
-			style: '50% 0 10% 0'
-		},
-		{
-			title: 'ORIFLAME',
-			tagNames: ['#видео', '#женскийстайлинг'],
-			tags: ['Видео', 'Женский'],
-			mainImg: '/images/teamProjects/oriflame/1.jpg',
-			localVideo: '/images/teamProjects/oriflame/1.mp4',
-			style: '19% 5% 22% 15%'
-		},
-		{
-			title: 'RAYON - INDABLACK x RAIDA',
-			tagNames: ['#видео', '#женскийстайлинг' , '#мужскойстайлинг'],
-			tags: ['Видео', 'Женский', 'Мужской'],
-			mainImg: '/images/projects/rayon/1.jpg',
-			video: 'Yvs7O-BLivw',
-			style: '5% 5% 35% 35%'
-		}
 	]
 };
