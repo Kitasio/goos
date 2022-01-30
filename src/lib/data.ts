@@ -17,6 +17,22 @@ export const items = {
 			style: '4% 0 53% 10%'
 		},
 		{
+			title: 'SPROTMASTER',
+			tagNames: ['#видео', '#женскийстайлинг', '#мужскойстайлинг'],
+			tags: ['Видео', 'Женский', 'Мужской'],
+			video: 'HhjhjVJsD3M',
+			mainImg: '/images/projects/sportmaster/1.jpg',
+			style: '14% 5% 30% 10%',
+		},
+		{
+			title: 'Renessans',
+			tagNames: ['#видео', '#женскийстайлинг', '#мужскойстайлинг'],
+			tags: ['Видео', 'Женский', 'Мужской'],
+			video: 'DRQ25qY082c',
+			mainImg: '/images/projects/renessans/1.jpg',
+			style: '34% 10% 0 20%',
+		},
+		{
 			title: "L'ONE",
 			tagNames: ['#видео', '#женскийстайлинг', '#мужскойстайлинг'],
 			tags: ['Видео', 'Женский', 'Мужской'],

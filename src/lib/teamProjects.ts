@@ -1,5 +1,17 @@
 export const projects = [
     {
+        name: 'SPROTMASTER',
+        ytid: 'HhjhjVJsD3M',
+        mainImg: '/images/projects/sportmaster/1.jpg',
+        link: '/team/projects/sportmaster',
+    },
+    {
+        name: 'Renessans',
+        ytid: 'DRQ25qY082c',
+        mainImg: '/images/projects/renessans/1.jpg',
+        link: '/team/projects/renessans',
+    },
+    {
         name: `Alone.
         One with World or Lone?
         x Contributor Magazine`,
