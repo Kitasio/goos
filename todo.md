@@ -11,7 +11,7 @@ PeopleProjects:
 
 <!-- 1. absolut city-park -->
 <!-- 2. you drive -->
-3. sportmaster NEED YOUTUBE LINK
+<!-- 3. sportmaster NEED YOUTUBE LINK -->
 4. toyota LEONTYEVA YOUTUBE
 <!-- 5. SOKOLOVA BOGORODSKAYA SS 21 -->
 <!-- 6. BAIKAL -->

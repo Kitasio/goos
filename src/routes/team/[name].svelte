@@ -146,7 +146,7 @@ import { botActive, topActive } from '$lib/functions/utils';
 						/>
 					{:else if personProjects[selectedProject]['images']}
 						{#each personProjects[selectedProject]['images'] as img}
-							<Image src={img} alt="" classes={'mx-auto w-full object-cover max-h-[70vh]'} />
+							<Image src={img} alt="" classes={'mx-auto w-full object-cover object-top max-h-[70vh]'} />
 						{/each}
 					{/if}
 				</div>
