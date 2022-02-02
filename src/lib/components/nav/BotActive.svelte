@@ -146,13 +146,13 @@
 				<p class="font-bold mt-5">Медиа и журналы</p>
 				<div class="mt-5 grid grid-cols-6 gap-5">
 					{#each media as img, index (index)}
-						<img class="w-16 object-cover" src={img} alt="" />
+						<img class="w-16 object-cover self-center" src={img} alt="" />
 					{/each}
 				</div>
 				<p class="font-bold mt-5">Бренды и компании</p>
 				<div class="mt-5 grid grid-cols-6 gap-5">
 					{#each images as img, index (index)}
-						<img class="w-16 object-cover" src={img} alt="" />
+						<img class="w-16 object-cover self-center" src={img} alt="" />
 					{/each}
 				</div>
 			</div>
@@ -160,7 +160,7 @@
 				<p class="font-bold">Награды</p>
 				<div class="mt-5 grid grid-cols-5 gap-5">
 					{#each rewards as img, index (index)}
-						<img class="w-full object-cover" src={img} alt="" />
+						<img class="w-full object-cover self-center" src={img} alt="" />
 					{/each}
 				</div>
 			</div>

@@ -114,13 +114,13 @@
 	<p class="font-bold mt-5">Медиа и журналы</p>
 	<p class="mt-5 grid grid-cols-4 gap-3">
 		{#each media as img, index (index)}
-			<img class="w-16 object-cover" src={img} alt="" />
+			<img class="w-16 object-cover self-center" src={img} alt="" />
 		{/each}
 	</p>
 	<p class="font-bold mt-5">Бренды и компании</p>
 	<div class="mt-5 grid grid-cols-4 gap-3">
 		{#each images as img, index (index)}
-			<img class="w-16 object-cover" src={img} alt="" />
+			<img class="w-16 object-cover self-center" src={img} alt="" />
 		{/each}
 	</div>
 </div>
