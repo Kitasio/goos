@@ -8,29 +8,20 @@
 	import { listForTicker, topActive, botActive } from '$lib/functions/utils';
 	import { browser } from '$app/env';
 
-	let white = true;
-	let item = 1;
-	let time;
-	let hover = (isWhite, num) => {
-		/* 		clearTimeout(time);
-		time = setTimeout(() => {
-			white = isWhite;
-			item = num;
-		}, 400); */
-	};
+	let white = false;
 
 	onMount(() => {
 		const tl = gsap.timeline({ repeat: 5 });
-		tl.to('.img2', { duration: 1, opacity: 1, delay: 5, onStart: () => (white = false) });
+		tl.to('.img2', { duration: 1, opacity: 1, delay: 5, onStart: () => (white = true) });
 		tl.to('.img1', { duration: 1, opacity: 0 }, '-=1');
-		tl.to('.img3', { duration: 1, opacity: 1, delay: 5, onStart: () => (white = true) });
+		tl.to('.img3', { duration: 1, opacity: 1, delay: 5, onStart: () => (white = false) });
 		tl.to('.img2', { duration: 1, opacity: 0 }, '-=1');
 		tl.to('.img4', { duration: 1, opacity: 1, delay: 5, onStart: () => (white = false) });
 		tl.to('.img3', { duration: 1, opacity: 0 }, '-=1');
 		tl.to('.img5', { duration: 1, opacity: 1, delay: 5, onStart: () => (white = false) });
 		tl.to('.img4', { duration: 1, opacity: 0 }, '-=1');
-		tl.to('.img1', { duration: 1, opacity: 1, delay: 5, onStart: () => (white = true) });
-		tl.to('.img5', { duration: 1, opacity: 0 }, '-=1');
+		// tl.to('.img1', { duration: 1, opacity: 1, delay: 5, onStart: () => (white = true) });
+		// tl.to('.img5', { duration: 1, opacity: 0 }, '-=1');
 	});
 
 	const toggleOff = () => {
@@ -72,36 +63,19 @@
 		</div>
 	{/if}
 
-	<!-- <div class="lg:hidden absolute w-full h-full">
-		<div class="img1 w-full object-cover h-screen absolute top-0 opacity-1">
-			<Image
-				srcMobile={'/images/index/1Mobile.jpg'}
-				src={'/images/index/1.jpg'}
-				alt={'main image'}
-				classes={'w-full object-cover h-screen absolute top-0'}
-			/>
-		</div>
+	<div on:click={toggleOff} class="grid grid-cols-3 absolute w-full h-full">
 		<div
-			class="img2 absolute w-full h-screen flex items-center justify-end overflow-hidden opacity-0"
+			transition:fade={{ duration: 100 }}
+			class="img1 absolute w-full h-screen flex items-center justify-end overflow-hidden opacity-1"
 		>
 			<div class="flex flex-col md:flex-row overflow-hidden">
 				<Image src={'/images/index/2.1.jpg'} classes={'ml-28 mt-20 md:m-0 object-cover'} />
 				<Image classes="object-cover" src={'/images/index/2.2.jpg'} />
 			</div>
 		</div>
-		<div class="img4 absolute w-full h-screen flex items-center justify-center opacity-0">
-			<img src="/images/index/4.jpg" alt="" />
-		</div>
-		<img
-			src="/images/index/3.jpg"
-			alt=""
-			class="img3 w-full object-cover h-screen absolute top-0 opacity-0"
-		/>
-	</div> -->
-	<div on:click={toggleOff} class="grid grid-cols-3 absolute w-full h-full">
 		<div
 			transition:fade={{ duration: 100 }}
-			class="img1 w-full object-cover h-screen absolute top-0 opacity-1"
+			class="img2 w-full object-cover h-screen absolute top-0 opacity-0"
 		>
 			<video class="w-full h-full object-cover" src="/images/index/1.webm" autoplay loop>
 				<track kind="captions" />
@@ -109,52 +83,17 @@
 		</div>
 		<div
 			transition:fade={{ duration: 100 }}
-			class="img2 absolute w-full h-screen flex items-center justify-end overflow-hidden opacity-0"
-		>
-			<div class="flex flex-col md:flex-row overflow-hidden">
-				<Image src={'/images/index/2.1.jpg'} classes={'ml-28 mt-20 md:m-0 object-cover'} />
-				<Image classes="object-cover" src={'/images/index/2.2.jpg'} />
-			</div>
-		</div>
-		<div
-			transition:fade={{ duration: 100 }}
-			class="img4 absolute w-full h-screen flex items-center justify-center opacity-0"
+			class="img3 absolute w-full h-screen flex items-center justify-center opacity-0"
 		>
 			<img src="/images/index/4.jpg" alt="" />
 		</div>
 		<div
 			transition:fade={{ duration: 100 }}
-			class="img3 w-full object-cover h-screen absolute top-0 opacity-0"
+			class="img4 w-full object-cover h-screen absolute top-0 opacity-0"
 		>
 			<video class="w-full h-full object-cover" src="/images/index/3.webm" autoplay loop>
 				<track kind="captions" />
 			</video>
 		</div>
-		<div
-			transition:fade={{ duration: 100 }}
-			class="img5 w-full object-cover h-screen absolute top-0 opacity-0"
-		>
-			<video class="w-full h-full object-cover" src="/images/index/5.webm" autoplay loop>
-				<track kind="captions" />
-			</video>
-		</div>
-		<!-- <img
-				transition:fade={{ duration: 100 }}
-				src="/images/index/3.jpg"
-				alt=""
-				class="img3 w-full object-cover h-screen absolute top-0 opacity-0"
-			/> -->
 	</div>
 </div>
-
-<!-- <div
-	on:click={toggleOff}
-	class={$topActive || $botActive
-		? 'hidden'
-		: 'hidden lg:grid grid-cols-2 absolute w-full h-5/6 z-40 top-10'}
->
-	<div on:mouseenter={() => hover(true, 1)} />
-	<div on:mouseenter={() => hover(false, 2)} />
-	<div on:mouseenter={() => hover(false, 3)} />
-	<div on:mouseenter={() => hover(true, 4)} />
-</div> -->
