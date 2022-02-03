@@ -229,7 +229,7 @@ export const projects = [
     {
         name: 'HOLOSTYAK - ANTON KRIVOROTOV',
         link: '/team/projects/holostyak',
-        mainImg: '/images/projects/HOLOSTIAK/Копия d4394489085388a02b800188bfeb6026.jpg',
+        mainImg: '/images/projects/HOLOSTIAK/1.jpg',
         images: [
             '/images/projects/HOLOSTIAK/1.jpg',
             '/images/projects/HOLOSTIAK/2.jpg',
@@ -319,7 +319,7 @@ export const projects = [
     {
         name: 'LEGACY MUSIC',
         link: '/team/projects/legacy',
-        mainImg: '/images/teamProjects/legacy/1.jpg',
+        mainImg: '/images/teamProjects/LEGACY/1.jpg',
         ytid: 'kB3-I2Go8Ww',
         // video: '/images/teamProjects/legacy/LEGACY.MP4',
 
@@ -327,8 +327,8 @@ export const projects = [
     {
         name: 'RAAVA MUSIC',
         link: '/team/projects/raava',
-        mainImg: '/images/teamProjects/raava/1.jpg',
-        images: ['/images/teamProjects/raava/1.jpg', '/images/teamProjects/raava/2.jpg', '/images/teamProjects/raava/3.jpg', '/images/teamProjects/raava/4.jpg', '/images/teamProjects/raava/5.jpg'],
+        mainImg: '/images/teamProjects/RAAVA/1.jpg',
+        images: ['/images/teamProjects/RAAVA/1.jpg', '/images/teamProjects/RAAVA/2.jpg', '/images/teamProjects/RAAVA/3.jpg', '/images/teamProjects/RAAVA/4.jpg', '/images/teamProjects/RAAVA/5.jpg'],
     },
     {
         name: 'ZHARA Magazine x HYPE HOUSE',

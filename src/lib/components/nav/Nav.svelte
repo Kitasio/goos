@@ -97,9 +97,9 @@
 			{#if toggled}
 				<div
 					in:fly={{ x: 20, duration: 200 }}
-					class="flex font-medium py-2 w-full justify-center items-center"
+					class="flex font-medium py-2 w-full items-center"
 				>
-					<h1 class="ml-10 font-bt uppercase">gooseva komanda</h1>
+					<h1 class="ml-5 font-bt uppercase">gooseva komanda</h1>
 				</div>
 			{:else}
 				<a
