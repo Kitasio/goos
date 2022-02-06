@@ -5415,7 +5415,7 @@ var init_install_fetch = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/index-27c4ae06.js
+// .svelte-kit/output/server/chunks/index-193420ae.js
 function noop2() {
 }
 function run(fn) {
@@ -5533,8 +5533,8 @@ function add_attribute(name, value, boolean) {
   return ` ${name}${value === true && boolean_attributes.has(name) ? "" : `=${typeof value === "string" ? JSON.stringify(escape(value)) : `"${value}"`}`}`;
 }
 var current_component, boolean_attributes, escaped, missing_component, on_destroy;
-var init_index_27c4ae06 = __esm({
-  ".svelte-kit/output/server/chunks/index-27c4ae06.js"() {
+var init_index_193420ae = __esm({
+  ".svelte-kit/output/server/chunks/index-193420ae.js"() {
     Promise.resolve();
     boolean_attributes = new Set([
       "allowfullscreen",
@@ -5583,7 +5583,7 @@ __export(layout_svelte_exports, {
 var _layout;
 var init_layout_svelte = __esm({
   ".svelte-kit/output/server/entries/pages/__layout.svelte.js"() {
-    init_index_27c4ae06();
+    init_index_193420ae();
     _layout = create_ssr_component(($$result, $$props, $$bindings, slots) => {
       return `${$$result.head += `<script src="${"https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"}" data-svelte="svelte-13udy0f"><\/script><script src="${"https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/ScrollTrigger.min.js"}" data-svelte="svelte-13udy0f"><\/script><script src="${"https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/ScrollToPlugin.min.js"}" data-svelte="svelte-13udy0f"><\/script>`, ""}
 
@@ -5604,9 +5604,9 @@ var entry, js, css2;
 var init__ = __esm({
   ".svelte-kit/output/server/nodes/0.js"() {
     init_layout_svelte();
-    entry = "pages/__layout.svelte-621ee154.js";
-    js = ["pages/__layout.svelte-621ee154.js", "chunks/vendor-cece5832.js"];
-    css2 = ["assets/pages/__layout.svelte-9456d031.css", "assets/vendor-c402c846.css"];
+    entry = "pages/__layout.svelte-dc70c768.js";
+    js = ["pages/__layout.svelte-dc70c768.js", "chunks/vendor-6d69bdcb.js"];
+    css2 = ["assets/pages/__layout.svelte-0dea0758.css", "assets/vendor-c402c846.css"];
   }
 });
 
@@ -5622,7 +5622,7 @@ function load({ error: error2, status }) {
 var Error2;
 var init_error_svelte = __esm({
   ".svelte-kit/output/server/entries/pages/error.svelte.js"() {
-    init_index_27c4ae06();
+    init_index_193420ae();
     Error2 = create_ssr_component(($$result, $$props, $$bindings, slots) => {
       let { status } = $$props;
       let { error: error2 } = $$props;
@@ -5654,13 +5654,13 @@ var entry2, js2, css3;
 var init__2 = __esm({
   ".svelte-kit/output/server/nodes/1.js"() {
     init_error_svelte();
-    entry2 = "error.svelte-3916ed5c.js";
-    js2 = ["error.svelte-3916ed5c.js", "chunks/vendor-cece5832.js"];
+    entry2 = "error.svelte-9196d76c.js";
+    js2 = ["error.svelte-9196d76c.js", "chunks/vendor-6d69bdcb.js"];
     css3 = ["assets/vendor-c402c846.css"];
   }
 });
 
-// .svelte-kit/output/server/chunks/Nav-0e3ea68b.js
+// .svelte-kit/output/server/chunks/Nav-6054ca6a.js
 function writable2(value, start = noop2) {
   let stop;
   const subscribers = new Set();
@@ -5703,9 +5703,9 @@ function writable2(value, start = noop2) {
   return { set, update, subscribe: subscribe2 };
 }
 var getStores, page, subscriber_queue2, white, showFilter, topActive, botActive, lvl1All, lvl2All, lvl3All, lvl1, lvl2, lvl3, listForTicker, css$2, Burger, Bot, BotActive, TopActive, css$1, Top, MobileLinks, css4, Nav;
-var init_Nav_0e3ea68b = __esm({
-  ".svelte-kit/output/server/chunks/Nav-0e3ea68b.js"() {
-    init_index_27c4ae06();
+var init_Nav_6054ca6a = __esm({
+  ".svelte-kit/output/server/chunks/Nav-6054ca6a.js"() {
+    init_index_193420ae();
     getStores = () => {
       const stores = getContext("__svelte__");
       return {
@@ -5843,61 +5843,151 @@ var init_Nav_0e3ea68b = __esm({
       if ($$props.white === void 0 && $$bindings.white && white2 !== void 0)
         $$bindings.white(white2);
       $$unsubscribe_page();
-      return `${$page.url.pathname != "/" ? `<div class="${"flex transition duration-200 hover:shadow-border pl-5 cursor-pointer w-1/2 font-medium py-2 items-center pr-10"}">\u041A\u043E\u043C\u0430\u043D\u0434\u0430
-	</div>` : ``}
-<span${add_attribute("class", white2 ? "flex transition border-l border-white duration-200 hover:shadow-white pl-5 cursor-pointer w-1/2 font-medium py-2 items-center pr-10" : "flex transition border-l border-black duration-200 hover:shadow-border pl-5 cursor-pointer w-1/2 font-medium py-2 items-center pr-10", 0)}>\u041A\u043B\u0438\u0435\u043D\u0442\u044B</span>
+      return `${$page.url.pathname != "/" ? `<span class="${"flex transition duration-200 hover:shadow-border pl-5 cursor-pointer w-1/2 font-medium py-2 items-center pr-10 bg-white"}">\u041A\u043E\u043C\u0430\u043D\u0434\u0430
+	</span>
+<span class="${"flex transition border-l border-black duration-200 hover:shadow-border pl-5 cursor-pointer w-1/2 font-medium py-2 items-center pr-10 bg-white"}">\u041A\u043B\u0438\u0435\u043D\u0442\u044B</span>
+<span class="${"flex transition border-l border-black duration-200 hover:shadow-border pl-5 cursor-pointer w-1/2 font-medium py-2 items-center pr-10 bg-white"}">\u041D\u0430\u0433\u0440\u0430\u0434\u044B
+</span>` : `<span${add_attribute("class", white2 ? "flex transition border-l border-white duration-200 hover:shadow-white pl-5 cursor-pointer w-1/2 font-medium py-2 items-center pr-10" : "flex transition border-l border-black duration-200 hover:shadow-border pl-5 cursor-pointer w-1/2 font-medium py-2 items-center pr-10", 0)}>\u041A\u043B\u0438\u0435\u043D\u0442\u044B</span>
 <span${add_attribute("class", white2 ? "flex transition border-l border-white duration-200 hover:shadow-white pl-5 cursor-pointer w-1/2 font-medium py-2 items-center pr-10" : "flex transition border-l border-black duration-200 hover:shadow-border pl-5 cursor-pointer w-1/2 font-medium py-2 items-center pr-10", 0)}>\u041D\u0430\u0433\u0440\u0430\u0434\u044B
-</span>`;
+</span>`}`;
     });
     BotActive = create_ssr_component(($$result, $$props, $$bindings, slots) => {
       createEventDispatcher();
+      let media = [
+        "/images/media/1.png",
+        "/images/media/2.png",
+        "/images/media/3.png",
+        "/images/media/4.png",
+        "/images/media/5.png",
+        "/images/media/6.png",
+        "/images/media/7.png",
+        "/images/media/8.png",
+        "/images/media/9.png",
+        "/images/media/10.png",
+        "/images/media/11.png",
+        "/images/media/12.png",
+        "/images/media/13.png",
+        "/images/media/14.png",
+        "/images/media/15.png",
+        "/images/media/16.jpeg",
+        "/images/media/17.png",
+        "/images/media/18.png",
+        "/images/media/19.png",
+        "/images/media/20.png",
+        "/images/media/21.png"
+      ];
       let images = [
-        "/images/companies/cian.png",
-        "/images/companies/lg.png",
-        "/images/companies/mega.png",
-        "/images/companies/samsung.png",
-        "/images/companies/cian.png",
-        "/images/companies/lg.png",
-        "/images/companies/mega.png",
-        "/images/companies/samsung.png",
-        "/images/companies/cian.png",
-        "/images/companies/lg.png",
-        "/images/companies/mega.png",
-        "/images/companies/samsung.png",
-        "/images/companies/cian.png",
-        "/images/companies/lg.png",
-        "/images/companies/mega.png",
-        "/images/companies/samsung.png"
+        "/images/companies/1.png",
+        "/images/companies/2.png",
+        "/images/companies/3.png",
+        "/images/companies/4.png",
+        "/images/companies/5.webp",
+        "/images/companies/6.png",
+        "/images/companies/7.jpeg",
+        "/images/companies/8.png",
+        "/images/companies/9.png",
+        "/images/companies/10.png",
+        "/images/companies/11.png",
+        "/images/companies/12.png",
+        "/images/companies/13.png",
+        "/images/companies/14.png",
+        "/images/companies/15.png",
+        "/images/companies/16.png",
+        "/images/companies/17.png",
+        "/images/companies/18.png",
+        "/images/companies/19.png",
+        "/images/companies/20.png",
+        "/images/companies/21.png",
+        "/images/companies/22.png",
+        "/images/companies/23.svg",
+        "/images/companies/24.png",
+        "/images/companies/25.png",
+        "/images/companies/26.png",
+        "/images/companies/27.png",
+        "/images/companies/28.png",
+        "/images/companies/29.png",
+        "/images/companies/30.png",
+        "/images/companies/31.png",
+        "/images/companies/32.png",
+        "/images/companies/33.png",
+        "/images/companies/34.png",
+        "/images/companies/35.png",
+        "/images/companies/36.png",
+        "/images/companies/37.png",
+        "/images/companies/38.png",
+        "/images/companies/39.png",
+        "/images/companies/40.png",
+        "/images/companies/41.png",
+        "/images/companies/42.png",
+        "/images/companies/43.png",
+        "/images/companies/44.png",
+        "/images/companies/45.png",
+        "/images/companies/46.svg",
+        "/images/companies/47.png",
+        "/images/companies/48.png",
+        "/images/companies/49.png",
+        "/images/companies/50.png",
+        "/images/companies/51.png",
+        "/images/companies/52.png",
+        "/images/companies/53.png",
+        "/images/companies/54.jpg",
+        "/images/companies/55.png",
+        "/images/companies/56.png",
+        "/images/companies/57.png",
+        "/images/companies/58.png",
+        "/images/companies/59.png",
+        "/images/companies/60.png",
+        "/images/companies/61.png",
+        "/images/companies/62.png",
+        "/images/companies/63.png",
+        "/images/companies/64.png"
       ];
       let rewards = [
-        "/images/rewards/reward1.png",
-        "/images/rewards/reward1.png",
-        "/images/rewards/reward1.png",
-        "/images/rewards/reward1.png",
-        "/images/rewards/reward1.png",
-        "/images/rewards/reward1.png",
-        "/images/rewards/reward1.png",
-        "/images/rewards/reward1.png",
-        "/images/rewards/reward1.png",
-        "/images/rewards/reward1.png",
-        "/images/rewards/reward1.png",
-        "/images/rewards/reward1.png",
-        "/images/rewards/reward1.png"
+        "/images/rewards/1.png",
+        "/images/rewards/2.png",
+        "/images/rewards/3.jpg",
+        "/images/rewards/4.png",
+        "/images/rewards/5.png",
+        "/images/rewards/6.png",
+        "/images/rewards/7.png",
+        "/images/rewards/8.png",
+        "/images/rewards/9.png",
+        "/images/rewards/10.png",
+        "/images/rewards/11.png",
+        "/images/rewards/12.png",
+        "/images/rewards/13.png",
+        "/images/rewards/14.png",
+        "/images/rewards/15.png",
+        "/images/rewards/16.png",
+        "/images/rewards/17.png",
+        "/images/rewards/18.png",
+        "/images/rewards/19.png",
+        "/images/rewards/20.png",
+        "/images/rewards/21.png",
+        "/images/rewards/22.jpg",
+        "/images/rewards/23.png",
+        "/images/rewards/24.png",
+        "/images/rewards/25.png",
+        "/images/rewards/26.png",
+        "/images/rewards/27.png",
+        "/images/rewards/28.png",
+        "/images/rewards/29.png",
+        "/images/rewards/30.png",
+        "/images/rewards/31.png"
       ];
       return `<div class="${"hidden lg:inline"}"><div class="${"w-full lg:flex justify-between"}"><a href="${"/team"}" class="${"hidden xl:flex flex-none font-medium w-4/12 xl:w-3/12 items-end"}"><h1 class="${"pl-5 w-full border-black border-t py-2 bg-white"}">\u041A\u043E\u043C\u0430\u043D\u0434\u0430</h1></a>
-		<main class="${"grid grid-cols-2 w-full font-medium divide-x divide-black bg-white"}"><div class="${"px-5 2xl:px-7 pt-10 pb-20 text-sm border-black border-t border-l"}"><p class="${"font-bold"}">\u0410\u0440\u0442\u0438\u0441\u0442\u044B \u0438 \u0441\u0435\u043B\u0435\u0431\u0440\u0438\u0442\u0438</p>
+		<main class="${"grid grid-cols-2 w-full font-medium divide-x divide-black bg-white -ml-[1px]"}"><div class="${"px-5 2xl:px-7 pt-10 pb-20 text-sm border-black border-t border-l overflow-y-scroll max-h-[60vh]"}"><p class="${"font-bold"}">\u0410\u0440\u0442\u0438\u0441\u0442\u044B \u0438 \u0441\u0435\u043B\u0435\u0431\u0440\u0438\u0442\u0438</p>
 				<p class="${"font-normal mt-5 2xl:whitespace-pre-line"}">Sati Kazanova, ZVENTA SVENTANA, VOLEN SENTIR, \u0414\u0438\u0440\u0435\u043A\u0442\u043E\u0440 \u0412\u0441\u0435\u0433\u043E, \u0433\u0440\u0443\u043F\u043F\u0430 Frukt\u044B, Krassna, Dr.
 					Krivorotov, \u0410\u043D\u043D\u0430 \u0425\u0438\u043B\u044C\u043A\u0435\u0432\u0438\u0447, Sunsay, \u0415\u043B\u043A\u0430, Burito, Velvet Music, ALAMPA, \u041B\u044F\u0439\u0441\u0430\u043D \u0423\u0442\u044F\u0448\u0435\u0432\u0430,
 					\u041F\u043E\u043B\u0438\u043D\u0430 \u041C\u0430\u043A\u0441\u0438\u043C\u043E\u0432\u0430, \u0415\u0433\u043E\u0440 \u041A\u043E\u0440\u0435\u0448\u043A\u043E\u0432, \u0416\u0435\u043D\u044F \u0411\u043E\u0440\u0437\u044B\u0445, C\u0411\u041F\u0427, TINAVIE, \u0422\u0438\u043C\u0443\u0440 \u0421\u043E\u043B\u043E\u0432\u044C\u0435\u0432, \u041D\u044E\u0448\u0430,
 					Nonative, Rayda, Indablack, \u0412\u0430\u0440\u043D\u0430\u0432\u0430, Manizha
 				</p>
 				<p class="${"font-bold mt-5"}">\u041C\u0435\u0434\u0438\u0430 \u0438 \u0436\u0443\u0440\u043D\u0430\u043B\u044B</p>
-				<p class="${"mt-5 font-normal 2xl:whitespace-pre-line"}">\u0420\u0411\u041A, GLAMOUR, Wonderzine, HIPO , SNC, Marie\u0421laire
-				</p>
+				<div class="${"mt-5 grid grid-cols-6 gap-5"}">${each(media, (img, index) => `<img class="${"w-16 object-cover self-center"}"${add_attribute("src", img, 0)} alt="${""}">`)}</div>
 				<p class="${"font-bold mt-5"}">\u0411\u0440\u0435\u043D\u0434\u044B \u0438 \u043A\u043E\u043C\u043F\u0430\u043D\u0438\u0438</p>
-				<div class="${"mt-5 grid grid-cols-6"}">${each(images, (img, index) => `<img class="${"w-16 object-cover"}"${add_attribute("src", img, 0)} alt="${""}">`)}</div></div>
-			<div class="${"px-5 2xl:px-7 pt-10 pb-20 text-sm border-black border-t border-l"}"><p class="${"font-bold"}">\u041D\u0430\u0433\u0440\u0430\u0434\u044B</p>
-				<div class="${"mt-5 grid grid-cols-5 gap-3"}">${each(rewards, (img, index) => `<img class="${"w-full object-cover"}"${add_attribute("src", img, 0)} alt="${""}">`)}</div></div>
+				<div class="${"mt-5 grid grid-cols-6 gap-5"}">${each(images, (img, index) => `<img class="${"w-16 object-cover self-center"}"${add_attribute("src", img, 0)} alt="${""}">`)}</div></div>
+			<div class="${"px-5 2xl:px-7 pt-10 pb-20 text-sm border-black border-t border-l overflow-y-scroll max-h-[60vh]"}"><p class="${"font-bold"}">\u041D\u0430\u0433\u0440\u0430\u0434\u044B</p>
+				<div class="${"mt-5 grid grid-cols-5 gap-5"}">${each(rewards, (img, index) => `<img class="${"w-full object-cover self-center"}"${add_attribute("src", img, 0)} alt="${""}">`)}</div></div>
 			<div class="${"flex items-center pl-5 2xl:pl-7 py-2 transition duration-200 hover:shadow-border border-t border-l border-black cursor-pointer"}"><span>\u041A\u043B\u0438\u0435\u043D\u0442\u044B</span></div>
 			<div class="${"flex items-center pl-5 2xl:pl-7 py-2 transition duration-200 hover:shadow-border border-t border-black cursor-pointer"}"><span>\u041D\u0430\u0433\u0440\u0430\u0434\u044B</span></div></main></div></div>`;
     });
@@ -5911,67 +6001,59 @@ var init_Nav_0e3ea68b = __esm({
 		<p class="${"font-normal 2xl:whitespace-pre-line"}">\u043F\u0440\u043E\u0444\u0435\u0441\u0441\u0438\u043E\u043D\u0430\u043B\u044C\u043D\u0430\u044F \u043A\u043E\u043C\u0430\u043D\u0434\u0430 \u0441\u0442\u0438\u043B\u0438\u0441\u0442\u043E\u0432, \u0445\u0443\u0434\u043E\u0436\u043D\u0438\u043A\u043E\u0432 \u043F\u043E\xA0\u043A\u043E\u0441\u0442\u044E\u043C\u0443 \u0438\xA0\u0430\u0441\u0441\u0438\u0441\u0442\u0435\u043D\u0442\u043E\u0432 \u043F\u043E\u0434
 			\u0440\u0443\u043A\u043E\u0432\u043E\u0434\u0441\u0442\u0432\u043E\u043C \u0410\u043D\u043D\u044B \u0413\u0443\u0441\u0435\u0432\u043E\u0439.
 		</p>
-		<p class="${"mt-5 font-normal 2xl:whitespace-pre-line"}">\u041C\u044B\xA0\u0440\u0430\u0437\u0440\u0430\u0431\u0430\u0442\u044B\u0432\u0430\u0435\u043C \u043A\u043E\u043D\u0446\u0435\u043F\u0446\u0438\u0438 \u0441\u044A\u0435\u043C\u043E\u043A, \u0441\u043E\u0431\u0438\u0440\u0430\u0435\u043C \u043D\u0443\u0436\u043D\u044B\u0439 \u043A\u043E\u043B\u043B\u0435\u043A\u0442\u0438\u0432 \u043F\u043E\u0434 \u043F\u0440\u043E\u0435\u043A\u0442 \u0438\u043B\u0438 \u0441\u043E\u0442\u0440\u0443\u0434\u043D\u0438\u0447\u0430\u0435\u043C
-			\u0441\xA0\u0432\u0430\u0448\u0435\u0439 \u043A\u043E\u043C\u0430\u043D\u0434\u043E\u0439. \u041F\u0440\u043E\u0434\u0443\u043C\u044B\u0432\u0430\u0435\u043C \u0441\u0442\u0438\u043B\u044C \u0438\xA0\u043E\u0431\u0440\u0430\u0437\u044B, \u0441\u043E\u0437\u0434\u0430\u0435\u043C \u043A\u043E\u0441\u0442\u044E\u043C\u044B \u0434\u043B\u044F \u0433\u0435\u0440\u043E\u0435\u0432
-			\u0432\xA0\u0440\u0435\u043A\u043B\u0430\u043C\u0435, \u0432\u0438\u0434\u0435\u043E \u0440\u043E\u043B\u0438\u043A\u0430\u0445, \u043C\u0443\u0437\u044B\u043A\u0430\u043B\u044C\u043D\u044B\u0445 \u043A\u043B\u0438\u043F\u0430\u0445 \u0438\xA0\u043C\u043E\u0434\u043D\u044B\u0445 \u0436\u0443\u0440\u043D\u0430\u043B\u0430\u0445. \u0410\xA0\u0442\u0430\u043A\u0436\u0435
-			\u043E\u043A\u0430\u0437\u044B\u0432\u0430\u0435\u043C \u0443\u0441\u043B\u0443\u0433\u0438 \u043F\u0435\u0440\u0441\u043E\u043D\u0430\u043B\u044C\u043D\u043E\u0433\u043E \u0441\u0442\u0430\u0439\u043B\u0438\u043D\u0433\u0430. \u0421\u043F\u0435\u0446\u0438\u0430\u043B\u0438\u0441\u0442\u044B \u043D\u0430\u0448\u0435\u0439 \u043A\u043E\u043C\u0430\u043D\u0434\u044B\xA0\u2014 \u044D\u0442\u043E \u0441\u0438\u043B\u044C\u043D\u044B\u0439
-			\u0442\u0432\u043E\u0440\u0447\u0435\u0441\u043A\u0438\u0439 \u043A\u043E\u043B\u043B\u0435\u043A\u0442\u0438\u0432, \u0433\u0434\u0435 \u043A\u0430\u0436\u0434\u044B\u0439 \u043E\u0431\u043B\u0430\u0434\u0430\u0435\u0442 \u0445\u0443\u0434\u043E\u0436\u0435\u0441\u0442\u0432\u0435\u043D\u043D\u044B\u043C \u0432\u043A\u0443\u0441\u043E\u043C, \u0431\u043E\u043B\u044C\u0448\u043E\u0439 \u044D\u043A\u0441\u043F\u0435\u0440\u0442\u0438\u0437\u043E\u0439
-			\u0432\xA0\u043E\u0431\u043B\u0430\u0441\u0442\u0438 \u043C\u043E\u0434\u044B \u0438\xA0\u043F\u0441\u0438\u0445\u043E\u043B\u043E\u0433\u0438\u0438, \u0441\u043F\u043E\u0441\u043E\u0431\u043D\u043E\u0441\u0442\u044C\u044E \u0431\u044B\u0441\u0442\u0440\u043E \u0440\u0435\u0430\u0433\u0438\u0440\u043E\u0432\u0430\u0442\u044C \u0438\xA0\u043D\u0430\u0445\u043E\u0434\u0438\u0442\u044C
-			\u0430\u043B\u044C\u0442\u0435\u0440\u043D\u0430\u0442\u0438\u0432\u043D\u044B\u0435 \u0440\u0435\u0448\u0435\u043D\u0438\u044F.
+		<p class="${"mt-5 font-normal 2xl:whitespace-pre-line"}">\u041C\u044B\xA0\u0440\u0430\u0437\u0440\u0430\u0431\u0430\u0442\u044B\u0432\u0430\u0435\u043C \u043A\u043E\u043D\u0446\u0435\u043F\u0446\u0438\u0438 \u0441\u044A\u0435\u043C\u043E\u043A, \u0441\u043E\u0431\u0438\u0440\u0430\u0435\u043C \u043D\u0443\u0436\u043D\u044B\u0439 \u043A\u043E\u043B\u043B\u0435\u043A\u0442\u0438\u0432 \u043F\u043E\u0434 \u043F\u0440\u043E\u0435\u043A\u0442 \u0438\u043B\u0438 \u0441\u043E\u0442\u0440\u0443\u0434\u043D\u0438\u0447\u0430\u0435\u043C \u0441\xA0\u0432\u0430\u0448\u0435\u0439 \u043A\u043E\u043C\u0430\u043D\u0434\u043E\u0439. \u041F\u0440\u043E\u0434\u0443\u043C\u044B\u0432\u0430\u0435\u043C \u0441\u0442\u0438\u043B\u044C \u0438\xA0\u043E\u0431\u0440\u0430\u0437\u044B, \u0441\u043E\u0437\u0434\u0430\u0435\u043C \u043A\u043E\u0441\u0442\u044E\u043C\u044B \u0434\u043B\u044F \u0433\u0435\u0440\u043E\u0435\u0432 \u0432\xA0\u043A\u0438\u043D\u043E, \u0440\u0435\u043A\u043B\u0430\u043C\u0435, \u0432\u0438\u0434\u0435\u043E \u0440\u043E\u043B\u0438\u043A\u0430\u0445, \u043C\u0443\u0437\u044B\u043A\u0430\u043B\u044C\u043D\u044B\u0445 \u043A\u043B\u0438\u043F\u0430\u0445 \u0438\xA0\u043C\u043E\u0434\u043D\u044B\u0445 \u0436\u0443\u0440\u043D\u0430\u043B\u0430\u0445. \u0410\xA0\u0442\u0430\u043A\u0436\u0435 \u043E\u043A\u0430\u0437\u044B\u0432\u0430\u0435\u043C \u0443\u0441\u043B\u0443\u0433\u0438 \u043F\u0435\u0440\u0441\u043E\u043D\u0430\u043B\u044C\u043D\u043E\u0433\u043E \u0441\u0442\u0430\u0439\u043B\u0438\u043D\u0433\u0430. \u0421\u043F\u0435\u0446\u0438\u0430\u043B\u0438\u0441\u0442\u044B \u043D\u0430\u0448\u0435\u0439 \u043A\u043E\u043C\u0430\u043D\u0434\u044B\xA0\u2014 \u044D\u0442\u043E \u0441\u0438\u043B\u044C\u043D\u044B\u0439 \u0442\u0432\u043E\u0440\u0447\u0435\u0441\u043A\u0438\u0439 \u043A\u043E\u043B\u043B\u0435\u043A\u0442\u0438\u0432, \u0433\u0434\u0435 \u043A\u0430\u0436\u0434\u044B\u0439 \u043E\u0431\u043B\u0430\u0434\u0430\u0435\u0442 \u0445\u0443\u0434\u043E\u0436\u0435\u0441\u0442\u0432\u0435\u043D\u043D\u044B\u043C \u0432\u043A\u0443\u0441\u043E\u043C, \u0431\u043E\u043B\u044C\u0448\u043E\u0439 \u044D\u043A\u0441\u043F\u0435\u0440\u0442\u0438\u0437\u043E\u0439 \u0432\xA0\u043E\u0431\u043B\u0430\u0441\u0442\u0438 \u043C\u043E\u0434\u044B \u0438\xA0\u043F\u0441\u0438\u0445\u043E\u043B\u043E\u0433\u0438\u0438, \u0441\u043F\u043E\u0441\u043E\u0431\u043D\u043E\u0441\u0442\u044C\u044E \u0431\u044B\u0441\u0442\u0440\u043E \u0440\u0435\u0430\u0433\u0438\u0440\u043E\u0432\u0430\u0442\u044C \u0438\xA0\u043D\u0430\u0445\u043E\u0434\u0438\u0442\u044C \u0430\u043B\u044C\u0442\u0435\u0440\u043D\u0430\u0442\u0438\u0432\u043D\u044B\u0435 \u0440\u0435\u0448\u0435\u043D\u0438\u044F.
 		</p></div>
 
-	<div class="${"px-5 2xl:px-7 py-10 text-sm border-black border-b"}"><p class="${"font-bold"}">\u041A\u043E\u043C\u043C\u0435\u0440\u0447\u0435\u0441\u043A\u0438\u0435 \u0443\u0441\u043B\u0443\u0433\u0438</p>
+	<div class="${"px-5 2xl:px-7 py-10 text-sm border-black border-b"}"><p class="${"font-bold"}">\u041C\u044B\xA0\u043E\u043A\u0430\u0437\u044B\u0432\u0430\u0435\u043C \u0443\u0441\u043B\u0443\u0433\u0438 \u043F\u043E\xA0\u0441\u043E\u0437\u0434\u0430\u043D\u0438\u044E \u0438\xA0\u043F\u043E\u0434\u0431\u043E\u0440\u0443 \u043A\u043E\u0441\u0442\u044E\u043C\u0430 \u043B\u044E\u0431\u043E\u0439 \u0441\u043B\u043E\u0436\u043D\u043E\u0441\u0442\u0438 \u0434\u043B\u044F \u0441\u044A\u0435\u043C\u043E\u043A
+			\u0444\u043E\u0442\u043E, \u0432\u0438\u0434\u0435\u043E, \u043A\u0438\u043D\u043E, \u0447\u0430\u0441\u0442\u043D\u044B\u0445 \u043C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u0439 \u0438\xA0\u0434\u0440\u0443\u0433\u0438\u0445 \u043F\u0440\u043E\u0435\u043A\u0442\u043E\u0432. \u0414\u043B\u044F \u0442\u043E\u0433\u043E, \u0447\u0442\u043E\u0431\u044B \u0440\u0430\u0441\u0441\u0447\u0438\u0442\u0430\u0442\u044C
+			\u0441\u0442\u043E\u0438\u043C\u043E\u0441\u0442\u044C \u0438\xA0\u043F\u043E\u0434\u043E\u0431\u0440\u0430\u0442\u044C \u0441\u043F\u0435\u0446\u0438\u0430\u043B\u0438\u0441\u0442\u0430 \u043F\u043E\u0437\u0432\u043E\u043D\u0438\u0442\u0435 \u0438\u043B\u0438 \u043D\u0430\u043F\u0438\u0448\u0438\u0442\u0435 \u043D\u0430\u043C
+		</p>
+		<p class="${"font-bold mt-3"}">\u041A\u041E\u041C\u041C\u0415\u0420\u0427\u0415\u0421\u041A\u0418\u0415 \u0423\u0421\u041B\u0423\u0413\u0418</p>
+		<p class="${"mt-3 font-bold"}">\u0421\u043E\u0437\u0434\u0430\u043D\u0438\u0435 \u043A\u043E\u0441\u0442\u044E\u043C\u043E\u0432:</p>
+		<p class="${"font-normal whitespace-pre-line pl-5"}">\u2014\xA0\u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043E\u0434\u043D\u043E\u0433\u043E \u043A\u043E\u0441\u0442\u044E\u043C\u0430 \u043E\u0442\xA0/ 25\xA0000 
+			\u2014\xA0\u0438\u0437\u0433\u043E\u0442\u043E\u0432\u043B\u0435\u043D\u0438\u0435 \u0440\u0430\u0441\u0441\u0447\u0438\u0442\u044B\u0432\u0430\u0435\u0442\u0441\u044F \u0438\u043D\u0434\u0438\u0432\u0438\u0434\u0443\u0430\u043B\u044C\u043D\u043E \u043F\u043E\u0434 \u0437\u0430\u0434\u0430\u0447\u0443
+		</p>
 		<p class="${"mt-3 font-bold"}">\u041A\u0440\u0435\u0430\u0442\u0438\u0432:</p>
-		<p class="${"font-normal whitespace-pre-line"}">\u043F\u043E\u043B\u043D\u0430\u044F \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043A\u043E\u043D\u0446\u0435\u043F\u0446\u0438\u0438 \u0441\u044A\u0435\u043C\u043A\u0438 (\u043E\u0442\xA050\xA0000) \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u0441\u0442\u0438\u043B\u044F \u0438\xA0\u043E\u0431\u0440\u0430\u0437\u043E\u0432
-			(\u043E\u0442\xA030\xA0000)
+		<p class="${"font-normal whitespace-pre-line pl-5"}">\u2014\xA0\u043F\u043E\u043B\u043D\u0430\u044F \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043A\u043E\u043D\u0446\u0435\u043F\u0446\u0438\u0438 \u0441\u044A\u0435\u043C\u043A\u0438 \u0441\xA0\u043D\u0443\u043B\u044F \u043E\u0442\xA0/ 50\xA0000
+			\u2014\xA0\u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u0441\u0442\u0438\u043B\u044F \u0438\xA0\u043E\u0431\u0440\u0430\u0437\u043E\u0432 \u0434\u043B\u044F \u0441\u044A\u0435\u043C\u043A\u0438 \u0438\u043B\u0438 \u0434\u0440\u0443\u0433\u043E\u0433\u043E \u0441\u043B\u0443\u0447\u0430\u044F\xA0/ \u043E\u0442\xA030\xA0000
 		</p>
 		<p class="${"mt-3 font-bold"}">\u0421\u0442\u0438\u043B\u044C:</p>
-		<p class="${"font-normal whitespace-pre-line"}">\u0441\u0442\u0438\u043B\u0438\u0437\u0430\u0446\u0438\u044F \u043B\u0443\u043A\u043E\u0432 \u0434\u043B\u044F \u0444\u043E\u0442\u043E \u0438\xA0\u0432\u0438\u0434\u0435\u043E\xA0\u2014 \u0441\u044A\u0435\u043C\u043A\u0438 (\u043E\u0442\xA030\xA0000) \u043C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u044F
-			\u0438\u043B\u0438 \u0434\u0440\u0443\u0433\u043E\u0433\u043E \u0441\u043B\u0443\u0447\u0430\u044F (\u043E\u0442\xA025\xA0000)
+		<p class="${"font-normal whitespace-pre-line pl-5"}">\u2014\xA0\u0441\u0442\u0438\u043B\u0438\u0437\u0430\u0446\u0438\u044F \u043B\u0443\u043A\u043E\u0432 \u0434\u043B\u044F \u0444\u043E\u0442\u043E \u0441\u044A\u0435\u043C\u043A\u0438\xA0/ \u043E\u0442\xA030\xA0000\xA0/ 1\xA0\u0441\u043C\u0435\u043D\u0430
+			\u2014\xA0\u0441\u0442\u0438\u043B\u0438\u0437\u0430\u0446\u0438\u044F \u043B\u0443\u043A\u043E\u0432 \u0434\u043B\u044F \u0432\u0438\u0434\u0435\u043E \u0441\u044A\u0435\u043C\u043A\u0438\xA0/ \u043E\u0442\xA040\xA0000\xA0/ 1\xA0\u0441\u043C\u0435\u043D\u0430
 		</p>
 		<p class="${"mt-3 font-bold"}">\u0410\u0441\u0441\u0438\u0441\u0442\u0435\u043D\u0442 \u0441\u0442\u0438\u043B\u0438\u0441\u0442\u0430 \u043D\u0430\xA0\u0441\u044A\u0435\u043C\u043A\u0435:</p>
-		<p class="${"font-normal whitespace-pre-line"}">\u0430\u0441\u0441\u0438\u0441\u0442\u0435\u043D\u0442 \u0441\u0442\u0438\u043B\u0438\u0441\u0442\u0430: \u043F\u043E\u0434\u0433\u043E\u0442\u043E\u0432\u043A\u0430 \u043A\xA0\u0441\u044A\u0435\u043C\u043A\u0435, \u0440\u0430\u0431\u043E\u0442\u0430 \u043D\u0430\xA0\u043F\u043B\u043E\u0449\u0430\u0434\u043A\u0435, \u0440\u0430\u0437\u0432\u043E\u0437
-			(\u043E\u0442\xA010\xA0000 ) \u0440\u0430\u0431\u043E\u0442\u0430 \u043A\u043E\u0441\u0442\u044E\u043C\u0435\u0440\u0430 (\u043E\u0442\xA06\xA0000 )
-		</p>
-		<p class="${"mt-3 font-bold"}">\u0421\u043E\u0437\u0434\u0430\u043D\u0438\u0435 \u043A\u043E\u0441\u0442\u044E\u043C\u043E\u0432:</p>
-		<p class="${"font-normal whitespace-pre-line"}">\u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043E\u0434\u043D\u043E\u0433\u043E \u043A\u043E\u0441\u0442\u044E\u043C\u0430 (\u043E\u0442\xA030000) \u0438\u0437\u0433\u043E\u0442\u043E\u0432\u043B\u0435\u043D\u0438\u0435 \u0440\u0430\u0441\u0441\u0447\u0438\u0442\u044B\u0432\u0430\u0435\u0442\u0441\u044F \u0438\u043D\u0434\u0438\u0432\u0438\u0434\u0443\u0430\u043B\u044C\u043D\u043E \u043F\u043E\u0434 \u0437\u0430\u0434\u0430\u0447\u0443
+		<p class="${"font-normal whitespace-pre-line pl-5"}">\u2014\xA0\u0430\u0441\u0441\u0438\u0441\u0442\u0435\u043D\u0442 \u0441\u0442\u0438\u043B\u0438\u0441\u0442\u0430: \u043F\u043E\u0434\u0433\u043E\u0442\u043E\u0432\u043A\u0430 \u043A\xA0\u0441\u044A\u0435\u043C\u043A\u0435, \u0440\u0430\u0431\u043E\u0442\u0430 \u043D\u0430\xA0\u043F\u043B\u043E\u0449\u0430\u0434\u043A\u0435, \u0440\u0430\u0437\u0432\u043E\u0437\xA0/ \u043E\u0442\xA010\xA0000 
+			\u2014\xA0\u0440\u0430\u0431\u043E\u0442\u0430 \u043A\u043E\u0441\u0442\u044E\u043C\u0435\u0440\u0430\xA0/ \u043E\u0442\xA06\xA0000\xA0/ 1\xA0\u0441\u043C\u0435\u043D\u0430
 		</p>
 		<p class="${"font-normal whitespace-pre-line mt-3"}">\u0421\u043C\u0435\u043D\u0430 \u0441\u043F\u0435\u0446\u0438\u0430\u043B\u0438\u0441\u0442\u0430\xA0\u2014 12\xA0\u0447\u0430\u0441\u043E\u0432. \u0420\u0430\u0431\u043E\u0447\u0438\u0435 \u0447\u0430\u0441\u044B \u0441\u0432\u0435\u0440\u0445 \u0441\u043C\u0435\u043D\u044B \u0441\u0447\u0438\u0442\u0430\u044E\u0442\u0441\u044F \u043A\u0430\u043A
-			\u043F\u0435\u0440\u0435\u0440\u0430\u0431\u043E\u0442\u043A\u0438 \u0438\xA0\u043E\u043F\u043B\u0430\u0447\u0438\u0432\u0430\u044E\u0442\u0441\u044F \u043E\u0442\xA0500\xA0\u0440\u0443\u0431.\xA0/ \u0447\u0430\u0441 (\u0430\u0441\u0441\u0438\u0441\u0442\u0435\u043D\u0442),
-			\u043E\u0442\xA01000\xA0\u0440\u0443\u0431.\xA0/ \u0447\u0430\u0441 (\u0441\u0442\u0438\u043B\u0438\u0441\u0442)
+			\u043F\u0435\u0440\u0435\u0440\u0430\u0431\u043E\u0442\u043A\u0438 \u0438\xA0\u043E\u043F\u043B\u0430\u0447\u0438\u0432\u0430\u044E\u0442\u0441\u044F \u0434\u043E\u043F\u043E\u043B\u043D\u0438\u0442\u0435\u043B\u044C\u043D\u043E \u043F\u043E\xA0\u0441\u043E\u0433\u043B\u0430\u0441\u043E\u0432\u0430\u043D\u0438\u044E
 		</p>
-		<p class="${"mt-3 font-bold"}">\u0427\u0430\u0441\u0442\u043D\u044B\u0435 \u0443\u0441\u043B\u0443\u0433\u0438</p>
-		<p class="${"font-normal whitespace-pre-line mt-3"}">\u0420\u0430\u0437\u0431\u043E\u0440 \u0433\u0430\u0440\u0434\u0435\u0440\u043E\u0431\u0430: \u043E\u0446\u0435\u043D\u043A\u0430 \u0438\xA0\u0440\u0435\u0434\u0430\u043A\u0442\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u0433\u0430\u0440\u0434\u0435\u0440\u043E\u0431\u0430, \u0441\u043E\u0441\u0442\u0430\u0432\u043B\u0435\u043D\u0438\u0435 \u0433\u0430\u043B\u0435\u0440\u0435\u0438 \u043E\u0431\u0440\u0430\u0437\u043E\u0432
-			\u0438\xA0\u0438\u0445\xA0\u0441\u0438\u0441\u0442\u0435\u043C\u0430\u0442\u0438\u0437\u0430\u0446\u0438\u044F, \u043A\u043E\u043E\u0440\u0434\u0438\u043D\u0430\u0446\u0438\u044F \u043F\u043E\u0447\u0438\u043D\u043A\u0438 \u0438\xA0\u0445\u0438\u043C\u0447\u0438\u0441\u0442\u043A\u0438 \u0432\u0435\u0449\u0435\u0439
-		</p>
-		<p class="${"font-normal whitespace-pre-line mt-3"}">\u041F\u0435\u0440\u0441\u043E\u043D\u0430\u043B\u044C\u043D\u044B\u0439 \u0448\u043E\u043F\u043F\u0438\u043D\u0433: \u0448\u043E\u043F\u043F\u0438\u043D\u0433 \u0441\u043E\xA0\u0441\u0442\u0438\u043B\u0438\u0441\u0442\u043E\u043C \u0441\u043E\u0433\u043B\u0430\u0441\u043D\u043E \u0438\u043D\u0434\u0438\u0432\u0438\u0434\u0443\u0430\u043B\u044C\u043D\u043E \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u0430\u043D\u043D\u043E\u043C\u0443 \u043F\u043B\u0430\u043D\u0443,
-			\u0441\u043E\u0441\u0442\u0430\u0432\u043B\u0435\u043D\u0438\u0435 \u0433\u0430\u043B\u0435\u0440\u0435\u0438 \u043E\u0431\u0440\u0430\u0437\u043E\u0432, \u0432\u0441\u0442\u0440\u0430\u0438\u0432\u0430\u043D\u0438\u0435 \u043E\u0431\u0440\u0430\u0437\u043E\u0432 \u0432\xA0\u0433\u0430\u0440\u0434\u0435\u0440\u043E\u0431 \u043A\u043B\u0438\u0435\u043D\u0442\u0430, \u043E\u043D\u043B\u0430\u0439\u043D-\u0441\u043E\u043F\u0440\u043E\u0432\u043E\u0436\u0434\u0435\u043D\u0438\u0435
-		</p>
-		<p class="${"mt-3 font-bold"}">\u041F\u043E\u0434\u0431\u043E\u0440\xA0/ \u0441\u043E\u0437\u0434\u0430\u043D\u0438\u0435 \u043A\u043E\u0441\u0442\u044E\u043C\u043E\u0432 \u043D\u0430\xA0\u043C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u0435</p></div>
+		<p class="${"mt-3 font-bold"}">\u0427\u0410\u0421\u0422\u041D\u042B\u0415 \u0423\u0421\u041B\u0423\u0413\u0418</p>
+		<p class="${"font-normal whitespace-pre-line mt-3 pl-5"}">\u2014\xA0\u0440\u0430\u0437\u0431\u043E\u0440 \u0433\u0430\u0440\u0434\u0435\u0440\u043E\u0431\u0430 \u043E\u0442\xA020\xA0000\xA0\u0432 \u0434\u0435\u043D\u044C 
+			\u2014\xA0\u043F\u0435\u0440\u0441\u043E\u043D\u0430\u043B\u044C\u043D\u044B\u0439 \u0448\u043E\u043F\u043F\u0438\u043D\u0433 \u043E\u0442\xA020\xA0000\xA0\u0432 \u0434\u0435\u043D\u044C 
+			\u2014\xA0\u0434\u0440\u0435\u0441\u0441\u0438\u043D\u0433/ \u0441\u043E\u0437\u0434\u0430\u043D\u0438\u0435 \u043A\u043E\u0441\u0442\u044E\u043C\u0430 \u043D\u0430\xA0\u043C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u0435 15\xA0000 \u043B\u0443\u043A
+		</p></div>
 	<div class="${"px-5 2xl:px-7 py-10 text-sm border-black border-b"}"><p class="${"font-bold"}">\u0410\u043D\u043D\u0430 \u0413\u0443\u0441\u0435\u0432\u0430</p>
 		<p>+79099505999</p>
 		<p>gooseva.style@gmail.com</p>
 
 		<p class="${"mt-3"}">Instagram</p>
-		<p class="${"font-bold"}">@guseva_stylist</p>
-		<a href="${"https://www.instagram.com/gooseva_komanda"}" class="${"font-bold"}">@gooseva_komanda</a>
-		<p class="${"mt-3"}">\u0415\u0441\u043B\u0438 \u0432\u044B\xA0\u0445\u043E\u0442\u0438\u0442\u0435 \u043F\u0440\u0438\u0441\u043E\u0435\u0434\u0438\u043D\u0438\u0442\u044C\u0441\u044F \u043A\xA0\u043D\u0430\u0448\u0435\u0439 \u043A\u043E\u043C\u0430\u043D\u0434\u0435, \u043F\u043E\u0434\u0435\u043B\u0438\u0442\u044C\u0441\u044F \u043D\u043E\u0432\u043E\u0441\u0442\u044F\u043C\u0438 \u0438\u043B\u0438 \u043F\u0440\u043E\u0441\u0442\u043E
-			\u043F\u043E\u0437\u043D\u0430\u043A\u043E\u043C\u0438\u0442\u044C\u0441\u044F \u0441\xA0\u043D\u0430\u043C\u0438, \u043D\u0430\u043F\u0438\u0448\u0438\u0442\u0435 \u043D\u0430\xA0goosevastyle@gmail.com
-		</p></div></main>`;
+		<div><a href="${"https://www.instagram.com/guseva_director"}" target="${"_blank"}" class="${"font-bold"}">@guseva_director</a></div>
+		<div><a href="${"https://www.instagram.com/gooseva_komanda"}" target="${"_blank"}" class="${"font-bold"}">@gooseva_komanda</a></div></div></main>`;
     });
     css$1 = {
       code: ".white.svelte-47q93b{@apply text-white;;@apply border-white;}",
       map: null
     };
     Top = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      let $showFilter, $$unsubscribe_showFilter;
-      $$unsubscribe_showFilter = subscribe(showFilter, (value) => $showFilter = value);
+      let $page, $$unsubscribe_page;
+      $$unsubscribe_page = subscribe(page, (value) => $page = value);
       let { white: white2 } = $$props;
       if ($$props.white === void 0 && $$bindings.white && white2 !== void 0)
         $$bindings.white(white2);
       $$result.css.add(css$1);
-      $$unsubscribe_showFilter();
-      return `${$showFilter ? `<span class="${"flex transition border-black bg-white border-r duration-200 hover:shadow-white pl-5 cursor-pointer w-1/3 font-medium py-2 items-center pr-10"}">\u041E \u043D\u0430\u0441
+      $$unsubscribe_page();
+      return `${$page.url.pathname !== "/" ? `<span class="${"flex transition border-black bg-white border-r duration-200 hover:shadow-white pl-5 cursor-pointer w-1/3 font-medium py-2 items-center pr-10"}">\u041E \u043D\u0430\u0441
 	</span>
 	<span class="${"flex transition border-black border-r duration-200 hover:shadow-border pl-5 cursor-pointer w-1/3 font-medium py-2 items-center pr-10 bg-white"}">\u0423\u0441\u043B\u0443\u0433\u0438
 	</span>
@@ -5996,32 +6078,32 @@ var init_Nav_0e3ea68b = __esm({
       if ($$props.toggled === void 0 && $$bindings.toggled && toggled !== void 0)
         $$bindings.toggled(toggled);
       $$unsubscribe_page();
-      return `${toggled ? `${$page.url.pathname == "/" ? `<div class="${"lg:hidden pt-10 h-screen flex flex-col divide-y divide-black justify-between border-b border-black mb-[0.2px]"}"><a href="${"/projects"}" class="${"flex justify-between items-center px-7 text-lg flex-auto"}"><h1>\u041F\u0440\u043E\u0435\u043A\u0442\u044B</h1>
+      return `${toggled ? `${$page.url.pathname == "/" ? `<div class="${"lg:hidden pt-10 h-screen flex flex-col divide-y divide-black justify-between border-b border-black mb-[0.2px]"}"><a href="${"/projects"}" class="${"flex justify-between items-center px-5 text-lg flex-auto"}"><h1>\u041F\u0440\u043E\u0435\u043A\u0442\u044B</h1>
 				<p class="${"mt-1"}"><img src="${"/images/arrow.svg"}" alt="${""}"></p></a>
-			<a target="${"_self"}" href="${"/team"}" class="${"flex justify-between items-center px-7 text-lg flex-auto"}"><h1>\u041A\u043E\u043C\u0430\u043D\u0434\u0430</h1>
+			<a target="${"_self"}" href="${"/team"}" class="${"flex justify-between items-center px-5 text-lg flex-auto"}"><h1>\u041A\u043E\u043C\u0430\u043D\u0434\u0430</h1>
 				<p class="${"mt-1"}"><img src="${"/images/arrow.svg"}" alt="${""}"></p></a>
-			<a href="${"/services"}" class="${"flex justify-between items-center px-7 text-lg flex-auto"}"><h1>\u0423\u0441\u043B\u0443\u0433\u0438</h1>
+			<a href="${"/services"}" class="${"flex justify-between items-center px-5 text-lg flex-auto"}"><h1>\u0423\u0441\u043B\u0443\u0433\u0438</h1>
 				<p class="${"mt-1"}"><img src="${"/images/arrow.svg"}" alt="${""}"></p></a>
-			<a href="${"/clients"}" class="${"flex justify-between items-center px-7 text-lg flex-auto"}"><h1>\u041A\u043B\u0438\u0435\u043D\u0442\u044B</h1>
+			<a href="${"/clients"}" class="${"flex justify-between items-center px-5 text-lg flex-auto"}"><h1>\u041A\u043B\u0438\u0435\u043D\u0442\u044B</h1>
 				<p class="${"mt-1"}"><img src="${"/images/arrow.svg"}" alt="${""}"></p></a>
-			<a href="${"/rewards"}" class="${"flex justify-between items-center px-7 text-lg flex-auto"}"><h1>\u041D\u0430\u0433\u0440\u0430\u0434\u044B</h1>
+			<a href="${"/rewards"}" class="${"flex justify-between items-center px-5 text-lg flex-auto"}"><h1>\u041D\u0430\u0433\u0440\u0430\u0434\u044B</h1>
 				<p class="${"mt-1"}"><img src="${"/images/arrow.svg"}" alt="${""}"></p></a>
-			<a href="${"/about"}" class="${"flex justify-between items-center px-7 text-lg flex-auto"}"><h1>\u041E \u043D\u0430\u0441</h1>
+			<a href="${"/about"}" class="${"flex justify-between items-center px-5 text-lg flex-auto"}"><h1>\u041E \u043D\u0430\u0441</h1>
 				<p class="${"mt-1"}"><img src="${"/images/arrow.svg"}" alt="${""}"></p></a>
-			<a href="${"/contacts"}" class="${"flex justify-between items-center px-7 text-lg flex-auto"}"><h1>\u041A\u043E\u043D\u0442\u0430\u043A\u0442\u044B</h1>
-				<p class="${"mt-1"}"><img src="${"/images/arrow.svg"}" alt="${""}"></p></a></div>` : `<div class="${"lg:hidden pt-10 h-screen flex flex-col divide-y divide-black justify-between border-b border-black mb-[0.2px]"}"><a href="${"/projects"}" class="${"flex justify-between items-center px-7 text-lg flex-auto"}"><h1>\u041F\u0440\u043E\u0435\u043A\u0442\u044B</h1>
+			<a href="${"/contacts"}" class="${"flex justify-between items-center px-5 text-lg flex-auto"}"><h1>\u041A\u043E\u043D\u0442\u0430\u043A\u0442\u044B</h1>
+				<p class="${"mt-1"}"><img src="${"/images/arrow.svg"}" alt="${""}"></p></a></div>` : `<div class="${"lg:hidden pt-10 h-screen flex flex-col divide-y divide-black justify-between border-b border-black mb-[0.2px]"}"><a href="${"/projects"}" class="${"flex justify-between items-center px-5 text-lg flex-auto"}"><h1>\u041F\u0440\u043E\u0435\u043A\u0442\u044B</h1>
 				<p class="${"mt-1"}"><img src="${"/images/arrow.svg"}" alt="${""}"></p></a>
-			<a target="${"_self"}" href="${"/team"}" class="${"flex justify-between items-center px-7 text-lg flex-auto"}"><h1>\u041A\u043E\u043C\u0430\u043D\u0434\u0430</h1>
+			<a target="${"_self"}" href="${"/team"}" class="${"flex justify-between items-center px-5 text-lg flex-auto"}"><h1>\u041A\u043E\u043C\u0430\u043D\u0434\u0430</h1>
 				<p class="${"mt-1"}"><img src="${"/images/arrow.svg"}" alt="${""}"></p></a>
-			<a href="${"/services"}" class="${"flex justify-between items-center px-7 text-lg flex-auto"}"><h1>\u0423\u0441\u043B\u0443\u0433\u0438</h1>
+			<a href="${"/services"}" class="${"flex justify-between items-center px-5 text-lg flex-auto"}"><h1>\u0423\u0441\u043B\u0443\u0433\u0438</h1>
 				<p class="${"mt-1"}"><img src="${"/images/arrow.svg"}" alt="${""}"></p></a>
-			<a href="${"/clients"}" class="${"flex justify-between items-center px-7 text-lg flex-auto"}"><h1>\u041A\u043B\u0438\u0435\u043D\u0442\u044B</h1>
+			<a href="${"/clients"}" class="${"flex justify-between items-center px-5 text-lg flex-auto"}"><h1>\u041A\u043B\u0438\u0435\u043D\u0442\u044B</h1>
 				<p class="${"mt-1"}"><img src="${"/images/arrow.svg"}" alt="${""}"></p></a>
-			<a href="${"/rewards"}" class="${"flex justify-between items-center px-7 text-lg flex-auto"}"><h1>\u041D\u0430\u0433\u0440\u0430\u0434\u044B</h1>
+			<a href="${"/rewards"}" class="${"flex justify-between items-center px-5 text-lg flex-auto"}"><h1>\u041D\u0430\u0433\u0440\u0430\u0434\u044B</h1>
 				<p class="${"mt-1"}"><img src="${"/images/arrow.svg"}" alt="${""}"></p></a>
-			<a href="${"/about"}" class="${"flex justify-between items-center px-7 text-lg flex-auto"}"><h1>\u041E \u043D\u0430\u0441</h1>
+			<a href="${"/about"}" class="${"flex justify-between items-center px-5 text-lg flex-auto"}"><h1>\u041E \u043D\u0430\u0441</h1>
 				<p class="${"mt-1"}"><img src="${"/images/arrow.svg"}" alt="${""}"></p></a>
-			<a href="${"/contacts"}" class="${"flex justify-between items-center px-7 text-lg flex-auto"}"><h1>\u041A\u043E\u043D\u0442\u0430\u043A\u0442\u044B</h1>
+			<a href="${"/contacts"}" class="${"flex justify-between items-center px-5 text-lg flex-auto"}"><h1>\u041A\u043E\u043D\u0442\u0430\u043A\u0442\u044B</h1>
 				<p class="${"mt-1"}"><img src="${"/images/arrow.svg"}" alt="${""}"></p></a></div>`}` : ``}`;
     });
     css4 = {
@@ -6047,8 +6129,8 @@ var init_Nav_0e3ea68b = __esm({
       $$unsubscribe_topActive();
       $$unsubscribe_page();
       return `
-${$page.url.pathname != "/" ? `<div${add_attribute("class", "", 0)}><div${add_attribute("class", $page.params.name ? "lg:hidden bg-transparent bg-white fixed w-full flex justify-between divide-x divide-black border-b border-black" : "lg:hidden bg-white fixed w-full flex justify-between divide-x divide-black border-b border-black", 0)}><div class="${"flex font-medium py-2 w-full px-5 items-center"}">${$page.params.name ? `<a href="${"/team"}"><svg xmlns="${"http://www.w3.org/2000/svg"}" class="${"h-5 w-5 fill-current text-black"}" fill="${"none"}" viewBox="${"0 0 24 24"}" stroke="${"currentColor"}"><path stroke-linecap="${"round"}" stroke-linejoin="${"round"}" stroke-width="${"2"}" d="${"M10 19l-7-7m0 0l7-7m-7 7h18"}"></path></svg></a>` : `${$page.params.id ? `<a href="${"/projects"}"><svg xmlns="${"http://www.w3.org/2000/svg"}" class="${"h-5 w-5 fill-current text-black"}" fill="${"none"}" viewBox="${"0 0 24 24"}" stroke="${"currentColor"}"><path stroke-linecap="${"round"}" stroke-linejoin="${"round"}" stroke-width="${"2"}" d="${"M10 19l-7-7m0 0l7-7m-7 7h18"}"></path></svg></a>` : ``}`}
-				<div class="${"w-full flex items-center justify-center"}"><a href="${"/"}" class="${"sm:ml-10 font-bt uppercase text-center"}">gooseva komanda</a></div></div>
+${$page.url.pathname != "/" ? `<div${add_attribute("class", "", 0)}><div${add_attribute("class", $page.params.name ? "lg:hidden bg-transparent bg-white fixed w-full flex justify-between divide-x divide-black border-b border-black" : "lg:hidden bg-white fixed z-50 w-full flex justify-between divide-x divide-black border-b border-black", 0)}><div class="${"flex font-medium py-2 w-full px-5"}">
+				<div class="${"w-full flex items-center"}"><a href="${"/"}" class="${"sm:ml-10 font-bt uppercase"}">gooseva komanda</a></div></div>
 			<div class="${"px-2"}">${validate_component(Burger, "Burger").$$render($$result, { white: white2, toggled }, {}, {})}</div></div>
 
 		${validate_component(MobileLinks, "MobileLinks").$$render($$result, { toggled }, {}, {})}</div>` : `<div${add_attribute("class", "", 0)}><div class="${[
@@ -6065,25 +6147,25 @@ ${$page.url.pathname != "/" ? `<div${add_attribute("class", "", 0)}><div${add_at
 						<div class="${"w-full lg:flex justify-between"}">${validate_component(TopActive, "TopActive").$$render($$result, {}, {}, {})}</div></div></div></div>` : `<div><div class="${"hidden lg:inline"}"><div class="${[
         "hidden w-full lg:flex justify-between border-b border-black svelte-1w7z537",
         white2 ? "white" : ""
-      ].join(" ").trim()}">${$page.url.pathname == "/projects" ? `<div${add_attribute("class", $showFilter ? "flex justify-between items-center cursor-pointer hover:shadow-border w-2/3 xl:w-3/4 border-black border-r bg-white" : "flex justify-between items-center cursor-pointer hover:shadow-border w-2/3 xl:w-3/4 border-black border-r", 0)}><h1 class="${"ml-5 font-medium whitespace-nowrap"}">\u041D\u0430\u0432\u0438\u0433\u0430\u0446\u0438\u044F \u043F\u043E \u043F\u0440\u043E\u0435\u043A\u0442\u0430\u043C</h1>
-								<img${add_attribute("class", $showFilter ? "w-4 h-4 mt-1 mr-5 rotate-90 transition" : "w-4 h-4 mt-1 mr-5 rotate-180 transition", 0)} src="${"/images/arrow.svg"}" alt="${""}"></div>` : `<a href="${"/projects"}"${add_attribute("class", white2 ? "flex transition duration-200 hover:shadow-white font-medium py-2 w-full items-center border-r border-white" : "flex transition duration-200 hover:shadow-border font-medium py-2 w-full items-center border-r border-black", 0)}><h1 class="${"ml-5 2xl:ml-10"}">\u041F\u0440\u043E\u0435\u043A\u0442\u044B</h1></a>`}
+      ].join(" ").trim()}">${$page.url.pathname == "/projects" ? `<div${add_attribute("class", $showFilter ? "flex justify-between items-center cursor-pointer hover:shadow-border w-2/3 xl:w-3/4 border-black border-r bg-white" : "flex justify-between items-center cursor-pointer hover:shadow-border w-2/3 xl:w-3/4 border-black border-r bg-white", 0)}><h1 class="${"ml-5 2xl:ml-10 font-medium whitespace-nowrap"}">\u041D\u0430\u0432\u0438\u0433\u0430\u0446\u0438\u044F \u043F\u043E \u043F\u0440\u043E\u0435\u043A\u0442\u0430\u043C</h1>
+								<img${add_attribute("class", $showFilter ? "w-4 h-4 mt-1 mr-5 rotate-90 transition" : "w-4 h-4 mt-1 mr-5 -rotate-90 transition", 0)} src="${"/images/arrow.svg"}" alt="${""}"></div>` : `${$page.params.name || $page.params.id ? `<a href="${"/projects"}" class="${"flex transition duration-200 hover:shadow-border font-medium py-2 items-center border-r border-black w-2/3 xl:w-3/4 bg-white"}"><h1 class="${"ml-5 2xl:ml-10"}">\u041F\u0440\u043E\u0435\u043A\u0442\u044B</h1></a>` : `<a href="${"/projects"}"${add_attribute("class", white2 ? "flex transition duration-200 hover:shadow-white font-medium py-2 w-full items-center border-r border-white" : "flex transition duration-200 hover:shadow-border font-medium py-2 w-full items-center border-r border-black", 0)}><h1 class="${"ml-5 2xl:ml-10"}">\u041F\u0440\u043E\u0435\u043A\u0442\u044B</h1></a>`}`}
 						<div${add_attribute("class", $page.url.pathname == "/" ? "w-full lg:flex justify-between" : "w-1/3 xl:w-1/4 lg:flex justify-between border-r border-black", 0)}>${validate_component(Top, "Top").$$render($$result, { white: white2 }, {}, {})}</div></div></div></div>`}</div>
 
 	<div class="${"fixed bottom-0 w-full z-50"}">${$botActive ? `<div>${validate_component(BotActive, "BotActive").$$render($$result, {}, {}, {})}</div>` : `<div class="${"hidden lg:inline w-full bottom-0"}"><div class="${[
         "hidden group w-full lg:flex justify-between border-t border-black svelte-1w7z537",
         white2 ? "white" : ""
-      ].join(" ").trim()}">${$page.url.pathname == "/" ? `<div${add_attribute("class", white2 ? "flex transition duration-200 hover:shadow-white font-medium py-2 w-full items-center" : "flex transition duration-200 hover:shadow-border font-medium py-2 w-full items-center", 0)}><a href="${"/team"}" class="${"ml-5 w-full"}">\u041A\u043E\u043C\u0430\u043D\u0434\u0430</a></div>` : `<div class="${"flex transition duration-200 hover:shadow-border font-medium py-2 w-2/3 xl:w-3/4 items-center border-r border-black"}"><a href="${"/"}" class="${"ml-5 2xl:ml-10 font-bt uppercase w-full"}">gooseva komanda</a></div>`}
-					<div${add_attribute("class", $page.url.pathname == "/" ? "w-full lg:flex justify-between " : "w-1/3 xl:w-1/4 lg:flex justify-between", 0)}>${validate_component(Bot, "Bot").$$render($$result, { white: white2 }, {}, {})}</div></div></div>`}</div>
+      ].join(" ").trim()}">${$page.url.pathname == "/" ? `<div${add_attribute("class", white2 ? "flex transition duration-200 hover:shadow-white font-medium py-2 w-full items-center" : "flex transition duration-200 hover:shadow-border font-medium py-2 w-full items-center", 0)}><a href="${"/team"}" class="${"ml-5 2xl:ml-10 w-full"}">\u041A\u043E\u043C\u0430\u043D\u0434\u0430</a></div>` : `<div class="${"flex transition duration-200 hover:shadow-border font-medium py-2 w-2/3 xl:w-3/4 items-center border-r border-black bg-white"}"><a href="${"/"}" class="${"ml-5 2xl:ml-10 font-bt uppercase w-full"}">gooseva komanda</a></div>`}
+					<div${add_attribute("class", $page.url.pathname == "/" ? "w-full lg:flex justify-between" : "w-1/3 xl:w-1/4 lg:flex justify-between", 0)}>${validate_component(Bot, "Bot").$$render($$result, { white: white2 }, {}, {})}</div></div></div>`}</div>
 </div>`;
     });
   }
 });
 
-// .svelte-kit/output/server/chunks/Image-fe0afddd.js
+// .svelte-kit/output/server/chunks/Image-fba76378.js
 var css5, Image;
-var init_Image_fe0afddd = __esm({
-  ".svelte-kit/output/server/chunks/Image-fe0afddd.js"() {
-    init_index_27c4ae06();
+var init_Image_fba76378 = __esm({
+  ".svelte-kit/output/server/chunks/Image-fba76378.js"() {
+    init_index_193420ae();
     css5 = {
       code: "img.svelte-1vi6dxg{opacity:0;transition:opacity 500ms ease-out}img.loaded.svelte-1vi6dxg{opacity:1}",
       map: null
@@ -6121,11 +6203,11 @@ __export(index_svelte_exports, {
 var css6, Ticker, Routes;
 var init_index_svelte = __esm({
   ".svelte-kit/output/server/entries/pages/index.svelte.js"() {
-    init_index_27c4ae06();
-    init_Nav_0e3ea68b();
-    init_Image_fe0afddd();
+    init_index_193420ae();
+    init_Nav_6054ca6a();
+    init_Image_fba76378();
     css6 = {
-      code: "@-webkit-keyframes svelte-1ps3fbu-ticker{0%{-webkit-transform:translate3d(-20%, 0, 0);transform:translate3d(-20%, 0, 0);visibility:visible}100%{-webkit-transform:translate3d(-100%, 0, 0);transform:translate3d(-100%, 0, 0)}}@keyframes svelte-1ps3fbu-ticker{0%{-webkit-transform:translate3d(-20%, 0, 0);transform:translate3d(-20%, 0, 0);visibility:visible}100%{-webkit-transform:translate3d(-100%, 0, 0);transform:translate3d(-100%, 0, 0)}}.ticker-wrap.svelte-1ps3fbu.svelte-1ps3fbu{width:100%;overflow:hidden;padding-left:100%;box-sizing:content-box}.ticker-wrap.svelte-1ps3fbu .ticker.svelte-1ps3fbu{display:inline-block;white-space:nowrap;padding-right:100%;box-sizing:content-box;-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;-webkit-animation-timing-function:linear;animation-timing-function:linear;-webkit-animation-name:svelte-1ps3fbu-ticker;animation-name:svelte-1ps3fbu-ticker;-webkit-animation-duration:var(--duration-mobile);animation-duration:var(--duration-mobile)}@media(min-width: 640px){.ticker-wrap.svelte-1ps3fbu .ticker.svelte-1ps3fbu{display:inline-block;white-space:nowrap;padding-right:100%;box-sizing:content-box;-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;-webkit-animation-timing-function:linear;animation-timing-function:linear;-webkit-animation-name:svelte-1ps3fbu-ticker;animation-name:svelte-1ps3fbu-ticker;-webkit-animation-duration:var(--duration);animation-duration:var(--duration)}}",
+      code: "@-webkit-keyframes svelte-32njpe-ticker{0%{-webkit-transform:translate3d(-20%, 0, 0);transform:translate3d(-20%, 0, 0);visibility:visible}100%{-webkit-transform:translate3d(-80%, 0, 0);transform:translate3d(-80%, 0, 0)}}@keyframes svelte-32njpe-ticker{0%{-webkit-transform:translate3d(-20%, 0, 0);transform:translate3d(-20%, 0, 0);visibility:visible}100%{-webkit-transform:translate3d(-80%, 0, 0);transform:translate3d(-80%, 0, 0)}}.ticker-wrap.svelte-32njpe.svelte-32njpe{width:100%;overflow:hidden;padding-left:100%;box-sizing:content-box}.ticker-wrap.svelte-32njpe .ticker.svelte-32njpe{display:inline-block;white-space:nowrap;padding-right:100%;box-sizing:content-box;-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;-webkit-animation-timing-function:linear;animation-timing-function:linear;-webkit-animation-name:svelte-32njpe-ticker;animation-name:svelte-32njpe-ticker;-webkit-animation-duration:var(--duration-mobile);animation-duration:var(--duration-mobile)}@media(min-width: 640px){.ticker-wrap.svelte-32njpe .ticker.svelte-32njpe{display:inline-block;white-space:nowrap;padding-right:100%;box-sizing:content-box;-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;-webkit-animation-timing-function:linear;animation-timing-function:linear;-webkit-animation-name:svelte-32njpe-ticker;animation-name:svelte-32njpe-ticker;-webkit-animation-duration:var(--duration);animation-duration:var(--duration)}}",
       map: null
     };
     Ticker = create_ssr_component(($$result, $$props, $$bindings, slots) => {
@@ -6148,36 +6230,30 @@ var init_index_svelte = __esm({
       if ($$props.classChild === void 0 && $$bindings.classChild && classChild !== void 0)
         $$bindings.classChild(classChild);
       $$result.css.add(css6);
-      return `<div class="${"ticker-wrap " + escape(classWrapper) + " svelte-1ps3fbu"}"><div class="${"ticker " + escape(classParent) + " svelte-1ps3fbu"}" style="${"--duration: " + escape(duration) + "; --duration-mobile: " + escape(durationMobile)}">${each(items2, (i2, index) => `<div class="${escape(null_to_empty(classChild)) + " svelte-1ps3fbu"}">${escape(i2)}</div>`)}</div>
+      return `<div class="${"ticker-wrap " + escape(classWrapper) + " svelte-32njpe"}"><div class="${"ticker " + escape(classParent) + " svelte-32njpe"}" style="${"--duration: " + escape(duration) + "; --duration-mobile: " + escape(durationMobile)}">${each(items2, (i2, index) => `<div class="${escape(null_to_empty(classChild)) + " svelte-32njpe"}">${escape(i2)}</div>`)}</div>
 </div>`;
     });
     Routes = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      let $topActive, $$unsubscribe_topActive;
-      let $botActive, $$unsubscribe_botActive;
-      $$unsubscribe_topActive = subscribe(topActive, (value) => $topActive = value);
-      $$unsubscribe_botActive = subscribe(botActive, (value) => $botActive = value);
-      let white2 = true;
+      let $$unsubscribe_topActive;
+      let $$unsubscribe_botActive;
+      $$unsubscribe_topActive = subscribe(topActive, (value) => value);
+      $$unsubscribe_botActive = subscribe(botActive, (value) => value);
+      let white2 = false;
       $$unsubscribe_topActive();
       $$unsubscribe_botActive();
       return `<div class="${"h-screen flex flex-col justify-between"}">${validate_component(Ticker, "Ticker").$$render($$result, {
         items: listForTicker,
         classWrapper: "fixed flex h-screen items-center z-10 lg:bottom-12 lg:h-auto",
         classParent: "space-x-1.5 font-bt",
-        classChild: "inline-block text-white",
+        classChild: "inline-block",
         durationMobile: "160s",
         duration: "140s"
       }, {}, {})}
 	<div class="${"z-40"}">${validate_component(Nav, "Nav").$$render($$result, { white: white2 }, {}, {})}
-		${`<div class="${"pb-5 px-2 pt-20 lg:py-16 z-10"}"><img class="${"w-full"}" src="${"/images/logo/goos_white.svg"}" alt="${""}"></div>`}</div>
-	${`<div class="${"pb-5 px-2 lg:py-16 mb-2 z-10"}"><img class="${"w-full"}" src="${"/images/logo/kom_white.svg"}" alt="${""}"></div>`}
+		${`<div class="${"pb-5 px-2 pt-20 lg:py-16 z-10"}"><img class="${"w-full"}" src="${"/images/logo/goos.svg"}" alt="${""}"></div>`}</div>
+	${`<div class="${"pb-5 px-2 lg:py-16 mb-2 z-10"}"><img class="${"w-full"}" src="${"/images/logo/kom.svg"}" alt="${""}"></div>`}
 
-	<div class="${"lg:hidden absolute w-full h-full"}"><div class="${"img1 w-full object-cover h-screen absolute top-0 opacity-1"}">${validate_component(Image, "Image").$$render($$result, {
-        srcMobile: "/images/index/1Mobile.jpg",
-        src: "/images/index/1.jpg",
-        alt: "main image",
-        classes: "w-full object-cover h-screen absolute top-0"
-      }, {}, {})}</div>
-		<div class="${"img2 absolute w-full h-screen flex items-center justify-end overflow-hidden opacity-0"}"><div class="${"flex flex-col md:flex-row overflow-hidden"}">${validate_component(Image, "Image").$$render($$result, {
+	<div class="${"grid grid-cols-3 absolute w-full h-full"}"><div class="${"img1 absolute w-full h-screen flex items-center justify-end overflow-hidden opacity-1"}"><div class="${"flex flex-col md:flex-row overflow-hidden"}">${validate_component(Image, "Image").$$render($$result, {
         src: "/images/index/2.1.jpg",
         classes: "ml-28 mt-20 md:m-0 object-cover"
       }, {}, {})}
@@ -6185,19 +6261,9 @@ var init_index_svelte = __esm({
         classes: "object-cover",
         src: "/images/index/2.2.jpg"
       }, {}, {})}</div></div>
-		<div class="${"img4 absolute w-full h-screen flex items-center justify-center opacity-0"}"><img src="${"/images/index/4.jpg"}" alt="${""}"></div>
-		<img src="${"/images/index/3.jpg"}" alt="${""}" class="${"img3 w-full object-cover h-screen absolute top-0 opacity-0"}"></div>
-	<div class="${"hidden lg:grid grid-cols-3 absolute w-full h-full"}">${`<div class="${"img1 w-full object-cover h-screen absolute top-0 opacity-1"}">${validate_component(Image, "Image").$$render($$result, {
-        srcMobile: "/images/index/1Mobile.jpg",
-        src: "/images/index/1.jpg",
-        alt: "main image",
-        classes: "w-full object-cover h-screen absolute top-0"
-      }, {}, {})}</div>`}</div></div>
-
-<div${add_attribute("class", $topActive || $botActive ? "hidden" : "hidden lg:grid grid-cols-2 absolute w-full h-5/6 z-40 top-10", 0)}><div></div>
-	<div></div>
-	<div></div>
-	<div></div></div>`;
+		<div class="${"img2 w-full object-cover h-screen absolute top-0 opacity-0"}"><video class="${"w-full h-full object-cover"}" src="${"/images/index/1.webm"}" autoplay loop><track kind="${"captions"}"></video></div>
+		<div class="${"img3 absolute w-full h-screen flex items-center justify-center opacity-0"}"><img src="${"/images/index/4.jpg"}" alt="${""}"></div>
+		<div class="${"img4 w-full object-cover h-screen absolute top-0 opacity-0"}"><video class="${"w-full h-full object-cover"}" src="${"/images/index/3.webm"}" autoplay loop><track kind="${"captions"}"></video></div></div></div>`;
     });
   }
 });
@@ -6214,9 +6280,9 @@ var entry3, js3, css7;
 var init__3 = __esm({
   ".svelte-kit/output/server/nodes/2.js"() {
     init_index_svelte();
-    entry3 = "pages/index.svelte-114ca0c4.js";
-    js3 = ["pages/index.svelte-114ca0c4.js", "chunks/vendor-cece5832.js", "chunks/Nav-85821155.js", "chunks/singletons-a42a5e91.js"];
-    css7 = ["assets/pages/index.svelte-e8112f40.css", "assets/vendor-c402c846.css", "assets/Nav-ba69bb6a.css"];
+    entry3 = "pages/index.svelte-67ee9c4f.js";
+    js3 = ["pages/index.svelte-67ee9c4f.js", "chunks/vendor-6d69bdcb.js", "chunks/Nav-54247100.js", "chunks/singletons-a42a5e91.js"];
+    css7 = ["assets/pages/index.svelte-bfcfd847.css", "assets/vendor-c402c846.css", "assets/Nav-ba69bb6a.css"];
   }
 });
 
@@ -6228,8 +6294,8 @@ __export(contacts_svelte_exports, {
 var Contacts;
 var init_contacts_svelte = __esm({
   ".svelte-kit/output/server/entries/pages/contacts.svelte.js"() {
-    init_index_27c4ae06();
-    init_Nav_0e3ea68b();
+    init_index_193420ae();
+    init_Nav_6054ca6a();
     Contacts = create_ssr_component(($$result, $$props, $$bindings, slots) => {
       let $$unsubscribe_white;
       $$unsubscribe_white = subscribe(white, (value) => value);
@@ -6242,11 +6308,8 @@ ${validate_component(Nav, "Nav").$$render($$result, {}, {}, {})}
 	<p>gooseva.style@gmail.com</p>
 
 	<p class="${"mt-3"}">Instagram</p>
-	<p class="${"font-bold"}">@guseva_stylist</p>
-	<p class="${"font-bold"}">@gooseva_komanda</p>
-	<p class="${"mt-3"}">\u0415\u0441\u043B\u0438 \u0432\u044B\xA0\u0445\u043E\u0442\u0438\u0442\u0435 \u043F\u0440\u0438\u0441\u043E\u0435\u0434\u0438\u043D\u0438\u0442\u044C\u0441\u044F \u043A\xA0\u043D\u0430\u0448\u0435\u0439 \u043A\u043E\u043C\u0430\u043D\u0434\u0435, \u043F\u043E\u0434\u0435\u043B\u0438\u0442\u044C\u0441\u044F \u043D\u043E\u0432\u043E\u0441\u0442\u044F\u043C\u0438 \u0438\u043B\u0438 \u043F\u0440\u043E\u0441\u0442\u043E
-		\u043F\u043E\u0437\u043D\u0430\u043A\u043E\u043C\u0438\u0442\u044C\u0441\u044F \u0441\xA0\u043D\u0430\u043C\u0438, \u043D\u0430\u043F\u0438\u0448\u0438\u0442\u0435 \u043D\u0430\xA0goosevastyle@gmail.com
-	</p></div>`;
+	<div><a href="${"https://www.instagram.com/guseva_director"}" target="${"_blank"}" class="${"font-bold"}">@guseva_director</a></div>
+	<div><a href="${"https://www.instagram.com/gooseva_komanda"}" target="${"_blank"}" class="${"font-bold"}">@gooseva_komanda</a></div></div>`;
     });
   }
 });
@@ -6263,18 +6326,97 @@ var entry4, js4, css8;
 var init__4 = __esm({
   ".svelte-kit/output/server/nodes/3.js"() {
     init_contacts_svelte();
-    entry4 = "pages/contacts.svelte-b24afdc4.js";
-    js4 = ["pages/contacts.svelte-b24afdc4.js", "chunks/vendor-cece5832.js", "chunks/Nav-85821155.js", "chunks/singletons-a42a5e91.js"];
+    entry4 = "pages/contacts.svelte-43853214.js";
+    js4 = ["pages/contacts.svelte-43853214.js", "chunks/vendor-6d69bdcb.js", "chunks/Nav-54247100.js", "chunks/singletons-a42a5e91.js"];
     css8 = ["assets/vendor-c402c846.css", "assets/Nav-ba69bb6a.css"];
   }
 });
 
-// .svelte-kit/output/server/chunks/data-7f0af13e.js
+// .svelte-kit/output/server/chunks/data-1909edb0.js
 var items;
-var init_data_7f0af13e = __esm({
-  ".svelte-kit/output/server/chunks/data-7f0af13e.js"() {
+var init_data_1909edb0 = __esm({
+  ".svelte-kit/output/server/chunks/data-1909edb0.js"() {
     items = {
       projects: [
+        {
+          title: "EMPIRE V",
+          tagNames: ["#\u0432\u0438\u0434\u0435\u043E", "#\u0436\u0435\u043D\u0441\u043A\u0438\u0439\u0441\u0442\u0430\u0439\u043B\u0438\u043D\u0433", "#\u043C\u0443\u0436\u0441\u043A\u043E\u0439\u0441\u0442\u0430\u0439\u043B\u0438\u043D\u0433"],
+          tags: ["\u0412\u0438\u0434\u0435\u043E", "\u0416\u0435\u043D\u0441\u043A\u0438\u0439", "\u041C\u0443\u0436\u0441\u043A\u043E\u0439"],
+          mainImg: "/images/projects/EmpireV/1.jpg",
+          video: "2iwZnD_kevE",
+          style: "35% 3% 20% 5%"
+        },
+        {
+          title: "GOOGLE x MANIZHA",
+          tagNames: ["#\u0432\u0438\u0434\u0435\u043E", "#\u0436\u0435\u043D\u0441\u043A\u0438\u0439\u0441\u0442\u0430\u0439\u043B\u0438\u043D\u0433", "#\u043C\u0443\u0436\u0441\u043A\u043E\u0439\u0441\u0442\u0430\u0439\u043B\u0438\u043D\u0433"],
+          tags: ["\u0412\u0438\u0434\u0435\u043E", "\u0416\u0435\u043D\u0441\u043A\u0438\u0439", "\u041C\u0443\u0436\u0441\u043A\u043E\u0439"],
+          mainImg: "/images/projects/google/1.jpg",
+          video: "6TVvZCdOWDE",
+          style: "4% 0 53% 10%"
+        },
+        {
+          title: "SPROTMASTER",
+          tagNames: ["#\u0432\u0438\u0434\u0435\u043E", "#\u0436\u0435\u043D\u0441\u043A\u0438\u0439\u0441\u0442\u0430\u0439\u043B\u0438\u043D\u0433", "#\u043C\u0443\u0436\u0441\u043A\u043E\u0439\u0441\u0442\u0430\u0439\u043B\u0438\u043D\u0433"],
+          tags: ["\u0412\u0438\u0434\u0435\u043E", "\u0416\u0435\u043D\u0441\u043A\u0438\u0439", "\u041C\u0443\u0436\u0441\u043A\u043E\u0439"],
+          video: "HhjhjVJsD3M",
+          mainImg: "/images/projects/sportmaster/1.jpg",
+          style: "14% 5% 30% 10%"
+        },
+        {
+          title: "Renessans",
+          tagNames: ["#\u0432\u0438\u0434\u0435\u043E", "#\u0436\u0435\u043D\u0441\u043A\u0438\u0439\u0441\u0442\u0430\u0439\u043B\u0438\u043D\u0433", "#\u043C\u0443\u0436\u0441\u043A\u043E\u0439\u0441\u0442\u0430\u0439\u043B\u0438\u043D\u0433"],
+          tags: ["\u0412\u0438\u0434\u0435\u043E", "\u0416\u0435\u043D\u0441\u043A\u0438\u0439", "\u041C\u0443\u0436\u0441\u043A\u043E\u0439"],
+          video: "DRQ25qY082c",
+          mainImg: "/images/projects/renessans/1.jpg",
+          style: "34% 10% 0 20%"
+        },
+        {
+          title: "L'ONE",
+          tagNames: ["#\u0432\u0438\u0434\u0435\u043E", "#\u0436\u0435\u043D\u0441\u043A\u0438\u0439\u0441\u0442\u0430\u0439\u043B\u0438\u043D\u0433", "#\u043C\u0443\u0436\u0441\u043A\u043E\u0439\u0441\u0442\u0430\u0439\u043B\u0438\u043D\u0433"],
+          tags: ["\u0412\u0438\u0434\u0435\u043E", "\u0416\u0435\u043D\u0441\u043A\u0438\u0439", "\u041C\u0443\u0436\u0441\u043A\u043E\u0439"],
+          mainImg: "/images/projects/LONE/1.jpg",
+          video: "IadRjeHrUaM",
+          style: "44% 5% 5% 22%"
+        },
+        {
+          title: "MANIZHA - NOW OR NEVER",
+          tagNames: ["#\u0444\u043E\u0442\u043E", "#\u0436\u0435\u043D\u0441\u043A\u0438\u0439\u0441\u0442\u0430\u0439\u043B\u0438\u043D\u0433"],
+          tags: ["\u0424\u043E\u0442\u043E", "\u0416\u0435\u043D\u0441\u043A\u0438\u0439"],
+          mainImg: "/images/projects/manizha/1.jpg",
+          localVideo: "/images/projects/manizha/1.mp4"
+        },
+        {
+          title: "MUJUICE - ZODIAC",
+          tagNames: ["#\u0432\u0438\u0434\u0435\u043E", "#\u043C\u0443\u0436\u0441\u043A\u043E\u0439\u0441\u0442\u0430\u0439\u043B\u0438\u043D\u0433"],
+          tags: ["\u0412\u0438\u0434\u0435\u043E", "\u041C\u0443\u0436\u0441\u043A\u043E\u0439"],
+          mainImg: "/images/projects/mujuice/1.jpg",
+          video: "kH_w5ks9GB4",
+          style: "8% 10% 39% 2%"
+        },
+        {
+          title: "NOT ALICE x PAP Magazine",
+          tagNames: ["#\u0432\u0438\u0434\u0435\u043E", "#\u0436\u0435\u043D\u0441\u043A\u0438\u0439\u0441\u0442\u0430\u0439\u043B\u0438\u043D\u0433", "#\u043C\u0443\u0436\u0441\u043A\u043E\u0439\u0441\u0442\u0430\u0439\u043B\u0438\u043D\u0433"],
+          tags: ["\u0412\u0438\u0434\u0435\u043E", "\u0416\u0435\u043D\u0441\u043A\u0438\u0439", "\u041C\u0443\u0436\u0441\u043A\u043E\u0439"],
+          mainImg: "/images/teamProjects/notalice/1.jpg",
+          video: "zLiUQXpQ5rg",
+          style: "50% 0 10% 0"
+        },
+        {
+          title: "ORIFLAME",
+          tagNames: ["#\u0432\u0438\u0434\u0435\u043E", "#\u0436\u0435\u043D\u0441\u043A\u0438\u0439\u0441\u0442\u0430\u0439\u043B\u0438\u043D\u0433"],
+          tags: ["\u0412\u0438\u0434\u0435\u043E", "\u0416\u0435\u043D\u0441\u043A\u0438\u0439"],
+          mainImg: "/images/teamProjects/oriflame/1.jpg",
+          localVideo: "/images/teamProjects/oriflame/1.mp4",
+          style: "19% 5% 22% 15%"
+        },
+        {
+          title: "RAYON - INDABLACK x RAIDA",
+          tagNames: ["#\u0432\u0438\u0434\u0435\u043E", "#\u0436\u0435\u043D\u0441\u043A\u0438\u0439\u0441\u0442\u0430\u0439\u043B\u0438\u043D\u0433", "#\u043C\u0443\u0436\u0441\u043A\u043E\u0439\u0441\u0442\u0430\u0439\u043B\u0438\u043D\u0433"],
+          tags: ["\u0412\u0438\u0434\u0435\u043E", "\u0416\u0435\u043D\u0441\u043A\u0438\u0439", "\u041C\u0443\u0436\u0441\u043A\u043E\u0439"],
+          mainImg: "/images/projects/rayon/1.jpg",
+          video: "Yvs7O-BLivw",
+          style: "5% 5% 35% 35%"
+        },
         {
           title: "WHAT BOTHER ME",
           tagNames: ["#\u0432\u0438\u0434\u0435\u043E", "#\u0436\u0435\u043D\u0441\u043A\u0438\u0439\u0441\u0442\u0430\u0439\u043B\u0438\u043D\u0433", "#\u043C\u0443\u0436\u0441\u043A\u043E\u0439\u0441\u0442\u0430\u0439\u043B\u0438\u043D\u0433"],
@@ -6288,36 +6430,34 @@ var init_data_7f0af13e = __esm({
           title: "BAIKAL",
           tagNames: ["#\u0444\u043E\u0442\u043E", "#\u0440\u0435\u043A\u043B\u0430\u043C\u0430", "#\u0436\u0435\u043D\u0441\u043A\u0438\u0439\u0441\u0442\u0430\u0439\u043B\u0438\u043D\u0433", "#\u043C\u0443\u0436\u0441\u043A\u043E\u0439\u0441\u0442\u0430\u0439\u043B\u0438\u043D\u0433"],
           tags: ["\u0424\u043E\u0442\u043E", "\u0420\u0435\u043A\u043B\u0430\u043C\u0430", "\u0416\u0435\u043D\u0441\u043A\u0438\u0439", "\u041C\u0443\u0436\u0441\u043A\u043E\u0439"],
-          mainImg: "/images/projects/BAIKAL1/5.jpg",
-          images: ["/images/projects/BAIKAL1/1.jpg", "/images/projects/BAIKAL1/2.jpg", "/images/projects/BAIKAL1/3.jpg", "/images/projects/BAIKAL1/4.jpg", "/images/projects/BAIKAL1/5.jpg"],
-          style: "10px 200px 10px 100px"
+          mainImg: "/images/projects/BAIKAL1/main.png",
+          images: ["/images/projects/BAIKAL1/1.jpg", "/images/projects/BAIKAL1/2.jpg", "/images/projects/BAIKAL1/3.jpg", "/images/projects/BAIKAL1/4.jpg", "/images/projects/BAIKAL1/5.jpg"]
         },
         {
           title: "SPIN4SPIN",
           tagNames: ["#\u0444\u043E\u0442\u043E", "#\u0444\u0435\u0448\u043D", "#\u0436\u0435\u043D\u0441\u043A\u0438\u0439\u0441\u0442\u0430\u0439\u043B\u0438\u043D\u0433", "#\u043C\u0443\u0436\u0441\u043A\u043E\u0439\u0441\u0442\u0430\u0439\u043B\u0438\u043D\u0433"],
           tags: ["\u0424\u043E\u0442\u043E", "\u0424\u0435\u0448\u043D", "\u0416\u0435\u043D\u0441\u043A\u0438\u0439", "\u041C\u0443\u0436\u0441\u043A\u043E\u0439"],
-          mainImg: "/images/projects/SPIN4SPIN/  -03.jpg",
+          mainImg: "/images/projects/SPIN4SPIN/11.jpg",
           images: [
-            "/images/projects/SPIN4SPIN/  -01.jpg",
-            "/images/projects/SPIN4SPIN/  -03.jpg",
-            "/images/projects/SPIN4SPIN/  -02.jpg",
-            "/images/projects/SPIN4SPIN/  -06.jpg",
-            "/images/projects/SPIN4SPIN/  -12.jpg",
-            "/images/projects/SPIN4SPIN/  -07.jpg",
-            "/images/projects/SPIN4SPIN/  -11.jpg",
-            "/images/projects/SPIN4SPIN/  -05.jpg",
-            "/images/projects/SPIN4SPIN/  -04.jpg",
-            "/images/projects/SPIN4SPIN/  -10.jpg",
-            "/images/projects/SPIN4SPIN/  -09.jpg",
-            "/images/projects/SPIN4SPIN/  -08.jpg"
+            "/images/projects/SPIN4SPIN/1.jpg",
+            "/images/projects/SPIN4SPIN/2.jpg",
+            "/images/projects/SPIN4SPIN/3.jpg",
+            "/images/projects/SPIN4SPIN/4.jpg",
+            "/images/projects/SPIN4SPIN/5.jpg",
+            "/images/projects/SPIN4SPIN/6.jpg",
+            "/images/projects/SPIN4SPIN/7.jpg",
+            "/images/projects/SPIN4SPIN/8.jpg",
+            "/images/projects/SPIN4SPIN/9.jpg",
+            "/images/projects/SPIN4SPIN/10.jpg",
+            "/images/projects/SPIN4SPIN/11.jpg",
+            "/images/projects/SPIN4SPIN/12.jpg"
           ],
-          classes: "p-2",
           video: ""
         },
         {
           title: "AVIAPARK",
           tagNames: ["#\u0432\u0438\u0434\u0435\u043E", "#\u0440\u0435\u043A\u043B\u0430\u043C\u0430", "#\u0436\u0435\u043D\u0441\u043A\u0438\u0439\u0441\u0442\u0430\u0439\u043B\u0438\u043D\u0433", "#\u043C\u0443\u0436\u0441\u043A\u043E\u0439\u0441\u0442\u0430\u0439\u043B\u0438\u043D\u0433", "#\u0434\u0435\u0442\u0441\u043A\u0438\u0439\u0441\u0442\u0430\u0439\u043B\u0438\u043D\u0433"],
-          tags: ["\u0412\u0438\u0434\u0435\u043E", "\u0420\u0435\u043A\u043B\u0430\u043C\u0430", "\u0416\u0435\u043D\u0441\u043A\u0438\u0439", "\u041C\u0443\u0436\u0441\u043A\u043E\u0439", "\u0414\u0435\u0442\u0441\u043A\u0438\u0439\u0441\u0442\u0430\u0439\u043B\u0438\u043D\u0433"],
+          tags: ["\u0412\u0438\u0434\u0435\u043E", "\u0420\u0435\u043A\u043B\u0430\u043C\u0430", "\u0416\u0435\u043D\u0441\u043A\u0438\u0439", "\u041C\u0443\u0436\u0441\u043A\u043E\u0439", "\u0414\u0435\u0442\u0441\u043A\u0438\u0439"],
           mainImg: "/images/projects/AVIAPARK/1.jpg",
           images: [],
           video: "https://www.youtube.com/watch?v=CkL_ahnFXxI&feature=emb_logo",
@@ -6351,21 +6491,20 @@ var init_data_7f0af13e = __esm({
           tagNames: ["#\u0432\u0438\u0434\u0435\u043E", "#\u0440\u0435\u043A\u043B\u0430\u043C\u0430", "#\u043C\u0443\u0436\u0441\u043A\u043E\u0439\u0441\u0442\u0430\u0439\u043B\u0438\u043D\u0433"],
           tags: ["\u0412\u0438\u0434\u0435\u043E", "\u0420\u0435\u043A\u043B\u0430\u043C\u0430", "\u041C\u0443\u0436\u0441\u043A\u043E\u0439"],
           mainImg: "/images/projects/1XBET/1.jpg",
-          video: "Q_Xqmbva_U0",
-          style: "30px 250px 200px 15px"
+          localVideo: "/images/projects/1XBET/1.mp4",
+          style: "10% 50% 50% 5%"
         },
         {
           title: "Avon sale zone 19",
           tagNames: ["#\u0444\u043E\u0442\u043E", "#\u0440\u0435\u043A\u043B\u0430\u043C\u0430", "#\u0436\u0435\u043D\u0441\u043A\u0438\u0439\u0441\u0442\u0430\u0439\u043B\u0438\u043D\u0433", "#\u043C\u0443\u0436\u0441\u043A\u043E\u0439\u0441\u0442\u0430\u0439\u043B\u0438\u043D\u0433"],
           tags: ["\u0424\u043E\u0442\u043E", "\u0420\u0435\u043A\u043B\u0430\u043C\u0430", "\u0416\u0435\u043D\u0441\u043A\u0438\u0439", "\u041C\u0443\u0436\u0441\u043A\u043E\u0439"],
-          mainImg: "/images/projects/AVON SALE ZONE 19/\u041A\u043E\u043F\u0438\u044F IMG_69409.jpg",
+          mainImg: "/images/projects/AVON SALE ZONE 19/main.png",
           images: [
             "/images/projects/AVON SALE ZONE 19/\u041A\u043E\u043F\u0438\u044F IMG_69943.jpg",
             "/images/projects/AVON SALE ZONE 19/\u041A\u043E\u043F\u0438\u044F IMG_69409.jpg",
             "/images/projects/AVON SALE ZONE 19/\u041A\u043E\u043F\u0438\u044F IMG_70937_3.jpg",
             "/images/projects/AVON SALE ZONE 19/\u041A\u043E\u043F\u0438\u044F IMG_69694_2.jpg"
-          ],
-          style: "0 250px 0 0"
+          ]
         },
         {
           title: "MANO",
@@ -6385,7 +6524,7 @@ var init_data_7f0af13e = __esm({
         {
           title: "A101",
           tagNames: ["#\u0432\u0438\u0434\u0435\u043E", "#\u0440\u0435\u043A\u043B\u0430\u043C\u0430", "#\u0434\u0435\u0442\u0441\u043A\u0438\u0439\u0441\u0442\u0430\u0439\u043B\u0438\u043D\u0433"],
-          tags: ["\u0412\u0438\u0434\u0435\u043E", "\u0420\u0435\u043A\u043B\u0430\u043C\u0430", "\u0414\u0435\u0442\u0441\u043A\u0438\u0439\u0441\u0442\u0430\u0439\u043B\u0438\u043D\u0433"],
+          tags: ["\u0412\u0438\u0434\u0435\u043E", "\u0420\u0435\u043A\u043B\u0430\u043C\u0430", "\u0414\u0435\u0442\u0441\u043A\u0438\u0439"],
           mainImg: "/images/projects/A101/1.jpg",
           video: "hlxQMLfyGmQ",
           style: "30px 20px 170px 100px"
@@ -6407,7 +6546,7 @@ var init_data_7f0af13e = __esm({
           tagNames: ["#\u0432\u0438\u0434\u0435\u043E", "#\u0436\u0435\u043D\u0441\u043A\u0438\u0439\u0441\u0442\u0430\u0439\u043B\u0438\u043D\u0433", "#\u043C\u0443\u0436\u0441\u043A\u043E\u0439\u0441\u0442\u0430\u0439\u043B\u0438\u043D\u0433", "#\u0441\u043E\u0437\u0434\u0430\u043D\u0438\u0435\u043A\u043E\u0441\u0442\u044E\u043C\u043E\u0432"],
           tags: ["\u0412\u0438\u0434\u0435\u043E", "\u0416\u0435\u043D\u0441\u043A\u0438\u0439", "\u041C\u0443\u0436\u0441\u043A\u043E\u0439"],
           mainImg: "/images/projects/ZVETANASVENTANA/1.jpg",
-          style: "100px 0 100px 50px",
+          style: "20% 0 20% 10%",
           video: "gAzNUY9yKv8"
         },
         {
@@ -6428,31 +6567,23 @@ var init_data_7f0af13e = __esm({
           style: "100px 40px 80px 20px"
         },
         {
-          title: "ADRENALINE RUSH",
-          tagNames: ["#\u0432\u0438\u0434\u0435\u043E", "#\u0440\u0435\u043A\u043B\u0430\u043C\u0430", "#\u0436\u0435\u043D\u0441\u043A\u0438\u0439\u0441\u0442\u0430\u0439\u043B\u0438\u043D\u0433", "#\u043C\u0443\u0436\u0441\u043A\u043E\u0439\u0441\u0442\u0430\u0439\u043B\u0438\u043D\u0433"],
-          tags: ["\u0412\u0438\u0434\u0435\u043E", "\u0420\u0435\u043A\u043B\u0430\u043C\u0430", "\u0416\u0435\u043D\u0441\u043A\u0438\u0439", "\u041C\u0443\u0436\u0441\u043A\u043E\u0439"],
-          mainImg: "/images/projects/ADRENALINE/1.jpg",
-          video: "xMCWP6V3X2c",
-          style: "20px 20px 250px 250px"
-        },
-        {
           title: "DELOBANK",
           tagNames: ["#\u0432\u0438\u0434\u0435\u043E", "#\u0440\u0435\u043A\u043B\u0430\u043C\u0430", "#\u0436\u0435\u043D\u0441\u043A\u0438\u0439\u0441\u0442\u0430\u0439\u043B\u0438\u043D\u0433", "#\u043C\u0443\u0436\u0441\u043A\u043E\u0439\u0441\u0442\u0430\u0439\u043B\u0438\u043D\u0433", "#\u0434\u0435\u0442\u0441\u043A\u0438\u0439\u0441\u0442\u0430\u0439\u043B\u0438\u043D\u0433"],
-          tags: ["\u0412\u0438\u0434\u0435\u043E", "\u0420\u0435\u043A\u043B\u0430\u043C\u0430", "\u0416\u0435\u043D\u0441\u043A\u0438\u0439", "\u041C\u0443\u0436\u0441\u043A\u043E\u0439", "\u0414\u0435\u0442\u0441\u043A\u0438\u0439\u0441\u0442\u0430\u0439\u043B\u0438\u043D\u0433"],
+          tags: ["\u0412\u0438\u0434\u0435\u043E", "\u0420\u0435\u043A\u043B\u0430\u043C\u0430", "\u0416\u0435\u043D\u0441\u043A\u0438\u0439", "\u041C\u0443\u0436\u0441\u043A\u043E\u0439", "\u0414\u0435\u0442\u0441\u043A\u0438\u0439"],
           mainImg: "/images/projects/DELOBANK/1.jpg",
           video: "Zpu37bReork",
-          style: "200px 20px 20px 20px"
+          style: "50% 5% 5% 5%"
         },
         {
-          title: "SEBASTIAN + SYSTEM 2019",
+          title: "SEBASTIAN / SYSTEM 2019",
           tagNames: ["#\u0444\u043E\u0442\u043E", "#\u0444\u0435\u0448\u043D", "#\u0436\u0435\u043D\u0441\u043A\u0438\u0439\u0441\u0442\u0430\u0439\u043B\u0438\u043D\u0433"],
           tags: ["\u0424\u043E\u0442\u043E", "\u0424\u0435\u0448\u043D", "\u0416\u0435\u043D\u0441\u043A\u0438\u0439"],
-          mainImg: "/images/projects/SEBASTIAM+SYSTEM 2019/4.jpg",
+          mainImg: "/images/projects/SEBASTIAM/SYSTEM 2019/4.jpg",
           images: [
-            "/images/projects/SEBASTIAM+SYSTEM 2019/4.jpg",
-            "/images/projects/SEBASTIAM+SYSTEM 2019/2.jpg",
-            "/images/projects/SEBASTIAM+SYSTEM 2019/3.jpg",
-            "/images/projects/SEBASTIAM+SYSTEM 2019/1.jpg"
+            "/images/projects/SEBASTIAM/SYSTEM 2019/4.jpg",
+            "/images/projects/SEBASTIAM/SYSTEM 2019/2.jpg",
+            "/images/projects/SEBASTIAM/SYSTEM 2019/3.jpg",
+            "/images/projects/SEBASTIAM/SYSTEM 2019/1.jpg"
           ]
         },
         {
@@ -6472,7 +6603,7 @@ var init_data_7f0af13e = __esm({
             "/images/projects/WHO I AM/WHOIAM 033.JPG",
             "/images/projects/WHO I AM/WHOIAM 032.JPG"
           ],
-          style: "40px 240px 90px 20px"
+          style: "15% 50% 30% 5%"
         },
         {
           title: "\u0414\u0418\u0420\u0415\u041A\u0422\u041E\u0420 \u0412\u0421\u0415\u0413\u041E \u201C\u0417\u0430\u043D\u044F\u0442\u043E\u0439 \u0433\u0440\u0430\u0436\u0434\u0430\u043D\u0438\u043D\u201D",
@@ -6480,7 +6611,7 @@ var init_data_7f0af13e = __esm({
           tags: ["\u0412\u0438\u0434\u0435\u043E", "\u0416\u0435\u043D\u0441\u043A\u0438\u0439", "\u041C\u0443\u0436\u0441\u043A\u043E\u0439"],
           mainImg: "/images/projects/DIRECTOR/1.jpg",
           video: "7X18S0R-jBE",
-          style: "20px 20px 300px 200px"
+          style: "7% 5% 50% 50%"
         },
         {
           title: "PERFUME FOR PROJECT 314",
@@ -6493,13 +6624,13 @@ var init_data_7f0af13e = __esm({
             "/images/projects/PERFUME FOR PROJECT 314/3.jpg",
             "/images/projects/PERFUME FOR PROJECT 314/1.jpg"
           ],
-          style: "250px 50px 100px 300px"
+          style: "50% 5% 5% 50%"
         },
         {
           title: "TRAPEZE OF MALEVICH x CNS MAGAZINE",
           tagNames: ["#\u0444\u043E\u0442\u043E", "#\u044D\u0434\u0438\u0442\u043E\u0440\u0438\u0430\u043B", "#\u0436\u0435\u043D\u0441\u043A\u0438\u0439\u0441\u0442\u0430\u0439\u043B\u0438\u043D\u0433"],
           tags: ["\u0424\u043E\u0442\u043E", "\u042D\u0434\u0438\u0442\u043E\u0440\u0438\u0430\u043B", "\u0416\u0435\u043D\u0441\u043A\u0438\u0439"],
-          mainImg: "/images/projects/TRAPEZE OF MALEVICH/10.jpg",
+          mainImg: "/images/projects/TRAPEZE OF MALEVICH/8.jpg",
           images: [
             "/images/projects/TRAPEZE OF MALEVICH/8.jpg",
             "/images/projects/TRAPEZE OF MALEVICH/9.jpg",
@@ -6520,13 +6651,13 @@ var init_data_7f0af13e = __esm({
           tags: ["\u0412\u0438\u0434\u0435\u043E", "\u041C\u0443\u0436\u0441\u043A\u043E\u0439"],
           mainImg: "/images/projects/MONAMI/1.jpg",
           video: "9Wptoc-ejf0",
-          style: "40px 40px 300px 0"
+          style: "10% 10% 60% 0"
         },
         {
           title: "WHAT ABOUT US",
           tagNames: ["#\u0444\u043E\u0442\u043E", "#\u0444\u0435\u0448\u043D", "#\u0436\u0435\u043D\u0441\u043A\u0438\u0439\u0441\u0442\u0430\u0439\u043B\u0438\u043D\u0433", "#\u043C\u0443\u0436\u0441\u043A\u043E\u0439\u0441\u0442\u0430\u0439\u043B\u0438\u043D\u0433"],
           tags: ["\u0424\u043E\u0442\u043E", "\u0424\u0435\u0448\u043D", "\u0416\u0435\u043D\u0441\u043A\u0438\u0439", "\u041C\u0443\u0436\u0441\u043A\u043E\u0439"],
-          mainImg: "/images/projects/WHAT ABOUT US/\u041A\u043E\u043F\u0438\u044F W_A_U_ 004.jpg",
+          mainImg: "/images/projects/WHAT ABOUT US/main.png",
           images: [
             "/images/projects/WHAT ABOUT US/\u041A\u043E\u043F\u0438\u044F W_A_U_ 009.jpg",
             "/images/projects/WHAT ABOUT US/\u041A\u043E\u043F\u0438\u044F W_A_U_ 008.jpg",
@@ -6542,10 +6673,10 @@ var init_data_7f0af13e = __esm({
         {
           title: "MEGA",
           tagNames: ["#\u0432\u0438\u0434\u0435\u043E", "#\u0440\u0435\u043A\u043B\u0430\u043C\u0430", "#\u0436\u0435\u043D\u0441\u043A\u0438\u0439\u0441\u0442\u0430\u0439\u043B\u0438\u043D\u0433", "#\u043C\u0443\u0436\u0441\u043A\u043E\u0439\u0441\u0442\u0430\u0439\u043B\u0438\u043D\u0433", "#\u0434\u0435\u0442\u0441\u043A\u0438\u0439\u0441\u0442\u0430\u0439\u043B\u0438\u043D\u0433"],
-          tags: ["\u0412\u0438\u0434\u0435\u043E", "\u0420\u0435\u043A\u043B\u0430\u043C\u0430", "\u0416\u0435\u043D\u0441\u043A\u0438\u0439", "\u041C\u0443\u0436\u0441\u043A\u043E\u0439", "\u0414\u0435\u0442\u0441\u043A\u0438\u0439\u0441\u0442\u0430\u0439\u043B\u0438\u043D\u0433"],
+          tags: ["\u0412\u0438\u0434\u0435\u043E", "\u0420\u0435\u043A\u043B\u0430\u043C\u0430", "\u0416\u0435\u043D\u0441\u043A\u0438\u0439", "\u041C\u0443\u0436\u0441\u043A\u043E\u0439", "\u0414\u0435\u0442\u0441\u043A\u0438\u0439"],
           mainImg: "/images/projects/MEGA/1.jpg",
           video: "BmOnHc4_sHQ",
-          style: "250px 250px 50px 0"
+          style: "50% 50% 15% 0"
         },
         {
           title: "DR KRIVOROTOV COVER SHOOT",
@@ -6567,21 +6698,7 @@ var init_data_7f0af13e = __esm({
           tags: ["\u0412\u0438\u0434\u0435\u043E", "\u0420\u0435\u043A\u043B\u0430\u043C\u0430", "\u041C\u0443\u0436\u0441\u043A\u043E\u0439"],
           mainImg: "/images/projects/SBERBANK/1.jpg",
           video: "0TQAb6feqaU",
-          style: "300px 200px 50px 20px"
-        },
-        {
-          title: "FAK BY FAK by Emi America",
-          tagNames: ["#\u0444\u043E\u0442\u043E", "#\u0444\u0435\u0448\u043D", "#\u0436\u0435\u043D\u0441\u043A\u0438\u0439\u0441\u0442\u0430\u0439\u043B\u0438\u043D\u0433"],
-          tags: ["\u0424\u043E\u0442\u043E", "\u0424\u0435\u0448\u043D", "\u0416\u0435\u043D\u0441\u043A\u0438\u0439"],
-          mainImg: "/images/projects/FAKBYFAK/\u041A\u043E\u043F\u0438\u044F AA007.jpg",
-          images: [
-            "/images/projects/FAKBYFAK/\u041A\u043E\u043F\u0438\u044F fakbyfak3682.jpg",
-            "/images/projects/FAKBYFAK/\u041A\u043E\u043F\u0438\u044F 000091220034.jpg",
-            "/images/projects/FAKBYFAK/\u041A\u043E\u043F\u0438\u044F AA007.jpg",
-            "/images/projects/FAKBYFAK/\u041A\u043E\u043F\u0438\u044F fakbyfak3700.jpg",
-            "/images/projects/FAKBYFAK/\u041A\u043E\u043F\u0438\u044F fakbyfak3660.jpg"
-          ],
-          style: "20px 0 200px 150px"
+          style: "60% 50% 10% 5%"
         },
         {
           title: "EVOLUTION 2.0 / HUF MAGAZINE",
@@ -6611,28 +6728,15 @@ var init_data_7f0af13e = __esm({
           tags: ["\u0412\u0438\u0434\u0435\u043E", "\u0416\u0435\u043D\u0441\u043A\u0438\u0439"],
           mainImg: "/images/projects/KRASSNA/1.jpg",
           video: "4Vo3kB6glAg",
-          style: "300px 250px 100px 100px"
-        },
-        {
-          title: "AVON 19 NY kids",
-          tagNames: ["#\u0444\u043E\u0442\u043E", "#\u0440\u0435\u043A\u043B\u0430\u043C\u0430", "#\u0436\u0435\u043D\u0441\u043A\u0438\u0439\u0441\u0442\u0430\u0439\u043B\u0438\u043D\u0433", "#\u043C\u0443\u0436\u0441\u043A\u043E\u0439\u0441\u0442\u0430\u0439\u043B\u0438\u043D\u0433", "#\u0434\u0435\u0442\u0441\u043A\u0438\u0439\u0441\u0442\u0430\u0439\u043B\u0438\u043D\u0433"],
-          tags: ["\u0424\u043E\u0442\u043E", "\u0420\u0435\u043A\u043B\u0430\u043C\u0430", "\u0416\u0435\u043D\u0441\u043A\u0438\u0439", "\u041C\u0443\u0436\u0441\u043A\u043E\u0439", "\u0414\u0435\u0442\u0441\u043A\u0438\u0439\u0441\u0442\u0430\u0439\u043B\u0438\u043D\u0433"],
-          mainImg: "/images/projects/AVON 19 NY KIDS/\u041A\u043E\u043F\u0438\u044F AVON_NY_II_0801.jpg",
-          images: [
-            "/images/projects/AVON 19 NY KIDS/\u041A\u043E\u043F\u0438\u044F AVON_NY_II_0801.jpg",
-            "/images/projects/AVON 19 NY KIDS/\u041A\u043E\u043F\u0438\u044F AVON_NY_I_00711.jpg",
-            "/images/projects/AVON 19 NY KIDS/\u041A\u043E\u043F\u0438\u044F EmptyName 34.jpg",
-            "/images/projects/AVON 19 NY KIDS/\u041A\u043E\u043F\u0438\u044F AVON_NY_II_1521.jpg"
-          ],
-          style: "150px 0 70px 50px"
+          style: "50% 50% 20% 20%"
         },
         {
           title: "LENTA",
           tagNames: ["#\u0432\u0438\u0434\u0435\u043E", "#\u0440\u0435\u043A\u043B\u0430\u043C\u0430", "#\u0436\u0435\u043D\u0441\u043A\u0438\u0439\u0441\u0442\u0430\u0439\u043B\u0438\u043D\u0433", "#\u043C\u0443\u0436\u0441\u043A\u043E\u0439\u0441\u0442\u0430\u0439\u043B\u0438\u043D\u0433", "#\u0434\u0435\u0442\u0441\u043A\u0438\u0439\u0441\u0442\u0430\u0439\u043B\u0438\u043D\u0433"],
-          tags: ["\u0412\u0438\u0434\u0435\u043E", "\u0420\u0435\u043A\u043B\u0430\u043C\u0430", "\u0416\u0435\u043D\u0441\u043A\u0438\u0439", "\u041C\u0443\u0436\u0441\u043A\u043E\u0439", "\u0414\u0435\u0442\u0441\u043A\u0438\u0439\u0441\u0442\u0430\u0439\u043B\u0438\u043D\u0433"],
+          tags: ["\u0412\u0438\u0434\u0435\u043E", "\u0420\u0435\u043A\u043B\u0430\u043C\u0430", "\u0416\u0435\u043D\u0441\u043A\u0438\u0439", "\u041C\u0443\u0436\u0441\u043A\u043E\u0439", "\u0414\u0435\u0442\u0441\u043A\u0438\u0439"],
           mainImg: "/images/projects/LENTA/1.jpg",
           video: "WWsp8LsYWIk",
-          style: "0 0 300px 150px"
+          style: "0 0 60% 40%"
         },
         {
           title: '\u0414\u0418\u0420\u0415\u041A\u0422\u041E\u0420 \u0412\u0421\u0415\u0413\u041E "MBA" #',
@@ -6668,12 +6772,12 @@ var init_data_7f0af13e = __esm({
           tags: ["\u0412\u0438\u0434\u0435\u043E", "\u0420\u0435\u043A\u043B\u0430\u043C\u0430", "\u041C\u0443\u0436\u0441\u043A\u043E\u0439"],
           mainImg: "/images/projects/MELLER/1.jpg",
           video: "3GYMgZnxW0s",
-          style: "200px 30px 200px 270px"
+          style: "30% 5% 30% 50%"
         },
         {
           title: "\u0426\u0414\u041C",
           tagNames: ["#\u0432\u0438\u0434\u0435\u043E", "#\u0440\u0435\u043A\u043B\u0430\u043C\u0430", "#\u0436\u0435\u043D\u0441\u043A\u0438\u0439\u0441\u0442\u0430\u0439\u043B\u0438\u043D\u0433", "#\u043C\u0443\u0436\u0441\u043A\u043E\u0439\u0441\u0442\u0430\u0439\u043B\u0438\u043D\u0433", "#\u0434\u0435\u0442\u0441\u043A\u0438\u0439\u0441\u0442\u0430\u0439\u043B\u0438\u043D\u0433"],
-          tags: ["\u0412\u0438\u0434\u0435\u043E", "\u0420\u0435\u043A\u043B\u0430\u043C\u0430", "\u0416\u0435\u043D\u0441\u043A\u0438\u0439", "\u041C\u0443\u0436\u0441\u043A\u043E\u0439", "\u0414\u0435\u0442\u0441\u043A\u0438\u0439\u0441\u0442\u0430\u0439\u043B\u0438\u043D\u0433"],
+          tags: ["\u0412\u0438\u0434\u0435\u043E", "\u0420\u0435\u043A\u043B\u0430\u043C\u0430", "\u0416\u0435\u043D\u0441\u043A\u0438\u0439", "\u041C\u0443\u0436\u0441\u043A\u043E\u0439", "\u0414\u0435\u0442\u0441\u043A\u0438\u0439"],
           mainImg: "/images/projects/CDM/1.jpg",
           localVideo: "/images/projects/CDM/1.mp4",
           style: "200px 0 10px 50px"
@@ -6684,7 +6788,7 @@ var init_data_7f0af13e = __esm({
           tags: ["\u0412\u0438\u0434\u0435\u043E", "\u0420\u0435\u043A\u043B\u0430\u043C\u0430", "\u0416\u0435\u043D\u0441\u043A\u0438\u0439", "\u041C\u0443\u0436\u0441\u043A\u043E\u0439"],
           mainImg: "/images/projects/MEGAELKA/1.jpg",
           localVideo: "/images/projects/MEGAELKA/1.mp4",
-          style: "200px 0 200px 100px"
+          style: "30% 0 30% 20%"
         },
         {
           title: "AUSHAN",
@@ -6692,15 +6796,7 @@ var init_data_7f0af13e = __esm({
           tags: ["\u0412\u0438\u0434\u0435\u043E", "\u0420\u0435\u043A\u043B\u0430\u043C\u0430", "\u0416\u0435\u043D\u0441\u043A\u0438\u0439", "\u041C\u0443\u0436\u0441\u043A\u043E\u0439"],
           mainImg: "/images/projects/AUSHAN/1.jpg",
           video: "ZAN-1BmxcS4",
-          style: "300px 50px 50px 100px"
-        },
-        {
-          title: "Alpen Gold",
-          tagNames: ["#\u0432\u0438\u0434\u0435\u043E", "#\u0440\u0435\u043A\u043B\u0430\u043C\u0430", "#\u0436\u0435\u043D\u0441\u043A\u0438\u0439\u0441\u0442\u0430\u0439\u043B\u0438\u043D\u0433", "#\u043C\u0443\u0436\u0441\u043A\u043E\u0439\u0441\u0442\u0430\u0439\u043B\u0438\u043D\u0433"],
-          tags: ["\u0412\u0438\u0434\u0435\u043E", "\u0420\u0435\u043A\u043B\u0430\u043C\u0430", "\u0416\u0435\u043D\u0441\u043A\u0438\u0439", "\u041C\u0443\u0436\u0441\u043A\u043E\u0439"],
-          mainImg: "/images/projects/ALPEN GOLD/1.jpg",
-          localVideo: "/images/projects/ALPEN GOLD/1.mp4",
-          style: "100px 10px 100px 0"
+          style: "60% 10% 10% 20%"
         },
         {
           title: "MEGAFON",
@@ -6708,7 +6804,7 @@ var init_data_7f0af13e = __esm({
           tags: ["\u0412\u0438\u0434\u0435\u043E", "\u0420\u0435\u043A\u043B\u0430\u043C\u0430", "\u0416\u0435\u043D\u0441\u043A\u0438\u0439", "\u041C\u0443\u0436\u0441\u043A\u043E\u0439"],
           mainImg: "/images/projects/MEGAFON/1.jpg",
           video: "d3-eeTvDiyE",
-          style: "120px 0 300px 250px"
+          style: "20% 20% 50% 30%"
         },
         {
           title: "TTSWTR for Pushkinsiy Museum",
@@ -6722,13 +6818,13 @@ var init_data_7f0af13e = __esm({
             "/images/projects/TTSWTR/\u041A\u043E\u043F\u0438\u044F ttswtrs-005.jpg",
             "/images/projects/TTSWTR/\u041A\u043E\u043F\u0438\u044F FSM_-001.jpg"
           ],
-          style: "300px 30px 0 300px"
+          style: "50% 10% 0 50%"
         },
         {
           title: "DOKUCHAEVA",
           tagNames: ["#\u0444\u043E\u0442\u043E", "#\u0444\u0435\u0448\u043D", "#\u0436\u0435\u043D\u0441\u043A\u0438\u0439\u0441\u0442\u0430\u0439\u043B\u0438\u043D\u0433", "#\u043C\u0443\u0436\u0441\u043A\u043E\u0439\u0441\u0442\u0430\u0439\u043B\u0438\u043D\u0433"],
           tags: ["\u0424\u043E\u0442\u043E", "\u0424\u0435\u0448\u043D", "\u0416\u0435\u043D\u0441\u043A\u0438\u0439", "\u041C\u0443\u0436\u0441\u043A\u043E\u0439"],
-          mainImg: "/images/projects/DOKUCHAEVA/\u041A\u043E\u043F\u0438\u044F Dokuchaeva_200910_10555 copy.jpg",
+          mainImg: "/images/projects/DOKUCHAEVA/main.png",
           images: [
             "/images/projects/DOKUCHAEVA/\u041A\u043E\u043F\u0438\u044F Dokuchaeva_200910_11839 copy.jpg",
             "/images/projects/DOKUCHAEVA/\u041A\u043E\u043F\u0438\u044F Dokuchaeva_200910_11724 copy.jpg",
@@ -6737,8 +6833,7 @@ var init_data_7f0af13e = __esm({
             "/images/projects/DOKUCHAEVA/\u041A\u043E\u043F\u0438\u044F Dokuchaeva_200910_11145 copy.jpg",
             "/images/projects/DOKUCHAEVA/\u041A\u043E\u043F\u0438\u044F Dokuchaeva_200910_11411 copy.jpg",
             "/images/projects/DOKUCHAEVA/\u041A\u043E\u043F\u0438\u044F Dokuchaeva_200910_10555 copy.jpg"
-          ],
-          style: "0 350px 250px 0"
+          ]
         },
         {
           title: "AUROUS",
@@ -6746,30 +6841,30 @@ var init_data_7f0af13e = __esm({
           tags: ["\u0412\u0438\u0434\u0435\u043E", "\u0420\u0435\u043A\u043B\u0430\u043C\u0430", "\u041C\u0443\u0436\u0441\u043A\u043E\u0439"],
           mainImg: "/images/projects/AUROUS/1.jpg",
           video: "5ZoFvmUIa9g",
-          style: "150px 90px 150px 0"
+          style: "34% 30% 34% 0"
         },
         {
           title: "\u0410\u043D\u0442\u043E\u043D \u041A\u0440\u0438\u0432\u043E\u0440\u043E\u0442\u043E\u0432 \u0434\u043B\u044F \u043E\u0431\u043B\u043E\u0436\u0435\u043A \u0445\u043E\u043B\u043E\u0441\u0442\u044F\u043A\u0430",
           tagNames: ["#\u0444\u043E\u0442\u043E", "#\u0440\u0435\u043A\u043B\u0430\u043C\u0430", "#\u043C\u0443\u0436\u0441\u043A\u043E\u0439\u0441\u0442\u0430\u0439\u043B\u0438\u043D\u0433"],
           tags: ["\u0424\u043E\u0442\u043E", "\u0420\u0435\u043A\u043B\u0430\u043C\u0430", "\u041C\u0443\u0436\u0441\u043A\u043E\u0439"],
-          mainImg: "/images/projects/HOLOSTIAK/\u041A\u043E\u043F\u0438\u044F d4394489085388a02b800188bfeb6026.jpg",
+          mainImg: "/images/projects/HOLOSTIAK/5.jpg",
           images: [
-            "/images/projects/HOLOSTIAK/\u041A\u043E\u043F\u0438\u044F ok-zhurnal-8-02.jpg",
-            "/images/projects/HOLOSTIAK/\u041A\u043E\u043F\u0438\u044F d4394489085388a02b800188bfeb6026.jpg",
-            "/images/projects/HOLOSTIAK/\u041A\u043E\u043F\u0438\u044F 72e447bc9980f966eabc570ba2438d62.jpg"
+            "/images/projects/HOLOSTIAK/5.jpg",
+            "/images/projects/HOLOSTIAK/4.jpg",
+            "/images/projects/HOLOSTIAK/3.jpg"
           ]
         },
         {
           title: "\u0420\u0411\u041A \u0421\u041F\u0415\u0426\u041F\u0420\u041E\u0415\u041A\u0422",
           tagNames: ["#\u0444\u043E\u0442\u043E", "#\u0440\u0435\u043A\u043B\u0430\u043C\u0430", "#\u043C\u0443\u0436\u0441\u043A\u043E\u0439\u0441\u0442\u0430\u0439\u043B\u0438\u043D\u0433"],
           tags: ["\u0424\u043E\u0442\u043E", "\u0420\u0435\u043A\u043B\u0430\u043C\u0430", "\u041C\u0443\u0436\u0441\u043A\u043E\u0439"],
-          mainImg: "/images/projects/RBK/\u041A\u043E\u043F\u0438\u044F main-img-1.jpg",
+          mainImg: "/images/projects/RBK/1.jpg",
           images: [
-            "/images/projects/RBK/\u041A\u043E\u043F\u0438\u044F review-sisoev.jpg",
-            "/images/projects/RBK/\u041A\u043E\u043F\u0438\u044F main-img-2.jpg",
-            "/images/projects/RBK/\u041A\u043E\u043F\u0438\u044F main-img-1.jpg",
-            "/images/projects/RBK/\u041A\u043E\u043F\u0438\u044F review-marko.jpg",
-            "/images/projects/RBK/\u041A\u043E\u043F\u0438\u044F review-marko-2.jpg"
+            "/images/projects/RBK/1.jpg",
+            "/images/projects/RBK/2.jpg",
+            "/images/projects/RBK/3.jpg",
+            "/images/projects/RBK/4.jpg",
+            "/images/projects/RBK/5.jpg"
           ]
         },
         {
@@ -6786,7 +6881,7 @@ var init_data_7f0af13e = __esm({
           tags: ["\u0412\u0438\u0434\u0435\u043E", "\u0416\u0435\u043D\u0441\u043A\u0438\u0439", "\u041C\u0443\u0436\u0441\u043A\u043E\u0439"],
           mainImg: "/images/projects/WEEKEND/1.jpg",
           video: "Dso2sn660GA",
-          style: "100px 60px 200px 0"
+          style: "30% 10% 40% 0"
         },
         {
           title: "KUNST MAGAZINE",
@@ -6837,24 +6932,24 @@ var init_data_7f0af13e = __esm({
           title: "SCHIAP / VGXW MAG",
           tagNames: ["#\u0444\u043E\u0442\u043E", "#\u044D\u0434\u0438\u0442\u043E\u0440\u0438\u0430\u043B", "#\u0436\u0435\u043D\u0441\u043A\u0438\u0439\u0441\u0442\u0430\u0439\u043B\u0438\u043D\u0433"],
           tags: ["\u0424\u043E\u0442\u043E", "\u042D\u0434\u0438\u0442\u043E\u0440\u0438\u0430\u043B", "\u0416\u0435\u043D\u0441\u043A\u0438\u0439"],
-          mainImg: "/images/projects/SCHIAP:VGXW/\u041A\u043E\u043F\u0438\u044F 2019_11_17_SCHIAP_7090.jpg",
+          mainImg: "/images/projects/SCHIAP_VGXW/\u041A\u043E\u043F\u0438\u044F 2019_11_17_SCHIAP_7090.jpg",
           images: [
-            "/images/projects/SCHIAP:VGXW/\u041A\u043E\u043F\u0438\u044F 2019_11_17_SCHIAP_6825.jpg",
-            "/images/projects/SCHIAP:VGXW/\u041A\u043E\u043F\u0438\u044F 2019_11_17_SCHIAP_7090.jpg",
-            "/images/projects/SCHIAP:VGXW/\u041A\u043E\u043F\u0438\u044F 2019_11_17_SCHIAP_6402.jpg",
-            "/images/projects/SCHIAP:VGXW/\u041A\u043E\u043F\u0438\u044F 2019_11_17_SCHIAP_6412.jpg",
-            "/images/projects/SCHIAP:VGXW/\u041A\u043E\u043F\u0438\u044F 2019_11_17_SCHIAP_6981.jpg",
-            "/images/projects/SCHIAP:VGXW/\u041A\u043E\u043F\u0438\u044F 2019_11_17_SCHIAP_6185.jpg",
-            "/images/projects/SCHIAP:VGXW/\u041A\u043E\u043F\u0438\u044F 2019_11_17_SCHIAP_6620.jpg",
-            "/images/projects/SCHIAP:VGXW/\u041A\u043E\u043F\u0438\u044F 2019_11_17_SCHIAP_6751.jpg",
-            "/images/projects/SCHIAP:VGXW/\u041A\u043E\u043F\u0438\u044F 2019_11_17_SCHIAP_6888.jpg"
+            "/images/projects/SCHIAP_VGXW/\u041A\u043E\u043F\u0438\u044F 2019_11_17_SCHIAP_6825.jpg",
+            "/images/projects/SCHIAP_VGXW/\u041A\u043E\u043F\u0438\u044F 2019_11_17_SCHIAP_7090.jpg",
+            "/images/projects/SCHIAP_VGXW/\u041A\u043E\u043F\u0438\u044F 2019_11_17_SCHIAP_6402.jpg",
+            "/images/projects/SCHIAP_VGXW/\u041A\u043E\u043F\u0438\u044F 2019_11_17_SCHIAP_6412.jpg",
+            "/images/projects/SCHIAP_VGXW/\u041A\u043E\u043F\u0438\u044F 2019_11_17_SCHIAP_6981.jpg",
+            "/images/projects/SCHIAP_VGXW/\u041A\u043E\u043F\u0438\u044F 2019_11_17_SCHIAP_6185.jpg",
+            "/images/projects/SCHIAP_VGXW/\u041A\u043E\u043F\u0438\u044F 2019_11_17_SCHIAP_6620.jpg",
+            "/images/projects/SCHIAP_VGXW/\u041A\u043E\u043F\u0438\u044F 2019_11_17_SCHIAP_6751.jpg",
+            "/images/projects/SCHIAP_VGXW/\u041A\u043E\u043F\u0438\u044F 2019_11_17_SCHIAP_6888.jpg"
           ]
         },
         {
           title: "HUSKY LOOKBOOK 2",
           tagNames: ["#\u0444\u043E\u0442\u043E", "#\u0444\u0435\u0448\u043D", "#\u0436\u0435\u043D\u0441\u043A\u0438\u0439\u0441\u0442\u0430\u0439\u043B\u0438\u043D\u0433", "#\u043C\u0443\u0436\u0441\u043A\u043E\u0439\u0441\u0442\u0430\u0439\u043B\u0438\u043D\u0433"],
           tags: ["\u0424\u043E\u0442\u043E", "\u0424\u0435\u0448\u043D", "\u0416\u0435\u043D\u0441\u043A\u0438\u0439", "\u041C\u0443\u0436\u0441\u043A\u043E\u0439"],
-          mainImg: "/images/projects/HASKY LOOKBOOK/\u041A\u043E\u043F\u0438\u044F Capture One Catalog2344 1.jpg",
+          mainImg: "/images/projects/HASKY LOOKBOOK/main.png",
           images: [
             "/images/projects/HASKY LOOKBOOK/\u041A\u043E\u043F\u0438\u044F Capture One Catalog1540.jpg",
             "/images/projects/HASKY LOOKBOOK/\u041A\u043E\u043F\u0438\u044F Capture One Catalog2344 1.jpg",
@@ -6862,8 +6957,7 @@ var init_data_7f0af13e = __esm({
             "/images/projects/HASKY LOOKBOOK/\u041A\u043E\u043F\u0438\u044F Capture One Catalog2595.jpg",
             "/images/projects/HASKY LOOKBOOK/\u041A\u043E\u043F\u0438\u044F Capture One Catalog2621.jpg",
             "/images/projects/HASKY LOOKBOOK/\u041A\u043E\u043F\u0438\u044F Capture One Catalog2655.jpg"
-          ],
-          style: "0 200px 0 0"
+          ]
         },
         {
           title: "BONELESS VLADIMIR VARNAVA / HIPO PLATFORM",
@@ -6885,17 +6979,9 @@ var init_data_7f0af13e = __esm({
           video: ""
         },
         {
-          title: "VK Donuts",
-          tagNames: ["#\u0432\u0438\u0434\u0435\u043E", "#\u0440\u0435\u043A\u043B\u0430\u043C\u0430", "#\u0436\u0435\u043D\u0441\u043A\u0438\u0439\u0441\u0442\u0430\u0439\u043B\u0438\u043D\u0433"],
-          tags: ["\u0412\u0438\u0434\u0435\u043E", "\u0420\u0435\u043A\u043B\u0430\u043C\u0430", "\u0416\u0435\u043D\u0441\u043A\u0438\u0439"],
-          mainImg: "/images/projects/VK DONUTS/1.jpg",
-          localVideo: "/images/projects/VK DONUTS/1.mp4",
-          style: "100px 0 200px 100px"
-        },
-        {
           title: "CITY MOBILE",
           tagNames: ["#\u0432\u0438\u0434\u0435\u043E", "#\u0440\u0435\u043A\u043B\u0430\u043C\u0430", "#\u0436\u0435\u043D\u0441\u043A\u0438\u0439\u0441\u0442\u0430\u0439\u043B\u0438\u043D\u0433", "#\u043C\u0443\u0436\u0441\u043A\u043E\u0439\u0441\u0442\u0430\u0439\u043B\u0438\u043D\u0433", "#\u0434\u0435\u0442\u0441\u043A\u0438\u0439\u0441\u0442\u0430\u0439\u043B\u0438\u043D\u0433"],
-          tags: ["\u0412\u0438\u0434\u0435\u043E", "\u0420\u0435\u043A\u043B\u0430\u043C\u0430", "\u0416\u0435\u043D\u0441\u043A\u0438\u0439", "\u041C\u0443\u0436\u0441\u043A\u043E\u0439", "\u0414\u0435\u0442\u0441\u043A\u0438\u0439\u0441\u0442\u0430\u0439\u043B\u0438\u043D\u0433"],
+          tags: ["\u0412\u0438\u0434\u0435\u043E", "\u0420\u0435\u043A\u043B\u0430\u043C\u0430", "\u0416\u0435\u043D\u0441\u043A\u0438\u0439", "\u041C\u0443\u0436\u0441\u043A\u043E\u0439", "\u0414\u0435\u0442\u0441\u043A\u0438\u0439"],
           mainImg: "/images/projects/CITY MOBILE/1.jpg",
           video: "hAwFGQcL7Wo",
           style: "50px 90px 200px 0"
@@ -6906,7 +6992,7 @@ var init_data_7f0af13e = __esm({
           tags: ["\u0412\u0438\u0434\u0435\u043E", "\u0420\u0435\u043A\u043B\u0430\u043C\u0430", "\u0416\u0435\u043D\u0441\u043A\u0438\u0439", "\u041C\u0443\u0436\u0441\u043A\u043E\u0439"],
           mainImg: "/images/projects/MTS SAMSUNG/1.jpg",
           video: "lgjKoxhoJcw",
-          style: "220px 0 100px 0"
+          style: "40% 5% 20% 0"
         },
         {
           title: "YOU DRIVE",
@@ -6917,84 +7003,20 @@ var init_data_7f0af13e = __esm({
           style: "5px 20px 200px 0"
         },
         {
-          title: "SPRING  RYAZAN'",
-          tagNames: ["#\u0444\u043E\u0442\u043E", "#\u0444\u0435\u0448\u043D", "#\u0436\u0435\u043D\u0441\u043A\u0438\u0439\u0441\u0442\u0430\u0439\u043B\u0438\u043D\u0433"],
-          tags: ["\u0424\u043E\u0442\u043E", "\u0424\u0435\u0448\u043D", "\u0416\u0435\u043D\u0441\u043A\u0438\u0439"],
-          mainImg: "/images/projects/SPRING RYAZAN/\u041A\u043E\u043F\u0438\u044F DSC02505.jpg",
-          images: [
-            "/images/projects/SPRING RYAZAN/\u041A\u043E\u043F\u0438\u044F DSC02505.jpg",
-            "/images/projects/SPRING RYAZAN/\u041A\u043E\u043F\u0438\u044F 0053.jpg",
-            "/images/projects/SPRING RYAZAN/\u041A\u043E\u043F\u0438\u044F DSC02625.jpg"
-          ],
-          classes: "p-2",
-          video: ""
-        },
-        {
-          title: "UTOPIA 1985",
-          tagNames: ["#\u0444\u043E\u0442\u043E", "#\u044D\u0434\u0438\u0442\u043E\u0440\u0438\u0430\u043B", "#\u0436\u0435\u043D\u0441\u043A\u0438\u0439\u0441\u0442\u0430\u0439\u043B\u0438\u043D\u0433"],
-          tags: ["\u0424\u043E\u0442\u043E", "\u042D\u0434\u0438\u0442\u043E\u0440\u0438\u0430\u043B", "\u0416\u0435\u043D\u0441\u043A\u0438\u0439"],
-          mainImg: "/images/projects/UTOPIA/4.jpg",
-          images: [
-            "/images/projects/UTOPIA/4.jpg",
-            "/images/projects/UTOPIA/5.jpg",
-            "/images/projects/UTOPIA/2.jpg",
-            "/images/projects/UTOPIA/3.jpg",
-            "/images/projects/UTOPIA/1.jpg"
-          ],
-          classes: "p-2",
-          video: ""
-        },
-        {
-          title: "AVON NEW YEAR",
-          tagNames: ["#\u0444\u043E\u0442\u043E", "#\u0440\u0435\u043A\u043B\u0430\u043C\u0430", "#\u0436\u0435\u043D\u0441\u043A\u0438\u0439\u0441\u0442\u0430\u0439\u043B\u0438\u043D\u0433", "#\u043C\u0443\u0436\u0441\u043A\u043E\u0439\u0441\u0442\u0430\u0439\u043B\u0438\u043D\u0433", "#\u0434\u0435\u0442\u0441\u043A\u0438\u0439\u0441\u0442\u0430\u0439\u043B\u0438\u043D\u0433"],
-          tags: ["\u0424\u043E\u0442\u043E", "\u0420\u0435\u043A\u043B\u0430\u043C\u0430", "\u0416\u0435\u043D\u0441\u043A\u0438\u0439", "\u041C\u0443\u0436\u0441\u043A\u043E\u0439", "\u0414\u0435\u0442\u0441\u043A\u0438\u0439\u0441\u0442\u0430\u0439\u043B\u0438\u043D\u0433"],
-          mainImg: "/images/projects/AVON NEW YEAR/\u041A\u043E\u043F\u0438\u044F IMG_6163.JPG",
-          images: [
-            "/images/projects/AVON NEW YEAR/\u041A\u043E\u043F\u0438\u044F IMG_6163.JPG",
-            "/images/projects/AVON NEW YEAR/\u041A\u043E\u043F\u0438\u044F IMG_6164.JPG",
-            "/images/projects/AVON NEW YEAR/\u041A\u043E\u043F\u0438\u044F IMG_6165.JPG",
-            "/images/projects/AVON NEW YEAR/\u041A\u043E\u043F\u0438\u044F IMG_6166.JPG",
-            "/images/projects/AVON NEW YEAR/\u041A\u043E\u043F\u0438\u044F IMG_6219.JPG"
-          ],
-          classes: "p-2",
-          video: ""
-        },
-        {
-          title: "GERTRUDE / KALTBLUT MAG",
-          tagNames: ["#\u0444\u043E\u0442\u043E", "#\u044D\u0434\u0438\u0442\u043E\u0440\u0438\u0430\u043B", "#\u0436\u0435\u043D\u0441\u043A\u0438\u0439\u0441\u0442\u0430\u0439\u043B\u0438\u043D\u0433"],
-          tags: ["\u0424\u043E\u0442\u043E", "\u042D\u0434\u0438\u0442\u043E\u0440\u0438\u0430\u043B", "\u0416\u0435\u043D\u0441\u043A\u0438\u0439"],
-          mainImg: "/images/projects/GERTRUDE:KALTBLUT/\u041A\u043E\u043F\u0438\u044F IMG_5805.JPG",
-          images: [
-            "/images/projects/GERTRUDE:KALTBLUT/\u041A\u043E\u043F\u0438\u044F IMG_5805.JPG",
-            "/images/projects/GERTRUDE:KALTBLUT/\u041A\u043E\u043F\u0438\u044F IMG_5804.JPG",
-            "/images/projects/GERTRUDE:KALTBLUT/\u041A\u043E\u043F\u0438\u044F IMG_5806.JPG",
-            "/images/projects/GERTRUDE:KALTBLUT/\u041A\u043E\u043F\u0438\u044F IMG_5807.JPG",
-            "/images/projects/GERTRUDE:KALTBLUT/\u041A\u043E\u043F\u0438\u044F IMG_5803.JPG",
-            "/images/projects/GERTRUDE:KALTBLUT/\u041A\u043E\u043F\u0438\u044F IMG_5802.JPG",
-            "/images/projects/GERTRUDE:KALTBLUT/\u041A\u043E\u043F\u0438\u044F IMG_5800.JPG",
-            "/images/projects/GERTRUDE:KALTBLUT/\u041A\u043E\u043F\u0438\u044F IMG_5801.JPG",
-            "/images/projects/GERTRUDE:KALTBLUT/\u041A\u043E\u043F\u0438\u044F 8.jpg"
-          ],
-          classes: "p-2",
-          video: ""
-        },
-        {
-          title: "",
-          tagNames: [],
-          tags: [],
-          mainImg: "",
-          images: [],
-          classes: "p-2",
-          video: ""
-        },
-        {
           title: "DAVAI BROSAT",
           tagNames: ["#\u0432\u0438\u0434\u0435\u043E", "#\u0440\u0435\u043A\u043B\u0430\u043C\u0430", "#\u0436\u0435\u043D\u0441\u043A\u0438\u0439\u0441\u0442\u0430\u0439\u043B\u0438\u043D\u0433", "#\u043C\u0443\u0436\u0441\u043A\u043E\u0439\u0441\u0442\u0430\u0439\u043B\u0438\u043D\u0433"],
           tags: ["\u0412\u0438\u0434\u0435\u043E", "\u0420\u0435\u043A\u043B\u0430\u043C\u0430", "\u0416\u0435\u043D\u0441\u043A\u0438\u0439", "\u041C\u0443\u0436\u0441\u043A\u043E\u0439"],
-          mainImg: "",
-          images: [],
-          classes: "p-2",
-          video: "https://www.youtube.com/watch?v=xb6fL2BrX9o&feature=emb_logo"
+          mainImg: "/images/projects/DAVAI BROSAT/1.jpg",
+          style: "200px 100px 50px 5px",
+          video: "xb6fL2BrX9o"
+        },
+        {
+          title: "YANDEX MONEY",
+          tagNames: ["#\u0432\u0438\u0434\u0435\u043E", "#\u0440\u0435\u043A\u043B\u0430\u043C\u0430", "#\u0436\u0435\u043D\u0441\u043A\u0438\u0439\u0441\u0442\u0430\u0439\u043B\u0438\u043D\u0433", "#\u043C\u0443\u0436\u0441\u043A\u043E\u0439\u0441\u0442\u0430\u0439\u043B\u0438\u043D\u0433"],
+          tags: ["\u0412\u0438\u0434\u0435\u043E", "\u0420\u0435\u043A\u043B\u0430\u043C\u0430", "\u0416\u0435\u043D\u0441\u043A\u0438\u0439", "\u041C\u0443\u0436\u0441\u043A\u043E\u0439"],
+          mainImg: "/images/projects/YANDEX MONEY/1.jpg",
+          video: "9HUm8ZchML0",
+          style: "30% 15%"
         },
         {
           title: "\u0410\u0444\u0438\u0448\u0430 \u0441\u0435\u0440\u0438\u0430\u043B\u0430 \u0413\u0420\u0410\u041D\u0414",
@@ -7002,32 +7024,97 @@ var init_data_7f0af13e = __esm({
           tags: ["\u0424\u043E\u0442\u043E", "\u0420\u0435\u043A\u043B\u0430\u043C\u0430", "\u0416\u0435\u043D\u0441\u043A\u0438\u0439", "\u041C\u0443\u0436\u0441\u043A\u043E\u0439"],
           mainImg: "/images/projects/GRAND/1.jpg",
           images: ["/images/projects/GRAND/1.jpg"],
-          classes: "p-2",
-          video: ""
+          style: "10% 7% 50% 30%"
         },
         {
-          title: "Samsung \u0421\u0432\u044F\u0437\u043D\u043E\u0439",
-          tagNames: ["#\u0432\u0438\u0434\u0435\u043E", "#\u0440\u0435\u043A\u043B\u0430\u043C\u0430", "#\u0436\u0435\u043D\u0441\u043A\u0438\u0439\u0441\u0442\u0430\u0439\u043B\u0438\u043D\u0433", "#\u043C\u0443\u0436\u0441\u043A\u043E\u0439\u0441\u0442\u0430\u0439\u043B\u0438\u043D\u0433"],
-          tags: ["\u0412\u0438\u0434\u0435\u043E", "\u0420\u0435\u043A\u043B\u0430\u043C\u0430", "\u0416\u0435\u043D\u0441\u043A\u0438\u0439", "\u041C\u0443\u0436\u0441\u043A\u043E\u0439"],
-          mainImg: "",
-          images: [],
-          classes: "p-2",
-          video: "https://drive.google.com/file/d/1jw4WZZ0WYol5EmI56RSE1_EwN2OMfBL6/view?usp=sharing"
+          title: "MANIQU",
+          tagNames: [],
+          tags: [],
+          mainImg: "/images/projects/MANIQU.RU/2.JPG",
+          images: ["/images/projects/MANIQU.RU/2.JPG", "/images/projects/MANIQU.RU/1.JPG"]
         },
         {
           title: "SAMOLET",
           tagNames: ["#\u0432\u0438\u0434\u0435\u043E", "#\u0440\u0435\u043A\u043B\u0430\u043C\u0430", "#\u0436\u0435\u043D\u0441\u043A\u0438\u0439\u0441\u0442\u0430\u0439\u043B\u0438\u043D\u0433", "#\u043C\u0443\u0436\u0441\u043A\u043E\u0439\u0441\u0442\u0430\u0439\u043B\u0438\u043D\u0433", "#\u0434\u0435\u0442\u0441\u043A\u0438\u0439\u0441\u0442\u0430\u0439\u043B\u0438\u043D\u0433"],
-          tags: ["\u0412\u0438\u0434\u0435\u043E", "\u0420\u0435\u043A\u043B\u0430\u043C\u0430", "\u0416\u0435\u043D\u0441\u043A\u0438\u0439", "\u041C\u0443\u0436\u0441\u043A\u043E\u0439", "\u0414\u0435\u0442\u0441\u043A\u0438\u0439\u0441\u0442\u0430\u0439\u043B\u0438\u043D\u0433"],
-          mainImg: "",
-          images: [],
-          classes: "p-2",
+          tags: ["\u0412\u0438\u0434\u0435\u043E", "\u0420\u0435\u043A\u043B\u0430\u043C\u0430", "\u0416\u0435\u043D\u0441\u043A\u0438\u0439", "\u041C\u0443\u0436\u0441\u043A\u043E\u0439", "\u0414\u0435\u0442\u0441\u043A\u0438\u0439"],
+          mainImg: "/images/projects/SAMOLET/1.jpg",
+          style: "40% 7% 20% 4%",
           video: "https://www.youtube.com/watch?v=es9atp1aTzY"
+        },
+        {
+          title: "GERTRUDE / KALTBLUT MAG",
+          tagNames: ["#\u0444\u043E\u0442\u043E", "#\u044D\u0434\u0438\u0442\u043E\u0440\u0438\u0430\u043B", "#\u0436\u0435\u043D\u0441\u043A\u0438\u0439\u0441\u0442\u0430\u0439\u043B\u0438\u043D\u0433"],
+          tags: ["\u0424\u043E\u0442\u043E", "\u042D\u0434\u0438\u0442\u043E\u0440\u0438\u0430\u043B", "\u0416\u0435\u043D\u0441\u043A\u0438\u0439"],
+          mainImg: "/images/projects/GERTRUDE_KALTBLUT/\u041A\u043E\u043F\u0438\u044F IMG_5803.JPG",
+          images: [
+            "/images/projects/GERTRUDE_KALTBLUT/\u041A\u043E\u043F\u0438\u044F IMG_5805.JPG",
+            "/images/projects/GERTRUDE_KALTBLUT/\u041A\u043E\u043F\u0438\u044F IMG_5804.JPG",
+            "/images/projects/GERTRUDE_KALTBLUT/\u041A\u043E\u043F\u0438\u044F IMG_5806.JPG",
+            "/images/projects/GERTRUDE_KALTBLUT/\u041A\u043E\u043F\u0438\u044F IMG_5807.JPG",
+            "/images/projects/GERTRUDE_KALTBLUT/\u041A\u043E\u043F\u0438\u044F IMG_5803.JPG",
+            "/images/projects/GERTRUDE_KALTBLUT/\u041A\u043E\u043F\u0438\u044F IMG_5802.JPG",
+            "/images/projects/GERTRUDE_KALTBLUT/\u041A\u043E\u043F\u0438\u044F IMG_5800.JPG",
+            "/images/projects/GERTRUDE_KALTBLUT/\u041A\u043E\u043F\u0438\u044F IMG_5801.JPG",
+            "/images/projects/GERTRUDE_KALTBLUT/\u041A\u043E\u043F\u0438\u044F 8.jpg"
+          ],
+          style: "10% 0 20% 50%"
+        },
+        {
+          title: "UTOPIA 1985",
+          tagNames: ["#\u0444\u043E\u0442\u043E", "#\u044D\u0434\u0438\u0442\u043E\u0440\u0438\u0430\u043B", "#\u0436\u0435\u043D\u0441\u043A\u0438\u0439\u0441\u0442\u0430\u0439\u043B\u0438\u043D\u0433"],
+          tags: ["\u0424\u043E\u0442\u043E", "\u042D\u0434\u0438\u0442\u043E\u0440\u0438\u0430\u043B", "\u0416\u0435\u043D\u0441\u043A\u0438\u0439"],
+          mainImg: "/images/projects/UTOPIA/1.jpg",
+          images: [
+            "/images/projects/UTOPIA/4.jpg",
+            "/images/projects/UTOPIA/5.jpg",
+            "/images/projects/UTOPIA/2.jpg",
+            "/images/projects/UTOPIA/3.jpg",
+            "/images/projects/UTOPIA/1.jpg"
+          ]
+        },
+        {
+          title: "BLINDING x KULTBLUT MAGAZINE",
+          tagNames: ["#\u0444\u043E\u0442\u043E", "#\u044D\u0434\u0438\u0442\u043E\u0440\u0438\u0430\u043B", "#\u0436\u0435\u043D\u0441\u043A\u0438\u0439\u0441\u0442\u0430\u0439\u043B\u0438\u043D\u0433", "#\u0441\u043E\u0437\u0434\u0430\u043D\u0438\u0435\u043A\u043E\u0441\u0442\u044E\u043C\u0430"],
+          tags: ["\u0424\u043E\u0442\u043E", "\u042D\u0434\u0438\u0442\u043E\u0440\u0438\u0430\u043B", "\u0416\u0435\u043D\u0441\u043A\u0438\u0439", "\u0421\u043E\u0437\u0434\u0430\u043D\u0438\u0435\u043A\u043E\u0441\u0442\u044E\u043C\u0430"],
+          mainImg: "/images/projects/BLINDING AND KULTBLUT/main.png",
+          images: [
+            "/images/projects/BLINDING AND KULTBLUT/ 8.jpg",
+            "/images/projects/BLINDING AND KULTBLUT/ 9.jpg",
+            "/images/projects/BLINDING AND KULTBLUT/ 7.jpg",
+            "/images/projects/BLINDING AND KULTBLUT/ 6.jpg",
+            "/images/projects/BLINDING AND KULTBLUT/ 4.jpg",
+            "/images/projects/BLINDING AND KULTBLUT/ 5.jpg",
+            "/images/projects/BLINDING AND KULTBLUT/ 1.jpg",
+            "/images/projects/BLINDING AND KULTBLUT/ 2.jpg",
+            "/images/projects/BLINDING AND KULTBLUT/ 3.jpg"
+          ],
+          style: "5% 30% 25% 3%"
+        },
+        {
+          title: "VOLEN SENTIR (Arrival)",
+          tagNames: ["#\u0432\u0438\u0434\u0435\u043E", "#\u043C\u0443\u0436\u0441\u043A\u043E\u0439\u0441\u0442\u0430\u0439\u043B\u0438\u043D\u0433"],
+          tags: ["\u0412\u0438\u0434\u0435\u043E", "\u041C\u0443\u0436\u0441\u043A\u043E\u0439"],
+          mainImg: "/images/projects/VOLEN SENTIR/1.jpg",
+          localVideo: "/images/projects/VOLEN SENTIR/1.mp4",
+          style: "4% 15% 50% 0"
+        },
+        {
+          title: "SPRING  RYAZAN'",
+          tagNames: ["#\u0444\u043E\u0442\u043E", "#\u0444\u0435\u0448\u043D", "#\u0436\u0435\u043D\u0441\u043A\u0438\u0439\u0441\u0442\u0430\u0439\u043B\u0438\u043D\u0433"],
+          tags: ["\u0424\u043E\u0442\u043E", "\u0424\u0435\u0448\u043D", "\u0416\u0435\u043D\u0441\u043A\u0438\u0439"],
+          mainImg: "/images/projects/SPRING RYAZAN/main.png",
+          images: [
+            "/images/projects/SPRING RYAZAN/\u041A\u043E\u043F\u0438\u044F DSC02505.jpg",
+            "/images/projects/SPRING RYAZAN/\u041A\u043E\u043F\u0438\u044F 0053.jpg",
+            "/images/projects/SPRING RYAZAN/\u041A\u043E\u043F\u0438\u044F DSC02625.jpg"
+          ],
+          style: "10% 5% 0 10%"
         },
         {
           title: "THE PROVEN POINT / SOLSTICE MAGAZINE",
           tagNames: ["#\u0444\u043E\u0442\u043E", "#\u044D\u0434\u0438\u0442\u043E\u0440\u0438\u0430\u043B", "#\u0436\u0435\u043D\u0441\u043A\u0438\u0439\u0441\u0442\u0430\u0439\u043B\u0438\u043D\u0433"],
           tags: ["\u0424\u043E\u0442\u043E", "\u042D\u0434\u0438\u0442\u043E\u0440\u0438\u0430\u043B", "\u0416\u0435\u043D\u0441\u043A\u0438\u0439"],
-          mainImg: "/images/projects/THE PROVEN POINT/\u041A\u043E\u043F\u0438\u044F DSC01264 copy.jpg",
+          mainImg: "/images/projects/THE PROVEN POINT/\u041A\u043E\u043F\u0438\u044F DSC01545 copy.jpg",
           images: [
             "/images/projects/THE PROVEN POINT/\u041A\u043E\u043F\u0438\u044F DSC01264 copy.jpg",
             "/images/projects/THE PROVEN POINT/\u041A\u043E\u043F\u0438\u044F DSC01438 copy.jpg",
@@ -7042,10 +7129,49 @@ var init_data_7f0af13e = __esm({
           video: ""
         },
         {
+          title: "GOGEN",
+          tagNames: ["#\u0444\u043E\u0442\u043E", "#\u044D\u0434\u0438\u0442\u043E\u0440\u0438\u0430\u043B", "#\u0436\u0435\u043D\u0441\u043A\u0438\u0439\u0441\u0442\u0430\u0439\u043B\u0438\u043D\u0433"],
+          tags: ["\u0424\u043E\u0442\u043E", "\u042D\u0434\u0438\u0442\u043E\u0440\u0438\u0430\u043B", "\u0416\u0435\u043D\u0441\u043A\u0438\u0439"],
+          mainImg: "/images/projects/GOGEN/\u041A\u043E\u043F\u0438\u044F 07.jpg",
+          images: [
+            "/images/projects/GOGEN/\u041A\u043E\u043F\u0438\u044F 06.jpg",
+            "/images/projects/GOGEN/\u041A\u043E\u043F\u0438\u044F 07.jpg",
+            "/images/projects/GOGEN/\u041A\u043E\u043F\u0438\u044F 03.jpg",
+            "/images/projects/GOGEN/\u041A\u043E\u043F\u0438\u044F 02.jpg"
+          ],
+          classes: "p-2",
+          video: ""
+        },
+        {
+          title: "POKERDOM",
+          tagNames: ["#\u0432\u0438\u0434\u0435\u043E", "#\u0440\u0435\u043A\u043B\u0430\u043C\u0430", "#\u0436\u0435\u043D\u0441\u043A\u0438\u0439\u0441\u0442\u0430\u0439\u043B\u0438\u043D\u0433", "#\u043C\u0443\u0436\u0441\u043A\u043E\u0439\u0441\u0442\u0430\u0439\u043B\u0438\u043D\u0433"],
+          tags: ["\u0412\u0438\u0434\u0435\u043E", "\u0420\u0435\u043A\u043B\u0430\u043C\u0430", "\u0416\u0435\u043D\u0441\u043A\u0438\u0439", "\u041C\u0443\u0436\u0441\u043A\u043E\u0439"],
+          mainImg: "/images/projects/POKERDOM/1.jpg",
+          video: "oRPspvmBL-8",
+          style: "30% 15% 30% 0"
+        },
+        {
+          title: "Alone. One with World or Lone? x Contributor Magazine",
+          tagNames: ["#\u0444\u043E\u0442\u043E", "#\u044D\u0434\u0438\u0442\u043E\u0440\u0438\u0430\u043B", "#\u0436\u0435\u043D\u0441\u043A\u0438\u0439\u0441\u0442\u0430\u0439\u043B\u0438\u043D\u0433"],
+          tags: ["\u0424\u043E\u0442\u043E", "\u042D\u0434\u0438\u0442\u043E\u0440\u0438\u0430\u043B", "\u0416\u0435\u043D\u0441\u043A\u0438\u0439"],
+          mainImg: "/images/projects/ALONE/\u041A\u043E\u043F\u0438\u044F 25.jpg",
+          images: [
+            "/images/projects/ALONE/\u041A\u043E\u043F\u0438\u044F 5.jpg",
+            "/images/projects/ALONE/\u041A\u043E\u043F\u0438\u044F 4.jpg",
+            "/images/projects/ALONE/\u041A\u043E\u043F\u0438\u044F 6.jpg",
+            "/images/projects/ALONE/\u041A\u043E\u043F\u0438\u044F 24.jpg",
+            "/images/projects/ALONE/\u041A\u043E\u043F\u0438\u044F 25.jpg",
+            "/images/projects/ALONE/\u041A\u043E\u043F\u0438\u044F 27.jpg",
+            "/images/projects/ALONE/\u041A\u043E\u043F\u0438\u044F 10.jpg",
+            "/images/projects/ALONE/\u041A\u043E\u043F\u0438\u044F 12.jpg"
+          ],
+          style: "25% 0 25% 55%"
+        },
+        {
           title: "WELLA, SEBASTIAN, SYSTEM 2020",
           tagNames: ["#\u0444\u043E\u0442\u043E", "#\u0444\u0435\u0448\u043D", "#\u0436\u0435\u043D\u0441\u043A\u0438\u0439\u0441\u0442\u0430\u0439\u043B\u0438\u043D\u0433", "#\u043C\u0443\u0436\u0441\u043A\u043E\u0439\u0441\u0442\u0430\u0439\u043B\u0438\u043D\u0433"],
           tags: ["\u0424\u043E\u0442\u043E", "\u0424\u0435\u0448\u043D", "\u0416\u0435\u043D\u0441\u043A\u0438\u0439", "\u041C\u0443\u0436\u0441\u043A\u043E\u0439"],
-          mainImg: "/images/projects/WELLA, SEBASTIAN, SYSTEM 2021/\u041A\u043E\u043F\u0438\u044F wella december0798.jpg",
+          mainImg: "/images/projects/WELLA, SEBASTIAN, SYSTEM 2021/\u041A\u043E\u043F\u0438\u044F wella december0626.jpg",
           images: [
             "/images/projects/WELLA, SEBASTIAN, SYSTEM 2021/\u041A\u043E\u043F\u0438\u044F wella december0798.jpg",
             "/images/projects/WELLA, SEBASTIAN, SYSTEM 2021/\u041A\u043E\u043F\u0438\u044F wella december0648.jpg",
@@ -7057,121 +7183,12 @@ var init_data_7f0af13e = __esm({
           video: ""
         },
         {
-          title: "Alone. One with World or Lone? x Contributor Magazine",
-          tagNames: ["#\u0444\u043E\u0442\u043E", "#\u044D\u0434\u0438\u0442\u043E\u0440\u0438\u0430\u043B", "#\u0436\u0435\u043D\u0441\u043A\u0438\u0439\u0441\u0442\u0430\u0439\u043B\u0438\u043D\u0433"],
-          tags: ["\u0424\u043E\u0442\u043E", "\u042D\u0434\u0438\u0442\u043E\u0440\u0438\u0430\u043B", "\u0416\u0435\u043D\u0441\u043A\u0438\u0439"],
-          mainImg: "/images/projects/ALONE/\u041A\u043E\u043F\u0438\u044F 5.jpg",
-          images: [
-            "/images/projects/ALONE/\u041A\u043E\u043F\u0438\u044F 5.jpg",
-            "/images/projects/ALONE/\u041A\u043E\u043F\u0438\u044F 4.jpg",
-            "/images/projects/ALONE/\u041A\u043E\u043F\u0438\u044F 6.jpg",
-            "/images/projects/ALONE/\u041A\u043E\u043F\u0438\u044F 24.jpg",
-            "/images/projects/ALONE/\u041A\u043E\u043F\u0438\u044F 25.jpg",
-            "/images/projects/ALONE/\u041A\u043E\u043F\u0438\u044F 27.jpg",
-            "/images/projects/ALONE/\u041A\u043E\u043F\u0438\u044F 10.jpg",
-            "/images/projects/ALONE/\u041A\u043E\u043F\u0438\u044F 12.jpg"
-          ],
-          classes: "p-2",
-          video: ""
-        },
-        {
-          title: "POKERDOM",
-          tagNames: ["#\u0432\u0438\u0434\u0435\u043E", "#\u0440\u0435\u043A\u043B\u0430\u043C\u0430", "#\u0436\u0435\u043D\u0441\u043A\u0438\u0439\u0441\u0442\u0430\u0439\u043B\u0438\u043D\u0433", "#\u043C\u0443\u0436\u0441\u043A\u043E\u0439\u0441\u0442\u0430\u0439\u043B\u0438\u043D\u0433"],
-          tags: ["\u0412\u0438\u0434\u0435\u043E", "\u0420\u0435\u043A\u043B\u0430\u043C\u0430", "\u0416\u0435\u043D\u0441\u043A\u0438\u0439", "\u041C\u0443\u0436\u0441\u043A\u043E\u0439"],
-          mainImg: "",
-          images: [],
-          classes: "p-2",
-          video: "https://www.youtube.com/watch?v=oRPspvmBL-8"
-        },
-        {
-          title: "BLINDING x KULTBLUT MAGAZINE",
-          tagNames: ["#\u0444\u043E\u0442\u043E", "#\u044D\u0434\u0438\u0442\u043E\u0440\u0438\u0430\u043B", "#\u0436\u0435\u043D\u0441\u043A\u0438\u0439\u0441\u0442\u0430\u0439\u043B\u0438\u043D\u0433", "#\u0441\u043E\u0437\u0434\u0430\u043D\u0438\u0435\u043A\u043E\u0441\u0442\u044E\u043C\u0430"],
-          tags: ["\u0424\u043E\u0442\u043E", "\u042D\u0434\u0438\u0442\u043E\u0440\u0438\u0430\u043B", "\u0416\u0435\u043D\u0441\u043A\u0438\u0439", "\u0421\u043E\u0437\u0434\u0430\u043D\u0438\u0435\u043A\u043E\u0441\u0442\u044E\u043C\u0430"],
-          mainImg: "/images/projects/BLINDING AND KULTBLUT/ 8.jpg",
-          images: [
-            "/images/projects/BLINDING AND KULTBLUT/ 8.jpg",
-            "/images/projects/BLINDING AND KULTBLUT/ 9.jpg",
-            "/images/projects/BLINDING AND KULTBLUT/ 7.jpg",
-            "/images/projects/BLINDING AND KULTBLUT/ 6.jpg",
-            "/images/projects/BLINDING AND KULTBLUT/ 4.jpg",
-            "/images/projects/BLINDING AND KULTBLUT/ 5.jpg",
-            "/images/projects/BLINDING AND KULTBLUT/ 1.jpg",
-            "/images/projects/BLINDING AND KULTBLUT/ 2.jpg",
-            "/images/projects/BLINDING AND KULTBLUT/ 3.jpg"
-          ],
-          classes: "p-2",
-          video: ""
-        },
-        {
-          title: "",
-          tagNames: [],
-          tags: [],
-          mainImg: "/images/projects/MANIQU.RU/2.JPG",
-          images: ["/images/projects/MANIQU.RU/2.JPG", "/images/projects/MANIQU.RU/1.JPG"],
-          classes: "p-2",
-          video: ""
-        },
-        {
-          title: "YANDEX MONEY",
-          tagNames: ["#\u0432\u0438\u0434\u0435\u043E", "#\u0440\u0435\u043A\u043B\u0430\u043C\u0430", "#\u0436\u0435\u043D\u0441\u043A\u0438\u0439\u0441\u0442\u0430\u0439\u043B\u0438\u043D\u0433", "#\u043C\u0443\u0436\u0441\u043A\u043E\u0439\u0441\u0442\u0430\u0439\u043B\u0438\u043D\u0433"],
-          tags: ["\u0412\u0438\u0434\u0435\u043E", "\u0420\u0435\u043A\u043B\u0430\u043C\u0430", "\u0416\u0435\u043D\u0441\u043A\u0438\u0439", "\u041C\u0443\u0436\u0441\u043A\u043E\u0439"],
-          mainImg: "",
-          images: [],
-          classes: "p-2",
-          video: "https://www.youtube.com/watch?v=9HUm8ZchML0"
-        },
-        {
-          title: "\u042F\u043D\u0434\u0435\u043A\u0441 \u041C\u0430\u0440\u043A\u0435\u0442",
-          tagNames: ["#\u0432\u0438\u0434\u0435\u043E", "#\u0440\u0435\u043A\u043B\u0430\u043C\u0430", "#\u043C\u0443\u0436\u0441\u043A\u043E\u0439\u0441\u0442\u0430\u0439\u043B\u0438\u043D\u0433"],
-          tags: ["\u0412\u0438\u0434\u0435\u043E", "\u0420\u0435\u043A\u043B\u0430\u043C\u0430", "\u041C\u0443\u0436\u0441\u043A\u043E\u0439"],
-          mainImg: "",
-          images: [],
-          classes: "p-2",
-          video: "https://drive.google.com/file/d/1aRMCZbPsbr6UOCFdygMcEFKbAoJ8nycy/view?usp=sharing"
-        },
-        {
-          title: "GOGEN",
-          tagNames: ["#\u0444\u043E\u0442\u043E", "#\u044D\u0434\u0438\u0442\u043E\u0440\u0438\u0430\u043B", "#\u0436\u0435\u043D\u0441\u043A\u0438\u0439\u0441\u0442\u0430\u0439\u043B\u0438\u043D\u0433"],
-          tags: ["\u0424\u043E\u0442\u043E", "\u042D\u0434\u0438\u0442\u043E\u0440\u0438\u0430\u043B", "\u0416\u0435\u043D\u0441\u043A\u0438\u0439"],
-          mainImg: "/images/projects/GOGEN/\u041A\u043E\u043F\u0438\u044F 06.jpg",
-          images: [
-            "/images/projects/GOGEN/\u041A\u043E\u043F\u0438\u044F 06.jpg",
-            "/images/projects/GOGEN/\u041A\u043E\u043F\u0438\u044F 07.jpg",
-            "/images/projects/GOGEN/\u041A\u043E\u043F\u0438\u044F 03.jpg",
-            "/images/projects/GOGEN/\u041A\u043E\u043F\u0438\u044F 02.jpg"
-          ],
-          classes: "p-2",
-          video: ""
-        },
-        {
           title: "\u0415\u0433\u043E\u0440 \u041A\u0440\u0438\u0434 - \u0425\u043E\u043B\u043E\u0441\u0442\u044F\u043A",
           tagNames: ["#\u0432\u0438\u0434\u0435\u043E", "#\u0440\u0435\u043A\u043B\u0430\u043C\u0430", "#\u0436\u0435\u043D\u0441\u043A\u0438\u0439\u0441\u0442\u0430\u0439\u043B\u0438\u043D\u0433", "#\u043C\u0443\u0436\u0441\u043A\u043E\u0439\u0441\u0442\u0430\u0439\u043B\u0438\u043D\u0433"],
           tags: ["\u0412\u0438\u0434\u0435\u043E", "\u0420\u0435\u043A\u043B\u0430\u043C\u0430", "\u0416\u0435\u043D\u0441\u043A\u0438\u0439", "\u041C\u0443\u0436\u0441\u043A\u043E\u0439"],
-          mainImg: "",
-          images: [],
-          classes: "p-2",
-          video: "https://www.youtube.com/watch?v=pui1uSE63Wo&t=4s"
-        },
-        {
-          title: "VOLEN SENTIR (Arrival)",
-          tagNames: ["#\u0432\u0438\u0434\u0435\u043E", "#\u043C\u0443\u0436\u0441\u043A\u043E\u0439\u0441\u0442\u0430\u0439\u043B\u0438\u043D\u0433"],
-          tags: ["\u0412\u0438\u0434\u0435\u043E", "\u041C\u0443\u0436\u0441\u043A\u043E\u0439"],
-          mainImg: "",
-          images: [],
-          classes: "p-2",
-          video: "https://drive.google.com/drive/u/3/folders/1ZJprtTXYG-xUORBZQ6Jg4USrkgLtAVR4"
-        },
-        {
-          title: "\u0420\u0435\u0436\u0438\u0441\u0441\u0435\u0440\u044B \u041C\u0435\u0440\u043A\u0443\u043B\u043E\u0432\u044B \u0434\u043B\u044F \u201C\u0410\u0424\u0418\u0428\u0418\u201D",
-          tagNames: ["#\u0444\u043E\u0442\u043E", "#\u044D\u0434\u0438\u0442\u043E\u0440\u0438\u0430\u043B", "#\u0436\u0435\u043D\u0441\u043A\u0438\u0439\u0441\u0442\u0430\u0439\u043B\u0438\u043D\u0433", "#\u043C\u0443\u0436\u0441\u043A\u043E\u0439\u0441\u0442\u0430\u0439\u043B\u0438\u043D\u0433"],
-          tags: ["\u0424\u043E\u0442\u043E", "\u042D\u0434\u0438\u0442\u043E\u0440\u0438\u0430\u043B", "\u0416\u0435\u043D\u0441\u043A\u0438\u0439", "\u041C\u0443\u0436\u0441\u043A\u043E\u0439"],
-          mainImg: "/images/projects/DIRECTORS MERKULOVY/\u041A\u043E\u043F\u0438\u044F 0018.jpg",
-          images: [
-            "/images/projects/DIRECTORS MERKULOVY/\u041A\u043E\u043F\u0438\u044F 0018.jpg",
-            "/images/projects/DIRECTORS MERKULOVY/\u041A\u043E\u043F\u0438\u044F 0022.jpg"
-          ],
-          classes: "p-2",
-          video: ""
+          mainImg: "/images/projects/EGOR KRID/1.jpg",
+          video: "pui1uSE63Wo&t=4s",
+          style: "0 0 50% 7%"
         }
       ]
     };
@@ -7186,10 +7203,10 @@ __export(index_svelte_exports2, {
 var css9, Filter, Projects;
 var init_index_svelte2 = __esm({
   ".svelte-kit/output/server/entries/pages/projects/index.svelte.js"() {
-    init_index_27c4ae06();
-    init_Nav_0e3ea68b();
-    init_data_7f0af13e();
-    init_Image_fe0afddd();
+    init_index_193420ae();
+    init_Nav_6054ca6a();
+    init_data_1909edb0();
+    init_Image_fba76378();
     css9 = {
       code: "@media(min-width: 1024px){input[type='checkbox'].svelte-c5jn4q{display:none}}",
       map: null
@@ -7247,25 +7264,25 @@ var init_index_svelte2 = __esm({
 						</label>`)}</div></div></div></div></div>
 
 
-<div class="${"bg-white lg:hidden"}"><div class="${"px-7 py-5 grid grid-cols-4 border-b border-black"}"><h1 class="${"col-span-2"}">\u041F\u0440\u043E\u0435\u043A\u0442</h1>
-		<div class="${"col-span-1 flex flex-col space-y-2"}">${each(lvl1Options, (option) => `<label class="${"whitespace-nowrap space-x-1"}"><input class="${"text-black border-2 border-black w-4 h-4 focus:ring-0 mb-1 svelte-c5jn4q"}" type="${"checkbox"}"${add_attribute("value", option, 0)}${~$lvl1.indexOf(option) ? add_attribute("checked", true, 1) : ""}>
+<div class="${"bg-white lg:hidden"}"><div class="${"px-5 py-5 grid grid-cols-4 border-b border-black"}"><h1 class="${"col-span-2"}">\u041F\u0440\u043E\u0435\u043A\u0442</h1>
+		<div class="${"col-span-1 flex flex-col space-y-2"}">${each(lvl1Options, (option) => `<label class="${"whitespace-nowrap space-x-1"}"><input class="${"text-black border border-black w-4 h-4 focus:ring-0 mb-1 svelte-c5jn4q"}" type="${"checkbox"}"${add_attribute("value", option, 0)}${~$lvl1.indexOf(option) ? add_attribute("checked", true, 1) : ""}>
 					<span class="${"-ml-2"}">${escape(option)}</span>
 				</label>`)}</div>
-		<label class="${"col-span-1 justify-self-end space-x-1"}"><input class="${"text-black border-2 border-black w-4 h-4 focus:ring-0 mb-1 svelte-c5jn4q"}" type="${"checkbox"}"${add_attribute("checked", $lvl1All, 1)}>
+		<label class="${"col-span-1 justify-self-end space-x-1"}"><input class="${"text-black border border-black w-4 h-4 focus:ring-0 mb-1 svelte-c5jn4q"}" type="${"checkbox"}"${add_attribute("checked", $lvl1All, 1)}>
 			<span class="${"-ml-2"}">\u0412\u0441\u0435</span></label></div>
 
-	<div class="${"p-7 grid grid-cols-4 border-b border-black"}"><h1 class="${"col-span-2"}">\u041D\u0430\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u0438\u0435</h1>
-		<div class="${"col-span-1 flex flex-col space-y-2"}">${each(lvl2Options, (option) => `<label class="${"whitespace-nowrap space-x-1"}"><input class="${"text-black border-2 border-black w-4 h-4 focus:ring-0 mb-1 svelte-c5jn4q"}" type="${"checkbox"}"${add_attribute("value", option, 0)}${~$lvl2.indexOf(option) ? add_attribute("checked", true, 1) : ""}>
+	<div class="${"p-5 grid grid-cols-4 border-b border-black"}"><h1 class="${"col-span-2"}">\u041D\u0430\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u0438\u0435</h1>
+		<div class="${"col-span-1 flex flex-col space-y-2"}">${each(lvl2Options, (option) => `<label class="${"whitespace-nowrap space-x-1"}"><input class="${"text-black border border-black w-4 h-4 focus:ring-0 mb-1 svelte-c5jn4q"}" type="${"checkbox"}"${add_attribute("value", option, 0)}${~$lvl2.indexOf(option) ? add_attribute("checked", true, 1) : ""}>
 					<span class="${"-ml-2"}">${escape(option)}</span>
 				</label>`)}</div>
-		<label class="${"col-span-1 justify-self-end space-x-1"}"><input class="${"text-black border-2 border-black w-4 h-4 focus:ring-0 mb-1 svelte-c5jn4q"}" type="${"checkbox"}"${add_attribute("checked", $lvl2All, 1)}>
+		<label class="${"col-span-1 justify-self-end space-x-1"}"><input class="${"text-black border border-black w-4 h-4 focus:ring-0 mb-1 svelte-c5jn4q"}" type="${"checkbox"}"${add_attribute("checked", $lvl2All, 1)}>
 			<span class="${"-ml-2"}">\u0412\u0441\u0435</span></label></div>
 
-	<div class="${"p-7 grid grid-cols-4 border-b border-black"}"><h1 class="${"col-span-2"}">\u0421\u0442\u0430\u0439\u043B\u0438\u043D\u0433</h1>
-		<div class="${"col-span-1 flex flex-col space-y-2"}">${each(lvl3Options, (option) => `<label class="${"whitespace-nowrap space-x-1"}"><input class="${"text-black border-2 border-black w-4 h-4 focus:ring-0 mb-1 svelte-c5jn4q"}" type="${"checkbox"}"${add_attribute("value", option, 0)}${~$lvl3.indexOf(option) ? add_attribute("checked", true, 1) : ""}>
+	<div class="${"p-5 grid grid-cols-4 border-b border-black"}"><h1 class="${"col-span-2"}">\u0421\u0442\u0430\u0439\u043B\u0438\u043D\u0433</h1>
+		<div class="${"col-span-1 flex flex-col space-y-2"}">${each(lvl3Options, (option) => `<label class="${"whitespace-nowrap space-x-1"}"><input class="${"text-black border border-black w-4 h-4 focus:ring-0 mb-1 svelte-c5jn4q"}" type="${"checkbox"}"${add_attribute("value", option, 0)}${~$lvl3.indexOf(option) ? add_attribute("checked", true, 1) : ""}>
 					<span class="${"-ml-2"}">${escape(option)}</span>
 				</label>`)}</div>
-		<label class="${"col-span-1 justify-self-end space-x-1"}"><input class="${"text-black border-2 border-black w-4 h-4 focus:ring-0 mb-1 svelte-c5jn4q"}" type="${"checkbox"}"${add_attribute("checked", $lvl3All, 1)}>
+		<label class="${"col-span-1 justify-self-end space-x-1"}"><input class="${"text-black border border-black w-4 h-4 focus:ring-0 mb-1 svelte-c5jn4q"}" type="${"checkbox"}"${add_attribute("checked", $lvl3All, 1)}>
 			<span class="${"-ml-2"}">\u0412\u0441\u0435</span></label></div>
 </div>`;
     });
@@ -7284,14 +7301,17 @@ var init_index_svelte2 = __esm({
       $$unsubscribe_lvl2();
       $$unsubscribe_lvl3();
       return `${validate_component(Nav, "Nav").$$render($$result, {}, {}, {})}
-<div><div class="${"flex mt-10 fixed w-full bg-white lg:hidden justify-between items-center px-7 py-5 border-b border-t border-black text-sm flex-auto"}"><h1>\u041D\u0430\u0432\u0438\u0433\u0430\u0446\u0438\u044F \u043F\u043E \u043F\u0440\u043E\u0435\u043A\u0442\u0430\u043C</h1>
-		<p class="${"mt-1"}"><img${add_attribute("class", $showFilter ? "rotate-180 transition" : "transition", 0)} src="${"/images/arrow.svg"}" alt="${"arrow"}"></p></div>
+<div><div class="${"flex mt-10 fixed w-full bg-white z-40 lg:hidden justify-between items-center px-5 py-5 border-b border-t border-black flex-auto"}"><h1>\u041D\u0430\u0432\u0438\u0433\u0430\u0446\u0438\u044F \u043F\u043E \u043F\u0440\u043E\u0435\u043A\u0442\u0430\u043C</h1>
+		<p class="${"mt-1"}"><img${add_attribute("class", $showFilter ? "rotate-90 transition" : "-rotate-90 transition", 0)} src="${"/images/arrow.svg"}" alt="${"arrow"}"></p></div>
 	${$showFilter ? `<div class="${"fixed w-full mt-[102px] lg:mt-0 border-black lg:border-t z-10"}">${validate_component(Filter, "Filter").$$render($$result, {}, {}, {})}</div>` : ``}
-	<div class="${"pt-[102px] lg:pt-0 w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 lg:my-10"}">${each(items.projects, (i2, index) => `${(i2.tags.some((e2) => $lvl1.includes(capitalize(e2))) || !$lvl1.length) && (i2.tags.some((e2) => $lvl2.includes(capitalize(e2))) || !$lvl2.length) && (i2.tags.some((e2) => $lvl3.includes(capitalize(e2))) || !$lvl3.length) ? `<div class="${"border-b border-r border-black"}"><div class="${"border-2 border-black border-opacity-0 hover:border-opacity-100 transition duration-200"}"><a class="${"transition duration-200"}"${add_attribute("href", `projects/${index}`, 0)}><div id="${"img" + escape(index)}" class="${"img-anim h-96 xl:h-[34rem] " + escape(i2.classes)}" style="${"padding: " + escape(i2.style)}">${validate_component(Image, "Image").$$render($$result, {
+	<div${add_attribute("class", $showFilter ? "pt-[102px] lg:pt-[136px] w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 lg:my-10" : "pt-[102px] lg:pt-0 w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 lg:my-10", 0)}>${each(items.projects, (i2, index) => `${(i2.tags.some((e2) => $lvl1.includes(capitalize(e2))) || !$lvl1.length) && (i2.tags.some((e2) => $lvl2.includes(capitalize(e2))) || !$lvl2.length) && (i2.tags.some((e2) => $lvl3.includes(capitalize(e2))) || !$lvl3.length) ? `<div class="${"border-b border-r border-black sm:aspect-square group"}"><div class="${"w-full h-96 sm:h-full relative"}"><a class="${"transition duration-200 w-full h-96 sm:h-full"}"${add_attribute("href", `projects/${index}`, 0)}><div id="${"img" + escape(index)}" class="${"img-anim w-full h-96 sm:h-full " + escape(i2.classes)}" style="${"padding: " + escape(i2.style)}">${validate_component(Image, "Image").$$render($$result, {
         src: i2.mainImg,
         classes: `w-full h-full object-cover ${i2.classes}`
-      }, {}, {})}</div>
-								<div class="${"text-center lg:hidden"}">${escape(i2.title)}</div>
+      }, {}, {})}
+									<div class="${"absolute top-0 left-0 w-full h-full group-hover:shadow-border transition duration-200"}"></div>
+									<div class="${"absolute text-center font-bt p-3 text-sm bottom-0 left-0 w-full bg-white border-t-[3px] border-l-2 border-b-2 border-r-2 border-black opacity-0 group-hover:opacity-100 transition duration-200"}">${escape(i2.title)}
+									</div></div>
+								
 							</a></div>
 					</div>` : ``}`)}</div></div>`;
     });
@@ -7310,8 +7330,8 @@ var entry5, js5, css10;
 var init__5 = __esm({
   ".svelte-kit/output/server/nodes/4.js"() {
     init_index_svelte2();
-    entry5 = "pages/projects/index.svelte-25f90961.js";
-    js5 = ["pages/projects/index.svelte-25f90961.js", "chunks/vendor-cece5832.js", "chunks/Nav-85821155.js", "chunks/singletons-a42a5e91.js", "chunks/data-7f0af13e.js"];
+    entry5 = "pages/projects/index.svelte-aa564fb7.js";
+    js5 = ["pages/projects/index.svelte-aa564fb7.js", "chunks/vendor-6d69bdcb.js", "chunks/Nav-54247100.js", "chunks/singletons-a42a5e91.js", "chunks/data-1909edb0.js"];
     css10 = ["assets/pages/projects/index.svelte-fc570857.css", "assets/vendor-c402c846.css", "assets/Nav-ba69bb6a.css"];
   }
 });
@@ -7333,10 +7353,10 @@ function format2(seconds) {
 var css11, Player, Youtube, U5Bidu5D;
 var init_id_svelte = __esm({
   ".svelte-kit/output/server/entries/pages/projects/_id_.svelte.js"() {
-    init_index_27c4ae06();
-    init_data_7f0af13e();
-    init_Nav_0e3ea68b();
-    init_Image_fe0afddd();
+    init_index_193420ae();
+    init_data_1909edb0();
+    init_Nav_6054ca6a();
+    init_Image_fba76378();
     css11 = {
       code: "div.svelte-3ry5q6{position:relative}.controls.svelte-3ry5q6{position:absolute;top:0;width:100%;transition:opacity 1s}.info.svelte-3ry5q6{display:flex;width:100%;justify-content:space-between}span.svelte-3ry5q6{padding:0.2em 0.5em;color:white;text-shadow:0 0 8px black;font-size:1.4em;opacity:0.7}.time.svelte-3ry5q6{width:3em}.time.svelte-3ry5q6:last-child{text-align:right }progress.svelte-3ry5q6{display:block;width:100%;height:10px;-webkit-appearance:none;appearance:none}progress.svelte-3ry5q6::-webkit-progress-bar{background-color:rgba(0,0,0,0.2)}progress.svelte-3ry5q6::-webkit-progress-value{background-color:rgba(255,255,255,0.6)}video.svelte-3ry5q6{width:100%}",
       map: null
@@ -7368,19 +7388,27 @@ var init_id_svelte = __esm({
       return `<iframe src="${"https://www.youtube.com/embed/" + escape(id)}" class="${"w-full aspect-video"}" title="${"youtube video"}" frameborder="${"0"}"></iframe>`;
     });
     U5Bidu5D = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+      let $$unsubscribe_topActive;
+      let $$unsubscribe_botActive;
       let $page, $$unsubscribe_page;
+      $$unsubscribe_topActive = subscribe(topActive, (value) => value);
+      $$unsubscribe_botActive = subscribe(botActive, (value) => value);
       $$unsubscribe_page = subscribe(page, (value) => $page = value);
       let id = $page.params.id;
+      $$unsubscribe_topActive();
+      $$unsubscribe_botActive();
       $$unsubscribe_page();
       return `${validate_component(Nav, "Nav").$$render($$result, {}, {}, {})}
-<div class="${"lg:grid grid-cols-4"}"><div class="${"mt-10 lg:my-10 p-5 lg:mx-0 col-span-1 lg:flex flex-col justify-between lg:border-r border-black"}"><div class="${"lg:mt-5 2xl:px-5 hidden lg:flex justify-between"}"><a href="${"/projects/" + escape(parseInt(id) == 0 ? items.projects.length - 1 : parseInt(id) - 1)}" rel="${"external"}"><div class="${"flex space-x-3 items-center cursor-pointer"}"><img class="${"w-5 h-5"}" src="${"/images/arrow-left.svg"}" alt="${""}">
-					<p class="${"font-light"}">\u041D\u0430\u0437\u0430\u0434</p></div></a>
-			<a href="${"/projects/" + escape(parseInt(id) + 1 >= items.projects.length ? "0" : parseInt(id) + 1)}" rel="${"external"}"><img class="${"w-5 h-5 cursor-pointer"}" src="${"/images/arrow.svg"}" alt="${""}"></a></div>
-		<div class="${"space-y-1 2xl:px-5"}"><h1 class="${"font-bt font-thin text-2xl"}">${escape(items.projects[id].title)}</h1>
-			<div class="${"flex font-light flex-wrap"}">${each(items.projects[id].tagNames, (tag, index) => `<span class="${"mr-1"}">${escape(tag)}</span>`)}</div></div></div>
+<div class="${"lg:grid grid-cols-4 w-full"}"><div class="${"mt-10 lg:my-10 p-5 lg:mx-0 col-span-1 lg:flex flex-col justify-between lg:border-r border-black"}"><div class="${"fixed w-screen bottom-10 pr-10 lg:static lg:pr-0 lg:w-full"}"><div class="${"lg:mt-5 2xl:px-5 flex justify-between"}"><a href="${"/projects/" + escape(parseInt(id) == 0 ? items.projects.length - 1 : parseInt(id) - 1)}" rel="${"external"}"><div class="${"flex space-x-3 items-center cursor-pointer"}"><img class="${"w-5 h-5"}" src="${"/images/arrow-left.svg"}" alt="${""}"></div></a>
+				<a href="${"/projects/" + escape(parseInt(id) + 1 >= items.projects.length ? "0" : parseInt(id) + 1)}" rel="${"external"}"><img class="${"w-5 h-5 cursor-pointer"}" src="${"/images/arrow.svg"}" alt="${""}"></a></div></div>
+		<div class="${"2xl:px-5"}"><h1 class="${"font-bt font-thin text-2xl leading-5"}">${escape(items.projects[id].title)}</h1>
+			<div class="${"flex font-light flex-wrap leading-5 text-sm"}">${each(items.projects[id].tagNames, (tag, index) => `<span class="${"mr-1"}">${escape(tag)}</span>`)}</div></div></div>
 
-	${items.projects[id].video ? `<div class="${"px-5 pb-20 xl:px-20 2xl:px-32 col-span-3 lg:h-screen flex"}"><div class="${"w-full self-end"}">${validate_component(Youtube, "Youtube").$$render($$result, { id: items.projects[id].video }, {}, {})}</div></div>` : `${items.projects[id].localVideo ? `<div class="${"px-5 pb-20 xl:px-20 2xl:px-32 col-span-3 lg:h-screen flex"}"><div class="${"w-full self-end"}">${validate_component(Player, "Player").$$render($$result, { src: items.projects[id].localVideo }, {}, {})}</div></div>` : `<div class="${"px-5 pb-5 lg:py-10 space-y-5 col-span-3 lg:overflow-scroll lg:h-screen lg:max-w-screen-lg lg:mx-auto w-full"}">${each(items.projects[id].images, (i2, index) => `<div class="${""}">${validate_component(Image, "Image").$$render($$result, { src: i2, classes: "mx-auto" }, {}, {})}
-				</div>`)}</div>`}`}</div>`;
+	${items.projects[id].video ? `<div class="${"px-5 pb-16 xl:px-20 2xl:px-32 col-span-3 lg:h-screen flex"}"><div class="${"w-full self-end aspect-video"}">${validate_component(Youtube, "Youtube").$$render($$result, { id: items.projects[id].video }, {}, {})}</div></div>` : `${items.projects[id].localVideo ? `<div class="${"px-5 pb-16 xl:px-20 2xl:px-32 col-span-3 lg:h-screen flex"}"><div class="${"w-full self-end"}">${validate_component(Player, "Player").$$render($$result, { src: items.projects[id].localVideo }, {}, {})}</div></div>` : `${items.projects[id].images.length == 1 ? `<div class="${"px-5 pb-16 xl:px-20 2xl:px-32 col-span-3 lg:h-screen flex"}"><div class="${"w-full self-end"}">${validate_component(Image, "Image").$$render($$result, {
+        src: items.projects[id].images[0],
+        classes: "w-full"
+      }, {}, {})}</div></div>` : `<div class="${"px-5 pb-5 lg:py-10 space-y-5 col-span-3 lg:overflow-scroll lg:h-screen lg:max-w-screen-lg lg:mx-auto w-full"}">${each(items.projects[id].images, (i2, index) => `<div class="${""}">${validate_component(Image, "Image").$$render($$result, { src: i2, classes: "w-full" }, {}, {})}
+				</div>`)}</div>`}`}`}</div>`;
     });
   }
 });
@@ -7397,8 +7425,8 @@ var entry6, js6, css12;
 var init__6 = __esm({
   ".svelte-kit/output/server/nodes/5.js"() {
     init_id_svelte();
-    entry6 = "pages/projects/_id_.svelte-3e0a1372.js";
-    js6 = ["pages/projects/_id_.svelte-3e0a1372.js", "chunks/vendor-cece5832.js", "chunks/data-7f0af13e.js", "chunks/Nav-85821155.js", "chunks/singletons-a42a5e91.js", "chunks/Player-f7a65fdc.js"];
+    entry6 = "pages/projects/_id_.svelte-220f67c5.js";
+    js6 = ["pages/projects/_id_.svelte-220f67c5.js", "chunks/vendor-6d69bdcb.js", "chunks/data-1909edb0.js", "chunks/Nav-54247100.js", "chunks/singletons-a42a5e91.js", "chunks/Player-f7c97560.js"];
     css12 = ["assets/vendor-c402c846.css", "assets/Nav-ba69bb6a.css", "assets/Player-97ad1893.css"];
   }
 });
@@ -7411,8 +7439,8 @@ __export(services_svelte_exports, {
 var Services;
 var init_services_svelte = __esm({
   ".svelte-kit/output/server/entries/pages/services.svelte.js"() {
-    init_index_27c4ae06();
-    init_Nav_0e3ea68b();
+    init_index_193420ae();
+    init_Nav_6054ca6a();
     Services = create_ssr_component(($$result, $$props, $$bindings, slots) => {
       let $$unsubscribe_white;
       $$unsubscribe_white = subscribe(white, (value) => value);
@@ -7420,34 +7448,32 @@ var init_services_svelte = __esm({
       return `
 
 ${validate_component(Nav, "Nav").$$render($$result, {}, {}, {})}
-<div class="${"my-10 pt-10 mx-5 text-sm"}"><p class="${"font-bold"}">\u041A\u043E\u043C\u043C\u0435\u0440\u0447\u0435\u0441\u043A\u0438\u0435 \u0443\u0441\u043B\u0443\u0433\u0438</p>
-	<p class="${"mt-3"}">\u041A\u0440\u0435\u0430\u0442\u0438\u0432:</p>
-	<p class="${"font-normal whitespace-pre-line"}">\u043F\u043E\u043B\u043D\u0430\u044F \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043A\u043E\u043D\u0446\u0435\u043F\u0446\u0438\u0438 \u0441\u044A\u0435\u043C\u043A\u0438 (\u043E\u0442\xA050\xA0000) 
-		\u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u0441\u0442\u0438\u043B\u044F \u0438\xA0\u043E\u0431\u0440\u0430\u0437\u043E\u0432 (\u043E\u0442\xA030\xA0000)
+<div class="${"my-10 pt-7 mx-5 text-sm"}"><p class="${"font-bold"}">\u041C\u044B\xA0\u043E\u043A\u0430\u0437\u044B\u0432\u0430\u0435\u043C \u0443\u0441\u043B\u0443\u0433\u0438 \u043F\u043E\xA0\u0441\u043E\u0437\u0434\u0430\u043D\u0438\u044E \u0438\xA0\u043F\u043E\u0434\u0431\u043E\u0440\u0443 \u043A\u043E\u0441\u0442\u044E\u043C\u0430 \u043B\u044E\u0431\u043E\u0439 \u0441\u043B\u043E\u0436\u043D\u043E\u0441\u0442\u0438 \u0434\u043B\u044F \u0441\u044A\u0435\u043C\u043E\u043A \u0444\u043E\u0442\u043E, \u0432\u0438\u0434\u0435\u043E, \u043A\u0438\u043D\u043E, \u0447\u0430\u0441\u0442\u043D\u044B\u0445 \u043C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u0439 \u0438\xA0\u0434\u0440\u0443\u0433\u0438\u0445 \u043F\u0440\u043E\u0435\u043A\u0442\u043E\u0432. \u0414\u043B\u044F \u0442\u043E\u0433\u043E, \u0447\u0442\u043E\u0431\u044B \u0440\u0430\u0441\u0441\u0447\u0438\u0442\u0430\u0442\u044C \u0441\u0442\u043E\u0438\u043C\u043E\u0441\u0442\u044C \u0438\xA0\u043F\u043E\u0434\u043E\u0431\u0440\u0430\u0442\u044C \u0441\u043F\u0435\u0446\u0438\u0430\u043B\u0438\u0441\u0442\u0430 \u043F\u043E\u0437\u0432\u043E\u043D\u0438\u0442\u0435 \u0438\u043B\u0438 \u043D\u0430\u043F\u0438\u0448\u0438\u0442\u0435 \u043D\u0430\u043C
 	</p>
-	<p class="${"mt-3"}">\u0421\u0442\u0438\u043B\u044C:</p>
-	<p class="${"font-normal whitespace-pre-line"}">\u0441\u0442\u0438\u043B\u0438\u0437\u0430\u0446\u0438\u044F \u043B\u0443\u043A\u043E\u0432 \u0434\u043B\u044F \u0444\u043E\u0442\u043E \u0438\xA0\u0432\u0438\u0434\u0435\u043E\xA0\u2014 \u0441\u044A\u0435\u043C\u043A\u0438 (\u043E\u0442\xA030\xA0000) \u043C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u044F \u0438\u043B\u0438
-		\u0434\u0440\u0443\u0433\u043E\u0433\u043E \u0441\u043B\u0443\u0447\u0430\u044F (\u043E\u0442\xA025\xA0000)
+	<p class="${"font-bold mt-3"}">\u041A\u041E\u041C\u041C\u0415\u0420\u0427\u0415\u0421\u041A\u0418\u0415 \u0423\u0421\u041B\u0423\u0413\u0418</p>
+	<p class="${"mt-3 font-bold"}">\u0421\u043E\u0437\u0434\u0430\u043D\u0438\u0435 \u043A\u043E\u0441\u0442\u044E\u043C\u043E\u0432:</p>
+	<p class="${"font-normal whitespace-pre-line pl-5"}">\u2014\xA0\u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043E\u0434\u043D\u043E\u0433\u043E \u043A\u043E\u0441\u0442\u044E\u043C\u0430 \u043E\u0442\xA0/ 25\xA0000
+		\u2014\xA0\u0438\u0437\u0433\u043E\u0442\u043E\u0432\u043B\u0435\u043D\u0438\u0435 \u0440\u0430\u0441\u0441\u0447\u0438\u0442\u044B\u0432\u0430\u0435\u0442\u0441\u044F \u0438\u043D\u0434\u0438\u0432\u0438\u0434\u0443\u0430\u043B\u044C\u043D\u043E \u043F\u043E\u0434 \u0437\u0430\u0434\u0430\u0447\u0443
 	</p>
-	<p class="${"mt-3"}">\u0410\u0441\u0441\u0438\u0441\u0442\u0435\u043D\u0442 \u0441\u0442\u0438\u043B\u0438\u0441\u0442\u0430 \u043D\u0430\xA0\u0441\u044A\u0435\u043C\u043A\u0435:</p>
-	<p class="${"font-normal whitespace-pre-line"}">\u0430\u0441\u0441\u0438\u0441\u0442\u0435\u043D\u0442 \u0441\u0442\u0438\u043B\u0438\u0441\u0442\u0430: \u043F\u043E\u0434\u0433\u043E\u0442\u043E\u0432\u043A\u0430 \u043A\xA0\u0441\u044A\u0435\u043C\u043A\u0435, \u0440\u0430\u0431\u043E\u0442\u0430 \u043D\u0430\xA0\u043F\u043B\u043E\u0449\u0430\u0434\u043A\u0435, \u0440\u0430\u0437\u0432\u043E\u0437
-		(\u043E\u0442\xA010\xA0000 ) \u0440\u0430\u0431\u043E\u0442\u0430 \u043A\u043E\u0441\u0442\u044E\u043C\u0435\u0440\u0430 (\u043E\u0442\xA06\xA0000 )
+	<p class="${"mt-3 font-bold"}">\u041A\u0440\u0435\u0430\u0442\u0438\u0432:</p>
+	<p class="${"font-normal whitespace-pre-line pl-5"}">\u2014\xA0\u043F\u043E\u043B\u043D\u0430\u044F \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043A\u043E\u043D\u0446\u0435\u043F\u0446\u0438\u0438 \u0441\u044A\u0435\u043C\u043A\u0438 \u0441\xA0\u043D\u0443\u043B\u044F \u043E\u0442\xA0/ 50\xA0000
+		\u2014\xA0\u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u0441\u0442\u0438\u043B\u044F \u0438\xA0\u043E\u0431\u0440\u0430\u0437\u043E\u0432 \u0434\u043B\u044F \u0441\u044A\u0435\u043C\u043A\u0438 \u0438\u043B\u0438 \u0434\u0440\u0443\u0433\u043E\u0433\u043E \u0441\u043B\u0443\u0447\u0430\u044F\xA0/ \u043E\u0442\xA030\xA0000
 	</p>
-	<p class="${"mt-3"}">\u0421\u043E\u0437\u0434\u0430\u043D\u0438\u0435 \u043A\u043E\u0441\u0442\u044E\u043C\u043E\u0432:</p>
-	<p class="${"font-normal whitespace-pre-line"}">\u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u043E\u0434\u043D\u043E\u0433\u043E \u043A\u043E\u0441\u0442\u044E\u043C\u0430 (\u043E\u0442\xA030\xA0000) \u0438\u0437\u0433\u043E\u0442\u043E\u0432\u043B\u0435\u043D\u0438\u0435 \u0440\u0430\u0441\u0441\u0447\u0438\u0442\u044B\u0432\u0430\u0435\u0442\u0441\u044F \u0438\u043D\u0434\u0438\u0432\u0438\u0434\u0443\u0430\u043B\u044C\u043D\u043E \u043F\u043E\u0434 \u0437\u0430\u0434\u0430\u0447\u0443
+	<p class="${"mt-3 font-bold"}">\u0421\u0442\u0438\u043B\u044C:</p>
+	<p class="${"font-normal whitespace-pre-line pl-5"}">\u2014\xA0\u0441\u0442\u0438\u043B\u0438\u0437\u0430\u0446\u0438\u044F \u043B\u0443\u043A\u043E\u0432 \u0434\u043B\u044F \u0444\u043E\u0442\u043E \u0441\u044A\u0435\u043C\u043A\u0438\xA0/ \u043E\u0442\xA030\xA0000\xA0/ 1\xA0\u0441\u043C\u0435\u043D\u0430
+		\u2014\xA0\u0441\u0442\u0438\u043B\u0438\u0437\u0430\u0446\u0438\u044F \u043B\u0443\u043A\u043E\u0432 \u0434\u043B\u044F \u0432\u0438\u0434\u0435\u043E \u0441\u044A\u0435\u043C\u043A\u0438\xA0/ \u043E\u0442\xA040\xA0000\xA0/ 1\xA0\u0441\u043C\u0435\u043D\u0430
 	</p>
-	<p class="${"font-normal whitespace-pre-line mt-3"}">\u0421\u043C\u0435\u043D\u0430 \u0441\u043F\u0435\u0446\u0438\u0430\u043B\u0438\u0441\u0442\u0430\xA0\u2014 12\xA0\u0447\u0430\u0441\u043E\u0432. \u0420\u0430\u0431\u043E\u0447\u0438\u0435 \u0447\u0430\u0441\u044B \u0441\u0432\u0435\u0440\u0445 \u0441\u043C\u0435\u043D\u044B \u0441\u0447\u0438\u0442\u0430\u044E\u0442\u0441\u044F \u043A\u0430\u043A \u043F\u0435\u0440\u0435\u0440\u0430\u0431\u043E\u0442\u043A\u0438
-		\u0438\xA0\u043E\u043F\u043B\u0430\u0447\u0438\u0432\u0430\u044E\u0442\u0441\u044F \u043E\u0442\xA0500\xA0\u0440\u0443\u0431.\xA0/ \u0447\u0430\u0441 (\u0430\u0441\u0441\u0438\u0441\u0442\u0435\u043D\u0442), \u043E\u0442\xA01000\xA0\u0440\u0443\u0431.\xA0/
-		\u0447\u0430\u0441 (\u0441\u0442\u0438\u043B\u0438\u0441\u0442)
+	<p class="${"mt-3 font-bold"}">\u0410\u0441\u0441\u0438\u0441\u0442\u0435\u043D\u0442 \u0441\u0442\u0438\u043B\u0438\u0441\u0442\u0430 \u043D\u0430\xA0\u0441\u044A\u0435\u043C\u043A\u0435:</p>
+	<p class="${"font-normal whitespace-pre-line pl-5"}">\u2014\xA0\u0430\u0441\u0441\u0438\u0441\u0442\u0435\u043D\u0442 \u0441\u0442\u0438\u043B\u0438\u0441\u0442\u0430: \u043F\u043E\u0434\u0433\u043E\u0442\u043E\u0432\u043A\u0430 \u043A\xA0\u0441\u044A\u0435\u043C\u043A\u0435, \u0440\u0430\u0431\u043E\u0442\u0430 \u043D\u0430\xA0\u043F\u043B\u043E\u0449\u0430\u0434\u043A\u0435, \u0440\u0430\u0437\u0432\u043E\u0437\xA0/ \u043E\u0442\xA010\xA0000
+		\u2014\xA0\u0440\u0430\u0431\u043E\u0442\u0430 \u043A\u043E\u0441\u0442\u044E\u043C\u0435\u0440\u0430\xA0/ \u043E\u0442\xA06\xA0000\xA0/ 1\xA0\u0441\u043C\u0435\u043D\u0430
 	</p>
-	<p class="${"mt-3 font-bold"}">\u0427\u0430\u0441\u0442\u043D\u044B\u0435 \u0443\u0441\u043B\u0443\u0433\u0438</p>
-	<p class="${"font-normal whitespace-pre-line mt-3"}">\u0420\u0430\u0437\u0431\u043E\u0440 \u0433\u0430\u0440\u0434\u0435\u0440\u043E\u0431\u0430: \u043E\u0446\u0435\u043D\u043A\u0430 \u0438\xA0\u0440\u0435\u0434\u0430\u043A\u0442\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u0433\u0430\u0440\u0434\u0435\u0440\u043E\u0431\u0430, \u0441\u043E\u0441\u0442\u0430\u0432\u043B\u0435\u043D\u0438\u0435 \u0433\u0430\u043B\u0435\u0440\u0435\u0438 \u043E\u0431\u0440\u0430\u0437\u043E\u0432
-		\u0438\xA0\u0438\u0445\xA0\u0441\u0438\u0441\u0442\u0435\u043C\u0430\u0442\u0438\u0437\u0430\u0446\u0438\u044F, \u043A\u043E\u043E\u0440\u0434\u0438\u043D\u0430\u0446\u0438\u044F \u043F\u043E\u0447\u0438\u043D\u043A\u0438 \u0438\xA0\u0445\u0438\u043C\u0447\u0438\u0441\u0442\u043A\u0438 \u0432\u0435\u0449\u0435\u0439
+	<p class="${"font-normal whitespace-pre-line mt-3"}">\u0421\u043C\u0435\u043D\u0430 \u0441\u043F\u0435\u0446\u0438\u0430\u043B\u0438\u0441\u0442\u0430\xA0\u2014 12\xA0\u0447\u0430\u0441\u043E\u0432. \u0420\u0430\u0431\u043E\u0447\u0438\u0435 \u0447\u0430\u0441\u044B \u0441\u0432\u0435\u0440\u0445 \u0441\u043C\u0435\u043D\u044B \u0441\u0447\u0438\u0442\u0430\u044E\u0442\u0441\u044F \u043A\u0430\u043A \u043F\u0435\u0440\u0435\u0440\u0430\u0431\u043E\u0442\u043A\u0438 \u0438\xA0\u043E\u043F\u043B\u0430\u0447\u0438\u0432\u0430\u044E\u0442\u0441\u044F \u0434\u043E\u043F\u043E\u043B\u043D\u0438\u0442\u0435\u043B\u044C\u043D\u043E \u043F\u043E\xA0\u0441\u043E\u0433\u043B\u0430\u0441\u043E\u0432\u0430\u043D\u0438\u044E
 	</p>
-	<p class="${"font-normal whitespace-pre-line mt-3"}">\u041F\u0435\u0440\u0441\u043E\u043D\u0430\u043B\u044C\u043D\u044B\u0439 \u0448\u043E\u043F\u043F\u0438\u043D\u0433: \u0448\u043E\u043F\u043F\u0438\u043D\u0433 \u0441\u043E\xA0\u0441\u0442\u0438\u043B\u0438\u0441\u0442\u043E\u043C \u0441\u043E\u0433\u043B\u0430\u0441\u043D\u043E \u0438\u043D\u0434\u0438\u0432\u0438\u0434\u0443\u0430\u043B\u044C\u043D\u043E \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u0430\u043D\u043D\u043E\u043C\u0443 \u043F\u043B\u0430\u043D\u0443,
-		\u0441\u043E\u0441\u0442\u0430\u0432\u043B\u0435\u043D\u0438\u0435 \u0433\u0430\u043B\u0435\u0440\u0435\u0438 \u043E\u0431\u0440\u0430\u0437\u043E\u0432, \u0432\u0441\u0442\u0440\u0430\u0438\u0432\u0430\u043D\u0438\u0435 \u043E\u0431\u0440\u0430\u0437\u043E\u0432 \u0432\xA0\u0433\u0430\u0440\u0434\u0435\u0440\u043E\u0431 \u043A\u043B\u0438\u0435\u043D\u0442\u0430, \u043E\u043D\u043B\u0430\u0439\u043D-\u0441\u043E\u043F\u0440\u043E\u0432\u043E\u0436\u0434\u0435\u043D\u0438\u0435
-	</p>
-	<p class="${"mt-3 font-bold"}">\u041F\u043E\u0434\u0431\u043E\u0440\xA0/ \u0441\u043E\u0437\u0434\u0430\u043D\u0438\u0435 \u043A\u043E\u0441\u0442\u044E\u043C\u043E\u0432 \u043D\u0430\xA0\u043C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u0435</p></div>`;
+	<p class="${"mt-3 font-bold"}">\u0427\u0410\u0421\u0422\u041D\u042B\u0415 \u0423\u0421\u041B\u0423\u0413\u0418</p>
+	<p class="${"font-normal whitespace-pre-line mt-3 pl-5"}">\u2014\xA0\u0440\u0430\u0437\u0431\u043E\u0440 \u0433\u0430\u0440\u0434\u0435\u0440\u043E\u0431\u0430 \u043E\u0442\xA020\xA0000\xA0\u0432 \u0434\u0435\u043D\u044C
+		\u2014\xA0\u043F\u0435\u0440\u0441\u043E\u043D\u0430\u043B\u044C\u043D\u044B\u0439 \u0448\u043E\u043F\u043F\u0438\u043D\u0433 \u043E\u0442\xA020\xA0000\xA0\u0432 \u0434\u0435\u043D\u044C
+		\u2014\xA0\u0434\u0440\u0435\u0441\u0441\u0438\u043D\u0433/ \u0441\u043E\u0437\u0434\u0430\u043D\u0438\u0435 \u043A\u043E\u0441\u0442\u044E\u043C\u0430 \u043D\u0430\xA0\u043C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u0435 15\xA0000 \u043B\u0443\u043A
+	</p></div>`;
     });
   }
 });
@@ -7464,8 +7490,8 @@ var entry7, js7, css13;
 var init__7 = __esm({
   ".svelte-kit/output/server/nodes/6.js"() {
     init_services_svelte();
-    entry7 = "pages/services.svelte-e39605f5.js";
-    js7 = ["pages/services.svelte-e39605f5.js", "chunks/vendor-cece5832.js", "chunks/Nav-85821155.js", "chunks/singletons-a42a5e91.js"];
+    entry7 = "pages/services.svelte-b5f3f019.js";
+    js7 = ["pages/services.svelte-b5f3f019.js", "chunks/vendor-6d69bdcb.js", "chunks/Nav-54247100.js", "chunks/singletons-a42a5e91.js"];
     css13 = ["assets/vendor-c402c846.css", "assets/Nav-ba69bb6a.css"];
   }
 });
@@ -7478,28 +7504,99 @@ __export(clients_svelte_exports, {
 var Clients;
 var init_clients_svelte = __esm({
   ".svelte-kit/output/server/entries/pages/clients.svelte.js"() {
-    init_index_27c4ae06();
-    init_Nav_0e3ea68b();
+    init_index_193420ae();
+    init_Nav_6054ca6a();
     Clients = create_ssr_component(($$result, $$props, $$bindings, slots) => {
       let $$unsubscribe_white;
       $$unsubscribe_white = subscribe(white, (value) => value);
+      let media = [
+        "/images/media/1.png",
+        "/images/media/2.png",
+        "/images/media/3.png",
+        "/images/media/4.png",
+        "/images/media/5.png",
+        "/images/media/6.png",
+        "/images/media/7.png",
+        "/images/media/8.png",
+        "/images/media/9.png",
+        "/images/media/10.png",
+        "/images/media/11.png",
+        "/images/media/12.png",
+        "/images/media/13.png",
+        "/images/media/14.png",
+        "/images/media/15.png",
+        "/images/media/16.jpeg",
+        "/images/media/17.png",
+        "/images/media/18.png",
+        "/images/media/19.png",
+        "/images/media/20.png",
+        "/images/media/21.png"
+      ];
       let images = [
-        "/images/companies/cian.png",
-        "/images/companies/lg.png",
-        "/images/companies/mega.png",
-        "/images/companies/samsung.png",
-        "/images/companies/cian.png",
-        "/images/companies/lg.png",
-        "/images/companies/mega.png",
-        "/images/companies/samsung.png",
-        "/images/companies/cian.png",
-        "/images/companies/lg.png",
-        "/images/companies/mega.png",
-        "/images/companies/samsung.png",
-        "/images/companies/cian.png",
-        "/images/companies/lg.png",
-        "/images/companies/mega.png",
-        "/images/companies/samsung.png"
+        "/images/companies/1.png",
+        "/images/companies/2.png",
+        "/images/companies/3.png",
+        "/images/companies/4.png",
+        "/images/companies/5.webp",
+        "/images/companies/6.png",
+        "/images/companies/7.jpeg",
+        "/images/companies/8.png",
+        "/images/companies/9.png",
+        "/images/companies/10.png",
+        "/images/companies/11.png",
+        "/images/companies/12.png",
+        "/images/companies/13.png",
+        "/images/companies/14.png",
+        "/images/companies/15.png",
+        "/images/companies/16.png",
+        "/images/companies/17.png",
+        "/images/companies/18.png",
+        "/images/companies/19.png",
+        "/images/companies/20.png",
+        "/images/companies/21.png",
+        "/images/companies/22.png",
+        "/images/companies/23.svg",
+        "/images/companies/24.png",
+        "/images/companies/25.png",
+        "/images/companies/26.png",
+        "/images/companies/27.png",
+        "/images/companies/28.png",
+        "/images/companies/29.png",
+        "/images/companies/30.png",
+        "/images/companies/31.png",
+        "/images/companies/32.png",
+        "/images/companies/33.png",
+        "/images/companies/34.png",
+        "/images/companies/35.png",
+        "/images/companies/36.png",
+        "/images/companies/37.png",
+        "/images/companies/38.png",
+        "/images/companies/39.png",
+        "/images/companies/40.png",
+        "/images/companies/41.png",
+        "/images/companies/42.png",
+        "/images/companies/43.png",
+        "/images/companies/44.png",
+        "/images/companies/45.png",
+        "/images/companies/46.svg",
+        "/images/companies/47.png",
+        "/images/companies/48.png",
+        "/images/companies/49.png",
+        "/images/companies/50.png",
+        "/images/companies/51.png",
+        "/images/companies/52.png",
+        "/images/companies/53.png",
+        "/images/companies/54.jpg",
+        "/images/companies/55.png",
+        "/images/companies/56.png",
+        "/images/companies/57.png",
+        "/images/companies/58.png",
+        "/images/companies/59.png",
+        "/images/companies/60.png",
+        "/images/companies/61.png",
+        "/images/companies/62.png",
+        "/images/companies/63.png",
+        "/images/companies/64.png"
       ];
       $$unsubscribe_white();
       return `
@@ -7512,10 +7609,9 @@ ${validate_component(Nav, "Nav").$$render($$result, {}, {}, {})}
 		Indablack, \u0412\u0430\u0440\u043D\u0430\u0432\u0430, Manizha
 	</p>
 	<p class="${"font-bold mt-5"}">\u041C\u0435\u0434\u0438\u0430 \u0438 \u0436\u0443\u0440\u043D\u0430\u043B\u044B</p>
-	<p class="${"mt-5 font-normal 2xl:whitespace-pre-line"}">\u0420\u0411\u041A, GLAMOUR, Wonderzine, HIPO , SNC, Marie\u0421laire
-	</p>
+	<p class="${"mt-5 grid grid-cols-4 gap-3"}">${each(media, (img, index) => `<img class="${"w-16 object-cover self-center"}"${add_attribute("src", img, 0)} alt="${""}">`)}</p>
 	<p class="${"font-bold mt-5"}">\u0411\u0440\u0435\u043D\u0434\u044B \u0438 \u043A\u043E\u043C\u043F\u0430\u043D\u0438\u0438</p>
-	<div class="${"mt-5 grid grid-cols-6"}">${each(images, (img, index) => `<img class="${"w-16 object-cover"}"${add_attribute("src", img, 0)} alt="${""}">`)}</div></div>`;
+	<div class="${"mt-5 grid grid-cols-4 gap-3"}">${each(images, (img, index) => `<img class="${"w-16 object-cover self-center"}"${add_attribute("src", img, 0)} alt="${""}">`)}</div></div>`;
     });
   }
 });
@@ -7532,8 +7628,8 @@ var entry8, js8, css14;
 var init__8 = __esm({
   ".svelte-kit/output/server/nodes/7.js"() {
     init_clients_svelte();
-    entry8 = "pages/clients.svelte-27f78d60.js";
-    js8 = ["pages/clients.svelte-27f78d60.js", "chunks/vendor-cece5832.js", "chunks/Nav-85821155.js", "chunks/singletons-a42a5e91.js"];
+    entry8 = "pages/clients.svelte-046343d1.js";
+    js8 = ["pages/clients.svelte-046343d1.js", "chunks/vendor-6d69bdcb.js", "chunks/Nav-54247100.js", "chunks/singletons-a42a5e91.js"];
     css14 = ["assets/vendor-c402c846.css", "assets/Nav-ba69bb6a.css"];
   }
 });
@@ -7546,32 +7642,50 @@ __export(rewards_svelte_exports, {
 var Rewards;
 var init_rewards_svelte = __esm({
   ".svelte-kit/output/server/entries/pages/rewards.svelte.js"() {
-    init_index_27c4ae06();
-    init_Nav_0e3ea68b();
+    init_index_193420ae();
+    init_Nav_6054ca6a();
     Rewards = create_ssr_component(($$result, $$props, $$bindings, slots) => {
       let $$unsubscribe_white;
       $$unsubscribe_white = subscribe(white, (value) => value);
       let rewards = [
-        "/images/rewards/reward1.png",
-        "/images/rewards/reward1.png",
-        "/images/rewards/reward1.png",
-        "/images/rewards/reward1.png",
-        "/images/rewards/reward1.png",
-        "/images/rewards/reward1.png",
-        "/images/rewards/reward1.png",
-        "/images/rewards/reward1.png",
-        "/images/rewards/reward1.png",
-        "/images/rewards/reward1.png",
-        "/images/rewards/reward1.png",
-        "/images/rewards/reward1.png",
-        "/images/rewards/reward1.png"
+        "/images/rewards/1.png",
+        "/images/rewards/2.png",
+        "/images/rewards/3.jpg",
+        "/images/rewards/4.png",
+        "/images/rewards/5.png",
+        "/images/rewards/6.png",
+        "/images/rewards/7.png",
+        "/images/rewards/8.png",
+        "/images/rewards/9.png",
+        "/images/rewards/10.png",
+        "/images/rewards/11.png",
+        "/images/rewards/12.png",
+        "/images/rewards/13.png",
+        "/images/rewards/14.png",
+        "/images/rewards/15.png",
+        "/images/rewards/16.png",
+        "/images/rewards/17.png",
+        "/images/rewards/18.png",
+        "/images/rewards/19.png",
+        "/images/rewards/20.png",
+        "/images/rewards/21.png",
+        "/images/rewards/22.jpg",
+        "/images/rewards/23.png",
+        "/images/rewards/24.png",
+        "/images/rewards/25.png",
+        "/images/rewards/26.png",
+        "/images/rewards/27.png",
+        "/images/rewards/28.png",
+        "/images/rewards/29.png",
+        "/images/rewards/30.png",
+        "/images/rewards/31.png"
       ];
       $$unsubscribe_white();
       return `
 
 ${validate_component(Nav, "Nav").$$render($$result, {}, {}, {})}
 <div class="${"mt-10 pt-10 mx-5 text-xs"}"><p class="${"font-bold"}">\u041D\u0430\u0433\u0440\u0430\u0434\u044B</p>
-	<div class="${"mt-5 grid grid-cols-3 gap-3"}">${each(rewards, (img, index) => `<img class="${"w-full object-cover"}"${add_attribute("src", img, 0)} alt="${""}">`)}</div></div>`;
+	<div class="${"mt-5 grid grid-cols-3 gap-5"}">${each(rewards, (img, index) => `<img class="${"w-full object-cover self-center"}"${add_attribute("src", img, 0)} alt="${""}">`)}</div></div>`;
     });
   }
 });
@@ -7588,8 +7702,8 @@ var entry9, js9, css15;
 var init__9 = __esm({
   ".svelte-kit/output/server/nodes/8.js"() {
     init_rewards_svelte();
-    entry9 = "pages/rewards.svelte-6d15c766.js";
-    js9 = ["pages/rewards.svelte-6d15c766.js", "chunks/vendor-cece5832.js", "chunks/Nav-85821155.js", "chunks/singletons-a42a5e91.js"];
+    entry9 = "pages/rewards.svelte-c2bdb730.js";
+    js9 = ["pages/rewards.svelte-c2bdb730.js", "chunks/vendor-6d69bdcb.js", "chunks/Nav-54247100.js", "chunks/singletons-a42a5e91.js"];
     css15 = ["assets/vendor-c402c846.css", "assets/Nav-ba69bb6a.css"];
   }
 });
@@ -7602,8 +7716,8 @@ __export(about_svelte_exports, {
 var About;
 var init_about_svelte = __esm({
   ".svelte-kit/output/server/entries/pages/about.svelte.js"() {
-    init_index_27c4ae06();
-    init_Nav_0e3ea68b();
+    init_index_193420ae();
+    init_Nav_6054ca6a();
     About = create_ssr_component(($$result, $$props, $$bindings, slots) => {
       let $$unsubscribe_white;
       $$unsubscribe_white = subscribe(white, (value) => value);
@@ -7615,12 +7729,7 @@ ${validate_component(Nav, "Nav").$$render($$result, {}, {}, {})}
 	<p class="${"font-normal 2xl:whitespace-pre-line"}">\u043F\u0440\u043E\u0444\u0435\u0441\u0441\u0438\u043E\u043D\u0430\u043B\u044C\u043D\u0430\u044F \u043A\u043E\u043C\u0430\u043D\u0434\u0430 \u0441\u0442\u0438\u043B\u0438\u0441\u0442\u043E\u0432, \u0445\u0443\u0434\u043E\u0436\u043D\u0438\u043A\u043E\u0432 \u043F\u043E\xA0\u043A\u043E\u0441\u0442\u044E\u043C\u0443 \u0438\xA0\u0430\u0441\u0441\u0438\u0441\u0442\u0435\u043D\u0442\u043E\u0432 \u043F\u043E\u0434
 		\u0440\u0443\u043A\u043E\u0432\u043E\u0434\u0441\u0442\u0432\u043E\u043C \u0410\u043D\u043D\u044B \u0413\u0443\u0441\u0435\u0432\u043E\u0439.
 	</p>
-	<p class="${"mt-5 font-normal 2xl:whitespace-pre-line"}">\u041C\u044B\xA0\u0440\u0430\u0437\u0440\u0430\u0431\u0430\u0442\u044B\u0432\u0430\u0435\u043C \u043A\u043E\u043D\u0446\u0435\u043F\u0446\u0438\u0438 \u0441\u044A\u0435\u043C\u043E\u043A, \u0441\u043E\u0431\u0438\u0440\u0430\u0435\u043C \u043D\u0443\u0436\u043D\u044B\u0439 \u043A\u043E\u043B\u043B\u0435\u043A\u0442\u0438\u0432 \u043F\u043E\u0434 \u043F\u0440\u043E\u0435\u043A\u0442 \u0438\u043B\u0438 \u0441\u043E\u0442\u0440\u0443\u0434\u043D\u0438\u0447\u0430\u0435\u043C
-		\u0441\xA0\u0432\u0430\u0448\u0435\u0439 \u043A\u043E\u043C\u0430\u043D\u0434\u043E\u0439. \u041F\u0440\u043E\u0434\u0443\u043C\u044B\u0432\u0430\u0435\u043C \u0441\u0442\u0438\u043B\u044C \u0438\xA0\u043E\u0431\u0440\u0430\u0437\u044B, \u0441\u043E\u0437\u0434\u0430\u0435\u043C \u043A\u043E\u0441\u0442\u044E\u043C\u044B \u0434\u043B\u044F \u0433\u0435\u0440\u043E\u0435\u0432
-		\u0432\xA0\u0440\u0435\u043A\u043B\u0430\u043C\u0435, \u0432\u0438\u0434\u0435\u043E \u0440\u043E\u043B\u0438\u043A\u0430\u0445, \u043C\u0443\u0437\u044B\u043A\u0430\u043B\u044C\u043D\u044B\u0445 \u043A\u043B\u0438\u043F\u0430\u0445 \u0438\xA0\u043C\u043E\u0434\u043D\u044B\u0445 \u0436\u0443\u0440\u043D\u0430\u043B\u0430\u0445. \u0410\xA0\u0442\u0430\u043A\u0436\u0435 \u043E\u043A\u0430\u0437\u044B\u0432\u0430\u0435\u043C
-		\u0443\u0441\u043B\u0443\u0433\u0438 \u043F\u0435\u0440\u0441\u043E\u043D\u0430\u043B\u044C\u043D\u043E\u0433\u043E \u0441\u0442\u0430\u0439\u043B\u0438\u043D\u0433\u0430. \u0421\u043F\u0435\u0446\u0438\u0430\u043B\u0438\u0441\u0442\u044B \u043D\u0430\u0448\u0435\u0439 \u043A\u043E\u043C\u0430\u043D\u0434\u044B\xA0\u2014 \u044D\u0442\u043E \u0441\u0438\u043B\u044C\u043D\u044B\u0439 \u0442\u0432\u043E\u0440\u0447\u0435\u0441\u043A\u0438\u0439
-		\u043A\u043E\u043B\u043B\u0435\u043A\u0442\u0438\u0432, \u0433\u0434\u0435 \u043A\u0430\u0436\u0434\u044B\u0439 \u043E\u0431\u043B\u0430\u0434\u0430\u0435\u0442 \u0445\u0443\u0434\u043E\u0436\u0435\u0441\u0442\u0432\u0435\u043D\u043D\u044B\u043C \u0432\u043A\u0443\u0441\u043E\u043C, \u0431\u043E\u043B\u044C\u0448\u043E\u0439 \u044D\u043A\u0441\u043F\u0435\u0440\u0442\u0438\u0437\u043E\u0439 \u0432\xA0\u043E\u0431\u043B\u0430\u0441\u0442\u0438 \u043C\u043E\u0434\u044B
-		\u0438\xA0\u043F\u0441\u0438\u0445\u043E\u043B\u043E\u0433\u0438\u0438, \u0441\u043F\u043E\u0441\u043E\u0431\u043D\u043E\u0441\u0442\u044C\u044E \u0431\u044B\u0441\u0442\u0440\u043E \u0440\u0435\u0430\u0433\u0438\u0440\u043E\u0432\u0430\u0442\u044C \u0438\xA0\u043D\u0430\u0445\u043E\u0434\u0438\u0442\u044C \u0430\u043B\u044C\u0442\u0435\u0440\u043D\u0430\u0442\u0438\u0432\u043D\u044B\u0435 \u0440\u0435\u0448\u0435\u043D\u0438\u044F.
+	<p class="${"mt-5 font-normal 2xl:whitespace-pre-line"}">\u041C\u044B\xA0\u0440\u0430\u0437\u0440\u0430\u0431\u0430\u0442\u044B\u0432\u0430\u0435\u043C \u043A\u043E\u043D\u0446\u0435\u043F\u0446\u0438\u0438 \u0441\u044A\u0435\u043C\u043E\u043A, \u0441\u043E\u0431\u0438\u0440\u0430\u0435\u043C \u043D\u0443\u0436\u043D\u044B\u0439 \u043A\u043E\u043B\u043B\u0435\u043A\u0442\u0438\u0432 \u043F\u043E\u0434 \u043F\u0440\u043E\u0435\u043A\u0442 \u0438\u043B\u0438 \u0441\u043E\u0442\u0440\u0443\u0434\u043D\u0438\u0447\u0430\u0435\u043C \u0441\xA0\u0432\u0430\u0448\u0435\u0439 \u043A\u043E\u043C\u0430\u043D\u0434\u043E\u0439. \u041F\u0440\u043E\u0434\u0443\u043C\u044B\u0432\u0430\u0435\u043C \u0441\u0442\u0438\u043B\u044C \u0438\xA0\u043E\u0431\u0440\u0430\u0437\u044B, \u0441\u043E\u0437\u0434\u0430\u0435\u043C \u043A\u043E\u0441\u0442\u044E\u043C\u044B \u0434\u043B\u044F \u0433\u0435\u0440\u043E\u0435\u0432 \u0432\xA0\u043A\u0438\u043D\u043E, \u0440\u0435\u043A\u043B\u0430\u043C\u0435, \u0432\u0438\u0434\u0435\u043E \u0440\u043E\u043B\u0438\u043A\u0430\u0445, \u043C\u0443\u0437\u044B\u043A\u0430\u043B\u044C\u043D\u044B\u0445 \u043A\u043B\u0438\u043F\u0430\u0445 \u0438\xA0\u043C\u043E\u0434\u043D\u044B\u0445 \u0436\u0443\u0440\u043D\u0430\u043B\u0430\u0445. \u0410\xA0\u0442\u0430\u043A\u0436\u0435 \u043E\u043A\u0430\u0437\u044B\u0432\u0430\u0435\u043C \u0443\u0441\u043B\u0443\u0433\u0438 \u043F\u0435\u0440\u0441\u043E\u043D\u0430\u043B\u044C\u043D\u043E\u0433\u043E \u0441\u0442\u0430\u0439\u043B\u0438\u043D\u0433\u0430. \u0421\u043F\u0435\u0446\u0438\u0430\u043B\u0438\u0441\u0442\u044B \u043D\u0430\u0448\u0435\u0439 \u043A\u043E\u043C\u0430\u043D\u0434\u044B\xA0\u2014 \u044D\u0442\u043E \u0441\u0438\u043B\u044C\u043D\u044B\u0439 \u0442\u0432\u043E\u0440\u0447\u0435\u0441\u043A\u0438\u0439 \u043A\u043E\u043B\u043B\u0435\u043A\u0442\u0438\u0432, \u0433\u0434\u0435 \u043A\u0430\u0436\u0434\u044B\u0439 \u043E\u0431\u043B\u0430\u0434\u0430\u0435\u0442 \u0445\u0443\u0434\u043E\u0436\u0435\u0441\u0442\u0432\u0435\u043D\u043D\u044B\u043C \u0432\u043A\u0443\u0441\u043E\u043C, \u0431\u043E\u043B\u044C\u0448\u043E\u0439 \u044D\u043A\u0441\u043F\u0435\u0440\u0442\u0438\u0437\u043E\u0439 \u0432\xA0\u043E\u0431\u043B\u0430\u0441\u0442\u0438 \u043C\u043E\u0434\u044B \u0438\xA0\u043F\u0441\u0438\u0445\u043E\u043B\u043E\u0433\u0438\u0438, \u0441\u043F\u043E\u0441\u043E\u0431\u043D\u043E\u0441\u0442\u044C\u044E \u0431\u044B\u0441\u0442\u0440\u043E \u0440\u0435\u0430\u0433\u0438\u0440\u043E\u0432\u0430\u0442\u044C \u0438\xA0\u043D\u0430\u0445\u043E\u0434\u0438\u0442\u044C \u0430\u043B\u044C\u0442\u0435\u0440\u043D\u0430\u0442\u0438\u0432\u043D\u044B\u0435 \u0440\u0435\u0448\u0435\u043D\u0438\u044F.
 	</p></div>`;
     });
   }
@@ -7638,16 +7747,16 @@ var entry10, js10, css16;
 var init__10 = __esm({
   ".svelte-kit/output/server/nodes/9.js"() {
     init_about_svelte();
-    entry10 = "pages/about.svelte-37fd0ea3.js";
-    js10 = ["pages/about.svelte-37fd0ea3.js", "chunks/vendor-cece5832.js", "chunks/Nav-85821155.js", "chunks/singletons-a42a5e91.js"];
+    entry10 = "pages/about.svelte-56aac526.js";
+    js10 = ["pages/about.svelte-56aac526.js", "chunks/vendor-6d69bdcb.js", "chunks/Nav-54247100.js", "chunks/singletons-a42a5e91.js"];
     css16 = ["assets/vendor-c402c846.css", "assets/Nav-ba69bb6a.css"];
   }
 });
 
-// .svelte-kit/output/server/chunks/people-c3341470.js
+// .svelte-kit/output/server/chunks/people-aa37e8ce.js
 var people;
-var init_people_c3341470 = __esm({
-  ".svelte-kit/output/server/chunks/people-c3341470.js"() {
+var init_people_aa37e8ce = __esm({
+  ".svelte-kit/output/server/chunks/people-aa37e8ce.js"() {
     people = [
       {
         text: "\u0410\u043D\u043D\u0430 \u0413\u0443\u0441\u0435\u0432\u0430",
@@ -7667,14 +7776,121 @@ var init_people_c3341470 = __esm({
 		`,
         projects: ["alone", "phd", "a101", "kaltblut", "boneless", "chiki", "krivorotov1", "krivorotov2", "flowers", "lachambre", "notalice", "oriflame", "schiap", "stacy", "krivorotov3", "trapeze", "ttswtrs", "vogue", "bother", "whoiam", "youdrive", "zventa"]
       },
-      { text: "\u0422\u0430\u044F \u0410\u0437\u0431\u0443\u043A\u0430", img: "https://picsum.photos/1000/202", link: "/team/azbuka" },
-      { text: "\u0418\u043C\u044F \u0424\u0430\u043C\u0438\u043B\u0438\u044F", img: "https://picsum.photos/1000/203", link: "/team/name" },
-      { text: "\u0418\u043C\u044F \u0424\u0430\u043C\u0438\u043B\u0438\u044F", img: "https://picsum.photos/1000/204", link: "/team/name" },
-      { text: "\u0418\u043C\u044F \u0424\u0430\u043C\u0438\u043B\u0438\u044F", img: "https://picsum.photos/1000/205", link: "/team/name" },
-      { text: "\u0418\u043C\u044F \u0424\u0430\u043C\u0438\u043B\u0438\u044F", img: "https://picsum.photos/1000/206", link: "/team/name" },
-      { text: "\u0418\u043C\u044F \u0424\u0430\u043C\u0438\u043B\u0438\u044F", img: "https://picsum.photos/1000/207", link: "/team/name" },
-      { text: "\u0418\u043C\u044F \u0424\u0430\u043C\u0438\u043B\u0438\u044F", img: "https://picsum.photos/1000/208", link: "/team/name" },
-      { text: "\u0418\u043C\u044F \u0424\u0430\u043C\u0438\u043B\u0438\u044F", img: "https://picsum.photos/1000/209", link: "/team/name" }
+      {
+        text: "\u041B\u043E\u0440\u0435\u043D\u0430 \u041A\u0430\u0441\u043F\u0430\u0440\u043E\u0432\u0430",
+        img: "/images/team/2.jpg",
+        link: "/team/kasparova",
+        profession: `C\u0442\u0438\u043B\u0438\u0441\u0442 
+		\u0425\u0443\u0434\u043E\u0436\u043D\u0438\u043A \u043F\u043E \u043A\u043E\u0441\u0442\u044E\u043C\u0443`,
+        about: `\u041E\u043F\u044B\u0442 \u0440\u0430\u0431\u043E\u0442\u044B \u0441\u0442\u0438\u043B\u0438\u0441\u0442\u043E\u043C 4&nbsp;\u0433\u043E\u0434\u0430, \u0431\u043E\u043B\u0435\u0435 100 \u0440\u0430\u0431\u043E\u0442 \u0432&nbsp;\u043F\u043E\u0440\u0442\u0444\u043E\u043B\u0438\u043E, \u0431\u043E\u043B\u044C\u0448\u0430\u044F \u0447\u0430\u0441\u0442\u044C \u043A\u043E\u0442\u043E\u0440\u044B\u0445 \u0432\u0438\u0434\u0435\u043E \u043A\u043E\u043C\u043C\u0435\u0440\u0446\u0438\u044F.
+		
+		\u041B\u043E\u0440\u0435\u043D\u0430&nbsp;&mdash; \u043D\u0430\u0441\u0442\u043E\u044F\u0449\u0438\u0439 \u043F\u0440\u043E\u0444\u0435\u0441\u0441\u0438\u043E\u043D\u0430\u043B \u0441\u0432\u043E\u0435\u0433\u043E \u0434\u0435\u043B\u0430. \u0418\u043C\u0435\u0435\u0442 \u0432\u044B\u0441\u0448\u0435\u0435 \u0445\u0443\u0434\u043E\u0436\u0435\u0441\u0442\u0432\u0435\u043D\u043D\u043E\u0435 \u043E\u0431\u0440\u0430\u0437\u043E\u0432\u0430\u043D\u0438\u0435, \u0447\u0443\u0432\u0441\u0442\u0432\u043E \u043F\u0440\u0435\u043A\u0440\u0430\u0441\u043D\u043E\u0433\u043E, \u0440\u0430\u0437\u0432\u0438\u0442\u0443\u044E \u044D\u043C\u043F\u0430\u0442\u0438\u044E \u0438&nbsp;\u0448\u0438\u0440\u043E\u043A\u0438\u0439 \u0441\u043F\u0435\u043A\u0442\u0440 \u0438\u043D\u0442\u0435\u0440\u0435\u0441\u043E\u0432. \u0421\u043F\u043E\u0441\u043E\u0431\u043D\u0430 \u043D\u0430\u0439\u0442\u0438 \u043F\u043E\u0434\u0445\u043E\u0434 \u0438&nbsp;\u0440\u0435\u0430\u043B\u0438\u0437\u043E\u0432\u0430\u0442\u044C \u043B\u044E\u0431\u044B\u0435 \u0437\u0430\u043F\u0440\u043E\u0441\u044B \u043A\u043B\u0438\u0435\u043D\u0442\u0430. \u0421\u043F\u0435\u0446\u0438\u0430\u043B\u0438\u0437\u0438\u0440\u0443\u0435\u0442\u0441\u044F \u043D\u0430&nbsp;\u043C\u0430\u0441\u0448\u0442\u0430\u0431\u043D\u044B\u0445 \u043F\u0440\u043E\u0435\u043A\u0442\u0430\u0445, \u0441\u0447\u0438\u0442\u0430\u0435\u0442, \u0447\u0442\u043E, \u0447\u0435\u043C \u0431\u043E\u043B\u044C\u0448\u0435 \u0433\u0435\u0440\u043E\u0435\u0432 \u0432&nbsp;\u043A\u0430\u0434\u0440\u0435, \u0442\u0435\u043C \u0438\u043D\u0442\u0435\u0440\u0435\u0441\u043D\u0435\u0435 \u0440\u0430\u0431\u043E\u0442\u0430\u0442\u044C.`,
+        projects: ["rayon", "absolut", "aviapark", "citymobil", "director", "krivorotov2", "krivorotov1", "holostyak", "cash", "national", "nyusha", "svyaznoy", "friday", "tinavie", "volen", "bother", "market", "youdrive", "zventa"]
+      },
+      {
+        text: "\u0418\u0440\u0430 \u0422\u0438\u043C\u043E\u0444\u0435\u0435\u0432\u0430",
+        img: "/images/team/7.jpg",
+        link: "/team/timofeeva",
+        profession: `\u0421\u0442\u0438\u043B\u0438\u0441\u0442 
+		\u0425\u0443\u0434\u043E\u0436\u043D\u0438\u043A \u043F\u043E \u043A\u043E\u0441\u0442\u044E\u043C\u0443 `,
+        about: `\u0418\u0440\u0430 4&nbsp;\u0433\u043E\u0434\u0430 \u0437\u0430\u043D\u0438\u043C\u0430\u0435\u0442\u0441\u044F \u0441\u043E\u0437\u0434\u0430\u043D\u0438\u0435\u043C \u043A\u043E\u0441\u0442\u044E\u043C\u0430 \u0434\u043B\u044F \u0445\u0443\u0434\u043E\u0436\u0435\u0441\u0442\u0432\u0435\u043D\u043D\u044B\u0445 \u0438&nbsp;\u043A\u043E\u043C\u043C\u0435\u0440\u0447\u0435\u0441\u043A\u0438\u0445 \u043F\u0440\u043E\u0435\u043A\u0442\u043E\u0432, \u043F\u0440\u0438\u043C\u0435\u043D\u044F\u044F \u043E\u0431\u0448\u0438\u0440\u043D\u044B\u0435 \u0437\u043D\u0430\u043D\u0438\u044F \u0432&nbsp;\u043E\u0431\u043B\u0430\u0441\u0442\u0438 \u0432\u0438\u0437\u0443\u0430\u043B\u044C\u043D\u043E\u0433\u043E \u0438\u0441\u043A\u0443\u0441\u0441\u0442\u0432\u0430 \u0434\u043B\u044F \u0441\u043E\u0441\u0442\u0430\u0432\u043B\u0435\u043D\u0438\u044F \u0443\u043D\u0438\u043A\u0430\u043B\u044C\u043D\u044B\u0445 \u043E\u0431\u0440\u0430\u0437\u043E\u0432. \u041E\u043D\u0430 \u0432\u043D\u0438\u043C\u0430\u0442\u0435\u043B\u044C\u043D\u043E \u043E\u0442\u043D\u043E\u0441\u0438\u0442\u0441\u044F \u043A&nbsp;\u043F\u043E\u0434\u0433\u043E\u0442\u043E\u0432\u043A\u0435 \u043C\u0443\u0434\u0431\u043E\u0440\u0434\u0430 \u0438&nbsp;\u0441&nbsp;\u043B\u0435\u0433\u043A\u043E\u0441\u0442\u044C\u044E \u0432\u0435\u0434\u0435\u0442 \u043F\u0440\u043E\u0435\u043A\u0442\u044B \u0441\u043E&nbsp;\u0441\u0442\u0440\u043E\u0433\u0438\u043C \u043A\u043E\u043C\u043C\u0435\u0440\u0447\u0435\u0441\u043A\u0438\u043C \u0431\u0440\u0438\u0444\u043E\u043C. \u041F\u0441\u0438\u0445\u043E\u043B\u043E\u0433\u043E-\u043F\u0435\u0434\u0430\u0433\u043E\u0433\u0438\u0447\u0435\u0441\u043A\u043E\u0435 \u043E\u0431\u0440\u0430\u0437\u043E\u0432\u0430\u043D\u0438\u0435 \u043F\u043E\u0437\u0432\u043E\u043B\u044F\u0435\u0442 \u0435\u0439&nbsp;\u0431\u044B\u0441\u0442\u0440\u043E \u043D\u0430\u0445\u043E\u0434\u0438\u0442\u044C \u043A\u043E\u043C\u043C\u0443\u043D\u0438\u043A\u0430\u0446\u0438\u044E \u0441\u043E&nbsp;\u0432\u0441\u0435\u0439 \u0441\u044A\u0435\u043C\u043E\u0447\u043D\u043E\u0439 \u043A\u043E\u043C\u0430\u043D\u0434\u043E\u0439 \u0438&nbsp;\u0443\u0441\u043F\u0435\u0448\u043D\u043E \u0432\u0441\u0442\u0440\u0430\u0438\u0432\u0430\u0442\u044C\u0441\u044F \u0432&nbsp;\u043F\u0440\u043E\u0435\u043A\u0442\u044B \u0440\u0430\u0437\u043D\u044B\u0445 \u043D\u0430\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u0438\u0439.`,
+        projects: ["2cast", "baloons", "sportmaster", "boys", "different", "eldorado", "endymion", "teeth", "nyx", "glenlivet", "kabuki", "kkoshkina", "mars", "kvint", "she", "sportmaster", "tests", "tsian"]
+      },
+      {
+        text: "\u0416\u0435\u043D\u044F \u041B\u0435\u043E\u043D\u0442\u044C\u0435\u0432\u0430",
+        img: "/images/team/5.jpg",
+        link: "/team/leonteva",
+        profession: `\u0421\u0442\u0438\u043B\u0438\u0441\u0442`,
+        about: `\u041E\u043F\u044B\u0442 \u0440\u0430\u0431\u043E\u0442\u044B \u0441\u0442\u0438\u043B\u0438\u0441\u0442\u043E\u043C \u0443&nbsp;\u0416\u0435\u043D\u0438 \u0431\u043E\u043B\u0435\u0435 3&nbsp;\u043B\u0435\u0442. \u041E\u043D\u0430 \u0447\u0430\u0441\u0442\u043E \u0431\u0435\u0440\u0435\u0442\u0441\u044F \u0437\u0430&nbsp;\u043A\u0440\u0443\u043F\u043D\u044B\u0435 \u0438&nbsp;\u0441\u043B\u043E\u0436\u043D\u044B\u0435 \u043F\u0440\u043E\u0435\u043A\u0442\u044B, \u0433\u0434\u0435 \u043C\u043E\u0436\u0435\u0442 \u0442\u0440\u0435\u0431\u043E\u0432\u0430\u0442\u044C\u0441\u044F \u0434\u043E\u043F\u043E\u043B\u043D\u0438\u0442\u0435\u043B\u044C\u043D\u044B\u0439 \u043F\u043E\u0448\u0438\u0432, \u0431\u043E\u043B\u044C\u0448\u0430\u044F \u0430\u0440\u0435\u043D\u0434\u0430 \u0432\u0435\u0449\u0435\u0439 \u0438\u043B\u0438&nbsp;\u0436\u0435 \u0430\u043F\u0441\u0430\u0439\u043A\u043B\u0438\u043D\u0433 \u043F\u0440\u044F\u043C\u043E \u043D\u0430&nbsp;\u043F\u043B\u043E\u0449\u0430\u0434\u043A\u0435. \u0413\u043E\u0442\u043E\u0432\u0430 \u0443\u0447\u0430\u0441\u0442\u0432\u043E\u0432\u0430\u0442\u044C \u0432&nbsp;\u0434\u043B\u0438\u0442\u0435\u043B\u044C\u043D\u044B\u0445 \u043F\u0440\u043E\u0435\u043A\u0442\u0430\u0445, \u0432\u0441\u0435\u0433\u0434\u0430 \u0434\u0435\u0442\u0430\u043B\u044C\u043D\u043E \u0438\u0437\u0443\u0447\u0430\u0435\u0442 \u0431\u0440\u0438\u0444, \u0422\u0417&nbsp;\u0438&nbsp;\u043E\u043F\u0435\u0440\u0430\u0442\u0438\u0432\u043D\u043E \u0440\u0435\u0448\u0430\u0435\u0442 \u0437\u0430\u0434\u0430\u0447\u0438, \u043A\u0430\u043A \u043D\u0430&nbsp;\u044D\u0442\u0430\u043F\u0435 \u043F\u043E\u0434\u0433\u043E\u0442\u043E\u0432\u043A\u0438, \u0442\u0430\u043A \u0438&nbsp;\u043D\u0430&nbsp;\u043F\u043B\u043E\u0449\u0430\u0434\u043A\u0435. \u041B\u043E\u044F\u043B\u044C\u043D\u0430 \u043A&nbsp;\u0437\u0430\u043F\u0440\u043E\u0441\u0430\u043C \u043A\u043B\u0438\u0435\u043D\u0442\u0430.
+		
+		\u0423&nbsp;\u0416\u0435\u043D\u0438 \u0431\u044B\u043B \u0441\u0432\u043E\u0439 \u0432\u0438\u043D\u0442\u0430\u0436\u043D\u044B\u0439 \u043C\u0430\u0433\u0430\u0437\u0438\u043D, \u0438&nbsp;\u0434\u043E\u043B\u0433\u043E\u0435 \u0432\u0440\u0435\u043C\u044F \u043E\u043D\u0430 \u043D\u0435&nbsp;\u0442\u043E\u043B\u044C\u043A\u043E \u0437\u0430\u043A\u0443\u043F\u0430\u043B\u0430 \u0432\u0435\u0449\u0438 \u0432&nbsp;\u0415\u0432\u0440\u043E\u043F\u0435 \u0438&nbsp;\u043F\u0440\u0438\u0432\u043E\u0437\u0438\u043B\u0430 \u0432&nbsp;\u041C\u043E\u0441\u043A\u0432\u0443, \u043D\u043E&nbsp;\u0438&nbsp;\u043F\u043E\u043B\u043D\u043E\u0441\u0442\u044C\u044E \u0441\u043E\u0437\u0434\u0430\u0432\u0430\u043B\u0430 \u043A\u043E\u043D\u0442\u0435\u043D\u0442 \u0434\u043B\u044F \u043D\u0435\u0433\u043E \u0432&nbsp;\u043A\u0430\u0447\u0435\u0441\u0442\u0432\u0435 \u043F\u0440\u043E\u0434\u044E\u0441\u0435\u0440\u0430 \u0438&nbsp;\u043A\u0440\u0435\u0430\u0442\u0438\u0432\u043D\u043E\u0433\u043E \u0434\u0438\u0440\u0435\u043A\u0442\u043E\u0440\u0430.`,
+        projects: ["butler", "halva", "won", "cs", "hyundai", "ahead", "krassna", "toyota", "wella"]
+      },
+      {
+        text: "\u041A\u0430\u0442\u044F \u0411\u0430\u0440\u0430\u043D\u043E\u0432\u0430",
+        img: "/images/team/9.jpg",
+        link: "/team/baranova",
+        profession: `\u0421\u0442\u0438\u043B\u0438\u0441\u0442`,
+        about: `\u041E\u043F\u044B\u0442 \u0440\u0430\u0431\u043E\u0442\u044B \u0441\u0442\u0438\u043B\u0438\u0441\u0442\u043E\u043C 3&nbsp;\u0433\u043E\u0434\u0430, \u0440\u0430\u0437\u043D\u043E\u043E\u0431\u0440\u0430\u0437\u043D\u044B\u0439&nbsp;&mdash; \u0440\u0435\u043A\u043B\u0430\u043C\u043D\u044B\u0435 \u0440\u043E\u043B\u0438\u043A\u0438, \u043A\u0430\u0442\u0430\u043B\u043E\u0433\u0438, \u043B\u0443\u043A\u0431\u0443\u043A\u0438, \u043A\u0430\u043C\u043F\u0435\u0439\u043D\u044B, \u043F\u043E\u043A\u0430\u0437\u044B, \u043A\u043B\u0438\u043F\u044B, \u0441\u044A\u0435\u043C\u043A\u0438 \u0434\u043B\u044F \u0436\u0443\u0440\u043D\u0430\u043B\u043E\u0432, \u0434\u0440\u0435\u0441\u0441\u0438\u043D\u0433 \u043D\u0430&nbsp;\u043C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u0435, fashion \u0441\u044A\u0435\u043C\u043A\u0438.
+		
+		\u041A\u0430\u0442\u044F \u0441\u0444\u043E\u043A\u0443\u0441\u0438\u0440\u043E\u0432\u0430\u043D\u043D\u0430\u044F \u0438&nbsp;\u043C\u044F\u0433\u043A\u0430\u044F \u0434\u0435\u0432\u0443\u0448\u043A\u0430, \u0441&nbsp;\u043E\u0442\u043B\u0438\u0447\u043D\u044B\u043C \u0447\u0443\u0432\u0441\u0442\u0432\u043E\u043C \u044E\u043C\u043E\u0440\u0430. \u0415\u0435&nbsp;\u0441\u0438\u043B\u044C\u043D\u044B\u0435 \u0441\u0442\u043E\u0440\u043E\u043D\u044B&nbsp;&mdash; \u043E\u0440\u0433\u0430\u043D\u0438\u0437\u043E\u0432\u0430\u043D\u043D\u043E\u0441\u0442\u044C, \u043E\u043F\u0435\u0440\u0430\u0442\u0438\u0432\u043D\u043E\u0441\u0442\u044C, \u0441\u0442\u0440\u0443\u043A\u0442\u0443\u0440\u0438\u0440\u043E\u0432\u0430\u043D\u043D\u044B\u0439 \u043F\u043E\u0434\u0445\u043E\u0434, \u0432\u043D\u0438\u043C\u0430\u043D\u0438\u0435 \u043A&nbsp;\u0437\u0430\u043F\u0440\u043E\u0441\u0430\u043C \u043A\u043B\u0438\u0435\u043D\u0442\u0430.`,
+        projects: ["alone2", "alpen", "aorus", "delobank", "hc", "mano", "mariam", "afisha", "miumiu", "samolet", "sberstudents", "sberself", "sweet", "sokolova", "sorolla", "vk", "whotoday", "wonderzine", "yana"]
+      },
+      {
+        text: "\u0418\u0440\u0430 \u042F\u043A\u0438\u043C\u043E\u0432\u0430",
+        img: "/images/team/8.jpg",
+        link: "/team/yakimova",
+        profession: `\u0410\u0441\u0441\u0438\u0441\u0442\u0435\u043D\u0442 \u0441\u0442\u0438\u043B\u0438\u0441\u0442\u0430`,
+        about: `\u0418\u0440\u0430 \u043C\u043E\u0436\u0435\u0442 \u0443\u0434\u043E\u0432\u043B\u0435\u0442\u0432\u043E\u0440\u0438\u0442\u044C \u0437\u0430\u043F\u0440\u043E\u0441 \u0434\u0430\u0436\u0435 \u043D\u0430&nbsp;\u0441\u0430\u043C\u044B\u0435 \u0441\u043B\u043E\u0436\u043D\u044B\u0435 \u0438&nbsp;\u0443\u043D\u0438\u043A\u0430\u043B\u044C\u043D\u044B\u0435 \u043E\u0431\u0440\u0430\u0437\u044B. \u0417\u0430&nbsp;\u0433\u043E\u0434 \u0418\u0440\u0430 \u0443\u0441\u043F\u0435\u043B\u0430, \u043A\u0430\u043A \u0430\u0441\u0441\u0438\u0441\u0442\u0435\u043D\u0442 \u0445\u0443\u0434\u043E\u0436\u043D\u0438\u043A\u0430 \u043F\u043E&nbsp;\u043A\u043E\u0441\u0442\u044E\u043C\u0443, \u043F\u043E\u0440\u0430\u0431\u043E\u0442\u0430\u0442\u044C \u0432&nbsp;\u0440\u0430\u0437\u043B\u0438\u0447\u043D\u044B\u0445 \u043F\u0440\u043E\u0435\u043A\u0442\u0430\u0445, \u0440\u0430\u0437\u043D\u043E\u043F\u043B\u0430\u043D\u043E\u0432\u044B\u0445 \u043A\u0430\u043A \u043F\u043E&nbsp;\u0441\u043B\u043E\u0436\u043D\u043E\u0441\u0442\u0438 \u0438&nbsp;\u0441\u043E\u0441\u0442\u0430\u0432\u0443 \u0443\u0447\u0430\u0441\u0442\u043D\u0438\u043A\u043E\u0432, \u0442\u0430\u043A \u0438&nbsp;\u043F\u043E&nbsp;\u0445\u0443\u0434\u043E\u0436\u0435\u0441\u0442\u0432\u0435\u043D\u043D\u043E\u0439 \u043B\u0438\u043D\u0438\u0438: \u0432&nbsp;\u0440\u0435\u043A\u043B\u0430\u043C\u0435, \u043A\u043B\u0438\u043F\u0430\u0445, \u0444\u043E\u0442\u043E\u043F\u0440\u043E\u0435\u043A\u0442\u0430\u0445, \u043D\u0430&nbsp;\u043A\u0440\u0443\u043F\u043D\u044B\u0445 \u043C\u0443\u0437\u044B\u043A\u0430\u043B\u044C\u043D\u044B\u0445 \u0444\u0435\u0441\u0442\u0438\u0432\u0430\u043B\u044F\u0445, \u0441\u043E\u0431\u0438\u0440\u0430\u044F \u043E\u0431\u0440\u0430\u0437\u044B \u0434\u043B\u044F \u0430\u0440\u0442\u0438\u0441\u0442\u043E\u0432 \u0434\u043B\u044F \u0432\u044B\u0445\u043E\u0434\u0430 \u043D\u0430&nbsp;\u043A\u0440\u0430\u0441\u043D\u0443\u044E \u0434\u043E\u0440\u043E\u0436\u043A\u0443.
+		
+		\u0418\u0440\u0430 \u043E\u0442\u043B\u0438\u0447\u043D\u043E \u0441\u043F\u0440\u0430\u0432\u043B\u044F\u0435\u0442\u0441\u044F \u0441\u043E&nbsp;\u0441\u0442\u0440\u0435\u0441\u0441\u043E\u0432\u044B\u043C\u0438 \u0441\u0438\u0442\u0443\u0430\u0446\u0438\u044F\u043C\u0438, \u043F\u0440\u0438\u043C\u0435\u043D\u044F\u044F \u0441\u0432\u043E\u044E \u043A\u0440\u0435\u0430\u0442\u0438\u0432\u043D\u043E\u0441\u0442\u044C \u043E\u043F\u0435\u0440\u0430\u0442\u0438\u0432\u043D\u043E\u0441\u0442\u044C, \u0432\u043D\u0438\u043C\u0430\u043D\u0438\u0435 \u043A&nbsp;\u0434\u0435\u0442\u0430\u043B\u044F\u043C, \u043F\u043E\u0432\u044B\u0448\u0435\u043D\u043D\u0443\u044E \u0440\u0430\u0431\u043E\u0442\u043E\u0441\u043F\u043E\u0441\u043E\u0431\u043D\u043E\u0441\u0442\u044C \u0438&nbsp;\u0441\u043F\u043E\u0441\u043E\u0431\u043D\u043E\u0441\u0442\u044C \u043A\u0430\u0447\u0435\u0441\u0442\u0432\u0435\u043D\u043D\u043E \u043E\u0440\u0433\u0430\u043D\u0438\u0437\u043E\u0432\u0430\u0442\u044C \u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u043F\u0440\u043E\u0446\u0435\u0441\u0441. \u041D\u043E&nbsp;\u0432&nbsp;\u043F\u0435\u0440\u0432\u0443\u044E \u043E\u0447\u0435\u0440\u0435\u0434\u044C, \u0418\u0440\u0430&nbsp;&mdash; \u0437\u0430\u043C\u0435\u0447\u0430\u0442\u0435\u043B\u044C\u043D\u044B\u0439 \u0441\u0442\u0438\u043B\u0438\u0441\u0442: \u043E\u0431\u043B\u0430\u0434\u0430\u0435\u0442 \u043F\u0440\u0435\u043A\u0440\u0430\u0441\u043D\u044B\u043C \u0447\u0443\u0432\u0441\u0442\u0432\u043E\u043C \u0441\u0442\u0438\u043B\u044F, \u043A\u043E\u0442\u043E\u0440\u043E\u0435 \u043F\u043E\u0441\u0442\u043E\u044F\u043D\u043D\u043E \u0440\u0430\u0437\u0432\u0438\u0432\u0430\u0435\u0442, \u0430\u043A\u0442\u0438\u0432\u043D\u043E \u0438\u0437\u0443\u0447\u0430\u044F \u0436\u0438\u0432\u043E\u043F\u0438\u0441\u044C, \u043A\u0438\u043D\u0435\u043C\u0430\u0442\u043E\u0433\u0440\u0430\u0444, \u0430\u0440\u0445\u0438\u0442\u0435\u043A\u0442\u0443\u0440\u0443, \u0438\u0441\u0442\u043E\u0440\u0438\u044E \u043C\u043E\u0434\u044B \u0438&nbsp;\u043A\u043E\u0441\u0442\u044E\u043C\u0430, \u0438&nbsp;\u043A\u043E\u043D\u0435\u0447\u043D\u043E, \u0441\u043E\u0432\u0440\u0435\u043C\u0435\u043D\u043D\u044B\u0435 \u0442\u0440\u0435\u043D\u0434\u044B \u0438&nbsp;\u0442\u0435\u043D\u0434\u0435\u043D\u0446\u0438\u0438.`,
+        projects: ["movenpick", "cs", "zivert", "renessans", "home", "lone", "megafon", "promsvyazbank", "renaissance", "sber", "vtb", "vtbt", "vtbk"]
+      },
+      {
+        text: "\u041D\u0430\u0441\u0442\u044F \u0415\u0440\u043C\u043E\u043B\u0430\u0435\u0432\u0430",
+        img: "/images/team/12.jpg",
+        link: "/team/ermolayeva",
+        profession: `\u0421\u0442\u0438\u043B\u0438\u0441\u0442, \u0430\u0441\u0441\u0438\u0441\u0442\u0435\u043D\u0442`,
+        about: `\u0417\u0430\u043A\u043E\u043D\u0447\u0438\u043B\u0430 \u0411\u0440\u0438\u0442\u0430\u043D\u0441\u043A\u0443\u044E \u0412\u044B\u0441\u0448\u0443\u044E \u0428\u043A\u043E\u043B\u0443 \u0414\u0438\u0437\u0430\u0439\u043D\u0430, \u0438\u043C\u0435\u0435\u0442 \u0441\u0432\u0435\u0436\u0438\u0439 \u0432\u0437\u0433\u043B\u044F\u0434, \u0442\u043E\u043D\u043A\u0438\u0439 \u0432\u043A\u0443\u0441, \u0438&nbsp;\u0445\u0443\u0434\u043E\u0436\u0435\u0441\u0442\u0432\u0435\u043D\u043D\u043E\u0435 \u043C\u044B\u0448\u043B\u0435\u043D\u0438\u0435. \u0421&nbsp;\u0442\u0440\u0435\u043F\u0435\u0442\u043E\u043C \u043F\u0440\u0438\u043D\u0438\u043C\u0430\u0435\u0442\u0441\u044F \u0437\u0430&nbsp;\u043A\u0430\u0436\u0434\u044B\u0439 \u043D\u043E\u0432\u044B\u0439 \u043F\u0440\u043E\u0435\u043A\u0442. \u041D\u0430\u0441\u0442\u044F&nbsp;&mdash; \u0447\u0435\u043B\u043E\u0432\u0435\u043A \u043A\u043E\u043C\u0430\u043D\u0434\u043D\u044B\u0439, \u0431\u044B\u0441\u0442\u0440\u043E \u0430\u0434\u0430\u043F\u0442\u0438\u0440\u0443\u0435\u0442\u0441\u044F \u043A&nbsp;\u0438\u0437\u043C\u0435\u043D\u0435\u043D\u0438\u0435\u043C, \u0438\u043C\u0435\u0435\u0442 \u043C\u044F\u0433\u043A\u0438\u0439 \u0445\u0430\u0440\u0430\u043A\u0442\u0435\u0440 \u0438&nbsp;\u043B\u0435\u0433\u043A\u043E \u0438\u0434\u0435\u0442 \u043D\u0430&nbsp;\u043A\u043E\u043C\u043F\u0440\u043E\u043C\u0438\u0441\u0441. \u0412&nbsp;\u0441\u043E\u0432\u0435\u0440\u0448\u0435\u043D\u0441\u0442\u0432\u0435 \u0432\u043B\u0430\u0434\u0435\u0435\u0442 \u0430\u043D\u0433\u043B\u0438\u0439\u0441\u043A\u0438\u043C \u0438&nbsp;\u0444\u0440\u0430\u043D\u0446\u0443\u0437\u0441\u043A\u0438\u043C \u044F\u0437\u044B\u043A\u0430\u043C\u0438, \u0447\u0442\u043E \u0437\u043D\u0430\u0447\u0438\u0442\u0435\u043B\u044C\u043D\u043E \u043E\u0431\u043B\u0435\u0433\u0447\u0430\u0435\u0442 \u0440\u0430\u0431\u043E\u0442\u0443 \u043D\u0430&nbsp;\u0438\u043D\u0442\u0435\u0440\u043D\u0430\u0446\u0438\u043E\u043D\u0430\u043B\u044C\u043D\u044B\u0445 \u043F\u0440\u043E\u0435\u043A\u0442\u0430\u0445.`,
+        projects: ["18", "adidas", "anya", "baikal", "chistota", "lenta", "roskosmos", "toyota2", "aboutus"]
+      },
+      {
+        text: "\u041B\u0435\u043D\u0430 \u0417\u0432\u0435\u0440\u0435\u0432\u0430",
+        img: "/images/team/10.jpg",
+        link: "/team/zvereva",
+        profession: `\u0421\u0442\u0438\u043B\u0438\u0441\u0442, \u0430\u0441\u0441\u0438\u0441\u0442\u0435\u043D\u0442`,
+        about: `\u0412&nbsp;\u043D\u0430\u0447\u0430\u043B\u0435 \u0441\u0432\u043E\u0435\u0433\u043E \u043A\u0430\u0440\u044C\u0435\u0440\u043D\u043E\u0433\u043E \u043F\u0443\u0442\u0438 \u0441\u0442\u0438\u043B\u0438\u0437\u043E\u0432\u0430\u043B\u0430 \u043A\u0435\u0439\u0441\u044B \u043F\u043E&nbsp;\u0441\u043E\u0437\u0434\u0430\u043D\u0438\u044E \u0432\u0438\u0437\u0443\u0430\u043B\u044C\u043D\u043E\u0433\u043E \u043A\u043E\u043D\u0442\u0435\u043D\u0442\u0430. \u0410\u0441\u0441\u0438\u0441\u0442\u0438\u0440\u043E\u0432\u0430\u043B\u0430 \u043D\u0430&nbsp;\u0440\u0435\u043A\u043B\u0430\u043C\u043D\u044B\u0445 \u043F\u0440\u043E\u0435\u043A\u0442\u0430\u0445 \u042F\u043D\u0434\u0435\u043A\u0441, Avon, \u041A\u0440\u043E\u043A\u0443\u0441 \u0421\u0438\u0442\u0438 \u041C\u043E\u043B\u043B, Glo x&nbsp;Simach \u0438&nbsp;\u0434\u0440. \u0421\u0442\u0430\u0436\u0438\u0440\u043E\u0432\u0430\u043B\u0430\u0441\u044C \u0432&nbsp;Elle Russia. \u041D\u0435\u043E\u0434\u043D\u043E\u043A\u0440\u0430\u0442\u043D\u043E \u0430\u0441\u0441\u0438\u0441\u0442\u0438\u0440\u043E\u0432\u0430\u043B\u0430 \u043D\u0430&nbsp;\u0441\u044A\u0435\u043C\u043A\u0430\u0445 \u0434\u043B\u044F Flacon Magazine. \u0412\u0435\u043B\u0430 \u0441\u0430\u043C\u043E\u0441\u0442\u043E\u044F\u0442\u0435\u043B\u044C\u043D\u044B\u0435 \u043F\u0440\u043E\u0435\u043A\u0442\u044B \u0434\u043B\u044F \u0436\u0443\u0440\u043D\u0430\u043B\u0430 Hello!
+		
+		\u041A&nbsp;\u0440\u0430\u0431\u043E\u0442\u0435 \u041B\u0435\u043D\u0430 \u0432\u0441\u0435\u0433\u0434\u0430 \u043E\u0442\u043D\u043E\u0441\u0438\u0442\u0441\u044F \u043E\u0442\u0432\u0435\u0442\u0441\u0442\u0432\u0435\u043D\u043D\u043E \u0438&nbsp;\u0441&nbsp;\u043F\u043E\u043B\u043D\u043E\u0439 \u043E\u0442\u0434\u0430\u0447\u0435\u0439. \u0415\u0441\u043B\u0438 \u043D\u0443\u0436\u043D\u043E,\u0447\u0442\u043E\u0431\u044B \u043A\u043E\u0441\u0442\u044E\u043C \u043F\u043E\u043C\u0435\u043D\u044F\u043B \u0446\u0432\u0435\u0442, \u0438&nbsp;\u043D\u0430&nbsp;\u044D\u0442\u043E \u0435\u0441\u0442\u044C \u043D\u0435\u0441\u043A\u043E\u043B\u044C\u043A\u043E \u0447\u0430\u0441\u043E\u0432&nbsp;&mdash; \u0437\u043D\u0430\u0447\u0438\u0442 \u0441\u0434\u0435\u043B\u0430\u0435\u0442!`,
+        projects: ["artificial", "blooming", "connect", "forest", "gressus", "lost", "olga", "philip"]
+      },
+      {
+        text: "\u041B\u0435\u0440\u0430 \u0412\u043E\u043B\u0447\u0435\u043D\u043A\u043E\u0432\u0430",
+        img: "/images/team/11.jpg",
+        link: "/team/volchenkova",
+        profession: `\u0421\u0442\u0438\u043B\u0438\u0441\u0442, \u0430\u0441\u0441\u0438\u0441\u0442\u0435\u043D\u0442`,
+        about: `\u0411\u043E\u043B\u0435\u0435 3-\u0435\u0445 \u043B\u0435\u0442 \u0440\u0430\u0431\u043E\u0442\u0430\u0435\u0442 \u0432&nbsp;\u0441\u0442\u0430\u0439\u043B\u0438\u043D\u0433\u0435, \u0441&nbsp;\u0431\u043E\u043B\u044C\u0448\u0438\u043C \u0438\u043D\u0442\u0435\u0440\u0435\u0441\u043E\u043C \u0443\u0447\u0430\u0441\u0442\u0432\u0443\u0435\u0442 \u0432&nbsp;\u0442\u0432\u043E\u0440\u0447\u0435\u0441\u043A\u0438\u0445 \u0438&nbsp;\u043A\u043E\u043C\u043C\u0435\u0440\u0447\u0435\u0441\u043A\u0438\u0445 \u043F\u0440\u043E\u0435\u043A\u0442\u0430\u0445, \u0440\u0430\u0446\u0438\u043E\u043D\u0430\u043B\u044C\u043D\u043E \u0438\u0441\u043F\u043E\u043B\u044C\u0437\u0443\u044F \u0432\u0440\u0435\u043C\u0435\u043D\u043D\u044B\u0435 \u0438&nbsp;\u0444\u0438\u043D\u0430\u043D\u0441\u043E\u0432\u044B\u0435 \u0440\u0435\u0441\u0443\u0440\u0441\u044B. \u041E\u043D\u0430 \u043A\u0440\u0435\u0430\u0442\u0438\u0432\u043D\u043E \u043F\u043E\u0434\u0445\u043E\u0434\u0438\u0442 \u043A&nbsp;\u0441\u043E\u0437\u0434\u0430\u043D\u0438\u044E \u043C\u0443\u0434\u0431\u043E\u0440\u0434\u0430, \u0441\u0442\u0430\u0440\u0430\u0435\u0442\u0441\u044F \u043C\u0430\u043A\u0441\u0438\u043C\u0430\u043B\u044C\u043D\u043E \u0443\u0434\u043E\u0432\u043B\u0435\u0442\u0432\u043E\u0440\u0438\u0442\u044C \u0437\u0430\u043F\u0440\u043E\u0441 \u043A\u043B\u0438\u0435\u043D\u0442\u0430 \u0432\u043D\u0435 \u0437\u0430\u0432\u0438\u0441\u0438\u043C\u043E\u0441\u0442\u0438 \u043E\u0442&nbsp;\u0441\u043B\u043E\u0436\u043D\u043E\u0441\u0442\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u0430.
+		
+		\u041B\u0435\u0440\u0430 \u0441\u0442\u0440\u0435\u0441\u0441\u043E\u0443\u0441\u0442\u043E\u0439\u0447\u0438\u0432\u0430 \u0438&nbsp;\u043C\u043E\u0431\u0438\u043B\u044C\u043D\u0430. \u041E\u043F\u044B\u0442 \u0440\u0430\u0431\u043E\u0442\u044B \u0432&nbsp;\u0440\u0435\u043A\u043B\u0430\u043C\u043D\u044B\u0445 \u043F\u0440\u043E\u0435\u043A\u0442\u0430\u0445 \u0438&nbsp;\u0436\u0443\u0440\u043D\u0430\u043B\u044C\u043D\u044B\u0445 \u0441\u044A\u0435\u043C\u043A\u0430\u0445 \u043F\u043E\u043C\u043E\u0433\u0430\u0435\u0442 \u0435\u0439&nbsp;\u0443\u0441\u043F\u0435\u0448\u043D\u043E \u0432\u0437\u0430\u0438\u043C\u043E\u0434\u0435\u0439\u0441\u0442\u0432\u043E\u0432\u0430\u0442\u044C \u0441\u043E&nbsp;\u0432\u0441\u0435\u043C\u0438 \u0447\u043B\u0435\u043D\u0430\u043C\u0438 \u043A\u043E\u043C\u0430\u043D\u0434\u044B.`,
+        projects: ["fak", "fashion", "gogen", "hasky", "ingrad", "sabato", "maison", "meduza", "shijeco", "guise", "tsym"]
+      },
+      {
+        text: "\u0412\u0435\u0440\u0430 \u0413\u0430\u0432\u0440\u0438\u043B\u043E\u0432\u0430",
+        img: "/images/team/4.jpg",
+        link: "/team/gavrilova",
+        profession: `\u0410\u0441\u0441\u0438\u0441\u0442\u0435\u043D\u0442 \u0441\u0442\u0438\u043B\u0438\u0441\u0442\u0430`,
+        about: `\u0412\u0435\u0440\u0430 \u0432&nbsp;\u0438\u043D\u0434\u0443\u0441\u0442\u0440\u0438\u0438 \u043F\u043E\u0447\u0442\u0438 \u0432\u0442\u043E\u0440\u043E\u0439 \u0433\u043E\u0434. \u041D\u0430\u0447\u0430\u043B\u0430 \u0432&nbsp;\u043D\u0430\u0447\u0430\u043B\u0435 2020 \u0433\u043E\u0434\u0430 \u0432&nbsp;\u0440\u043E\u043B\u0438 \u0430\u0441\u0441\u0438\u0441\u0442\u0435\u043D\u0442\u0430. \u041F\u043E\u0442\u043E\u043C \u043F\u0440\u043E\u0432\u0435\u043B\u0430 \u043D\u0435\u0441\u043A\u043E\u043B\u044C\u043A\u043E \u0441\u0432\u043E\u0438\u0445 \u043F\u0440\u043E\u0435\u043A\u0442\u043E\u0432, \u0433\u0434\u0435 \u0432\u044B\u0441\u0442\u0443\u043F\u0430\u043B\u0430 \u043A\u0430\u043A \u043F\u0440\u043E\u0434\u044E\u0441\u0435\u0440 \u0438&nbsp;\u0441\u0442\u0438\u043B\u0438\u0441\u0442. \u041F\u0440\u0438\u043D\u0438\u043C\u0430\u043B\u0430 \u0443\u0447\u0430\u0441\u0442\u0438\u0435 \u0432&nbsp;\u0442\u0432\u043E\u0440\u0447\u0435\u0441\u043A\u0438\u0445, \u043A\u043E\u043C\u043C\u0435\u0440\u0447\u0435\u0441\u043A\u0438\u0445 \u0444\u043E\u0442\u043E\u0441\u0435\u0441\u0441\u0438\u044F\u0445, \u043B\u0443\u043A\u0431\u0443\u043A\u0430\u0445 (\u043C\u0430\u0433\u0430\u0437\u0438\u043D\u0430 &laquo;\u041A\u0430\u0448\u0435\u043C\u0438\u0440 \u0438&nbsp;\u0448\u0451\u043B\u043A&raquo;, feelz, moremio, varda), \u0432&nbsp;\u0441\u044A\u0435\u043C\u043A\u0430\u0445 \u043A\u043B\u0438\u043F\u043E\u0432, \u0441\u0442\u0438\u043B\u0438\u0437\u043E\u0432\u0430\u043B\u0430 \u043A\u043E\u0440\u043E\u0442\u043A\u043E\u043C\u0435\u0442\u0440\u0430\u0436\u043D\u044B\u0439 \u0444\u0438\u043B\u044C\u043C, \u0440\u0430\u0431\u043E\u0442\u0430\u043B\u0430 \u0441&nbsp;\u0431\u043B\u043E\u0433\u0435\u0440\u0430\u043C\u0438 \u0438&nbsp;\u043C\u0443\u0437\u044B\u043A\u0430\u043D\u0442\u0430\u043C\u0438 (HE&nbsp;ZE, oak glen). \u0410&nbsp;\u0442\u0430\u043A\u0436\u0435 \u0431\u044B\u043B \u043E\u043F\u044B\u0442 \u0440\u0430\u0431\u043E\u0442\u044B \u043F\u0435\u0440\u0441\u043E\u043D\u0430\u043B\u044C\u043D\u044B\u043C \u0441\u0442\u0438\u043B\u0438\u0441\u0442\u043E\u043C. 
+		
+		\u0421\u0438\u043B\u044C\u043D\u044B\u0435 \u0441\u0442\u043E\u0440\u043E\u043D\u044B \u0412\u0435\u0440\u044B&nbsp;&mdash; \u043E\u0442\u0432\u0435\u0442\u0441\u0442\u0432\u0435\u043D\u043D\u043E\u0441\u0442\u044C, \u0432\u043D\u0438\u043C\u0430\u0442\u0435\u043B\u044C\u043D\u043E\u0441\u0442\u044C, \u0441\u043F\u043E\u043A\u043E\u0439\u0441\u0442\u0432\u0438\u0435, \u043A\u043E\u043C\u043C\u0443\u043D\u0438\u043A\u0430\u0431\u0435\u043B\u044C\u043D\u043E\u0441\u0442\u044C, \u0443\u043C\u0435\u043D\u0438\u0435 \u043D\u0430\u0439\u0442\u0438 \u0432\u044B\u0445\u043E\u0434 \u0438\u0437&nbsp;\u0441\u043B\u043E\u0436\u043D\u043E\u0439 \u0441\u0438\u0442\u0443\u0430\u0446\u0438\u0438.`,
+        projects: ["karina", "kate", "moremino", "nastya", "oak", "art"]
+      },
+      {
+        text: "\u0412\u0430\u043B\u0435\u0440\u0438\u044F \u041F\u043E\u043D\u044F\u0432\u0438\u043D\u0430",
+        img: "/images/team/3.jpg",
+        link: "/team/ponavina",
+        profession: `\u0421\u0442\u0438\u043B\u0438\u0441\u0442, \u0430\u0441\u0441\u0438\u0441\u0442\u0435\u043D\u0442`,
+        about: `\u0414\u0432\u0430 \u0433\u043E\u0434\u0430 \u0440\u0430\u0431\u043E\u0442\u0430\u0435\u0442 \u0432&nbsp;\u0438\u043D\u0434\u0443\u0441\u0442\u0440\u0438\u0438. \u041B\u0435\u0440\u0430, \u043E\u0434\u043D\u0430 \u0438\u0437&nbsp;\u043D\u0435\u043C\u043D\u043E\u0433\u0438\u0445, \u043F\u043E\u043B\u0443\u0447\u0438\u043B\u0430 \u043F\u0440\u043E\u0444\u0435\u0441\u0441\u0438\u043E\u043D\u0430\u043B\u044C\u043D\u043E\u0435 \u043E\u0431\u0440\u0430\u0437\u043E\u0432\u0430\u043D\u0438\u0435 \u0441\u0442\u0438\u043B\u0438\u0441\u0442\u0430 \u0432&nbsp;\u0433\u043E\u0441\u0443\u0434\u0430\u0440\u0441\u0442\u0432\u0435\u043D\u043D\u043E\u043C \u0432\u0443\u0437\u0435, \u0433\u0434\u0435 \u0443\u0447\u0438\u043B\u0430\u0441\u044C 5&nbsp;\u043B\u0435\u0442.
+		
+		\u041B\u0435\u0440\u0430 \u043D\u0435\u0436\u043D\u0430\u044F \u0434\u0435\u0432\u0443\u0448\u043A\u0430 \u0441\u043E&nbsp;\u0441\u0442\u043E\u0439\u043A\u0438\u043C \u0445\u0430\u0440\u0430\u043A\u0442\u0435\u0440\u043E\u043C, \u0430&nbsp;\u0435\u0435&nbsp;\u043E\u0440\u0433\u0430\u043D\u0438\u0437\u0430\u0442\u043E\u0440\u0441\u043A\u0438\u043C \u0441\u043F\u043E\u0441\u043E\u0431\u043D\u043E\u0441\u0442\u044F\u043C \u043F\u043E\u0437\u0430\u0432\u0438\u0434\u0443\u0435\u0442 \u043B\u044E\u0431\u043E\u0439 \u043F\u0440\u043E\u0434\u0436\u0435\u043A\u0442 \u043C\u0435\u043D\u0435\u0434\u0436\u0435\u0440. \u0415\u0435&nbsp;\u0440\u0430\u0431\u043E\u0442\u0430 \u043D\u0430&nbsp;\u0441\u044A\u0435\u043C\u043E\u0447\u043D\u043E\u0439 \u043F\u043B\u043E\u0449\u0430\u0434\u043A\u0435 \u0432\u0441\u0435\u0433\u0434\u0430 \u0447\u0435\u0442\u043A\u0430\u044F, \u0431\u044B\u0441\u0442\u0440\u0430\u044F \u0438&nbsp;\u043C\u0430\u043A\u0441\u0438\u043C\u0430\u043B\u044C\u043D\u043E \u0441\u0442\u0440\u0443\u043A\u0442\u0443\u0440\u0438\u0440\u043E\u0432\u0430\u043D\u043D\u0430\u044F.`,
+        projects: ["colors", "dancers", "legacy", "raava", "zhara2", "zhara1"]
+      },
+      {
+        text: "\u0418\u043B\u043B\u0430\u0440\u0438\u044F \u0413\u043E\u0440\u0435\u043B\u0438\u043A\u043E\u0432\u0430",
+        img: "/images/team/6.jpg",
+        link: "/team/gorelikova",
+        profession: `\u0421\u0442\u0438\u043B\u0438\u0441\u0442, \u0430\u0441\u0441\u0438\u0441\u0442\u0435\u043D\u0442`,
+        about: `\u0414\u0432\u0430 \u0433\u043E\u0434\u0430 \u0440\u0430\u0431\u043E\u0442\u0430\u0435\u0442 \u0432&nbsp;\u0438\u043D\u0434\u0443\u0441\u0442\u0440\u0438\u0438. \u0418\u043B\u043B\u0430\u0440\u0438\u044F&nbsp;&mdash; \u0434\u0435\u0432\u0443\u0448\u043A\u0430 \u043A\u043E\u043C\u0430\u043D\u0434\u043D\u0430\u044F, \u0438\u0441\u043F\u043E\u043B\u043D\u0438\u0442\u0435\u043B\u044C\u043D\u0430\u044F, \u043B\u044E\u0431\u0438\u0442 \u0431\u0440\u0430\u0442\u044C \u043D\u0430&nbsp;\u0441\u0435\u0431\u044F \u043C\u043D\u043E\u0436\u0435\u0441\u0442\u0432\u043E \u0437\u0430\u0434\u0430\u0447 \u0438&nbsp;\u0432\u0441\u0435\u0433\u0434\u0430 \u0440\u0430\u0431\u043E\u0442\u0430\u0435\u0442 \u043D\u0430&nbsp;\u0440\u0435\u0437\u0443\u043B\u044C\u0442\u0430\u0442. \u0421\u043F\u0435\u0446\u0438\u0430\u043B\u0438\u0437\u0438\u0440\u0443\u0435\u0442\u0441\u044F \u043D\u0430&nbsp;fashion \u0441\u044A\u0435\u043C\u043A\u0430\u0445 \u0438&nbsp;\u0440\u0435\u043A\u043B\u0430\u043C\u0435.`,
+        projects: ["swatch", "aesthetics", "catsuit", "sbermarketing", "cottege"]
+      },
+      {
+        text: "\u0410\u043D\u0430\u0441\u0442\u0430\u0441\u0438\u044F \u041C\u0435\u043D\u044C\u0448\u043E\u0432\u0430",
+        img: "/images/team/1.jpg",
+        link: "/team/menshova",
+        profession: `\u0410\u0441\u0441\u0438\u0441\u0442\u0435\u043D\u0442 \u0441\u0442\u0438\u043B\u0438\u0441\u0442\u0430`,
+        about: `\u0412\u044B\u043F\u0443\u0441\u043A\u043D\u0438\u0446\u0430 \u0418\u043D\u0441\u0442\u0438\u0442\u0443\u0442\u0430 \u0421\u043E\u0432\u0440\u0435\u043C\u0435\u043D\u043D\u043E\u0433\u043E \u0418\u0441\u043A\u0443\u0441\u0441\u0442\u0432\u0430. \u0417\u0430\u043A\u043E\u043D\u0447\u0438\u043B\u0430 \u043A\u0443\u0440\u0441 &laquo;Fashion Stylist&raquo; \u0432&nbsp;&laquo;Self Made Studio&raquo;.
+		
+		\u041F\u0440\u043E\u0444\u0435\u0441\u0441\u0438\u043E\u043D\u0430\u043B\u044C\u043D\u043E \u043E\u0440\u0438\u0435\u043D\u0442\u0438\u0440\u0443\u044F\u0441\u044C \u0432&nbsp;\u0444\u043E\u0442\u043E \u0438&nbsp;\u0432\u0438\u0434\u0435\u043E \u0440\u0435\u0434\u0430\u043A\u0442\u043E\u0440\u0430\u0445 (Adobe Photoshop&nbsp;/ Final Cut), \u0431\u044B\u0441\u0442\u0440\u043E \u0438&nbsp;\u043A\u0430\u0447\u0435\u0441\u0442\u0432\u0435\u043D\u043D\u043E \u0441\u043E\u0441\u0442\u0430\u0432\u043B\u044F\u0435\u0442 \u043C\u0443\u0434\u0431\u043E\u0440\u0434\u044B \u0438&nbsp;\u0440\u0435\u0444\u0435\u0440\u0435\u043D\u0441\u044B \u0432&nbsp;\u0445\u043E\u0434\u0435 \u043F\u043E\u0434\u0433\u043E\u0442\u043E\u0432\u0438\u0442\u0435\u043B\u044C\u043D\u043E\u0433\u043E \u043F\u0440\u043E\u0446\u0435\u0441\u0441\u0430 \u043A&nbsp;\u0441\u044A\u0435\u043C\u043A\u0435. \u041E\u043F\u044B\u0442 \u0432&nbsp;\u043E\u0440\u0433\u0430\u043D\u0438\u0437\u0430\u0446\u0438\u0438 \u0440\u0430\u0437\u043B\u0438\u0447\u043D\u044B\u0445 \u0442\u0432\u043E\u0440\u0447\u0435\u0441\u043A\u0438\u0445 \u043C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u0439 \u043F\u043E\u043C\u043E\u0433\u0430\u0435\u0442 \u043E\u0442\u0432\u0435\u0442\u0441\u0442\u0432\u0435\u043D\u043D\u043E \u043F\u043E\u0434\u0445\u043E\u0434\u0438\u0442\u044C \u043A&nbsp;\u0432\u044B\u043F\u043E\u043B\u043D\u0435\u043D\u0438\u044E \u043A\u0440\u0435\u0430\u0442\u0438\u0432\u043D\u043E\u0433\u043E \u0437\u0430\u0434\u0430\u043D\u0438\u044F \u0438&nbsp;\u043F\u0440\u0438 \u044D\u0442\u043E\u043C \u043F\u0440\u0435\u0434\u043F\u043E\u043B\u0430\u0433\u0430\u0435\u0442 \u0434\u0440\u0443\u0436\u0435\u043B\u044E\u0431\u043D\u0443\u044E \u0430\u0442\u043C\u043E\u0441\u0444\u0435\u0440\u0443 \u043D\u0430&nbsp;\u043F\u043B\u043E\u0449\u0430\u0434\u043A\u0435.`
+      }
     ];
   }
 });
@@ -7687,9 +7903,9 @@ __export(index_svelte_exports3, {
 var css17, Team;
 var init_index_svelte3 = __esm({
   ".svelte-kit/output/server/entries/pages/team/index.svelte.js"() {
-    init_index_27c4ae06();
-    init_Nav_0e3ea68b();
-    init_people_c3341470();
+    init_index_193420ae();
+    init_Nav_6054ca6a();
+    init_people_aa37e8ce();
     css17 = {
       code: "img.svelte-1vi6dxg{opacity:0;transition:opacity 500ms ease-out}img.loaded.svelte-1vi6dxg{opacity:1}",
       map: null
@@ -7718,7 +7934,7 @@ var init_index_svelte3 = __esm({
 <div class="${"top-0 fixed w-full z-10"}">${validate_component(Nav, "Nav").$$render($$result, {}, {}, {})}</div>
 
 
-<div class="${"w-full border-t border-black " + escape(wrapperClass)}">${each(triItems, (i2, index) => `<div id="${"item" + escape(index)}" class="${"relative border-b border-black " + escape(parentClass)}"><a${add_attribute("href", i2.link, 0)}><img${add_attribute("src", i2.img, 0)}${add_attribute("alt", i2.text, 0)} class="${[
+<div class="${"w-full border-t border-black " + escape(wrapperClass)}">${each(triItems, (i2, index) => `<div id="${"item" + escape(index)}" class="${"relative border-b border-black " + escape(parentClass)}"><a${add_attribute("href", i2.link, 0)}><img${add_attribute("src", i2.img + ".jpg", 0)}${add_attribute("alt", i2.text, 0)} class="${[
         escape(null_to_empty(i2["shown"] ? "absolute transition duration-500 opacity-100 w-full top-0 h-full object-cover" : "absolute loaded transition duration-500 opacity-0 hidden w-full top-0 h-full object-cover")) + " svelte-1vi6dxg",
         ""
       ].join(" ").trim()}" loading="${"lazy"}"${add_attribute("this", thisImage, 0)}>
@@ -7743,23 +7959,23 @@ var entry11, js11, css18;
 var init__11 = __esm({
   ".svelte-kit/output/server/nodes/10.js"() {
     init_index_svelte3();
-    entry11 = "pages/team/index.svelte-792ca6bf.js";
-    js11 = ["pages/team/index.svelte-792ca6bf.js", "chunks/vendor-cece5832.js", "chunks/Nav-85821155.js", "chunks/singletons-a42a5e91.js", "chunks/people-c3341470.js"];
+    entry11 = "pages/team/index.svelte-3a6da0cd.js";
+    js11 = ["pages/team/index.svelte-3a6da0cd.js", "chunks/vendor-6d69bdcb.js", "chunks/Nav-54247100.js", "chunks/singletons-a42a5e91.js", "chunks/people-aa37e8ce.js"];
     css18 = ["assets/pages/team/index.svelte-2f1824e1.css", "assets/vendor-c402c846.css", "assets/Nav-ba69bb6a.css"];
   }
 });
 
-// .svelte-kit/output/server/entries/pages/team/projects/_name_.svelte.js
-var name_svelte_exports = {};
-__export(name_svelte_exports, {
-  default: () => U5Bnameu5D
+// .svelte-kit/output/server/entries/pages/team/projects/_project_.svelte.js
+var project_svelte_exports = {};
+__export(project_svelte_exports, {
+  default: () => U5Bprojectu5D
 });
-var U5Bnameu5D;
-var init_name_svelte = __esm({
-  ".svelte-kit/output/server/entries/pages/team/projects/_name_.svelte.js"() {
-    init_index_27c4ae06();
-    init_Nav_0e3ea68b();
-    U5Bnameu5D = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+var U5Bprojectu5D;
+var init_project_svelte = __esm({
+  ".svelte-kit/output/server/entries/pages/team/projects/_project_.svelte.js"() {
+    init_index_193420ae();
+    init_Nav_6054ca6a();
+    U5Bprojectu5D = create_ssr_component(($$result, $$props, $$bindings, slots) => {
       let $$unsubscribe_page;
       $$unsubscribe_page = subscribe(page, (value) => value);
       $$unsubscribe_page();
@@ -7777,35 +7993,41 @@ __export(__exports12, {
   css: () => css19,
   entry: () => entry12,
   js: () => js12,
-  module: () => name_svelte_exports
+  module: () => project_svelte_exports
 });
 var entry12, js12, css19;
 var init__12 = __esm({
   ".svelte-kit/output/server/nodes/11.js"() {
-    init_name_svelte();
-    entry12 = "pages/team/projects/_name_.svelte-0034fc73.js";
-    js12 = ["pages/team/projects/_name_.svelte-0034fc73.js", "chunks/vendor-cece5832.js", "chunks/Nav-85821155.js", "chunks/singletons-a42a5e91.js", "chunks/teamProjects-ef73914c.js", "chunks/Player-f7a65fdc.js"];
+    init_project_svelte();
+    entry12 = "pages/team/projects/_project_.svelte-4154a2da.js";
+    js12 = ["pages/team/projects/_project_.svelte-4154a2da.js", "chunks/vendor-6d69bdcb.js", "chunks/Nav-54247100.js", "chunks/singletons-a42a5e91.js", "chunks/teamProjects-3395d7fd.js", "chunks/Player-f7c97560.js"];
     css19 = ["assets/vendor-c402c846.css", "assets/Nav-ba69bb6a.css", "assets/Player-97ad1893.css"];
   }
 });
 
 // .svelte-kit/output/server/entries/pages/team/_name_.svelte.js
-var name_svelte_exports2 = {};
-__export(name_svelte_exports2, {
-  default: () => U5Bnameu5D2
+var name_svelte_exports = {};
+__export(name_svelte_exports, {
+  default: () => U5Bnameu5D
 });
-var U5Bnameu5D2;
-var init_name_svelte2 = __esm({
+var U5Bnameu5D;
+var init_name_svelte = __esm({
   ".svelte-kit/output/server/entries/pages/team/_name_.svelte.js"() {
-    init_index_27c4ae06();
-    init_Nav_0e3ea68b();
-    init_Image_fe0afddd();
-    init_people_c3341470();
-    U5Bnameu5D2 = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+    init_index_193420ae();
+    init_Nav_6054ca6a();
+    init_Image_fba76378();
+    init_people_aa37e8ce();
+    U5Bnameu5D = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+      let $$unsubscribe_topActive;
+      let $$unsubscribe_botActive;
       let $page, $$unsubscribe_page;
+      $$unsubscribe_topActive = subscribe(topActive, (value) => value);
+      $$unsubscribe_botActive = subscribe(botActive, (value) => value);
       $$unsubscribe_page = subscribe(page, (value) => $page = value);
       let person = {};
       let personProjects = [];
+      $$unsubscribe_topActive();
+      $$unsubscribe_botActive();
       $$unsubscribe_page();
       return `<div class="${"lg:hidden"}"><header class="${"h-[70vh] bg-cover bg-center"}" style="${"background-image: url(" + escape(person["img"]) + ")"}">${validate_component(Nav, "Nav").$$render($$result, {}, {}, {})}</header>
 	<h1 class="${"text-center py-5 text-3xl tracking-wide font-medium border-t border-b border-black"}">${escape("")}</h1>
@@ -7817,21 +8039,23 @@ var init_name_svelte2 = __esm({
 			</a>`)}` : ``}</div>
 
 <div class="${"hidden lg:block"}">${validate_component(Nav, "Nav").$$render($$result, {}, {}, {})}</div>
-<div class="${"hidden lg:grid grid-cols-4 h-screen py-10"}"><div class="${"border-r border-black col-span-1 p-5 2xl:p-10 flex space-x-8 xl:space-x-14"}"><h1 class="${"text-md font-medium"}">\u0421\u0442\u0438\u043B\u0438\u0441\u0442\u044B</h1>
-		<div>${each(people, (i2, index) => `<a${add_attribute("href", i2.link, 0)} class="${"relative"}"><img${add_attribute("class", "/team/" + $page.params.name === i2.link ? "absolute top-2 -left-7" : "hidden", 0)} src="${"/images/arrow.svg"}" alt="${""}">
-					<p${add_attribute("class", "/team/" + $page.params.name == i2.link ? "leading-7 underline font-light whitespace-nowrap" : "leading-7 hover:underline font-light whitespace-nowrap", 0)}>${escape(i2.text)}</p>
-				</a>`)}</div></div>
-	<div class="${"relative col-span-3 p-5 2xl:p-10 flex flex-col justify-between space-y-5"}">${`<div><h1 class="${"text-4xl tracking-wide"}">${escape(person["text"])}</h1>
-				<div class="${"mt-10 flex justify-between"}"><p class="${"font-light whitespace-pre-line max-w-lg 2xl:max-w-2xl leading-5"}"><!-- HTML_TAG_START -->${person["about"]}<!-- HTML_TAG_END --></p>
+<div class="${"hidden lg:grid grid-cols-4 h-screen py-10"}"><div class="${"border-r border-black col-span-1 p-5 2xl:p-10"}">
+			<h1 class="${"text-md font-medium fixed"}">\u0421\u0442\u0438\u043B\u0438\u0441\u0442\u044B</h1>
+			<div class="${"fixed ml-28 xl:ml-32"}">${each(people, (i2, index) => `<a${add_attribute("href", i2.link, 0)} target="${"_self"}" class="${"relative flex"}"><img${add_attribute("class", "/team/" + $page.params.name === i2.link ? "w-4 absolute top-2 -left-7" : "hidden w-4", 0)} src="${"/images/arrow.svg"}" alt="${""}">
+						<p${add_attribute("class", "/team/" + $page.params.name == i2.link ? "leading-7 underline font-light whitespace-nowrap" : "leading-7 hover:underline font-light whitespace-nowrap", 0)}>${escape(i2.text)}</p>
+					</a>`)}</div>
+		</div>
+	<div class="${"relative col-span-3 p-5 2xl:p-10 flex flex-col justify-between space-y-5"}">${`<div><h1 class="${"text-4xl tracking-wide"}">${escape("")}</h1>
+				<div class="${"mt-10 flex justify-between"}"><p class="${"font-light whitespace-pre-line max-w-lg 2xl:max-w-2xl leading-5"}"><!-- HTML_TAG_START -->${""}<!-- HTML_TAG_END --></p>
 					${validate_component(Image, "Image").$$render($$result, {
         src: person["img"],
         classes: "object-cover w-64 h-64"
       }, {}, {})}</div></div>
-			<div class="${"flex flex-wrap gap-3"}">${each(personProjects, (i2, index) => `<div class="${"cursor-pointer flex max-w-xs"}">${validate_component(Image, "Image").$$render($$result, {
+			<div class="${"flex flex-wrap items-start gap-3"}">${personProjects ? `${each(personProjects, (i2, index) => `<div class="${"cursor-pointer"}">${validate_component(Image, "Image").$$render($$result, {
         src: i2["mainImg"],
-        classes: "grow object-cover h-32 w-full max-w-sm"
+        classes: "object-cover h-24"
       }, {}, {})}
-					</div>`)}</div>`}</div></div>`;
+						</div>`)}` : ``}</div>`}</div></div>`;
     });
   }
 });
@@ -7842,14 +8066,14 @@ __export(__exports13, {
   css: () => css20,
   entry: () => entry13,
   js: () => js13,
-  module: () => name_svelte_exports2
+  module: () => name_svelte_exports
 });
 var entry13, js13, css20;
 var init__13 = __esm({
   ".svelte-kit/output/server/nodes/12.js"() {
-    init_name_svelte2();
-    entry13 = "pages/team/_name_.svelte-6c5bf12e.js";
-    js13 = ["pages/team/_name_.svelte-6c5bf12e.js", "chunks/vendor-cece5832.js", "chunks/Nav-85821155.js", "chunks/singletons-a42a5e91.js", "chunks/people-c3341470.js", "chunks/teamProjects-ef73914c.js", "chunks/Player-f7a65fdc.js"];
+    init_name_svelte();
+    entry13 = "pages/team/_name_.svelte-ba8c4524.js";
+    js13 = ["pages/team/_name_.svelte-ba8c4524.js", "chunks/vendor-6d69bdcb.js", "chunks/Nav-54247100.js", "chunks/singletons-a42a5e91.js", "chunks/people-aa37e8ce.js", "chunks/teamProjects-3395d7fd.js", "chunks/Player-f7c97560.js"];
     css20 = ["assets/vendor-c402c846.css", "assets/Nav-ba69bb6a.css", "assets/Player-97ad1893.css"];
   }
 });
@@ -7901,7 +8125,7 @@ function getRawBody(req) {
 }
 
 // .svelte-kit/output/server/app.js
-init_index_27c4ae06();
+init_index_193420ae();
 var __accessCheck2 = (obj, member, msg) => {
   if (!member.has(obj))
     throw TypeError("Cannot " + msg);
@@ -9403,10 +9627,10 @@ var App = class {
 // .svelte-kit/vercel-tmp/manifest.js
 var manifest = {
   appDir: "_app",
-  assets: new Set(["favicon.png", "images/arrow-left.svg", "images/arrow.svg", "images/companies/cian.png", "images/companies/lg.png", "images/companies/mega.png", "images/companies/samsung.png", "images/index/1.jpg", "images/index/1Mobile.jpg", "images/index/2.1.jpg", "images/index/2.2.jpg", "images/index/3.jpg", "images/index/4.jpg", "images/index/5.jpg", "images/index/5Moblie.jpg", "images/index/6.jpg", "images/logo/goos.svg", "images/logo/goos_white.svg", "images/logo/kom.svg", "images/logo/kom_white.svg", "images/projects/1XBET/1.jpg", "images/projects/1XBET/1xBET.docx", "images/projects/A101/1.jpg", "images/projects/A101/\u041D\u043E\u0432\u044B\u0439 \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442.docx", "images/projects/ADRENALINE/1.jpg", "images/projects/ADRENALINE/\u041D\u043E\u0432\u044B\u0439 \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442 (1).docx", "images/projects/ALONE/\u041A\u043E\u043F\u0438\u044F 10.jpg", "images/projects/ALONE/\u041A\u043E\u043F\u0438\u044F 12.jpg", "images/projects/ALONE/\u041A\u043E\u043F\u0438\u044F 24.jpg", "images/projects/ALONE/\u041A\u043E\u043F\u0438\u044F 25.jpg", "images/projects/ALONE/\u041A\u043E\u043F\u0438\u044F 27.jpg", "images/projects/ALONE/\u041A\u043E\u043F\u0438\u044F 4.jpg", "images/projects/ALONE/\u041A\u043E\u043F\u0438\u044F 5.jpg", "images/projects/ALONE/\u041A\u043E\u043F\u0438\u044F 6.jpg", "images/projects/ALONE/\u041D\u043E\u0432\u044B\u0439 \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442.docx", "images/projects/ALPEN GOLD/1.jpg", "images/projects/ALPEN GOLD/1.mp4", "images/projects/ALPEN GOLD/\u041D\u043E\u0432\u044B\u0439 \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442.docx", "images/projects/AUROUS/1.jpg", "images/projects/AUROUS/\u041D\u043E\u0432\u044B\u0439 \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442.docx", "images/projects/AUSHAN/1.jpg", "images/projects/AVIAPARK/1.jpg", "images/projects/AVIAPARK/\u041D\u043E\u0432\u044B\u0439 \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442.docx", "images/projects/AVON 19 NY KIDS/\u041A\u043E\u043F\u0438\u044F AVON_NY_II_0801.jpg", "images/projects/AVON 19 NY KIDS/\u041A\u043E\u043F\u0438\u044F AVON_NY_II_1521.jpg", "images/projects/AVON 19 NY KIDS/\u041A\u043E\u043F\u0438\u044F AVON_NY_I_00711.jpg", "images/projects/AVON 19 NY KIDS/\u041A\u043E\u043F\u0438\u044F EmptyName 34.jpg", "images/projects/AVON 19 NY KIDS/\u041D\u043E\u0432\u044B\u0439 \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442.docx", "images/projects/AVON 19 NY KIDS/\u041F\u0420\u0415\u0412\u042C\u042E/\u041A\u043E\u043F\u0438\u044F \u041A\u043E\u043F\u0438\u044F AVON_NY_II_0801.jpg", "images/projects/AVON 19 NY KIDS/\u041F\u0420\u0415\u0412\u042C\u042E/\u041A\u043E\u043F\u0438\u044F \u041A\u043E\u043F\u0438\u044F AVON_NY_II_1521.jpg", "images/projects/AVON NEW YEAR/\u041A\u043E\u043F\u0438\u044F IMG_6163.JPG", "images/projects/AVON NEW YEAR/\u041A\u043E\u043F\u0438\u044F IMG_6164.JPG", "images/projects/AVON NEW YEAR/\u041A\u043E\u043F\u0438\u044F IMG_6165.JPG", "images/projects/AVON NEW YEAR/\u041A\u043E\u043F\u0438\u044F IMG_6166.JPG", "images/projects/AVON NEW YEAR/\u041A\u043E\u043F\u0438\u044F IMG_6219.JPG", "images/projects/AVON NEW YEAR/\u041D\u043E\u0432\u044B\u0439 \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442.docx", "images/projects/AVON NEW YEAR/\u041F\u0420\u0415\u0412\u042C\u042E/\u041A\u043E\u043F\u0438\u044F \u041A\u043E\u043F\u0438\u044F IMG_6166.JPG", "images/projects/AVON SALE ZONE 19/\u041A\u043E\u043F\u0438\u044F IMG_69409.jpg", "images/projects/AVON SALE ZONE 19/\u041A\u043E\u043F\u0438\u044F IMG_69694_2.jpg", "images/projects/AVON SALE ZONE 19/\u041A\u043E\u043F\u0438\u044F IMG_69943.jpg", "images/projects/AVON SALE ZONE 19/\u041A\u043E\u043F\u0438\u044F IMG_70937_3.jpg", "images/projects/AVON SALE ZONE 19/\u041D\u043E\u0432\u044B\u0439 \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442.docx", "images/projects/AVON SALE ZONE 19/\u041F\u0420\u0415\u0412\u042C\u042E/\u041A\u043E\u043F\u0438\u044F \u041A\u043E\u043F\u0438\u044F IMG_69409.jpg", "images/projects/AVON SALE ZONE 19/\u041F\u0420\u0415\u0412\u042C\u042E/\u041A\u043E\u043F\u0438\u044F \u041A\u043E\u043F\u0438\u044F IMG_69694_2.jpg", "images/projects/BAIKAL/1.jpg", "images/projects/BAIKAL/\u041D\u043E\u0432\u044B\u0439 \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442.docx", "images/projects/BAIKAL1/1.jpg", "images/projects/BAIKAL1/2.jpg", "images/projects/BAIKAL1/3.jpg", "images/projects/BAIKAL1/4.jpg", "images/projects/BAIKAL1/5.jpg", "images/projects/BELKA CAR/1.jpg", "images/projects/BELKA CAR/\u041D\u043E\u0432\u044B\u0439 \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442.docx", "images/projects/BELKA CAR2/\u041A\u043E\u043F\u0438\u044F 50218023_10156205866328790_8914228640305119232_o.jpg", "images/projects/BELKA CAR2/\u041A\u043E\u043F\u0438\u044F 50324133_10156205866463790_5012258050254307328_o.jpg", "images/projects/BELKA CAR2/\u041D\u043E\u0432\u044B\u0439 \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442.docx", "images/projects/BLINDING AND KULTBLUT/ 1.jpg", "images/projects/BLINDING AND KULTBLUT/ 2.jpg", "images/projects/BLINDING AND KULTBLUT/ 3.jpg", "images/projects/BLINDING AND KULTBLUT/ 4.jpg", "images/projects/BLINDING AND KULTBLUT/ 5.jpg", "images/projects/BLINDING AND KULTBLUT/ 6.jpg", "images/projects/BLINDING AND KULTBLUT/ 7.jpg", "images/projects/BLINDING AND KULTBLUT/ 8.jpg", "images/projects/BLINDING AND KULTBLUT/ 9.jpg", "images/projects/BLINDING AND KULTBLUT/\u041D\u043E\u0432\u044B\u0439 \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442.docx", "images/projects/BONELESS VLADIMIR VARNAV/\u041A\u043E\u043F\u0438\u044F 18.11.27-dance-color11237.jpg", "images/projects/BONELESS VLADIMIR VARNAV/\u041A\u043E\u043F\u0438\u044F 18.11.27-dance-color11337.jpg", "images/projects/BONELESS VLADIMIR VARNAV/\u041A\u043E\u043F\u0438\u044F 18.11.27-dance-color11397.jpg", "images/projects/BONELESS VLADIMIR VARNAV/\u041A\u043E\u043F\u0438\u044F 18.11.27-dance-color11402.jpg", "images/projects/BONELESS VLADIMIR VARNAV/\u041A\u043E\u043F\u0438\u044F 18.11.27-dance-color11457.jpg", "images/projects/BONELESS VLADIMIR VARNAV/\u041A\u043E\u043F\u0438\u044F 18.11.27-dance-color11546.jpg", "images/projects/BONELESS VLADIMIR VARNAV/\u041A\u043E\u043F\u0438\u044F 18.11.27-dance-color11603.jpg", "images/projects/BONELESS VLADIMIR VARNAV/\u041A\u043E\u043F\u0438\u044F 18.11.27-dance-color11655.jpg", "images/projects/BONELESS VLADIMIR VARNAV/\u041A\u043E\u043F\u0438\u044F 18.11.27-dance-color11738.jpg", "images/projects/BONELESS VLADIMIR VARNAV/\u041D\u043E\u0432\u044B\u0439 \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442.docx", "images/projects/BOTHER/1.jpg", "images/projects/CDM/1.jpg", "images/projects/CDM/1.mp4", "images/projects/CDM/\u041D\u043E\u0432\u044B\u0439 \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442 (1).docx", "images/projects/CITY MOBILE/1.jpg", "images/projects/CITY MOBILE/\u041D\u043E\u0432\u044B\u0439 \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442 (1).docx", "images/projects/Chiki/1.jpeg", "images/projects/DAVAI BROSAT/\u041D\u043E\u0432\u044B\u0439 \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442.docx", "images/projects/DELOBANK/1.jpg", "images/projects/DELOBANK/\u041D\u043E\u0432\u044B\u0439 \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442.docx", "images/projects/DIRECTOR/1.jpg", "images/projects/DIRECTOR/\u041D\u043E\u0432\u044B\u0439 \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442 (1).docx", "images/projects/DIRECTORS MERKULOVY/\u041A\u043E\u043F\u0438\u044F 0018.jpg", "images/projects/DIRECTORS MERKULOVY/\u041A\u043E\u043F\u0438\u044F 0022.jpg", "images/projects/DIRECTORS MERKULOVY/\u041D\u043E\u0432\u044B\u0439 \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442.docx", "images/projects/DOKUCHAEVA/\u041A\u043E\u043F\u0438\u044F Dokuchaeva_200910_10555 copy.jpg", "images/projects/DOKUCHAEVA/\u041A\u043E\u043F\u0438\u044F Dokuchaeva_200910_11012 copy.jpg", "images/projects/DOKUCHAEVA/\u041A\u043E\u043F\u0438\u044F Dokuchaeva_200910_11145 copy.jpg", "images/projects/DOKUCHAEVA/\u041A\u043E\u043F\u0438\u044F Dokuchaeva_200910_11360 copy.jpg", "images/projects/DOKUCHAEVA/\u041A\u043E\u043F\u0438\u044F Dokuchaeva_200910_11411 copy.jpg", "images/projects/DOKUCHAEVA/\u041A\u043E\u043F\u0438\u044F Dokuchaeva_200910_11724 copy(1).jpg", "images/projects/DOKUCHAEVA/\u041A\u043E\u043F\u0438\u044F Dokuchaeva_200910_11724 copy.jpg", "images/projects/DOKUCHAEVA/\u041A\u043E\u043F\u0438\u044F Dokuchaeva_200910_11839 copy.jpg", "images/projects/DOKUCHAEVA/\u041D\u043E\u0432\u044B\u0439 \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442.docx", "images/projects/DR KRIVOROTOV 2.0/\u041A\u043E\u043F\u0438\u044F BD4A9775.jpg", "images/projects/DR KRIVOROTOV 2.0/\u041A\u043E\u043F\u0438\u044F \u041A\u043E\u043F\u0438\u044F BD4A9354.jpg", "images/projects/DR KRIVOROTOV 2.0/\u041A\u043E\u043F\u0438\u044F \u041A\u043E\u043F\u0438\u044F BD4A9552.jpg", "images/projects/DR KRIVOROTOV 2.0/\u041A\u043E\u043F\u0438\u044F \u041A\u043E\u043F\u0438\u044F BD4A9861.jpg", "images/projects/DR KRIVOROTOV 2.0/\u041A\u043E\u043F\u0438\u044F \u041A\u043E\u043F\u0438\u044F BD4A9915.jpg", "images/projects/DR KRIVOROTOV 2.0/\u041A\u043E\u043F\u0438\u044F \u041A\u043E\u043F\u0438\u044F BD4A9954.jpg", "images/projects/DR KRIVOROTOV 2.0/\u041D\u043E\u0432\u044B\u0439 \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442.docx", "images/projects/DR KRIVOROTOV 2.0/\u041F\u0420\u0415\u0412\u042C\u042E/\u041A\u043E\u043F\u0438\u044F \u041A\u043E\u043F\u0438\u044F \u041A\u043E\u043F\u0438\u044F BD4A9354.jpg", "images/projects/EGOR KRID/\u041D\u043E\u0432\u044B\u0439 \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442.docx", "images/projects/EVOLUTION 2.0/\u041A\u043E\u043F\u0438\u044F DSC00010-\u0432\u043E\u0441\u0441\u0442\u0430\u043D\u043E\u0432\u043B\u0435\u043D\u043E.jpg", "images/projects/EVOLUTION 2.0/\u041A\u043E\u043F\u0438\u044F DSC00048.jpg", "images/projects/EVOLUTION 2.0/\u041A\u043E\u043F\u0438\u044F DSC00153_1.jpg", "images/projects/EVOLUTION 2.0/\u041A\u043E\u043F\u0438\u044F DSC00186.jpg", "images/projects/EVOLUTION 2.0/\u041A\u043E\u043F\u0438\u044F DSC00228-\u0432\u043E\u0441\u0441\u0442\u0430\u043D\u043E\u0432\u043B\u0435\u043D\u043E-\u0432\u043E\u0441\u0441\u0442\u0430\u043D\u043E\u0432\u043B\u0435\u043D\u043E.jpg", "images/projects/EVOLUTION 2.0/\u041A\u043E\u043F\u0438\u044F DSC00326.jpg", "images/projects/EVOLUTION 2.0/\u041A\u043E\u043F\u0438\u044F DSC00375_2 copy.jpg", "images/projects/EVOLUTION 2.0/\u041A\u043E\u043F\u0438\u044F DSC00500.jpg", "images/projects/EVOLUTION 2.0/\u041A\u043E\u043F\u0438\u044F DSC09506.jpg", "images/projects/EVOLUTION 2.0/\u041A\u043E\u043F\u0438\u044F DSC09635.jpg", "images/projects/EVOLUTION 2.0/\u041A\u043E\u043F\u0438\u044F DSC09745.jpg", "images/projects/EVOLUTION 2.0/\u041A\u043E\u043F\u0438\u044F DSC09865 copy.jpg", "images/projects/EVOLUTION 2.0/\u041A\u043E\u043F\u0438\u044F DSC09940.jpg", "images/projects/EVOLUTION 2.0/\u041A\u043E\u043F\u0438\u044F DSC09968.jpg", "images/projects/EVOLUTION 2.0/\u041D\u043E\u0432\u044B\u0439 \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442.docx", "images/projects/FAKBYFAK/\u041A\u043E\u043F\u0438\u044F 000091220034.jpg", "images/projects/FAKBYFAK/\u041A\u043E\u043F\u0438\u044F AA007.jpg", "images/projects/FAKBYFAK/\u041A\u043E\u043F\u0438\u044F fakbyfak3660.jpg", "images/projects/FAKBYFAK/\u041A\u043E\u043F\u0438\u044F fakbyfak3682.jpg", "images/projects/FAKBYFAK/\u041A\u043E\u043F\u0438\u044F fakbyfak3700.jpg", "images/projects/FAKBYFAK/\u041D\u043E\u0432\u044B\u0439 \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442.docx", "images/projects/FLOWERS AND SHADOWS/\u041A\u043E\u043F\u0438\u044F 0R2A0402_done_1.jpg", "images/projects/FLOWERS AND SHADOWS/\u041A\u043E\u043F\u0438\u044F 0R2A0567_done_1.jpg", "images/projects/FLOWERS AND SHADOWS/\u041A\u043E\u043F\u0438\u044F 0R2A0568_done1_1.jpg", "images/projects/FLOWERS AND SHADOWS/\u041A\u043E\u043F\u0438\u044F 0R2A0730_done.jpg", "images/projects/FLOWERS AND SHADOWS/\u041A\u043E\u043F\u0438\u044F 0R2A0850_done.jpg", "images/projects/FLOWERS AND SHADOWS/\u041A\u043E\u043F\u0438\u044F 0R2A1072_done.jpg", "images/projects/FLOWERS AND SHADOWS/\u041A\u043E\u043F\u0438\u044F 0R2A1341_1_done.jpg", "images/projects/FLOWERS AND SHADOWS/\u041A\u043E\u043F\u0438\u044F 0R2A1399_done.jpg", "images/projects/FLOWERS AND SHADOWS/\u041A\u043E\u043F\u0438\u044F 0R2A1564_done.jpg", "images/projects/FLOWERS AND SHADOWS/\u041A\u043E\u043F\u0438\u044F 0R2A1713_done.jpg", "images/projects/FLOWERS AND SHADOWS/\u041D\u043E\u0432\u044B\u0439 \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442.docx", "images/projects/GERTRUDE:KALTBLUT/\u041A\u043E\u043F\u0438\u044F 8.jpg", "images/projects/GERTRUDE:KALTBLUT/\u041A\u043E\u043F\u0438\u044F IMG_5800.JPG", "images/projects/GERTRUDE:KALTBLUT/\u041A\u043E\u043F\u0438\u044F IMG_5801.JPG", "images/projects/GERTRUDE:KALTBLUT/\u041A\u043E\u043F\u0438\u044F IMG_5802.JPG", "images/projects/GERTRUDE:KALTBLUT/\u041A\u043E\u043F\u0438\u044F IMG_5803.JPG", "images/projects/GERTRUDE:KALTBLUT/\u041A\u043E\u043F\u0438\u044F IMG_5804.JPG", "images/projects/GERTRUDE:KALTBLUT/\u041A\u043E\u043F\u0438\u044F IMG_5805.JPG", "images/projects/GERTRUDE:KALTBLUT/\u041A\u043E\u043F\u0438\u044F IMG_5806.JPG", "images/projects/GERTRUDE:KALTBLUT/\u041A\u043E\u043F\u0438\u044F IMG_5807.JPG", "images/projects/GERTRUDE:KALTBLUT/\u041D\u043E\u0432\u044B\u0439 \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442.docx", "images/projects/GLAMOUR AND GLUKOZA/1.jpg", "images/projects/GLAMOUR AND GLUKOZA/\u041D\u043E\u0432\u044B\u0439 \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442 (1).docx", "images/projects/GOGEN/\u041A\u043E\u043F\u0438\u044F 02.jpg", "images/projects/GOGEN/\u041A\u043E\u043F\u0438\u044F 03.jpg", "images/projects/GOGEN/\u041A\u043E\u043F\u0438\u044F 06.jpg", "images/projects/GOGEN/\u041A\u043E\u043F\u0438\u044F 07.jpg", "images/projects/GOGEN/\u041D\u043E\u0432\u044B\u0439 \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442.docx", "images/projects/GRAND/1.jpg", "images/projects/GRAND/\u041D\u043E\u0432\u044B\u0439 \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442.docx", "images/projects/HASKY LOOKBOOK/\u041A\u043E\u043F\u0438\u044F Capture One Catalog1540.jpg", "images/projects/HASKY LOOKBOOK/\u041A\u043E\u043F\u0438\u044F Capture One Catalog2344 1.jpg", "images/projects/HASKY LOOKBOOK/\u041A\u043E\u043F\u0438\u044F Capture One Catalog2595.jpg", "images/projects/HASKY LOOKBOOK/\u041A\u043E\u043F\u0438\u044F Capture One Catalog2621.jpg", "images/projects/HASKY LOOKBOOK/\u041A\u043E\u043F\u0438\u044F Capture One Catalog2655.jpg", "images/projects/HASKY LOOKBOOK/\u041A\u043E\u043F\u0438\u044F Capture One Catalog2670 1.jpg", "images/projects/HASKY LOOKBOOK/\u041D\u043E\u0432\u044B\u0439 \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442.docx", "images/projects/HOLOSTIAK/\u041A\u043E\u043F\u0438\u044F 72e447bc9980f966eabc570ba2438d62.jpg", "images/projects/HOLOSTIAK/\u041A\u043E\u043F\u0438\u044F d4394489085388a02b800188bfeb6026.jpg", "images/projects/HOLOSTIAK/\u041A\u043E\u043F\u0438\u044F ok-zhurnal-8-02.jpg", "images/projects/HOLOSTIAK/\u041D\u043E\u0432\u044B\u0439 \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442.docx", "images/projects/HOLOSTIAK/\u041F\u0420\u0415\u0412\u042C\u042E/\u041A\u043E\u043F\u0438\u044F \u041A\u043E\u043F\u0438\u044F d4394489085388a02b800188bfeb6026.jpg", "images/projects/HUF AHD HUF/\u041A\u043E\u043F\u0438\u044F HH-\u043F\u043E\u0441\u0443\u0434\u043A\u0430-7-\u043E\u043A\u0442-183708-1.jpg", "images/projects/HUF AHD HUF/\u041A\u043E\u043F\u0438\u044F HH-\u043F\u043E\u0441\u0443\u0434\u043A\u0430-7-\u043E\u043A\u0442-183763-1.jpg", "images/projects/HUF AHD HUF/\u041A\u043E\u043F\u0438\u044F HH-\u043F\u043E\u0441\u0443\u0434\u043A\u0430-7-\u043E\u043A\u0442-183856-1.jpg", "images/projects/HUF AHD HUF/\u041A\u043E\u043F\u0438\u044F HH-\u043F\u043E\u0441\u0443\u0434\u043A\u0430-7-\u043E\u043A\u0442-183948-1.jpg", "images/projects/HUF AHD HUF/\u041A\u043E\u043F\u0438\u044F HH-\u043F\u043E\u0441\u0443\u0434\u043A\u0430-7-\u043E\u043A\u0442-183970-1.jpg", "images/projects/HUF AHD HUF/\u041A\u043E\u043F\u0438\u044F HH-\u043F\u0440\u043E\u0434\u043E\u043B\u0436\u0435\u043D\u0438\u0435-_0045-1.jpg", "images/projects/HUF AHD HUF/\u041A\u043E\u043F\u0438\u044F HH-\u043F\u0440\u043E\u0434\u043E\u043B\u0436\u0435\u043D\u0438\u0435-_0089-1.jpg", "images/projects/HUF AHD HUF/\u041A\u043E\u043F\u0438\u044F HH-\u043F\u0440\u043E\u0434\u043E\u043B\u0436\u0435\u043D\u0438\u0435-_0150-1.jpg", "images/projects/KRASSNA/1.jpg", "images/projects/KRASSNA/\u041D\u043E\u0432\u044B\u0439 \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442.docx", "images/projects/LA CHAMBRE VERTE/\u041A\u043E\u043F\u0438\u044F \u041A\u043E\u043F\u0438\u044F fuji400 001.jpg", "images/projects/LA CHAMBRE VERTE/\u041A\u043E\u043F\u0438\u044F \u041A\u043E\u043F\u0438\u044F fuji400 002.jpg", "images/projects/LA CHAMBRE VERTE/\u041A\u043E\u043F\u0438\u044F \u041A\u043E\u043F\u0438\u044F fuji400 016.jpg", "images/projects/LA CHAMBRE VERTE/\u041A\u043E\u043F\u0438\u044F \u041A\u043E\u043F\u0438\u044F fuji400 018.jpg", "images/projects/LA CHAMBRE VERTE/\u041A\u043E\u043F\u0438\u044F \u041A\u043E\u043F\u0438\u044F fuji400 021.jpg", "images/projects/LA CHAMBRE VERTE/\u041A\u043E\u043F\u0438\u044F \u041A\u043E\u043F\u0438\u044F fuji400 022.jpg", "images/projects/LA CHAMBRE VERTE/\u041A\u043E\u043F\u0438\u044F \u041A\u043E\u043F\u0438\u044F fuji400 029.jpg", "images/projects/LA CHAMBRE VERTE/\u041A\u043E\u043F\u0438\u044F \u041A\u043E\u043F\u0438\u044F fuji400 035.jpg", "images/projects/LA CHAMBRE VERTE/\u041A\u043E\u043F\u0438\u044F \u041A\u043E\u043F\u0438\u044F fuji400 039.jpg", "images/projects/LA CHAMBRE VERTE/\u041A\u043E\u043F\u0438\u044F \u041A\u043E\u043F\u0438\u044F fuji400 041.jpg", "images/projects/LA CHAMBRE VERTE/\u041D\u043E\u0432\u044B\u0439 \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442.docx", "images/projects/LENTA/1.jpg", "images/projects/LENTA/\u041D\u043E\u0432\u044B\u0439 \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442 (1).docx", "images/projects/MANIQU.RU/1.JPG", "images/projects/MANIQU.RU/2.JPG", "images/projects/MANO/\u041A\u043E\u043F\u0438\u044F mano 002_d_web.jpg", "images/projects/MANO/\u041A\u043E\u043F\u0438\u044F mano 010_d_web.jpg", "images/projects/MANO/\u041A\u043E\u043F\u0438\u044F mano 012_d_web.jpg", "images/projects/MANO/\u041A\u043E\u043F\u0438\u044F mano 013_d_web.jpg", "images/projects/MANO/\u041A\u043E\u043F\u0438\u044F mano 016_d_web.jpg", "images/projects/MBA/1.jpg", "images/projects/MBA/\u041D\u043E\u0432\u044B\u0439 \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442 (1).docx", "images/projects/MEGA/1.jpg", "images/projects/MEGA/\u041D\u043E\u0432\u044B\u0439 \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442.docx", "images/projects/MEGAELKA/1.jpg", "images/projects/MEGAELKA/1.mp4", "images/projects/MEGAELKA/\u041D\u043E\u0432\u044B\u0439 \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442.docx", "images/projects/MEGAFON/1.jpg", "images/projects/MEGAFON/\u041D\u043E\u0432\u044B\u0439 \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442 (1).docx", "images/projects/MELLER/1.jpg", "images/projects/MELLER/\u041D\u043E\u0432\u044B\u0439 \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442.docx", "images/projects/MONAMI/1.jpg", "images/projects/MONAMI/\u041D\u043E\u0432\u044B\u0439 \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442.docx", "images/projects/MTS SAMSUNG/1.jpg", "images/projects/MTS SAMSUNG/\u041D\u043E\u0432\u044B\u0439 \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442.docx", "images/projects/PERFUME FOR PROJECT 314/1.jpg", "images/projects/PERFUME FOR PROJECT 314/2.jpg", "images/projects/PERFUME FOR PROJECT 314/3.jpg", "images/projects/PERFUME FOR PROJECT 314/4.jpg", "images/projects/PHD/\u041A\u043E\u043F\u0438\u044F PhD 50007.jpg", "images/projects/PHD/\u041A\u043E\u043F\u0438\u044F PhD 50026.jpg", "images/projects/PHD/\u041A\u043E\u043F\u0438\u044F PhD 70031.jpg", "images/projects/PHD/\u041A\u043E\u043F\u0438\u044F PhD 70033.jpg", "images/projects/PHD/\u041A\u043E\u043F\u0438\u044F PhD 80013.jpg", "images/projects/PHD/\u041A\u043E\u043F\u0438\u044F PhD 80033.jpg", "images/projects/POKERDOM/\u041D\u043E\u0432\u044B\u0439 \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442.docx", "images/projects/RBK/\u041A\u043E\u043F\u0438\u044F main-img-1.jpg", "images/projects/RBK/\u041A\u043E\u043F\u0438\u044F main-img-2.jpg", "images/projects/RBK/\u041A\u043E\u043F\u0438\u044F review-marko-2.jpg", "images/projects/RBK/\u041A\u043E\u043F\u0438\u044F review-marko.jpg", "images/projects/RBK/\u041A\u043E\u043F\u0438\u044F review-sisoev.jpg", "images/projects/RBK/\u041D\u043E\u0432\u044B\u0439 \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442.docx", "images/projects/RBK/\u041F\u0420\u0415\u0412\u042C\u042E/\u041A\u043E\u043F\u0438\u044F \u041A\u043E\u043F\u0438\u044F main-img-1.jpg", "images/projects/SAMOLET/\u041D\u043E\u0432\u044B\u0439 \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442.docx", "images/projects/SAMSUNG/\u041D\u043E\u0432\u044B\u0439 \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442 (1).docx", "images/projects/SBERBANK/1.jpg", "images/projects/SBERBANK/\u041D\u043E\u0432\u044B\u0439 \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442.docx", "images/projects/SCHIAP:VGXW/\u041A\u043E\u043F\u0438\u044F 2019_11_17_SCHIAP_6185.jpg", "images/projects/SCHIAP:VGXW/\u041A\u043E\u043F\u0438\u044F 2019_11_17_SCHIAP_6402.jpg", "images/projects/SCHIAP:VGXW/\u041A\u043E\u043F\u0438\u044F 2019_11_17_SCHIAP_6412.jpg", "images/projects/SCHIAP:VGXW/\u041A\u043E\u043F\u0438\u044F 2019_11_17_SCHIAP_6620.jpg", "images/projects/SCHIAP:VGXW/\u041A\u043E\u043F\u0438\u044F 2019_11_17_SCHIAP_6751.jpg", "images/projects/SCHIAP:VGXW/\u041A\u043E\u043F\u0438\u044F 2019_11_17_SCHIAP_6825.jpg", "images/projects/SCHIAP:VGXW/\u041A\u043E\u043F\u0438\u044F 2019_11_17_SCHIAP_6888.jpg", "images/projects/SCHIAP:VGXW/\u041A\u043E\u043F\u0438\u044F 2019_11_17_SCHIAP_6981.jpg", "images/projects/SCHIAP:VGXW/\u041A\u043E\u043F\u0438\u044F 2019_11_17_SCHIAP_7090.jpg", "images/projects/SCHIAP:VGXW/\u041D\u043E\u0432\u044B\u0439 \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442.docx", "images/projects/SEBASTIAM+SYSTEM 2019/1.jpg", "images/projects/SEBASTIAM+SYSTEM 2019/2.jpg", "images/projects/SEBASTIAM+SYSTEM 2019/3.jpg", "images/projects/SEBASTIAM+SYSTEM 2019/4.jpg", "images/projects/SPIN4SPIN/  -01.jpg", "images/projects/SPIN4SPIN/  -02.jpg", "images/projects/SPIN4SPIN/  -03.jpg", "images/projects/SPIN4SPIN/  -04.jpg", "images/projects/SPIN4SPIN/  -05.jpg", "images/projects/SPIN4SPIN/  -06.jpg", "images/projects/SPIN4SPIN/  -07.jpg", "images/projects/SPIN4SPIN/  -08.jpg", "images/projects/SPIN4SPIN/  -09.jpg", "images/projects/SPIN4SPIN/  -10.jpg", "images/projects/SPIN4SPIN/  -11.jpg", "images/projects/SPIN4SPIN/  -12.jpg", "images/projects/SPIN4SPIN/\u041D\u043E\u0432\u044B\u0439 \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442.docx", "images/projects/SPRING RYAZAN/\u041A\u043E\u043F\u0438\u044F 0053.jpg", "images/projects/SPRING RYAZAN/\u041A\u043E\u043F\u0438\u044F DSC02505.jpg", "images/projects/SPRING RYAZAN/\u041A\u043E\u043F\u0438\u044F DSC02625.jpg", "images/projects/SPRING RYAZAN/\u041D\u043E\u0432\u044B\u0439 \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442.docx", "images/projects/STACY/1.jpg", "images/projects/STACY/\u041D\u043E\u0432\u044B\u0439 \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442 (1).docx", "images/projects/THE PROVEN POINT/\u041A\u043E\u043F\u0438\u044F DSC00864.jpg", "images/projects/THE PROVEN POINT/\u041A\u043E\u043F\u0438\u044F DSC00932 copy.jpg", "images/projects/THE PROVEN POINT/\u041A\u043E\u043F\u0438\u044F DSC00959 copy.jpg", "images/projects/THE PROVEN POINT/\u041A\u043E\u043F\u0438\u044F DSC00970 copy.jpg", "images/projects/THE PROVEN POINT/\u041A\u043E\u043F\u0438\u044F DSC01170.jpg", "images/projects/THE PROVEN POINT/\u041A\u043E\u043F\u0438\u044F DSC01264 copy.jpg", "images/projects/THE PROVEN POINT/\u041A\u043E\u043F\u0438\u044F DSC01438 copy.jpg", "images/projects/THE PROVEN POINT/\u041A\u043E\u043F\u0438\u044F DSC01545 copy.jpg", "images/projects/THE PROVEN POINT/\u041D\u043E\u0432\u044B\u0439 \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442.docx", "images/projects/TRAPEZE OF MALEVICH/1.jpg", "images/projects/TRAPEZE OF MALEVICH/10.jpg", "images/projects/TRAPEZE OF MALEVICH/2.jpg", "images/projects/TRAPEZE OF MALEVICH/3.jpg", "images/projects/TRAPEZE OF MALEVICH/4.jpg", "images/projects/TRAPEZE OF MALEVICH/5.jpg", "images/projects/TRAPEZE OF MALEVICH/6.jpg", "images/projects/TRAPEZE OF MALEVICH/7.jpg", "images/projects/TRAPEZE OF MALEVICH/8.jpg", "images/projects/TRAPEZE OF MALEVICH/9.jpg", "images/projects/TRAPEZE OF MALEVICH/\u041D\u043E\u0432\u044B\u0439 \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442.docx", "images/projects/TTSWTR/\u041A\u043E\u043F\u0438\u044F FSM_-001.jpg", "images/projects/TTSWTR/\u041A\u043E\u043F\u0438\u044F ttswtrs-001.jpg", "images/projects/TTSWTR/\u041A\u043E\u043F\u0438\u044F ttswtrs-005.jpg", "images/projects/TTSWTR/\u041A\u043E\u043F\u0438\u044F ttswtrs-013.jpg", "images/projects/TTSWTR/\u041A\u043E\u043F\u0438\u044F ttswtrs-015.jpg", "images/projects/TTSWTR/\u041D\u043E\u0432\u044B\u0439 \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442.docx", "images/projects/UTOPIA/1.jpg", "images/projects/UTOPIA/2.jpg", "images/projects/UTOPIA/3.jpg", "images/projects/UTOPIA/4.jpg", "images/projects/UTOPIA/5.jpg", "images/projects/UTOPIA/\u041D\u043E\u0432\u044B\u0439 \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442.docx", "images/projects/VK DONUTS/1.jpg", "images/projects/VK DONUTS/1.mp4", "images/projects/VK DONUTS/\u041D\u043E\u0432\u044B\u0439 \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442.docx", "images/projects/VOLEN SENTIR/\u041D\u043E\u0432\u044B\u0439 \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442.docx", "images/projects/WEEKEND/1.jpg", "images/projects/WEEKEND/\u041D\u043E\u0432\u044B\u0439 \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442.docx", "images/projects/WELLA, SEBASTIAN, SYSTEM 2021/\u041A\u043E\u043F\u0438\u044F wella december0525.jpg", "images/projects/WELLA, SEBASTIAN, SYSTEM 2021/\u041A\u043E\u043F\u0438\u044F wella december0592.jpg", "images/projects/WELLA, SEBASTIAN, SYSTEM 2021/\u041A\u043E\u043F\u0438\u044F wella december0626.jpg", "images/projects/WELLA, SEBASTIAN, SYSTEM 2021/\u041A\u043E\u043F\u0438\u044F wella december0648.jpg", "images/projects/WELLA, SEBASTIAN, SYSTEM 2021/\u041A\u043E\u043F\u0438\u044F wella december0798.jpg", "images/projects/WELLA, SEBASTIAN, SYSTEM 2021/\u041D\u043E\u0432\u044B\u0439 \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442.docx", "images/projects/WHAT ABOUT US/\u041A\u043E\u043F\u0438\u044F W_A_U_ 001.jpg", "images/projects/WHAT ABOUT US/\u041A\u043E\u043F\u0438\u044F W_A_U_ 002.jpg", "images/projects/WHAT ABOUT US/\u041A\u043E\u043F\u0438\u044F W_A_U_ 004.jpg", "images/projects/WHAT ABOUT US/\u041A\u043E\u043F\u0438\u044F W_A_U_ 005.jpg", "images/projects/WHAT ABOUT US/\u041A\u043E\u043F\u0438\u044F W_A_U_ 008.jpg", "images/projects/WHAT ABOUT US/\u041A\u043E\u043F\u0438\u044F W_A_U_ 009.jpg", "images/projects/WHAT ABOUT US/\u041A\u043E\u043F\u0438\u044F W_A_U_ 010.jpg", "images/projects/WHAT ABOUT US/\u041D\u043E\u0432\u044B\u0439 \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442.docx", "images/projects/WHO I AM/WHOIAM 002.JPG", "images/projects/WHO I AM/WHOIAM 007.JPG", "images/projects/WHO I AM/WHOIAM 008.JPG", "images/projects/WHO I AM/WHOIAM 016.JPG", "images/projects/WHO I AM/WHOIAM 019.JPG", "images/projects/WHO I AM/WHOIAM 020.JPG", "images/projects/WHO I AM/WHOIAM 021.JPG", "images/projects/WHO I AM/WHOIAM 029.JPG", "images/projects/WHO I AM/WHOIAM 032.JPG", "images/projects/WHO I AM/WHOIAM 033.JPG", "images/projects/WHO I AM/\u041D\u043E\u0432\u044B\u0439 \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442.docx", "images/projects/YANDEX/\u041D\u043E\u0432\u044B\u0439 \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442.docx", "images/projects/YANDEX MONEY/\u041D\u043E\u0432\u044B\u0439 \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442 (1).docx", "images/projects/YOU DRIVE/1.jpg", "images/projects/YOU DRIVE/\u041D\u043E\u0432\u044B\u0439 \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442 (1).docx", "images/projects/ZVETANASVENTANA/1.jpg", "images/projects/ZVETANASVENTANA/\u041D\u043E\u0432\u044B\u0439 \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442.docx", "images/rewards/reward1.png", "images/team/guseva.jpg", "images/teamProjects/a101/a101.jpg", "images/teamProjects/a101/a101.mp4", "images/teamProjects/alone/1.jpg", "images/teamProjects/alone/2.jpg", "images/teamProjects/alone/3.jpg", "images/teamProjects/boneless/1.jpg", "images/teamProjects/boneless/2.jpg", "images/teamProjects/bother/1.jpg", "images/teamProjects/chiki/1.jpg", "images/teamProjects/flowers/1.jpg", "images/teamProjects/gertrude/1.jpg", "images/teamProjects/kaltblut/1.jpg", "images/teamProjects/kaltblut/2.jpg", "images/teamProjects/krivorotov1/1.jpg", "images/teamProjects/krivorotov2/1.mp4", "images/teamProjects/krivorotov2/1.png", "images/teamProjects/krivorotov3/1.jpg", "images/teamProjects/krivorotov3/1.mp4", "images/teamProjects/lachambre/1.jpg", "images/teamProjects/lachambre/2.jpg", "images/teamProjects/notalice/1.jpg", "images/teamProjects/oriflame/1.jpg", "images/teamProjects/oriflame/1.mp4", "images/teamProjects/phd/phd1.jpg", "images/teamProjects/phd/phd2.jpg", "images/teamProjects/phd/phd3.jpg", "images/teamProjects/schiap/1.jpg", "images/teamProjects/schiap/2.jpg", "images/teamProjects/schiap/3.jpg", "images/teamProjects/stacy/1.jpg", "images/teamProjects/stacy/1.mp4", "images/teamProjects/trapeze/1.jpg", "images/teamProjects/trapeze/2.jpg", "images/teamProjects/trapeze/3.jpg", "images/teamProjects/ttswtrs/1.jpg", "images/teamProjects/ttswtrs/2.jpg", "images/teamProjects/vogue/1.jpeg", "images/teamProjects/vogue/2.jpg", "images/teamProjects/vogue/3.jpg", "images/teamProjects/whoiam/1.jpg", "images/teamProjects/whoiam/2.jpg", "images/teamProjects/whoiam/3.jpg", "images/teamProjects/youdrive/1.jpg", "images/teamProjects/youdrive/1.mp4", "images/teamProjects/zventa/1.jpg"]),
+  assets: new Set(["favicon.png", "images/arrow-left.svg", "images/arrow.svg", "images/companies/1.png", "images/companies/10.png", "images/companies/11.png", "images/companies/12.png", "images/companies/13.png", "images/companies/14.png", "images/companies/15.png", "images/companies/16.png", "images/companies/17.png", "images/companies/18.png", "images/companies/19.png", "images/companies/2.png", "images/companies/20.png", "images/companies/21.png", "images/companies/22.png", "images/companies/23.svg", "images/companies/24.png", "images/companies/25.png", "images/companies/26.png", "images/companies/27.png", "images/companies/28.png", "images/companies/29.png", "images/companies/3.png", "images/companies/30.png", "images/companies/31.png", "images/companies/32.png", "images/companies/33.png", "images/companies/34.png", "images/companies/35.png", "images/companies/36.png", "images/companies/37.png", "images/companies/38.png", "images/companies/39.png", "images/companies/4.png", "images/companies/40.png", "images/companies/41.png", "images/companies/42.png", "images/companies/43.png", "images/companies/44.png", "images/companies/45.png", "images/companies/46.svg", "images/companies/47.png", "images/companies/48.png", "images/companies/49.png", "images/companies/5.webp", "images/companies/50.png", "images/companies/51.png", "images/companies/52.png", "images/companies/53.png", "images/companies/54.jpg", "images/companies/55.png", "images/companies/56.png", "images/companies/57.png", "images/companies/58.png", "images/companies/59.png", "images/companies/6.png", "images/companies/60.png", "images/companies/61.png", "images/companies/62.png", "images/companies/63.png", "images/companies/64.png", "images/companies/7.jpeg", "images/companies/8.png", "images/companies/9.png", "images/index/1.jpg", "images/index/1.webm", "images/index/1Mobile.jpg", "images/index/2.1.jpg", "images/index/2.2.jpg", "images/index/3.jpg", "images/index/3.webm", "images/index/4.jpg", "images/index/5.jpg", "images/index/5.webm", "images/index/5Moblie.jpg", "images/index/6.jpg", "images/logo/goos.svg", "images/logo/goos_white.svg", "images/logo/kom.svg", "images/logo/kom_white.svg", "images/media/1.png", "images/media/10.png", "images/media/11.png", "images/media/12.png", "images/media/13.png", "images/media/14.png", "images/media/15.png", "images/media/16.jpeg", "images/media/17.png", "images/media/18.png", "images/media/19.png", "images/media/2.png", "images/media/20.png", "images/media/21.png", "images/media/3.png", "images/media/4.png", "images/media/5.png", "images/media/6.png", "images/media/7.png", "images/media/8.png", "images/media/9.png", "images/projects/.DS_Store", "images/projects/1XBET/1.jpg", "images/projects/1XBET/1.mp4", "images/projects/1XBET/1xBET.docx", "images/projects/A101/1.jpg", "images/projects/A101/\u041D\u043E\u0432\u044B\u0438\u0306 \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442.docx", "images/projects/ADRENALINE/1.jpg", "images/projects/ADRENALINE/\u041D\u043E\u0432\u044B\u0438\u0306 \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442 (1).docx", "images/projects/ALONE/\u041A\u043E\u043F\u0438\u044F 10.jpg", "images/projects/ALONE/\u041A\u043E\u043F\u0438\u044F 12.jpg", "images/projects/ALONE/\u041A\u043E\u043F\u0438\u044F 24.jpg", "images/projects/ALONE/\u041A\u043E\u043F\u0438\u044F 25.jpg", "images/projects/ALONE/\u041A\u043E\u043F\u0438\u044F 27.jpg", "images/projects/ALONE/\u041A\u043E\u043F\u0438\u044F 4.jpg", "images/projects/ALONE/\u041A\u043E\u043F\u0438\u044F 5.jpg", "images/projects/ALONE/\u041A\u043E\u043F\u0438\u044F 6.jpg", "images/projects/ALONE/\u041D\u043E\u0432\u044B\u0438\u0306 \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442.docx", "images/projects/ALPEN GOLD/1.jpg", "images/projects/ALPEN GOLD/1.mp4", "images/projects/ALPEN GOLD/\u041D\u043E\u0432\u044B\u0438\u0306 \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442.docx", "images/projects/AUROUS/1.jpg", "images/projects/AUROUS/\u041D\u043E\u0432\u044B\u0438\u0306 \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442.docx", "images/projects/AUSHAN/1.jpg", "images/projects/AVIAPARK/1.jpg", "images/projects/AVIAPARK/\u041D\u043E\u0432\u044B\u0438\u0306 \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442.docx", "images/projects/AVON 19 NY KIDS/\u041A\u043E\u043F\u0438\u044F AVON_NY_II_0801.jpg", "images/projects/AVON 19 NY KIDS/\u041A\u043E\u043F\u0438\u044F AVON_NY_II_1521.jpg", "images/projects/AVON 19 NY KIDS/\u041A\u043E\u043F\u0438\u044F AVON_NY_I_00711.jpg", "images/projects/AVON 19 NY KIDS/\u041A\u043E\u043F\u0438\u044F EmptyName 34.jpg", "images/projects/AVON 19 NY KIDS/\u041D\u043E\u0432\u044B\u0438\u0306 \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442.docx", "images/projects/AVON 19 NY KIDS/\u041F\u0420\u0415\u0412\u042C\u042E/\u041A\u043E\u043F\u0438\u044F \u041A\u043E\u043F\u0438\u044F AVON_NY_II_0801.jpg", "images/projects/AVON 19 NY KIDS/\u041F\u0420\u0415\u0412\u042C\u042E/\u041A\u043E\u043F\u0438\u044F \u041A\u043E\u043F\u0438\u044F AVON_NY_II_1521.jpg", "images/projects/AVON NEW YEAR/\u041A\u043E\u043F\u0438\u044F IMG_6163.JPG", "images/projects/AVON NEW YEAR/\u041A\u043E\u043F\u0438\u044F IMG_6164.JPG", "images/projects/AVON NEW YEAR/\u041A\u043E\u043F\u0438\u044F IMG_6165.JPG", "images/projects/AVON NEW YEAR/\u041A\u043E\u043F\u0438\u044F IMG_6166.JPG", "images/projects/AVON NEW YEAR/\u041A\u043E\u043F\u0438\u044F IMG_6219.JPG", "images/projects/AVON NEW YEAR/\u041D\u043E\u0432\u044B\u0438\u0306 \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442.docx", "images/projects/AVON NEW YEAR/\u041F\u0420\u0415\u0412\u042C\u042E/\u041A\u043E\u043F\u0438\u044F \u041A\u043E\u043F\u0438\u044F IMG_6166.JPG", "images/projects/AVON SALE ZONE 19/main.png", "images/projects/AVON SALE ZONE 19/\u041A\u043E\u043F\u0438\u044F IMG_69409.jpg", "images/projects/AVON SALE ZONE 19/\u041A\u043E\u043F\u0438\u044F IMG_69694_2.jpg", "images/projects/AVON SALE ZONE 19/\u041A\u043E\u043F\u0438\u044F IMG_69943.jpg", "images/projects/AVON SALE ZONE 19/\u041A\u043E\u043F\u0438\u044F IMG_70937_3.jpg", "images/projects/AVON SALE ZONE 19/\u041D\u043E\u0432\u044B\u0438\u0306 \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442.docx", "images/projects/AVON SALE ZONE 19/\u041F\u0420\u0415\u0412\u042C\u042E/\u041A\u043E\u043F\u0438\u044F \u041A\u043E\u043F\u0438\u044F IMG_69409.jpg", "images/projects/AVON SALE ZONE 19/\u041F\u0420\u0415\u0412\u042C\u042E/\u041A\u043E\u043F\u0438\u044F \u041A\u043E\u043F\u0438\u044F IMG_69694_2.jpg", "images/projects/BAIKAL/1.jpg", "images/projects/BAIKAL/\u041D\u043E\u0432\u044B\u0438\u0306 \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442.docx", "images/projects/BAIKAL1/1.jpg", "images/projects/BAIKAL1/2.jpg", "images/projects/BAIKAL1/3.jpg", "images/projects/BAIKAL1/4.jpg", "images/projects/BAIKAL1/5.jpg", "images/projects/BAIKAL1/main.png", "images/projects/BELKA CAR/1.jpg", "images/projects/BELKA CAR/\u041D\u043E\u0432\u044B\u0438\u0306 \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442.docx", "images/projects/BELKA CAR2/\u041A\u043E\u043F\u0438\u044F 50218023_10156205866328790_8914228640305119232_o.jpg", "images/projects/BELKA CAR2/\u041A\u043E\u043F\u0438\u044F 50324133_10156205866463790_5012258050254307328_o.jpg", "images/projects/BELKA CAR2/\u041D\u043E\u0432\u044B\u0438\u0306 \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442.docx", "images/projects/BLINDING AND KULTBLUT/ 1.jpg", "images/projects/BLINDING AND KULTBLUT/ 2.jpg", "images/projects/BLINDING AND KULTBLUT/ 3.jpg", "images/projects/BLINDING AND KULTBLUT/ 4.jpg", "images/projects/BLINDING AND KULTBLUT/ 5.jpg", "images/projects/BLINDING AND KULTBLUT/ 6.jpg", "images/projects/BLINDING AND KULTBLUT/ 7.jpg", "images/projects/BLINDING AND KULTBLUT/ 8.jpg", "images/projects/BLINDING AND KULTBLUT/ 9.jpg", "images/projects/BLINDING AND KULTBLUT/main.png", "images/projects/BLINDING AND KULTBLUT/\u041D\u043E\u0432\u044B\u0438\u0306 \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442.docx", "images/projects/BONELESS VLADIMIR VARNAV/\u041A\u043E\u043F\u0438\u044F 18.11.27-dance-color11237.jpg", "images/projects/BONELESS VLADIMIR VARNAV/\u041A\u043E\u043F\u0438\u044F 18.11.27-dance-color11337.jpg", "images/projects/BONELESS VLADIMIR VARNAV/\u041A\u043E\u043F\u0438\u044F 18.11.27-dance-color11397.jpg", "images/projects/BONELESS VLADIMIR VARNAV/\u041A\u043E\u043F\u0438\u044F 18.11.27-dance-color11402.jpg", "images/projects/BONELESS VLADIMIR VARNAV/\u041A\u043E\u043F\u0438\u044F 18.11.27-dance-color11457.jpg", "images/projects/BONELESS VLADIMIR VARNAV/\u041A\u043E\u043F\u0438\u044F 18.11.27-dance-color11546.jpg", "images/projects/BONELESS VLADIMIR VARNAV/\u041A\u043E\u043F\u0438\u044F 18.11.27-dance-color11603.jpg", "images/projects/BONELESS VLADIMIR VARNAV/\u041A\u043E\u043F\u0438\u044F 18.11.27-dance-color11655.jpg", "images/projects/BONELESS VLADIMIR VARNAV/\u041A\u043E\u043F\u0438\u044F 18.11.27-dance-color11738.jpg", "images/projects/BONELESS VLADIMIR VARNAV/\u041D\u043E\u0432\u044B\u0438\u0306 \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442.docx", "images/projects/BOTHER/1.jpg", "images/projects/CDM/1.jpg", "images/projects/CDM/1.mp4", "images/projects/CDM/\u041D\u043E\u0432\u044B\u0438\u0306 \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442 (1).docx", "images/projects/CITY MOBILE/1.jpg", "images/projects/CITY MOBILE/\u041D\u043E\u0432\u044B\u0438\u0306 \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442 (1).docx", "images/projects/Chiki/1.jpeg", "images/projects/DAVAI BROSAT/1.jpg", "images/projects/DAVAI BROSAT/\u041D\u043E\u0432\u044B\u0438\u0306 \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442.docx", "images/projects/DELOBANK/1.jpg", "images/projects/DELOBANK/\u041D\u043E\u0432\u044B\u0438\u0306 \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442.docx", "images/projects/DIRECTOR/1.jpg", "images/projects/DIRECTOR/\u041D\u043E\u0432\u044B\u0438\u0306 \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442 (1).docx", "images/projects/DIRECTORS MERKULOVY/\u041A\u043E\u043F\u0438\u044F 0018.jpg", "images/projects/DIRECTORS MERKULOVY/\u041A\u043E\u043F\u0438\u044F 0022.jpg", "images/projects/DIRECTORS MERKULOVY/\u041D\u043E\u0432\u044B\u0438\u0306 \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442.docx", "images/projects/DOKUCHAEVA/main.png", "images/projects/DOKUCHAEVA/\u041A\u043E\u043F\u0438\u044F Dokuchaeva_200910_10555 copy.jpg", "images/projects/DOKUCHAEVA/\u041A\u043E\u043F\u0438\u044F Dokuchaeva_200910_11012 copy.jpg", "images/projects/DOKUCHAEVA/\u041A\u043E\u043F\u0438\u044F Dokuchaeva_200910_11145 copy.jpg", "images/projects/DOKUCHAEVA/\u041A\u043E\u043F\u0438\u044F Dokuchaeva_200910_11360 copy.jpg", "images/projects/DOKUCHAEVA/\u041A\u043E\u043F\u0438\u044F Dokuchaeva_200910_11411 copy.jpg", "images/projects/DOKUCHAEVA/\u041A\u043E\u043F\u0438\u044F Dokuchaeva_200910_11724 copy(1).jpg", "images/projects/DOKUCHAEVA/\u041A\u043E\u043F\u0438\u044F Dokuchaeva_200910_11724 copy.jpg", "images/projects/DOKUCHAEVA/\u041A\u043E\u043F\u0438\u044F Dokuchaeva_200910_11839 copy.jpg", "images/projects/DOKUCHAEVA/\u041D\u043E\u0432\u044B\u0438\u0306 \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442.docx", "images/projects/DR KRIVOROTOV 2.0/\u041A\u043E\u043F\u0438\u044F BD4A9775.jpg", "images/projects/DR KRIVOROTOV 2.0/\u041A\u043E\u043F\u0438\u044F \u041A\u043E\u043F\u0438\u044F BD4A9354.jpg", "images/projects/DR KRIVOROTOV 2.0/\u041A\u043E\u043F\u0438\u044F \u041A\u043E\u043F\u0438\u044F BD4A9552.jpg", "images/projects/DR KRIVOROTOV 2.0/\u041A\u043E\u043F\u0438\u044F \u041A\u043E\u043F\u0438\u044F BD4A9861.jpg", "images/projects/DR KRIVOROTOV 2.0/\u041A\u043E\u043F\u0438\u044F \u041A\u043E\u043F\u0438\u044F BD4A9915.jpg", "images/projects/DR KRIVOROTOV 2.0/\u041A\u043E\u043F\u0438\u044F \u041A\u043E\u043F\u0438\u044F BD4A9954.jpg", "images/projects/DR KRIVOROTOV 2.0/\u041D\u043E\u0432\u044B\u0438\u0306 \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442.docx", "images/projects/DR KRIVOROTOV 2.0/\u041F\u0420\u0415\u0412\u042C\u042E/\u041A\u043E\u043F\u0438\u044F \u041A\u043E\u043F\u0438\u044F \u041A\u043E\u043F\u0438\u044F BD4A9354.jpg", "images/projects/EGOR KRID/1.jpg", "images/projects/EGOR KRID/\u041D\u043E\u0432\u044B\u0438\u0306 \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442.docx", "images/projects/EVOLUTION 2.0/\u041A\u043E\u043F\u0438\u044F DSC00010-\u0432\u043E\u0441\u0441\u0442\u0430\u043D\u043E\u0432\u043B\u0435\u043D\u043E.jpg", "images/projects/EVOLUTION 2.0/\u041A\u043E\u043F\u0438\u044F DSC00048.jpg", "images/projects/EVOLUTION 2.0/\u041A\u043E\u043F\u0438\u044F DSC00153_1.jpg", "images/projects/EVOLUTION 2.0/\u041A\u043E\u043F\u0438\u044F DSC00186.jpg", "images/projects/EVOLUTION 2.0/\u041A\u043E\u043F\u0438\u044F DSC00228-\u0432\u043E\u0441\u0441\u0442\u0430\u043D\u043E\u0432\u043B\u0435\u043D\u043E-\u0432\u043E\u0441\u0441\u0442\u0430\u043D\u043E\u0432\u043B\u0435\u043D\u043E.jpg", "images/projects/EVOLUTION 2.0/\u041A\u043E\u043F\u0438\u044F DSC00326.jpg", "images/projects/EVOLUTION 2.0/\u041A\u043E\u043F\u0438\u044F DSC00375_2 copy.jpg", "images/projects/EVOLUTION 2.0/\u041A\u043E\u043F\u0438\u044F DSC00500.jpg", "images/projects/EVOLUTION 2.0/\u041A\u043E\u043F\u0438\u044F DSC09506.jpg", "images/projects/EVOLUTION 2.0/\u041A\u043E\u043F\u0438\u044F DSC09635.jpg", "images/projects/EVOLUTION 2.0/\u041A\u043E\u043F\u0438\u044F DSC09745.jpg", "images/projects/EVOLUTION 2.0/\u041A\u043E\u043F\u0438\u044F DSC09865 copy.jpg", "images/projects/EVOLUTION 2.0/\u041A\u043E\u043F\u0438\u044F DSC09940.jpg", "images/projects/EVOLUTION 2.0/\u041A\u043E\u043F\u0438\u044F DSC09968.jpg", "images/projects/EVOLUTION 2.0/\u041D\u043E\u0432\u044B\u0438\u0306 \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442.docx", "images/projects/EmpireV/1.jpg", "images/projects/FAKBYFAK/\u041A\u043E\u043F\u0438\u044F 000091220034.jpg", "images/projects/FAKBYFAK/\u041A\u043E\u043F\u0438\u044F AA007.jpg", "images/projects/FAKBYFAK/\u041A\u043E\u043F\u0438\u044F fakbyfak3660.jpg", "images/projects/FAKBYFAK/\u041A\u043E\u043F\u0438\u044F fakbyfak3682.jpg", "images/projects/FAKBYFAK/\u041A\u043E\u043F\u0438\u044F fakbyfak3700.jpg", "images/projects/FAKBYFAK/\u041D\u043E\u0432\u044B\u0438\u0306 \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442.docx", "images/projects/FLOWERS AND SHADOWS/\u041A\u043E\u043F\u0438\u044F 0R2A0402_done_1.jpg", "images/projects/FLOWERS AND SHADOWS/\u041A\u043E\u043F\u0438\u044F 0R2A0567_done_1.jpg", "images/projects/FLOWERS AND SHADOWS/\u041A\u043E\u043F\u0438\u044F 0R2A0568_done1_1.jpg", "images/projects/FLOWERS AND SHADOWS/\u041A\u043E\u043F\u0438\u044F 0R2A0730_done.jpg", "images/projects/FLOWERS AND SHADOWS/\u041A\u043E\u043F\u0438\u044F 0R2A0850_done.jpg", "images/projects/FLOWERS AND SHADOWS/\u041A\u043E\u043F\u0438\u044F 0R2A1072_done.jpg", "images/projects/FLOWERS AND SHADOWS/\u041A\u043E\u043F\u0438\u044F 0R2A1341_1_done.jpg", "images/projects/FLOWERS AND SHADOWS/\u041A\u043E\u043F\u0438\u044F 0R2A1399_done.jpg", "images/projects/FLOWERS AND SHADOWS/\u041A\u043E\u043F\u0438\u044F 0R2A1564_done.jpg", "images/projects/FLOWERS AND SHADOWS/\u041A\u043E\u043F\u0438\u044F 0R2A1713_done.jpg", "images/projects/FLOWERS AND SHADOWS/\u041D\u043E\u0432\u044B\u0438\u0306 \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442.docx", "images/projects/GERTRUDE_KALTBLUT/\u041A\u043E\u043F\u0438\u044F 8.jpg", "images/projects/GERTRUDE_KALTBLUT/\u041A\u043E\u043F\u0438\u044F IMG_5800.JPG", "images/projects/GERTRUDE_KALTBLUT/\u041A\u043E\u043F\u0438\u044F IMG_5801.JPG", "images/projects/GERTRUDE_KALTBLUT/\u041A\u043E\u043F\u0438\u044F IMG_5802.JPG", "images/projects/GERTRUDE_KALTBLUT/\u041A\u043E\u043F\u0438\u044F IMG_5803.JPG", "images/projects/GERTRUDE_KALTBLUT/\u041A\u043E\u043F\u0438\u044F IMG_5804.JPG", "images/projects/GERTRUDE_KALTBLUT/\u041A\u043E\u043F\u0438\u044F IMG_5805.JPG", "images/projects/GERTRUDE_KALTBLUT/\u041A\u043E\u043F\u0438\u044F IMG_5806.JPG", "images/projects/GERTRUDE_KALTBLUT/\u041A\u043E\u043F\u0438\u044F IMG_5807.JPG", "images/projects/GERTRUDE_KALTBLUT/\u041D\u043E\u0432\u044B\u0438\u0306 \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442.docx", "images/projects/GLAMOUR AND GLUKOZA/1.jpg", "images/projects/GLAMOUR AND GLUKOZA/\u041D\u043E\u0432\u044B\u0438\u0306 \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442 (1).docx", "images/projects/GOGEN/\u041A\u043E\u043F\u0438\u044F 02.jpg", "images/projects/GOGEN/\u041A\u043E\u043F\u0438\u044F 03.jpg", "images/projects/GOGEN/\u041A\u043E\u043F\u0438\u044F 06.jpg", "images/projects/GOGEN/\u041A\u043E\u043F\u0438\u044F 07.jpg", "images/projects/GOGEN/\u041D\u043E\u0432\u044B\u0438\u0306 \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442.docx", "images/projects/GRAND/1.jpg", "images/projects/GRAND/\u041D\u043E\u0432\u044B\u0438\u0306 \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442.docx", "images/projects/HASKY LOOKBOOK/main.png", "images/projects/HASKY LOOKBOOK/\u041A\u043E\u043F\u0438\u044F Capture One Catalog1540.jpg", "images/projects/HASKY LOOKBOOK/\u041A\u043E\u043F\u0438\u044F Capture One Catalog2344 1.jpg", "images/projects/HASKY LOOKBOOK/\u041A\u043E\u043F\u0438\u044F Capture One Catalog2595.jpg", "images/projects/HASKY LOOKBOOK/\u041A\u043E\u043F\u0438\u044F Capture One Catalog2621.jpg", "images/projects/HASKY LOOKBOOK/\u041A\u043E\u043F\u0438\u044F Capture One Catalog2655.jpg", "images/projects/HASKY LOOKBOOK/\u041A\u043E\u043F\u0438\u044F Capture One Catalog2670 1.jpg", "images/projects/HASKY LOOKBOOK/\u041D\u043E\u0432\u044B\u0438\u0306 \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442.docx", "images/projects/HOLOSTIAK/1.jpg", "images/projects/HOLOSTIAK/2.jpg", "images/projects/HOLOSTIAK/3.jpg", "images/projects/HOLOSTIAK/4.jpg", "images/projects/HOLOSTIAK/5.jpg", "images/projects/HOLOSTIAK/\u041D\u043E\u0432\u044B\u0438\u0306 \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442.docx", "images/projects/HOLOSTIAK/\u041F\u0420\u0415\u0412\u042C\u042E/\u041A\u043E\u043F\u0438\u044F \u041A\u043E\u043F\u0438\u044F d4394489085388a02b800188bfeb6026.jpg", "images/projects/HUF AHD HUF/\u041A\u043E\u043F\u0438\u044F HH-\u043F\u043E\u0441\u0443\u0434\u043A\u0430-7-\u043E\u043A\u0442-183708-1.jpg", "images/projects/HUF AHD HUF/\u041A\u043E\u043F\u0438\u044F HH-\u043F\u043E\u0441\u0443\u0434\u043A\u0430-7-\u043E\u043A\u0442-183763-1.jpg", "images/projects/HUF AHD HUF/\u041A\u043E\u043F\u0438\u044F HH-\u043F\u043E\u0441\u0443\u0434\u043A\u0430-7-\u043E\u043A\u0442-183856-1.jpg", "images/projects/HUF AHD HUF/\u041A\u043E\u043F\u0438\u044F HH-\u043F\u043E\u0441\u0443\u0434\u043A\u0430-7-\u043E\u043A\u0442-183948-1.jpg", "images/projects/HUF AHD HUF/\u041A\u043E\u043F\u0438\u044F HH-\u043F\u043E\u0441\u0443\u0434\u043A\u0430-7-\u043E\u043A\u0442-183970-1.jpg", "images/projects/HUF AHD HUF/\u041A\u043E\u043F\u0438\u044F HH-\u043F\u0440\u043E\u0434\u043E\u043B\u0436\u0435\u043D\u0438\u0435-_0045-1.jpg", "images/projects/HUF AHD HUF/\u041A\u043E\u043F\u0438\u044F HH-\u043F\u0440\u043E\u0434\u043E\u043B\u0436\u0435\u043D\u0438\u0435-_0089-1.jpg", "images/projects/HUF AHD HUF/\u041A\u043E\u043F\u0438\u044F HH-\u043F\u0440\u043E\u0434\u043E\u043B\u0436\u0435\u043D\u0438\u0435-_0150-1.jpg", "images/projects/KRASSNA/1.jpg", "images/projects/KRASSNA/\u041D\u043E\u0432\u044B\u0438\u0306 \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442.docx", "images/projects/LA CHAMBRE VERTE/\u041A\u043E\u043F\u0438\u044F \u041A\u043E\u043F\u0438\u044F fuji400 001.jpg", "images/projects/LA CHAMBRE VERTE/\u041A\u043E\u043F\u0438\u044F \u041A\u043E\u043F\u0438\u044F fuji400 002.jpg", "images/projects/LA CHAMBRE VERTE/\u041A\u043E\u043F\u0438\u044F \u041A\u043E\u043F\u0438\u044F fuji400 016.jpg", "images/projects/LA CHAMBRE VERTE/\u041A\u043E\u043F\u0438\u044F \u041A\u043E\u043F\u0438\u044F fuji400 018.jpg", "images/projects/LA CHAMBRE VERTE/\u041A\u043E\u043F\u0438\u044F \u041A\u043E\u043F\u0438\u044F fuji400 021.jpg", "images/projects/LA CHAMBRE VERTE/\u041A\u043E\u043F\u0438\u044F \u041A\u043E\u043F\u0438\u044F fuji400 022.jpg", "images/projects/LA CHAMBRE VERTE/\u041A\u043E\u043F\u0438\u044F \u041A\u043E\u043F\u0438\u044F fuji400 029.jpg", "images/projects/LA CHAMBRE VERTE/\u041A\u043E\u043F\u0438\u044F \u041A\u043E\u043F\u0438\u044F fuji400 035.jpg", "images/projects/LA CHAMBRE VERTE/\u041A\u043E\u043F\u0438\u044F \u041A\u043E\u043F\u0438\u044F fuji400 039.jpg", "images/projects/LA CHAMBRE VERTE/\u041A\u043E\u043F\u0438\u044F \u041A\u043E\u043F\u0438\u044F fuji400 041.jpg", "images/projects/LA CHAMBRE VERTE/\u041D\u043E\u0432\u044B\u0438\u0306 \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442.docx", "images/projects/LENTA/1.jpg", "images/projects/LENTA/\u041D\u043E\u0432\u044B\u0438\u0306 \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442 (1).docx", "images/projects/LONE/1.jpg", "images/projects/MANIQU.RU/1.JPG", "images/projects/MANIQU.RU/2.JPG", "images/projects/MANO/\u041A\u043E\u043F\u0438\u044F mano 002_d_web.jpg", "images/projects/MANO/\u041A\u043E\u043F\u0438\u044F mano 010_d_web.jpg", "images/projects/MANO/\u041A\u043E\u043F\u0438\u044F mano 012_d_web.jpg", "images/projects/MANO/\u041A\u043E\u043F\u0438\u044F mano 013_d_web.jpg", "images/projects/MANO/\u041A\u043E\u043F\u0438\u044F mano 016_d_web.jpg", "images/projects/MBA/1.jpg", "images/projects/MBA/\u041D\u043E\u0432\u044B\u0438\u0306 \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442 (1).docx", "images/projects/MEGA/1.jpg", "images/projects/MEGA/\u041D\u043E\u0432\u044B\u0438\u0306 \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442.docx", "images/projects/MEGAELKA/1.jpg", "images/projects/MEGAELKA/1.mp4", "images/projects/MEGAELKA/\u041D\u043E\u0432\u044B\u0438\u0306 \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442.docx", "images/projects/MEGAFON/1.jpg", "images/projects/MEGAFON/\u041D\u043E\u0432\u044B\u0438\u0306 \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442 (1).docx", "images/projects/MELLER/1.jpg", "images/projects/MELLER/\u041D\u043E\u0432\u044B\u0438\u0306 \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442.docx", "images/projects/MONAMI/1.jpg", "images/projects/MONAMI/\u041D\u043E\u0432\u044B\u0438\u0306 \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442.docx", "images/projects/MTS SAMSUNG/1.jpg", "images/projects/MTS SAMSUNG/\u041D\u043E\u0432\u044B\u0438\u0306 \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442.docx", "images/projects/PERFUME FOR PROJECT 314/1.jpg", "images/projects/PERFUME FOR PROJECT 314/2.jpg", "images/projects/PERFUME FOR PROJECT 314/3.jpg", "images/projects/PERFUME FOR PROJECT 314/4.jpg", "images/projects/PHD/\u041A\u043E\u043F\u0438\u044F PhD 50007.jpg", "images/projects/PHD/\u041A\u043E\u043F\u0438\u044F PhD 50026.jpg", "images/projects/PHD/\u041A\u043E\u043F\u0438\u044F PhD 70031.jpg", "images/projects/PHD/\u041A\u043E\u043F\u0438\u044F PhD 70033.jpg", "images/projects/PHD/\u041A\u043E\u043F\u0438\u044F PhD 80013.jpg", "images/projects/PHD/\u041A\u043E\u043F\u0438\u044F PhD 80033.jpg", "images/projects/POKERDOM/1.jpg", "images/projects/POKERDOM/\u041D\u043E\u0432\u044B\u0438\u0306 \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442.docx", "images/projects/RBK/1.jpg", "images/projects/RBK/2.jpg", "images/projects/RBK/3.jpg", "images/projects/RBK/4.jpg", "images/projects/RBK/5.jpg", "images/projects/RBK/\u041D\u043E\u0432\u044B\u0438\u0306 \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442.docx", "images/projects/RBK/\u041F\u0420\u0415\u0412\u042C\u042E/\u041A\u043E\u043F\u0438\u044F \u041A\u043E\u043F\u0438\u044F main-img-1.jpg", "images/projects/SAMOLET/1.jpg", "images/projects/SAMOLET/\u041D\u043E\u0432\u044B\u0438\u0306 \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442.docx", "images/projects/SAMSUNG/1.jpg", "images/projects/SAMSUNG/1.mp4", "images/projects/SAMSUNG/\u041D\u043E\u0432\u044B\u0438\u0306 \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442 (1).docx", "images/projects/SBERBANK/1.jpg", "images/projects/SBERBANK/\u041D\u043E\u0432\u044B\u0438\u0306 \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442.docx", "images/projects/SCHIAP_VGXW/\u041A\u043E\u043F\u0438\u044F 2019_11_17_SCHIAP_6185.jpg", "images/projects/SCHIAP_VGXW/\u041A\u043E\u043F\u0438\u044F 2019_11_17_SCHIAP_6402.jpg", "images/projects/SCHIAP_VGXW/\u041A\u043E\u043F\u0438\u044F 2019_11_17_SCHIAP_6412.jpg", "images/projects/SCHIAP_VGXW/\u041A\u043E\u043F\u0438\u044F 2019_11_17_SCHIAP_6620.jpg", "images/projects/SCHIAP_VGXW/\u041A\u043E\u043F\u0438\u044F 2019_11_17_SCHIAP_6751.jpg", "images/projects/SCHIAP_VGXW/\u041A\u043E\u043F\u0438\u044F 2019_11_17_SCHIAP_6825.jpg", "images/projects/SCHIAP_VGXW/\u041A\u043E\u043F\u0438\u044F 2019_11_17_SCHIAP_6888.jpg", "images/projects/SCHIAP_VGXW/\u041A\u043E\u043F\u0438\u044F 2019_11_17_SCHIAP_6981.jpg", "images/projects/SCHIAP_VGXW/\u041A\u043E\u043F\u0438\u044F 2019_11_17_SCHIAP_7090.jpg", "images/projects/SCHIAP_VGXW/\u041D\u043E\u0432\u044B\u0438\u0306 \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442.docx", "images/projects/SEBASTIAM/SYSTEM 2019/1.jpg", "images/projects/SEBASTIAM/SYSTEM 2019/2.jpg", "images/projects/SEBASTIAM/SYSTEM 2019/3.jpg", "images/projects/SEBASTIAM/SYSTEM 2019/4.jpg", "images/projects/SPIN4SPIN/1.jpg", "images/projects/SPIN4SPIN/10.jpg", "images/projects/SPIN4SPIN/11.jpg", "images/projects/SPIN4SPIN/12.jpg", "images/projects/SPIN4SPIN/2.jpg", "images/projects/SPIN4SPIN/3.jpg", "images/projects/SPIN4SPIN/4.jpg", "images/projects/SPIN4SPIN/5.jpg", "images/projects/SPIN4SPIN/6.jpg", "images/projects/SPIN4SPIN/7.jpg", "images/projects/SPIN4SPIN/8.jpg", "images/projects/SPIN4SPIN/9.jpg", "images/projects/SPIN4SPIN/\u041D\u043E\u0432\u044B\u0438\u0306 \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442.docx", "images/projects/SPRING RYAZAN/main.png", "images/projects/SPRING RYAZAN/\u041A\u043E\u043F\u0438\u044F 0053.jpg", "images/projects/SPRING RYAZAN/\u041A\u043E\u043F\u0438\u044F DSC02505.jpg", "images/projects/SPRING RYAZAN/\u041A\u043E\u043F\u0438\u044F DSC02625.jpg", "images/projects/SPRING RYAZAN/\u041D\u043E\u0432\u044B\u0438\u0306 \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442.docx", "images/projects/STACY/1.jpg", "images/projects/STACY/\u041D\u043E\u0432\u044B\u0438\u0306 \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442 (1).docx", "images/projects/THE PROVEN POINT/\u041A\u043E\u043F\u0438\u044F DSC00864.jpg", "images/projects/THE PROVEN POINT/\u041A\u043E\u043F\u0438\u044F DSC00932 copy.jpg", "images/projects/THE PROVEN POINT/\u041A\u043E\u043F\u0438\u044F DSC00959 copy.jpg", "images/projects/THE PROVEN POINT/\u041A\u043E\u043F\u0438\u044F DSC00970 copy.jpg", "images/projects/THE PROVEN POINT/\u041A\u043E\u043F\u0438\u044F DSC01170.jpg", "images/projects/THE PROVEN POINT/\u041A\u043E\u043F\u0438\u044F DSC01264 copy.jpg", "images/projects/THE PROVEN POINT/\u041A\u043E\u043F\u0438\u044F DSC01438 copy.jpg", "images/projects/THE PROVEN POINT/\u041A\u043E\u043F\u0438\u044F DSC01545 copy.jpg", "images/projects/THE PROVEN POINT/\u041D\u043E\u0432\u044B\u0438\u0306 \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442.docx", "images/projects/TRAPEZE OF MALEVICH/1.jpg", "images/projects/TRAPEZE OF MALEVICH/10.jpg", "images/projects/TRAPEZE OF MALEVICH/2.jpg", "images/projects/TRAPEZE OF MALEVICH/3.jpg", "images/projects/TRAPEZE OF MALEVICH/4.jpg", "images/projects/TRAPEZE OF MALEVICH/5.jpg", "images/projects/TRAPEZE OF MALEVICH/6.jpg", "images/projects/TRAPEZE OF MALEVICH/7.jpg", "images/projects/TRAPEZE OF MALEVICH/8.jpg", "images/projects/TRAPEZE OF MALEVICH/9.jpg", "images/projects/TRAPEZE OF MALEVICH/\u041D\u043E\u0432\u044B\u0438\u0306 \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442.docx", "images/projects/TTSWTR/\u041A\u043E\u043F\u0438\u044F FSM_-001.jpg", "images/projects/TTSWTR/\u041A\u043E\u043F\u0438\u044F ttswtrs-001.jpg", "images/projects/TTSWTR/\u041A\u043E\u043F\u0438\u044F ttswtrs-005.jpg", "images/projects/TTSWTR/\u041A\u043E\u043F\u0438\u044F ttswtrs-013.jpg", "images/projects/TTSWTR/\u041A\u043E\u043F\u0438\u044F ttswtrs-015.jpg", "images/projects/TTSWTR/\u041D\u043E\u0432\u044B\u0438\u0306 \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442.docx", "images/projects/UTOPIA/1.jpg", "images/projects/UTOPIA/2.jpg", "images/projects/UTOPIA/3.jpg", "images/projects/UTOPIA/4.jpg", "images/projects/UTOPIA/5.jpg", "images/projects/UTOPIA/\u041D\u043E\u0432\u044B\u0438\u0306 \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442.docx", "images/projects/VK DONUTS/1.jpg", "images/projects/VK DONUTS/1.mp4", "images/projects/VK DONUTS/\u041D\u043E\u0432\u044B\u0438\u0306 \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442.docx", "images/projects/VOLEN SENTIR/1.jpg", "images/projects/VOLEN SENTIR/1.mp4", "images/projects/VOLEN SENTIR/\u041D\u043E\u0432\u044B\u0438\u0306 \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442.docx", "images/projects/WEEKEND/1.jpg", "images/projects/WEEKEND/\u041D\u043E\u0432\u044B\u0438\u0306 \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442.docx", "images/projects/WELLA, SEBASTIAN, SYSTEM 2021/\u041A\u043E\u043F\u0438\u044F wella december0525.jpg", "images/projects/WELLA, SEBASTIAN, SYSTEM 2021/\u041A\u043E\u043F\u0438\u044F wella december0592.jpg", "images/projects/WELLA, SEBASTIAN, SYSTEM 2021/\u041A\u043E\u043F\u0438\u044F wella december0626.jpg", "images/projects/WELLA, SEBASTIAN, SYSTEM 2021/\u041A\u043E\u043F\u0438\u044F wella december0648.jpg", "images/projects/WELLA, SEBASTIAN, SYSTEM 2021/\u041A\u043E\u043F\u0438\u044F wella december0798.jpg", "images/projects/WELLA, SEBASTIAN, SYSTEM 2021/\u041D\u043E\u0432\u044B\u0438\u0306 \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442.docx", "images/projects/WHAT ABOUT US/main.png", "images/projects/WHAT ABOUT US/\u041A\u043E\u043F\u0438\u044F W_A_U_ 001.jpg", "images/projects/WHAT ABOUT US/\u041A\u043E\u043F\u0438\u044F W_A_U_ 002.jpg", "images/projects/WHAT ABOUT US/\u041A\u043E\u043F\u0438\u044F W_A_U_ 004.jpg", "images/projects/WHAT ABOUT US/\u041A\u043E\u043F\u0438\u044F W_A_U_ 005.jpg", "images/projects/WHAT ABOUT US/\u041A\u043E\u043F\u0438\u044F W_A_U_ 008.jpg", "images/projects/WHAT ABOUT US/\u041A\u043E\u043F\u0438\u044F W_A_U_ 009.jpg", "images/projects/WHAT ABOUT US/\u041A\u043E\u043F\u0438\u044F W_A_U_ 010.jpg", "images/projects/WHAT ABOUT US/\u041D\u043E\u0432\u044B\u0438\u0306 \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442.docx", "images/projects/WHO I AM/WHOIAM 002.JPG", "images/projects/WHO I AM/WHOIAM 007.JPG", "images/projects/WHO I AM/WHOIAM 008.JPG", "images/projects/WHO I AM/WHOIAM 016.JPG", "images/projects/WHO I AM/WHOIAM 019.JPG", "images/projects/WHO I AM/WHOIAM 020.JPG", "images/projects/WHO I AM/WHOIAM 021.JPG", "images/projects/WHO I AM/WHOIAM 029.JPG", "images/projects/WHO I AM/WHOIAM 032.JPG", "images/projects/WHO I AM/WHOIAM 033.JPG", "images/projects/WHO I AM/\u041D\u043E\u0432\u044B\u0438\u0306 \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442.docx", "images/projects/YANDEX/1.jpg", "images/projects/YANDEX/1.mp4", "images/projects/YANDEX/\u041D\u043E\u0432\u044B\u0438\u0306 \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442.docx", "images/projects/YANDEX MONEY/1.jpg", "images/projects/YANDEX MONEY/\u041D\u043E\u0432\u044B\u0438\u0306 \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442 (1).docx", "images/projects/YOU DRIVE/1.jpg", "images/projects/YOU DRIVE/\u041D\u043E\u0432\u044B\u0438\u0306 \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442 (1).docx", "images/projects/ZVETANASVENTANA/1.jpg", "images/projects/ZVETANASVENTANA/2.jpg", "images/projects/ZVETANASVENTANA/\u041D\u043E\u0432\u044B\u0438\u0306 \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442.docx", "images/projects/google/1.jpg", "images/projects/manizha/1.jpg", "images/projects/manizha/1.mp4", "images/projects/mujuice/1.jpg", "images/projects/rayon/1.jpg", "images/projects/renessans/1.jpg", "images/projects/sportmaster/1.jpg", "images/rewards/1.png", "images/rewards/10.png", "images/rewards/11.png", "images/rewards/12.png", "images/rewards/13.png", "images/rewards/14.png", "images/rewards/15.png", "images/rewards/16.png", "images/rewards/17.png", "images/rewards/18.png", "images/rewards/19.png", "images/rewards/2.png", "images/rewards/20.png", "images/rewards/21.png", "images/rewards/22.jpg", "images/rewards/23.png", "images/rewards/24.png", "images/rewards/25.png", "images/rewards/26.png", "images/rewards/27.png", "images/rewards/28.png", "images/rewards/29.png", "images/rewards/3.jpg", "images/rewards/30.png", "images/rewards/31.png", "images/rewards/4.png", "images/rewards/5.png", "images/rewards/6.png", "images/rewards/7.png", "images/rewards/8.png", "images/rewards/9.png", "images/team/1.jpg", "images/team/1.jpg.jpg", "images/team/10.jpg", "images/team/10.jpg.jpg", "images/team/11.jpg", "images/team/11.jpg.jpg", "images/team/12.jpg", "images/team/12.jpg.jpg", "images/team/2.jpg", "images/team/2.jpg.jpg", "images/team/3.jpg", "images/team/3.jpg.jpg", "images/team/4.jpg", "images/team/4.jpg.jpg", "images/team/5.jpg", "images/team/5.jpg.jpg", "images/team/6.jpg", "images/team/6.jpg.jpg", "images/team/7.jpg", "images/team/7.jpg.jpg", "images/team/8.jpg", "images/team/8.jpg.jpg", "images/team/9.jpg", "images/team/9.jpg.jpg", "images/team/guseva.jpg", "images/team/guseva.jpg.jpg", "images/teamProjects/18/1.jpeg", "images/teamProjects/18/2.jpeg", "images/teamProjects/18/3.jpeg", "images/teamProjects/18/4.jpeg", "images/teamProjects/18/5.jpeg", "images/teamProjects/2cast/1.jpeg", "images/teamProjects/2cast/1.mp4", "images/teamProjects/LEGACY/1.jpg", "images/teamProjects/LEGACY/LEGACY.MP4", "images/teamProjects/RAAVA/1.jpg", "images/teamProjects/RAAVA/2.jpg", "images/teamProjects/RAAVA/3.jpg", "images/teamProjects/RAAVA/4.jpg", "images/teamProjects/RAAVA/5.jpg", "images/teamProjects/ZHARA1/3.jpeg", "images/teamProjects/ZHARA1/4.jpeg", "images/teamProjects/ZHARA1/5.jpeg", "images/teamProjects/ZHARA2/1.jpeg", "images/teamProjects/ZHARA2/2.jpeg", "images/teamProjects/a101/a101.jpg", "images/teamProjects/a101/a101.mp4", "images/teamProjects/absolut/1.jpg", "images/teamProjects/absolut/1.mp4", "images/teamProjects/adidas/1.jpeg", "images/teamProjects/aesthetics/1.jpeg", "images/teamProjects/aesthetics/2.jpeg", "images/teamProjects/aesthetics/3.jpeg", "images/teamProjects/ahead/1.jpg", "images/teamProjects/ahead/1.mp4", "images/teamProjects/alone/1.jpg", "images/teamProjects/alone/2.jpg", "images/teamProjects/alone/3.jpg", "images/teamProjects/alone2/1.jpeg", "images/teamProjects/alone2/2.jpeg", "images/teamProjects/anya/1.jpeg", "images/teamProjects/anya/2.jpeg", "images/teamProjects/aorus/1.jpeg", "images/teamProjects/aorus/1.mp4", "images/teamProjects/art/1.jpeg", "images/teamProjects/art/10.jpeg", "images/teamProjects/art/2.jpeg", "images/teamProjects/art/3.jpeg", "images/teamProjects/art/4.jpeg", "images/teamProjects/art/5.jpeg", "images/teamProjects/art/6.jpeg", "images/teamProjects/art/7.jpeg", "images/teamProjects/art/8.jpeg", "images/teamProjects/art/9.jpeg", "images/teamProjects/artificial/1.jpeg", "images/teamProjects/artificial/2.jpeg", "images/teamProjects/artificial/3.jpeg", "images/teamProjects/baikal/1.jpeg", "images/teamProjects/baikal/1.mov", "images/teamProjects/baloons/1.jpeg", "images/teamProjects/baloons/2.jpeg", "images/teamProjects/baloons/3.jpeg", "images/teamProjects/blooming/1.jpeg", "images/teamProjects/blooming/2.jpeg", "images/teamProjects/blooming/3.jpeg", "images/teamProjects/boneless/1.jpg", "images/teamProjects/boneless/2.jpg", "images/teamProjects/bother/1.jpg", "images/teamProjects/boys/1.jpeg", "images/teamProjects/butler/1.jpeg", "images/teamProjects/butler/2.jpeg", "images/teamProjects/cash/1.jpg", "images/teamProjects/cash/2.jpg", "images/teamProjects/cash/3.jpg", "images/teamProjects/cash/4.jpg", "images/teamProjects/cash/5.jpg", "images/teamProjects/cash/6.jpg", "images/teamProjects/catsuit/1.jpeg", "images/teamProjects/catsuit/2.jpeg", "images/teamProjects/catsuit/3.jpeg", "images/teamProjects/chiki/1.jpg", "images/teamProjects/chistota/1.jpeg", "images/teamProjects/chistota/2.jpeg", "images/teamProjects/chistota/3.jpeg", "images/teamProjects/chistota/4.jpeg", "images/teamProjects/chistota/5.jpeg", "images/teamProjects/chistota/6.jpeg", "images/teamProjects/chistota/7.jpeg", "images/teamProjects/colors/1.jpeg", "images/teamProjects/colors/2.jpeg", "images/teamProjects/colors/3.jpeg", "images/teamProjects/colors/4.jpeg", "images/teamProjects/colors/5.jpeg", "images/teamProjects/colors/6.jpeg", "images/teamProjects/colors/7.jpeg", "images/teamProjects/connect/1.jpeg", "images/teamProjects/connect/2.jpeg", "images/teamProjects/connect/3.jpeg", "images/teamProjects/connect/4.jpeg", "images/teamProjects/connect/5.jpeg", "images/teamProjects/connect/6.jpeg", "images/teamProjects/cottege/1.jpeg", "images/teamProjects/dancers/1.jpeg", "images/teamProjects/dancers/2.jpeg", "images/teamProjects/dancers/3.jpeg", "images/teamProjects/delobank/1.jpeg", "images/teamProjects/delobank/1.mp4", "images/teamProjects/different/1.jpeg", "images/teamProjects/different/2.jpeg", "images/teamProjects/different/3.jpeg", "images/teamProjects/eldorado/1.jpeg", "images/teamProjects/eldorado/1.mp4", "images/teamProjects/endymion/1.jpeg", "images/teamProjects/fashion/1.jpeg", "images/teamProjects/flowers/1.jpg", "images/teamProjects/forest/1.jpeg", "images/teamProjects/forest/2.jpeg", "images/teamProjects/forest/3.jpeg", "images/teamProjects/forest/4.jpeg", "images/teamProjects/forest/5.jpeg", "images/teamProjects/friday/1.jpg", "images/teamProjects/friday/2.jpg", "images/teamProjects/friday/3.jpg", "images/teamProjects/friday/4.jpg", "images/teamProjects/friday/5.jpg", "images/teamProjects/friday/6.jpg", "images/teamProjects/friday/7.jpg", "images/teamProjects/friday/8.jpg", "images/teamProjects/friday/9.jpg", "images/teamProjects/gertrude/1.jpg", "images/teamProjects/glenlivet/1.MP4", "images/teamProjects/glenlivet/1.jpeg", "images/teamProjects/gressus/1.jpeg", "images/teamProjects/gressus/2.jpeg", "images/teamProjects/gressus/3.jpeg", "images/teamProjects/gressus/4.jpeg", "images/teamProjects/gressus/5.jpeg", "images/teamProjects/guise/1.jpeg", "images/teamProjects/guise/2.jpeg", "images/teamProjects/guise/3.jpeg", "images/teamProjects/halva/1.jpg", "images/teamProjects/halva/1.mp4", "images/teamProjects/hc/1.jpeg", "images/teamProjects/home/1.jpeg", "images/teamProjects/home/1.mp4", "images/teamProjects/hyundai/1.jpg", "images/teamProjects/hyundai/1.mp4", "images/teamProjects/ingrad/1.jpeg", "images/teamProjects/ingrad/1.mp4", "images/teamProjects/kabuki/1.jpeg", "images/teamProjects/kabuki/2.jpeg", "images/teamProjects/kabuki/3.jpeg", "images/teamProjects/kaltblut/1.jpg", "images/teamProjects/kaltblut/2.jpg", "images/teamProjects/karina/1.jpeg", "images/teamProjects/karina/2.jpeg", "images/teamProjects/kate/1.jpeg", "images/teamProjects/kate/2.jpeg", "images/teamProjects/kkoshkina/1.jpeg", "images/teamProjects/kkoshkina/2.jpeg", "images/teamProjects/krassna/1.jpeg", "images/teamProjects/krassna/2.jpeg", "images/teamProjects/krassna/3.jpeg", "images/teamProjects/krivorotov1/1.jpg", "images/teamProjects/krivorotov2/1.mp4", "images/teamProjects/krivorotov2/1.png", "images/teamProjects/krivorotov3/1.jpg", "images/teamProjects/krivorotov3/1.mp4", "images/teamProjects/kvint/1.jpeg", "images/teamProjects/lachambre/1.jpg", "images/teamProjects/lachambre/2.jpg", "images/teamProjects/lenta/1.jpeg", "images/teamProjects/lenta/1.mp4", "images/teamProjects/lost/1.jpeg", "images/teamProjects/lost/2.jpeg", "images/teamProjects/lost/3.jpeg", "images/teamProjects/lost/4.jpeg", "images/teamProjects/maison/1.jpeg", "images/teamProjects/mano/1.jpeg", "images/teamProjects/mano/2.jpeg", "images/teamProjects/mano/3.jpeg", "images/teamProjects/mano/4.jpeg", "images/teamProjects/mariam/1.jpeg", "images/teamProjects/mars/1.jpeg", "images/teamProjects/mars/2.jpeg", "images/teamProjects/meduza/1.jpg", "images/teamProjects/meduza/2.jpg", "images/teamProjects/megafon/1.jpeg", "images/teamProjects/megafon/1.mp4", "images/teamProjects/miumiu/1.jpeg", "images/teamProjects/miumiu/2.jpeg", "images/teamProjects/miumiu/3.jpeg", "images/teamProjects/moremino/1.jpeg", "images/teamProjects/movenpick/1.jpeg", "images/teamProjects/movenpick/1.mp4", "images/teamProjects/nastya/1.jpeg", "images/teamProjects/nastya/2.jpeg", "images/teamProjects/national/1.jpg", "images/teamProjects/national/1.mp4", "images/teamProjects/notalice/1.jpg", "images/teamProjects/nyusha/1.jpg", "images/teamProjects/nyusha/1.mp4", "images/teamProjects/nyx/1.jpeg", "images/teamProjects/nyx/2.jpeg", "images/teamProjects/nyx/3.jpeg", "images/teamProjects/nyx/4.jpeg", "images/teamProjects/oak/1.jpeg", "images/teamProjects/olga/1.jpeg", "images/teamProjects/olga/2.jpeg", "images/teamProjects/olga/3.jpeg", "images/teamProjects/olga/4.jpeg", "images/teamProjects/olga/5.jpeg", "images/teamProjects/olga/6.jpeg", "images/teamProjects/oriflame/1.jpg", "images/teamProjects/oriflame/1.mp4", "images/teamProjects/phd/phd1.jpg", "images/teamProjects/phd/phd2.jpg", "images/teamProjects/phd/phd3.jpg", "images/teamProjects/philip/1.jpeg", "images/teamProjects/philip/2.jpeg", "images/teamProjects/philip/3.jpeg", "images/teamProjects/philip/4.jpeg", "images/teamProjects/promsvyazbank/1.jpeg", "images/teamProjects/promsvyazbank/1.mp4", "images/teamProjects/renaissance/1.jpeg", "images/teamProjects/renaissance/1.mp4", "images/teamProjects/roskosmos/1.jpeg", "images/teamProjects/sabato/1.jpeg", "images/teamProjects/samolet/1.jpeg", "images/teamProjects/samolet/1.mp4", "images/teamProjects/sber/1.jpeg", "images/teamProjects/sber/1.mp4", "images/teamProjects/sbermarketing/1.jpeg", "images/teamProjects/sbermarketing/1.mp4", "images/teamProjects/sberself/1.jpeg", "images/teamProjects/sberself/1.mp4", "images/teamProjects/sberstudents/1.jpeg", "images/teamProjects/sberstudents/1.mp4", "images/teamProjects/schiap/1.jpg", "images/teamProjects/schiap/2.jpg", "images/teamProjects/schiap/3.jpg", "images/teamProjects/she/1.jpeg", "images/teamProjects/she/2.jpeg", "images/teamProjects/shijeco/1.jpeg", "images/teamProjects/shijeco/2.jpeg", "images/teamProjects/sokolova/1.jpeg", "images/teamProjects/sokolova/2.jpg", "images/teamProjects/sorolla/1.jpeg", "images/teamProjects/sorolla/2.jpeg", "images/teamProjects/sorolla/3.jpeg", "images/teamProjects/sportmaster/1.jpeg", "images/teamProjects/stacy/1.jpg", "images/teamProjects/stacy/1.mp4", "images/teamProjects/swatch/1.jpg", "images/teamProjects/swatch/1.mp4", "images/teamProjects/sweet/1.jpeg", "images/teamProjects/sweet/2.jpg", "images/teamProjects/sweet/3.jpg", "images/teamProjects/teeth/1.jpeg", "images/teamProjects/teeth/2.jpeg", "images/teamProjects/teeth/3.jpeg", "images/teamProjects/tests/1.jpeg", "images/teamProjects/tests/2.jpeg", "images/teamProjects/tinavie/1.jpg", "images/teamProjects/tinavie/2.jpg", "images/teamProjects/tinavie/3.jpg", "images/teamProjects/tinavie/4.jpg", "images/teamProjects/tinavie/5.jpg", "images/teamProjects/tinavie/6.jpg", "images/teamProjects/tinavie/7.jpg", "images/teamProjects/tinavie/8.jpg", "images/teamProjects/toyota/1.jpg", "images/teamProjects/toyota2/1.jpeg", "images/teamProjects/toyota2/1.mp4", "images/teamProjects/trapeze/1.jpg", "images/teamProjects/trapeze/2.jpg", "images/teamProjects/trapeze/3.jpg", "images/teamProjects/tsian/1.jpeg", "images/teamProjects/tsian/1.mp4", "images/teamProjects/tsym/1.jpeg", "images/teamProjects/tsym/2.jpeg", "images/teamProjects/ttswtrs/1.jpg", "images/teamProjects/ttswtrs/2.jpg", "images/teamProjects/vk/1.jpeg", "images/teamProjects/vk/1.mp4", "images/teamProjects/vogue/1.jpeg", "images/teamProjects/vogue/2.jpg", "images/teamProjects/vogue/3.jpg", "images/teamProjects/vtb/1.jpeg", "images/teamProjects/vtb/1.mp4", "images/teamProjects/vtbk/1.jpeg", "images/teamProjects/vtbk/1.mp4", "images/teamProjects/vtbt/1.jpeg", "images/teamProjects/vtbt/1.mp4", "images/teamProjects/whoiam/1.jpg", "images/teamProjects/whoiam/2.jpg", "images/teamProjects/whoiam/3.jpg", "images/teamProjects/whotoday/1.jpeg", "images/teamProjects/whotoday/2.jpeg", "images/teamProjects/whotoday/3.jpeg", "images/teamProjects/whotoday/4.jpeg", "images/teamProjects/won/1.jpeg", "images/teamProjects/won/1.mp4", "images/teamProjects/wonderzine/1.jpeg", "images/teamProjects/wonderzine/1.mp4", "images/teamProjects/yana/1.jpeg", "images/teamProjects/youdrive/1.jpg", "images/teamProjects/youdrive/1.mp4", "images/teamProjects/zivert/1.jpeg", "images/teamProjects/zivert/1.mp4", "images/teamProjects/zventa/1.jpg"]),
   _: {
-    mime: { ".png": "image/png", ".svg": "image/svg+xml", ".jpg": "image/jpeg", ".docx": "application/vnd.openxmlformats-officedocument.wordprocessingml.document", ".mp4": "video/mp4", ".JPG": "image/jpeg", ".jpeg": "image/jpeg" },
-    entry: { "file": "start-8e1d7f0f.js", "js": ["start-8e1d7f0f.js", "chunks/vendor-cece5832.js", "chunks/singletons-a42a5e91.js"], "css": ["assets/start-d5b4de3e.css", "assets/vendor-c402c846.css"] },
+    mime: { ".png": "image/png", ".svg": "image/svg+xml", ".webp": "image/webp", ".jpg": "image/jpeg", ".jpeg": "image/jpeg", ".webm": "video/webm", ".mp4": "video/mp4", ".docx": "application/vnd.openxmlformats-officedocument.wordprocessingml.document", ".JPG": "image/jpeg", ".MP4": "video/mp4", ".mov": "video/quicktime" },
+    entry: { "file": "start-802672dd.js", "js": ["start-802672dd.js", "chunks/vendor-6d69bdcb.js", "chunks/singletons-a42a5e91.js"], "css": ["assets/start-d5b4de3e.css", "assets/vendor-c402c846.css"] },
     nodes: [
       () => Promise.resolve().then(() => (init__(), __exports)),
       () => Promise.resolve().then(() => (init__2(), __exports2)),
@@ -9498,7 +9722,7 @@ var manifest = {
       {
         type: "page",
         pattern: /^\/team\/projects\/([^/]+?)\/?$/,
-        params: (m2) => ({ name: m2[1] }),
+        params: (m2) => ({ project: m2[1] }),
         path: null,
         a: [0, 11],
         b: [1]

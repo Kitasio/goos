@@ -77,7 +77,6 @@
 										{i.title}
 									</div>
 								</div>
-								<!-- <div class="text-center lg:hidden font-bt py-10">{i.title}</div> -->
 							</a>
 						</div>
 					</div>
