@@ -3,7 +3,7 @@
 
 	let lvl1Options = ['Фото', 'Видео'];
 	let lvl2Options = ['Фешн', 'Реклама', 'Эдиториал'];
-	let lvl3Options = ['Женский', 'Мужской', 'Детский', 'Бьюти', 'Продукт', 'Создание костюма'];
+	let lvl3Options = ['Женский', 'Мужской', 'Детский', ];
 
 	$: {
 		if ($lvl1All) $lvl1 = [];
@@ -14,7 +14,7 @@
 </script>
 
 <!-- DESKTOP -->
-<div class="hidden bg-white border-b border-black py-7 px-5 w-full lg:flex">
+<div class="hidden bg-white border-b border-black py-7 px-5 2xl:px-10 w-full lg:flex">
 	<div class="flex space-x-20">
 		<div class="flex">
 			<h1 class="font-medium">Проект</h1>
@@ -81,7 +81,7 @@
 		<div class="flex">
 			<h1 class="font-medium">Стайлинг</h1>
 			<div>
-				<div class="grid grid-cols-2 justify-center">
+				<div class="space-y-3 justify-center">
 					{#each lvl3Options as option}
 						<label for={option} class="whitespace-nowrap space-x-5 cursor-pointer">
 							<input
