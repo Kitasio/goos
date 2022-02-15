@@ -435,7 +435,7 @@ export const projects = [
         name: 'TOYOTA',
         link: '/team/projects/toyota',
         mainImg: '/images/teamProjects/toyota/1.jpg',
-        video: '/images/teamProjects/toyota/1.mp4'
+        ytid: 'C0vmKU8f4C4',
     },
     {
         name: 'WELLA, SEBASTIAN, SYSTEM 2020',
