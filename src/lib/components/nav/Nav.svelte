@@ -32,7 +32,7 @@
 
 <!-- MOBILE -->
 {#if $page.url.pathname != '/'}
-	<div class={toggled ? 'h-screen flex flex-col fixed w-full z-50 bg-white' : ''}>
+	<div class={toggled ? 'flex flex-col fixed w-full z-50 bg-white' : ''}>
 		<div
 			class={$page.params.name
 				? 'lg:hidden bg-transparent bg-white fixed w-full flex justify-between divide-x divide-black border-b border-black'
@@ -42,41 +42,6 @@
 				in:fly={{ x: 20, duration: 200 }}
 				class="flex font-medium py-2 w-full px-5"
 			>
-				<!-- {#if $page.params.name}
-					<a href="/team">
-						<svg
-							xmlns="http://www.w3.org/2000/svg"
-							class="h-5 w-5 fill-current text-black"
-							fill="none"
-							viewBox="0 0 24 24"
-							stroke="currentColor"
-						>
-							<path
-								stroke-linecap="round"
-								stroke-linejoin="round"
-								stroke-width="2"
-								d="M10 19l-7-7m0 0l7-7m-7 7h18"
-							/>
-						</svg>
-					</a>
-				{:else if $page.params.id}
-					<a href="/projects">
-						<svg
-							xmlns="http://www.w3.org/2000/svg"
-							class="h-5 w-5 fill-current text-black"
-							fill="none"
-							viewBox="0 0 24 24"
-							stroke="currentColor"
-						>
-							<path
-								stroke-linecap="round"
-								stroke-linejoin="round"
-								stroke-width="2"
-								d="M10 19l-7-7m0 0l7-7m-7 7h18"
-							/>
-						</svg>
-					</a>
-				{/if} -->
 				<div class="w-full flex items-center">
 					<a href="/" class="sm:ml-10 font-bt uppercase">gooseva komanda</a>
 				</div>
@@ -89,7 +54,7 @@
 		<MobileLinks {toggled} />
 	</div>
 {:else}
-	<div class={toggled ? 'h-screen flex flex-col fixed w-full z-50 bg-white' : ''}>
+	<div class={toggled ? 'flex flex-col fixed w-full z-50 bg-white' : ''}>
 		<div
 			class:white={white && !toggled}
 			class="lg:hidden fixed w-full flex justify-between divide-x divide-black border-b border-black"

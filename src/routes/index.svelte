@@ -77,7 +77,7 @@
 			transition:fade={{ duration: 100 }}
 			class="img2 w-full object-cover h-screen absolute top-0 opacity-0"
 		>
-			<video class="w-full h-full object-cover hidden lg:inline" src="/images/index/1.webm" autoplay loop>
+			<video class="w-full h-full object-cover hidden lg:inline" src="/images/index/1.mp4" autoplay loop muted>
 				<track kind="captions" />
 			</video>
 			<img class="lg:hidden w-full h-full object-cover"src="/images/index/1Mobile.jpg" alt="" />
@@ -92,7 +92,7 @@
 			transition:fade={{ duration: 100 }}
 			class="img4 w-full object-cover h-screen absolute top-0 opacity-0"
 		>
-			<video class="w-full h-full object-cover hidden lg:inline" src="/images/index/3.webm" autoplay loop>
+			<video class="w-full h-full object-cover hidden lg:inline" src="/images/index/3.mp4" autoplay loop muted>
 				<track kind="captions" />
 			</video>
 			<img class="lg:hidden w-full h-full object-cover"src="/images/index/5Mobile.jpg" alt="" />
