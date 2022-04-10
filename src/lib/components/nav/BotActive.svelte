@@ -138,10 +138,7 @@
 			<div class="px-5 2xl:px-7 pt-10 pb-20 text-sm border-black border-t border-l overflow-y-scroll max-h-[60vh]">
 				<p class="font-bold">Артисты и селебрити</p>
 				<p class="font-normal mt-5 2xl:whitespace-pre-line">
-					Sati Kazanova, ZVENTA SVENTANA, VOLEN SENTIR, Директор Всего, группа Fruktы, Krassna, Dr.
-					Krivorotov, Анна Хилькевич, Sunsay, Елка, Burito, Velvet Music, ALAMPA, Ляйсан Утяшева,
-					Полина Максимова, Егор Корешков, Женя Борзых, CБПЧ, TINAVIE, Тимур Соловьев, Нюша,
-					Nonative, Rayda, Indablack, Варнава, Manizha
+					Sati Kazanova, ZVENTA SVENTANA, Volen Sentir, Директор Всего, группа Fruktы, Krassna, Dr. Krivorotov, Анна Хилькевич, Sunsay, Елка, Burito, Velvet Music, Alampa, Ляйсан Утяшева, Полина Максимова, Егор Корешков, Женя Борзых, CБПЧ, Tinavie, Тимур Соловьев, Нюша, Nonative, Rayda, Indablack, Владимир Варнава, Manizha, Mujuice, L’one, Philipp Plein, Сюзанна, Екатерина Варнава
 				</p>
 				<p class="font-bold mt-5">Медиа и журналы</p>
 				<div class="mt-5 grid grid-cols-6 gap-5">

@@ -1,3 +1,24 @@
+<script context="module">
+	export function load({ params }) {
+		let personProjects = [];
+		let person = people.find((x) => x.link === '/team/' + params.name);
+		if (person['projects']) {
+			for (let i = 0; i < person['projects'].length; i++) {
+				const proj = person['projects'][i];
+				personProjects.push(projects.find((x) => x.link === '/team/projects/' + proj));
+				personProjects = personProjects;
+			}
+		}
+
+		return {
+			props: {
+				person,
+				personProjects
+			}
+		};
+	}
+</script>
+
 <script lang="ts">
 	import { page } from '$app/stores';
 	import Nav from '$lib/components/nav/Nav.svelte';
@@ -6,7 +27,7 @@
 	import { projects } from '$lib/teamProjects';
 	import { onMount } from 'svelte';
 	import Player from '$lib/components/Player.svelte';
-import { botActive, topActive } from '$lib/functions/utils';
+	import { botActive, topActive } from '$lib/functions/utils';
 
 	let projectOpen = false;
 	let selectedProject = 0;
@@ -31,19 +52,11 @@ import { botActive, topActive } from '$lib/functions/utils';
 		}
 	};
 
-	let person = {};
-	let personProjects = [];
+	export let person = {};
+	export let personProjects = [];
 	onMount(() => {
-		$botActive = false
-		$topActive = false
-		person = people.find((x) => x.link === '/team/' + $page.params.name);
-		if (person['projects']) {
-			for (let i = 0; i < person['projects'].length; i++) {
-				const proj = person['projects'][i];
-				personProjects.push(projects.find((x) => x.link === '/team/projects/' + proj));
-				personProjects = personProjects;
-			}
-		}
+		$botActive = false;
+		$topActive = false;
 	});
 	const toggleOff = () => {
 		if ($topActive || $botActive) {
@@ -62,7 +75,7 @@ import { botActive, topActive } from '$lib/functions/utils';
 	</h1>
 	<div class="flex flex-col space-y-5 p-5 border-b border-black">
 		<h1 class="font-semibold text-sm leading-5 whitespace-pre-line">
-			{person['profession'] || ''}
+			{@html person['profession'] || ''}
 		</h1>
 		<p class="text-sm whitespace-pre-line font-light">{@html person['about'] || ''}</p>
 	</div>
@@ -93,27 +106,27 @@ import { botActive, topActive } from '$lib/functions/utils';
 <div on:click={toggleOff} class="hidden lg:grid grid-cols-4 h-screen py-10">
 	<div class="border-r border-black col-span-1 p-5 2xl:p-10">
 		<!-- <div> -->
-			<h1 class="text-md font-medium fixed">Стилисты</h1>
-			<div class="fixed ml-28 xl:ml-32">
-				{#each people as i, index (index)}
-					<a href={i.link} target="_self" class="relative flex">
-						<img
-							class={'/team/' + $page.params.name === i.link
-								? 'w-4 absolute top-2 -left-7'
-								: 'hidden w-4'}
-							src="/images/arrow.svg"
-							alt=""
-						/>
-						<p
-							class={'/team/' + $page.params.name == i.link
-								? 'leading-7 underline font-light whitespace-nowrap'
-								: 'leading-7 hover:underline font-light whitespace-nowrap'}
-						>
-							{i.text}
-						</p>
-					</a>
-				{/each}
-			</div>
+		<h1 class="text-md font-medium fixed">Стилисты</h1>
+		<div class="fixed ml-28 xl:ml-32">
+			{#each people as i, index (index)}
+				<a sveltekit:prefetch href={i.link} target="_self" class="relative flex">
+					<img
+						class={'/team/' + $page.params.name === i.link
+							? 'w-4 absolute top-2 -left-7'
+							: 'hidden w-4'}
+						src="/images/arrow.svg"
+						alt=""
+					/>
+					<p
+						class={'/team/' + $page.params.name == i.link
+							? 'leading-7 underline font-light whitespace-nowrap'
+							: 'leading-7 hover:underline font-light whitespace-nowrap'}
+					>
+						{i.text}
+					</p>
+				</a>
+			{/each}
+		</div>
 		<!-- </div> -->
 	</div>
 	<div class="relative col-span-3 p-5 2xl:p-10 flex flex-col justify-between space-y-5">
@@ -146,7 +159,7 @@ import { botActive, topActive } from '$lib/functions/utils';
 						/>
 					{:else if personProjects[selectedProject]['images']}
 						{#each personProjects[selectedProject]['images'] as img}
-							<Image src={img} alt="" classes={'mx-auto w-full object-cover object-top max-h-[70vh]'} />
+							<Image src={img} alt="" classes={'mx-auto w-full'} />
 						{/each}
 					{/if}
 				</div>
@@ -155,9 +168,14 @@ import { botActive, topActive } from '$lib/functions/utils';
 			<div>
 				<h1 class="text-4xl tracking-wide">{person['text'] || ''}</h1>
 				<div class="mt-10 flex justify-between">
-					<p class="font-light whitespace-pre-line max-w-lg 2xl:max-w-2xl leading-5">
-						{@html person['about'] || ''}
-					</p>
+					<div class="space-y-5">
+						<h1 class="font-semibold text-sm leading-5 whitespace-pre-line">
+							{@html person['profession'] || ''}
+						</h1>
+						<p class="font-light whitespace-pre-line max-w-lg 2xl:max-w-2xl leading-5">
+							{@html person['about'] || ''}
+						</p>
+					</div>
 					<Image src={person['img']} classes="object-cover w-64 h-64" />
 				</div>
 			</div>

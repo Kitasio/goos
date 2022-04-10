@@ -9,8 +9,22 @@
 	import { browser } from '$app/env';
 
 	let white = false;
+	let video1;
+	let video2;
 
 	onMount(() => {
+		setTimeout(() => {
+			console.log(video1)
+			video1.setAttribute('src', video1.getAttribute('data-src'));
+			video1.removeAttribute('data-src');
+		}, 1000);
+		setTimeout(() => {
+			console.log(video2)
+			video2.setAttribute('src', video2.getAttribute('data-src'));
+			video2.removeAttribute('data-src');
+		}, 8000);
+
+
 		const tl = gsap.timeline({ repeat: 5 });
 		tl.to('.img2', { duration: 1, opacity: 1, delay: 5, onStart: () => (white = true) });
 		tl.to('.img1', { duration: 1, opacity: 0 }, '-=1');
@@ -77,10 +91,17 @@
 			transition:fade={{ duration: 100 }}
 			class="img2 w-full object-cover h-screen absolute top-0 opacity-0"
 		>
-			<video class="w-full h-full object-cover hidden lg:inline" src="/images/index/1.mp4" autoplay loop muted>
+			<video
+				class="w-full h-full object-cover hidden lg:inline"
+				data-src="/images/index/1.mp4"
+				autoplay
+				loop
+				muted
+				bind:this={video1}
+			>
 				<track kind="captions" />
 			</video>
-			<img class="lg:hidden w-full h-full object-cover"src="/images/index/1Mobile.jpg" alt="" />
+			<img class="lg:hidden w-full h-full object-cover" src="/images/index/1Mobile.jpg" alt="" />
 		</div>
 		<div
 			transition:fade={{ duration: 100 }}
@@ -92,10 +113,17 @@
 			transition:fade={{ duration: 100 }}
 			class="img4 w-full object-cover h-screen absolute top-0 opacity-0"
 		>
-			<video class="w-full h-full object-cover hidden lg:inline" src="/images/index/3.mp4" autoplay loop muted>
+			<video
+				class="w-full h-full object-cover hidden lg:inline"
+				data-src="/images/index/3.mp4"
+				autoplay
+				loop
+				muted
+				bind:this={video2}
+			>
 				<track kind="captions" />
 			</video>
-			<img class="lg:hidden w-full h-full object-cover"src="/images/index/5Mobile.jpg" alt="" />
+			<img class="lg:hidden w-full h-full object-cover" src="/images/index/5Mobile.jpg" alt="" />
 		</div>
 	</div>
 </div>

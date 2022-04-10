@@ -349,7 +349,6 @@ export const items = {
             mainImg: "/images/projects/SPIN4SPIN/11.jpg",
             images: [
                 "/images/projects/SPIN4SPIN/1.jpg",
-                "/images/projects/SPIN4SPIN/2.jpg",
                 "/images/projects/SPIN4SPIN/3.jpg",
                 "/images/projects/SPIN4SPIN/4.jpg",
                 "/images/projects/SPIN4SPIN/5.jpg",
@@ -1145,7 +1144,6 @@ export const items = {
             ],
             mainImg: "/images/projects/FLOWERS AND SHADOWS/Копия 0R2A0402_done_1.jpg",
             images: [
-                "/images/projects/FLOWERS AND SHADOWS/Копия 0R2A1399_done.jpg",
                 "/images/projects/FLOWERS AND SHADOWS/Копия 0R2A1072_done.jpg",
                 "/images/projects/FLOWERS AND SHADOWS/Копия 0R2A1564_done.jpg",
                 "/images/projects/FLOWERS AND SHADOWS/Копия 0R2A1713_done.jpg",
