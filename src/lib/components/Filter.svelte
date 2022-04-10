@@ -2,15 +2,14 @@
 	import { lvl1All, lvl2All, lvl3All, lvl1, lvl2, lvl3 } from '$lib/functions/utils';
 
 	let lvl1Options = ['Фото', 'Видео'];
-	let lvl2Options = ['Фешн', 'Реклама', 'Эдиториал'];
-	let lvl3Options = ['Женский', 'Мужской', 'Детский', ];
+	let lvl2Options = ['Фешн', 'Реклама', 'Эдиториал', 'Музыкальный клип', 'Создание костюма'];
+	let lvl3Options = ['Женский', 'Мужской', 'Детский'];
 
 	$: {
 		if ($lvl1All) $lvl1 = [];
 		if ($lvl2All) $lvl2 = [];
 		if ($lvl3All) $lvl3 = [];
 	}
-	
 </script>
 
 <!-- DESKTOP -->
@@ -49,32 +48,55 @@
 
 		<div class="flex">
 			<h1 class="font-medium">Направление</h1>
-			<div>
-				<div class="space-y-3 justify-center">
-					{#each lvl2Options as option}
-						<label for={option} class="whitespace-nowrap space-x-5 cursor-pointer">
-							<input
-								id={option}
-								class="text-black border-2 border-black w-5 h-5 focus:ring-0"
-								type="checkbox"
-								bind:group={$lvl2}
-								value={option}
+			<div class="space-y-3 justify-center">
+				{#each lvl2Options.slice(0, 3) as option}
+					<label for={option} class="whitespace-nowrap space-x-5 cursor-pointer">
+						<input
+							id={option}
+							class="text-black border-2 border-black w-5 h-5 focus:ring-0"
+							type="checkbox"
+							bind:group={$lvl2}
+							value={option}
+						/>
+						<div class="flex flex-wrap items-center space-x-3 mt-0.5">
+							<img
+								class={$lvl2.includes(option) ? 'transition opacity-100' : 'transition opacity-0'}
+								src="/images/arrow.svg"
+								alt=""
 							/>
-							<div class="flex flex-wrap items-center space-x-3 mt-0.5">
-								<img
-									class={$lvl2.includes(option) ? 'transition opacity-100' : 'transition opacity-0'}
-									src="/images/arrow.svg"
-									alt=""
-								/>
-								<span
-									class={$lvl2.includes(option)
-										? 'font-extralight -ml-2 underline transition'
-										: 'font-extralight -ml-2 transition'}>{option}</span
-								>
-							</div>
-						</label>
-					{/each}
-				</div>
+							<span
+								class={$lvl2.includes(option)
+									? 'font-extralight -ml-2 underline transition'
+									: 'font-extralight -ml-2 transition'}>{option}</span
+							>
+						</div>
+					</label>
+				{/each}
+			</div>
+			<div class="space-y-3 justify-center">
+				{#each lvl2Options.slice(3) as option}
+					<label for={option} class="whitespace-nowrap space-x-5 cursor-pointer">
+						<input
+							id={option}
+							class="text-black border-2 border-black w-5 h-5 focus:ring-0"
+							type="checkbox"
+							bind:group={$lvl2}
+							value={option}
+						/>
+						<div class="flex flex-wrap items-center space-x-3 mt-0.5">
+							<img
+								class={$lvl2.includes(option) ? 'transition opacity-100' : 'transition opacity-0'}
+								src="/images/arrow.svg"
+								alt=""
+							/>
+							<span
+								class={$lvl2.includes(option)
+									? 'font-extralight -ml-2 underline transition'
+									: 'font-extralight -ml-2 transition'}>{option}</span
+							>
+						</div>
+					</label>
+				{/each}
 			</div>
 		</div>
 

@@ -38,10 +38,7 @@
 				? 'lg:hidden bg-transparent bg-white fixed w-full flex justify-between divide-x divide-black border-b border-black'
 				: 'lg:hidden bg-white fixed z-50 w-full flex justify-between divide-x divide-black border-b border-black'}
 		>
-			<div
-				in:fly={{ x: 20, duration: 200 }}
-				class="flex font-medium py-2 w-full px-5"
-			>
+			<div in:fly={{ x: 20, duration: 200 }} class="flex font-medium py-2 w-full px-5">
 				<div class="w-full flex items-center">
 					<a href="/" class="sm:ml-10 font-bt uppercase">gooseva komanda</a>
 				</div>
@@ -60,10 +57,7 @@
 			class="lg:hidden fixed w-full flex justify-between divide-x divide-black border-b border-black"
 		>
 			{#if toggled}
-				<div
-					in:fly={{ x: 20, duration: 200 }}
-					class="flex font-medium py-2 w-full items-center"
-				>
+				<div in:fly={{ x: 20, duration: 200 }} class="flex font-medium py-2 w-full items-center">
 					<h1 class="ml-5 font-bt uppercase">gooseva komanda</h1>
 				</div>
 			{:else}
@@ -132,10 +126,10 @@
 						{:else if $page.params.name || $page.params.id}
 							<a
 								href="/projects"
-								class='flex transition duration-200 hover:shadow-border font-medium py-2 items-center border-r border-black w-2/3 xl:w-3/4 bg-white'
+								class="flex transition duration-200 hover:shadow-border font-medium py-2 items-center border-r border-black w-2/3 xl:w-3/4 bg-white"
 							>
 								<h1 class="ml-5 2xl:ml-10">Проекты</h1>
-							</a>	
+							</a>
 						{:else}
 							<a
 								href="/projects"
@@ -180,7 +174,12 @@
 						<div
 							class="flex transition duration-200 hover:shadow-border font-medium py-2 w-2/3 xl:w-3/4 items-center border-r border-black bg-white"
 						>
-							<a href="/" class="ml-5 2xl:ml-10 font-bt uppercase w-full">gooseva komanda</a>
+							<a href="/" class="ml-5 2xl:ml-10 font-bt uppercase w-full group">
+								<div class="flex space-x-3 items-center">
+									<p>gooseva komanda</p>
+									<img class="h-4 mt-0.5 group-hover:ml-4 transition-all duration-200" src="/images/arrow-left.svg" alt="" />
+								</div>
+							</a>
 						</div>
 					{/if}
 					<div
