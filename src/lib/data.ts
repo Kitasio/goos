@@ -20,7 +20,7 @@ export const items = {
 			title: 'SOROLLA - DSCENE MAG',
 			tagNames: ['#фото', '#эдиториал', '#женскийстайлинг'],
 			tags: ['Фото', 'Эдиториал', 'Женский'],
-			mainImg: '/images/projects/SOROLLA/1.jpg',
+			mainImg: '/images/projects/SOROLLA/2.jpg',
 			style: '14% 20% 0% 10%',
 			images: [
 				'/images/projects/SOROLLA/1.jpg',
@@ -233,7 +233,7 @@ export const items = {
             style: "8% 10% 39% 2%"
         },
         {
-            title: "NOT ALICE x PAP MAGAZINE",
+            title: "ORIFLAME",
             tagNames: [
                 "#видео",
                 "#фешн",
@@ -253,7 +253,7 @@ export const items = {
             style: "19% 5% 22% 15%"
         },
         {
-            title: "ORIFLAME",
+            title: "NOT ALICE x PAP MAGAZINE",
             tagNames: [
                 "#видео",
                 "#фешн",
@@ -270,9 +270,9 @@ export const items = {
                 "Женский",
                 ""
             ],
-            mainImg: "/images/teamProjects/notalice/1.jpg",
+            mainImg: "/images/teamProjects/notalice/2.jpg",
             video: "zLiUQXpQ5rg",
-            style: "50% 0 10% 0"
+            style: "30% 0 10% 0"
         },
         {
             title: "RAYON - INDABLACK x RAIDA",
@@ -307,7 +307,7 @@ export const items = {
             order: 0,
             mainImg: "/images/projects/BOTHER/1.jpg",
             video: "_9mf8Qhcank",
-            style: "40px 20px 100px 0"
+            style: "30% 0"
         },
         {
             title: "BAIKAL ",
@@ -325,7 +325,7 @@ export const items = {
                 "Женский",
                 "Мужской"
             ],
-            mainImg: "/images/projects/BAIKAL1/main.png",
+            mainImg: "/images/projects/BAIKAL1/4.jpg",
             images: [
                 "/images/projects/BAIKAL1/1.jpg",
                 "/images/projects/BAIKAL1/2.jpg",
@@ -346,7 +346,7 @@ export const items = {
                 "Реклама",
                 "Женский"
             ],
-            mainImg: "/images/projects/SPIN4SPIN/11.jpg",
+            mainImg: "/images/projects/SPIN4SPIN/7.jpg",
             images: [
                 "/images/projects/SPIN4SPIN/1.jpg",
                 "/images/projects/SPIN4SPIN/3.jpg",
@@ -481,7 +481,7 @@ export const items = {
                 "Мужской"
             ],
             mainImg: "/images/projects/A101/1.jpg",
-            video: "hlxQMLfyGmQ",
+            video: "TrrOqIRkdoM",
             style: "30px 20px 170px 100px"
         },
         {
@@ -701,28 +701,12 @@ export const items = {
             title: "WHAT ABOUT US - LOOKBOOK",
             tagNames: [
                 "#фото",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
                 "#эдиториал",
                 "#фешн",
                 "#женскийстайлинг"
             ],
             tags: [
                 "Фото",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
                 "Эдиториал",
                 "Фешн",
                 "Женский"
@@ -737,8 +721,6 @@ export const items = {
                 "/images/projects/WHAT ABOUT US/Копия W_A_U_ 004.jpg",
                 "/images/projects/WHAT ABOUT US/Копия W_A_U_ 010.jpg"
             ],
-            "classes": "p-2",
-            video: ""
         },
         {
             title: "MEGA",
@@ -812,7 +794,7 @@ export const items = {
                 "Реклама",
                 "Мужской"
             ],
-            mainImg: "/images/projects/EVOLUTION 2.0/Копия DSC00500.jpg",
+            mainImg: "/images/projects/EVOLUTION 2.0/1.jpg",
             images: [
                 "/images/projects/EVOLUTION 2.0/Копия DSC09635.jpg",
                 "/images/projects/EVOLUTION 2.0/Копия DSC00010-восстановлено.jpg",
@@ -902,7 +884,7 @@ export const items = {
                 "Мужской",
                 "Детский"
             ],
-            mainImg: "/images/projects/LA CHAMBRE VERTE/Копия Копия fuji400 021.jpg",
+            mainImg: "/images/projects/LA CHAMBRE VERTE/Копия Копия fuji400 035.jpg",
             images: [
                 "/images/projects/LA CHAMBRE VERTE/Копия Копия fuji400 039.jpg",
                 "/images/projects/LA CHAMBRE VERTE/Копия Копия fuji400 002.jpg",
@@ -1022,7 +1004,7 @@ export const items = {
                 "Женский",
                 "Мужской"
             ],
-            mainImg: "/images/projects/TTSWTR/Копия FSM_-001.jpg",
+            mainImg: "/images/projects/TTSWTR/1.jpg",
             images: [
                 "/images/projects/TTSWTR/Копия ttswtrs-001.jpg",
                 "/images/projects/TTSWTR/Копия ttswtrs-015.jpg",
@@ -1189,7 +1171,7 @@ export const items = {
                 "Эдиториал",
                 "Женский"
             ],
-            mainImg: "/images/projects/HUF AHD HUF/Копия HH-продолжение-_0150-1.jpg",
+            mainImg: "/images/projects/HUF AHD HUF/1.jpg",
             images: [
                 "/images/projects/HUF AHD HUF/Копия HH-посудка-7-окт-183763-1.jpg",
                 "/images/projects/HUF AHD HUF/Копия HH-посудка-7-окт-183948-1.jpg",
@@ -1216,7 +1198,7 @@ export const items = {
                 "Создание костюма",
                 "Женский"
             ],
-            mainImg: "/images/projects/SCHIAP_VGXW/Копия 2019_11_17_SCHIAP_7090.jpg",
+            mainImg: "/images/projects/SCHIAP_VGXW/Копия 2019_11_17_SCHIAP_6888.jpg",
             images: [
                 "/images/projects/SCHIAP_VGXW/Копия 2019_11_17_SCHIAP_6825.jpg",
                 "/images/projects/SCHIAP_VGXW/Копия 2019_11_17_SCHIAP_7090.jpg",
@@ -1241,7 +1223,7 @@ export const items = {
                 "Реклама",
                 "Эдиториал"
             ],
-            mainImg: "/images/projects/HASKY LOOKBOOK/main.png",
+            mainImg: "/images/projects/HASKY LOOKBOOK/Копия Capture One Catalog2344 1.jpg",
             images: [
                 "/images/projects/HASKY LOOKBOOK/Копия Capture One Catalog1540.jpg",
                 "/images/projects/HASKY LOOKBOOK/Копия Capture One Catalog2344 1.jpg",
@@ -1263,7 +1245,7 @@ export const items = {
                 "Эдиториал",
                 "Женский"
             ],
-            mainImg: "/images/projects/BONELESS VLADIMIR VARNAV/Копия 18.11.27-dance-color11402.jpg",
+            mainImg: "/images/projects/BONELESS VLADIMIR VARNAV/Копия 18.11.27-dance-color11655.jpg",
             images: [
                 "/images/projects/BONELESS VLADIMIR VARNAV/Копия 18.11.27-dance-color11337.jpg",
                 "/images/projects/BONELESS VLADIMIR VARNAV/Копия 18.11.27-dance-color11457.jpg",
@@ -1414,7 +1396,7 @@ export const items = {
                 "Реклама",
                 "Эдиториал"
             ],
-            mainImg: "/images/projects/GERTRUDE_KALTBLUT/Копия IMG_5803.JPG",
+            mainImg: "/images/projects/GERTRUDE_KALTBLUT/1.jpeg",
             images: [
                 "/images/projects/GERTRUDE_KALTBLUT/Копия IMG_5805.JPG",
                 "/images/projects/GERTRUDE_KALTBLUT/Копия IMG_5804.JPG",
@@ -1583,7 +1565,7 @@ export const items = {
                 "Эдиториал",
                 "Женский"
             ],
-            mainImg: "/images/projects/ALONE/Копия 25.jpg",
+            mainImg: "/images/projects/ALONE/1.jpg",
             images: [
                 "/images/projects/ALONE/Копия 5.jpg",
                 "/images/projects/ALONE/Копия 4.jpg",
