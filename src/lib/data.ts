@@ -118,7 +118,7 @@ export const items = {
                 "Создание костюма"
             ],
             mainImg: "/images/projects/EmpireV/1.jpg",
-            video: "2iwZnD_kevE",
+            video: "CE-RLnoEn8M",
             style: "35% 3% 20% 5%"
         },
         {
@@ -249,7 +249,7 @@ export const items = {
                 "Женский"
             ],
             mainImg: "/images/teamProjects/oriflame/1.jpg",
-            localVideo: "/images/teamProjects/oriflame/1.mp4",
+            video: "q92LF78ujxo",
             style: "19% 5% 22% 15%"
         },
         {
@@ -378,7 +378,7 @@ export const items = {
             ],
             mainImg: "/images/projects/AVIAPARK/1.jpg",
             images: [],
-            video: "https://www.youtube.com/watch?v=CkL_ahnFXxI&feature=emb_logo",
+            video: "CkL_ahnFXxI",
             style: "170px 100px 50px 10px"
         },
         {
@@ -443,7 +443,7 @@ export const items = {
                 "Мужской"
             ],
             mainImg: "/images/projects/1XBET/1.jpg",
-            localVideo: "/images/projects/1XBET/1.mp4",
+            video: "0VfC7eUgBF0",
             style: "10% 50% 50% 5%"
         },
         {
@@ -931,7 +931,7 @@ export const items = {
                 "Женский"
             ],
             mainImg: "/images/projects/CDM/1.jpg",
-            localVideo: "/images/projects/CDM/1.mp4",
+            video: "rF2FJ99-W9M",
             style: "200px 0 10px 50px"
         },
         {
@@ -949,7 +949,7 @@ export const items = {
                 "Десткий"
             ],
             mainImg: "/images/projects/MEGAELKA/1.jpg",
-            localVideo: "/images/projects/MEGAELKA/1.mp4",
+            video: "SE2j-p0ef1s",
             style: "30% 0 30% 20%"
         },
         {
@@ -1107,7 +1107,7 @@ export const items = {
                 "Мужской"
             ],
             mainImg: "/images/projects/WEEKEND/1.jpg",
-            video: "Dso2sn660GA",
+            video: "OqKSO6YFXUA",
             style: "30% 10% 40% 0"
         },
         {
