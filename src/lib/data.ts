@@ -6,7 +6,7 @@ export const items = {
 			tags: ['Видео', 'Реклама', 'Мужской', 'Женский'],
 			mainImg: '/images/projects/MTS/1.jpg',
 			style: '20% 0% 15% 0%',
-			video: '3Ehf-vjovYQ'
+			video: 'R64kmi5uC2Q'
 		},
 		{
 			title: '1XBET - THAT YOU WON',
@@ -14,7 +14,7 @@ export const items = {
 			tags: ['Видео', 'Реклама', 'Мужской'],
 			mainImg: '/images/projects/1XBETWON/1.jpg',
 			style: '4% 10% 35% 20%',
-			video: '3Ehf-vjovYQ'
+			video: 'FMeLJfvLlLA'
 		},
 		{
 			title: 'SOROLLA - DSCENE MAG',
@@ -50,7 +50,7 @@ export const items = {
 			tags: ['Видео', 'Реклама', 'Музыкальный Клип', 'Женский'],
 			mainImg: '/images/projects/MANIZHAJIM/1.jpg',
 			style: '14% 0% 30% 10%',
-			video: '3Ehf-vjovYQ',
+			video: 'qLQ2PS7JrfU',
 		},
 		{
 			title: 'BEELINE - UZBEKISTAN',
@@ -58,7 +58,7 @@ export const items = {
 			tags: ['Видео', 'Реклама', 'Мужской', 'Женский'],
 			mainImg: '/images/projects/BEELINE/1.jpg',
 			style: '34% 20% 25% 20%',
-			video: '3Ehf-vjovYQ',
+			video: 'ajJjedMObbg',
 		},
 		{
 			title: 'CRAVE',
@@ -103,7 +103,7 @@ export const items = {
 			tags: ['Видео', 'Реклама', 'Создание костюма', 'Мужской', 'Женский'],
 			mainImg: '/images/projects/SAMSUNGS/1.jpg',
 			style: '32% 20%',
-			video: 'PV-BdX4vl-Y',
+			video: 'bvZnQIaStb4',
 		},
         {
             title: "EMPIRE V ",
@@ -175,7 +175,7 @@ export const items = {
             ],
             video: "DRQ25qY082c",
             mainImg: "/images/projects/renessans/1.jpg",
-            style: "34% 10% 0 20%"
+            style: "34% 4% 10% 0"
         },
         {
             title: "L’ONE x JIM BEAM",
