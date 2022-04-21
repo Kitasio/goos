@@ -1,110 +1,110 @@
 export const items = {
     projects: [
         {
-			title: 'MTS',
-			tagNames: ['#видео', '#реклама', '#мужскойстайлинг', '#женскийстайлинг'],
-			tags: ['Видео', 'Реклама', 'Мужской', 'Женский'],
-			mainImg: '/images/projects/MTS/1.jpg',
-			style: '20% 0% 15% 0%',
-			video: 'R64kmi5uC2Q'
-		},
-		{
-			title: '1XBET - THAT YOU WON',
-			tagNames: ['#видео', '#реклама', '#мужскойстайлинг'],
-			tags: ['Видео', 'Реклама', 'Мужской'],
-			mainImg: '/images/projects/1XBETWON/1.jpg',
-			style: '4% 10% 35% 20%',
-			video: 'FMeLJfvLlLA'
-		},
-		{
-			title: 'SOROLLA - DSCENE MAG',
-			tagNames: ['#фото', '#эдиториал', '#женскийстайлинг'],
-			tags: ['Фото', 'Эдиториал', 'Женский'],
-			mainImg: '/images/projects/SOROLLA/2.jpg',
-			style: '14% 20% 0% 10%',
-			images: [
-				'/images/projects/SOROLLA/1.jpg',
-				'/images/projects/SOROLLA/2.jpg',
-				'/images/projects/SOROLLA/3.jpg',
-				'/images/projects/SOROLLA/4.jpg',
-			]
-		},
-		{
-			title: 'MISTRESS - PAP MAGAZINE',
-			tagNames: ['#фото', '#эдиториал', '#женскийстайлинг'],
-			tags: ['Фото', 'Эдиториал', 'Женский'],
-			mainImg: '/images/projects/MISTRESS/1.jpg',
-			style: '24% 0% 0% 40%',
-			images: [
-				'/images/projects/MISTRESS/1.jpg',
-				'/images/projects/MISTRESS/2.jpg',
-				'/images/projects/MISTRESS/3.jpg',
-				'/images/projects/MISTRESS/4.jpg',
-				'/images/projects/MISTRESS/5.jpg',
-				'/images/projects/MISTRESS/6.jpg',
-			]
-		},
-		{
-			title: 'MANIZHA x JIM BEAM - NOW OR NEVER',
-			tagNames: ['#видео', '#реклама', '#музыкальныйклип', '#женскийстайлинг'],
-			tags: ['Видео', 'Реклама', 'Музыкальный Клип', 'Женский'],
-			mainImg: '/images/projects/MANIZHAJIM/1.jpg',
-			style: '14% 0% 30% 10%',
-			video: 'qLQ2PS7JrfU',
-		},
-		{
-			title: 'BEELINE - UZBEKISTAN',
-			tagNames: ['#видео', '#реклама', '#мужскойстайлинг', '#женскийстайлинг'],
-			tags: ['Видео', 'Реклама', 'Мужской', 'Женский'],
-			mainImg: '/images/projects/BEELINE/1.jpg',
-			style: '34% 20% 25% 20%',
-			video: 'ajJjedMObbg',
-		},
-		{
-			title: 'CRAVE',
-			tagNames: ['#фото', '#эдиториал', '#созданиекостюма', '#женскийстайлинг'],
-			tags: ['Фото', 'Эдиториал', 'Создание костюма', 'Женский'],
-			mainImg: '/images/projects/CRAVE/1.jpg',
-			style: '0',
-			images: [
-				'/images/projects/CRAVE/1.jpg',
-				'/images/projects/CRAVE/2.jpg',
-				'/images/projects/CRAVE/3.jpg',
-				'/images/projects/CRAVE/4.jpg',
-				'/images/projects/CRAVE/5.jpg',
-				'/images/projects/CRAVE/6.jpg',
-				'/images/projects/CRAVE/7.jpg',
-				'/images/projects/CRAVE/8.jpg',
-			]
-		},
-		{
-			title: 'KRASSNA - VPERED',
-			tagNames: ['#видео', '#музыкальныйклип', '#женскийстайлинг', '#детскийстайлинг'],
-			tags: ['Видео', 'Музыкальный Клип', 'Женский', 'Детский'],
-			mainImg: '/images/projects/KRASSNAV/1.jpg',
-			style: '2% 20% 2% 10%',
-			video: 'PV-BdX4vl-Y',
-		},
-		{
-			title: 'MANIZHA - SPOTIFY #EQUAL',
-			tagNames: ['#фото', '#реклама', '#женскийстайлинг'],
-			tags: ['Фото', 'Реклама', 'Женский'],
-			mainImg: '/images/projects/MANIZHAS/1.jpg',
-			style: '2% 10%',
-			images: [
-				'/images/projects/MANIZHAS/1.jpg',
-				'/images/projects/MANIZHAS/2.jpg',
-				'/images/projects/MANIZHAS/3.jpg',
-			]
-		},
-		{
-			title: 'SAMSUNG - SVYAZNOY',
-			tagNames: ['#видео', '#реклама', '#созданиекостюма', '#мужскойстайлинг', '#женскийстайлинг'],
-			tags: ['Видео', 'Реклама', 'Создание костюма', 'Мужской', 'Женский'],
-			mainImg: '/images/projects/SAMSUNGS/1.jpg',
-			style: '32% 20%',
-			video: 'bvZnQIaStb4',
-		},
+            title: 'MTS',
+            tagNames: ['#видео', '#реклама', '#мужскойстайлинг', '#женскийстайлинг'],
+            tags: ['Видео', 'Реклама', 'Мужской', 'Женский'],
+            mainImg: '/images/projects/MTS/1.jpg',
+            style: '20% 0% 15% 0%',
+            video: 'R64kmi5uC2Q'
+        },
+        {
+            title: '1XBET - THAT YOU WON',
+            tagNames: ['#видео', '#реклама', '#мужскойстайлинг'],
+            tags: ['Видео', 'Реклама', 'Мужской'],
+            mainImg: '/images/projects/1XBETWON/1.jpg',
+            style: '4% 10% 35% 20%',
+            video: 'FMeLJfvLlLA'
+        },
+        {
+            title: 'SOROLLA - DSCENE MAG',
+            tagNames: ['#фото', '#эдиториал', '#женскийстайлинг'],
+            tags: ['Фото', 'Эдиториал', 'Женский'],
+            mainImg: '/images/projects/SOROLLA/2.jpg',
+            style: '14% 20% 0% 10%',
+            images: [
+                '/images/projects/SOROLLA/1.jpg',
+                '/images/projects/SOROLLA/2.jpg',
+                '/images/projects/SOROLLA/3.jpg',
+                '/images/projects/SOROLLA/4.jpg',
+            ]
+        },
+        {
+            title: 'MISTRESS - PAP MAGAZINE',
+            tagNames: ['#фото', '#эдиториал', '#женскийстайлинг'],
+            tags: ['Фото', 'Эдиториал', 'Женский'],
+            mainImg: '/images/projects/MISTRESS/1.jpg',
+            style: '24% 0% 0% 40%',
+            images: [
+                '/images/projects/MISTRESS/1.jpg',
+                '/images/projects/MISTRESS/2.jpg',
+                '/images/projects/MISTRESS/3.jpg',
+                '/images/projects/MISTRESS/4.jpg',
+                '/images/projects/MISTRESS/5.jpg',
+                '/images/projects/MISTRESS/6.jpg',
+            ]
+        },
+        {
+            title: 'MANIZHA x JIM BEAM - NOW OR NEVER',
+            tagNames: ['#видео', '#реклама', '#музыкальныйклип', '#женскийстайлинг'],
+            tags: ['Видео', 'Реклама', 'Музыкальный Клип', 'Женский'],
+            mainImg: '/images/projects/MANIZHAJIM/1.jpg',
+            style: '14% 0% 30% 10%',
+            video: 'qLQ2PS7JrfU',
+        },
+        {
+            title: 'BEELINE - UZBEKISTAN',
+            tagNames: ['#видео', '#реклама', '#мужскойстайлинг', '#женскийстайлинг'],
+            tags: ['Видео', 'Реклама', 'Мужской', 'Женский'],
+            mainImg: '/images/projects/BEELINE/1.jpg',
+            style: '34% 20% 25% 20%',
+            video: 'ajJjedMObbg',
+        },
+        {
+            title: 'CRAVE',
+            tagNames: ['#фото', '#эдиториал', '#созданиекостюма', '#женскийстайлинг'],
+            tags: ['Фото', 'Эдиториал', 'Создание костюма', 'Женский'],
+            mainImg: '/images/projects/CRAVE/1.jpg',
+            style: '0',
+            images: [
+                '/images/projects/CRAVE/1.jpg',
+                '/images/projects/CRAVE/2.jpg',
+                '/images/projects/CRAVE/3.jpg',
+                '/images/projects/CRAVE/4.jpg',
+                '/images/projects/CRAVE/5.jpg',
+                '/images/projects/CRAVE/6.jpg',
+                '/images/projects/CRAVE/7.jpg',
+                '/images/projects/CRAVE/8.jpg',
+            ]
+        },
+        {
+            title: 'KRASSNA - VPERED',
+            tagNames: ['#видео', '#музыкальныйклип', '#женскийстайлинг', '#детскийстайлинг'],
+            tags: ['Видео', 'Музыкальный Клип', 'Женский', 'Детский'],
+            mainImg: '/images/projects/KRASSNAV/1.jpg',
+            style: '2% 20% 2% 10%',
+            video: 'PV-BdX4vl-Y',
+        },
+        {
+            title: 'MANIZHA - SPOTIFY #EQUAL',
+            tagNames: ['#фото', '#реклама', '#женскийстайлинг'],
+            tags: ['Фото', 'Реклама', 'Женский'],
+            mainImg: '/images/projects/MANIZHAS/1.jpg',
+            style: '2% 10%',
+            images: [
+                '/images/projects/MANIZHAS/1.jpg',
+                '/images/projects/MANIZHAS/2.jpg',
+                '/images/projects/MANIZHAS/3.jpg',
+            ]
+        },
+        {
+            title: 'SAMSUNG - SVYAZNOY',
+            tagNames: ['#видео', '#реклама', '#созданиекостюма', '#мужскойстайлинг', '#женскийстайлинг'],
+            tags: ['Видео', 'Реклама', 'Создание костюма', 'Мужской', 'Женский'],
+            mainImg: '/images/projects/SAMSUNGS/1.jpg',
+            style: '32% 20%',
+            video: 'bvZnQIaStb4',
+        },
         {
             title: "EMPIRE V ",
             tagNames: [
@@ -200,14 +200,12 @@ export const items = {
             tagNames: [
                 "#фото",
                 "#музыкальныйклип",
-                "",
                 "#женскийстайлинг",
                 "#созданиекостюма"
             ],
             tags: [
                 "Фото",
                 "Музыкальный клип",
-                "",
                 "Женский",
                 "Создание костюма"
             ],
@@ -236,16 +234,14 @@ export const items = {
             title: "ORIFLAME",
             tagNames: [
                 "#видео",
+                "#реклама",
                 "#фешн",
-                "#эдиториал",
-                "#созданиекостюма",
                 "#женскийстайлинг"
             ],
             tags: [
                 "Видео",
+                "Реклама",
                 "Фешн",
-                "Эдиториал",
-                "Создание костюма",
                 "Женский"
             ],
             mainImg: "/images/teamProjects/oriflame/1.jpg",
@@ -260,7 +256,6 @@ export const items = {
                 "#эдиториал",
                 "#созданиекостюма",
                 "#женскийстайлинг",
-                ""
             ],
             tags: [
                 "Видео",
@@ -268,7 +263,6 @@ export const items = {
                 "Эдиториал",
                 "Создание костюма",
                 "Женский",
-                ""
             ],
             mainImg: "/images/teamProjects/notalice/2.jpg",
             video: "zLiUQXpQ5rg",
@@ -278,15 +272,13 @@ export const items = {
             title: "RAYON - INDABLACK x RAIDA",
             tagNames: [
                 "#видео",
-                "#реклама",
-                "#фешн",
-                "#женскийстайлинг"
+                "#музыкальныйклип",
+                "#мужскойстайлинг"
             ],
             tags: [
                 "Видео",
-                "Реклама",
-                "Фешн",
-                "Женский"
+                "Музыкальный клип",
+                "Мужской"
             ],
             mainImg: "/images/projects/rayon/1.jpg",
             video: "Yvs7O-BLivw",
@@ -296,13 +288,17 @@ export const items = {
             title: "WHAT BOTHERS ME",
             tagNames: [
                 "#видео",
-                "#музыкальныйклип",
-                "#мужскойстайлинг"
+                "#фешн",
+                "#эдиториал",
+                "#мужскойстайлинг",
+                "#женскийстайлинг",
             ],
             tags: [
                 "Видео",
-                "Музыкальный клип",
-                "Мужской"
+                "Фешн",
+                "Эдиториал",
+                "Мужской",
+                "Женский"
             ],
             order: 0,
             mainImg: "/images/projects/BOTHER/1.jpg",
@@ -312,18 +308,14 @@ export const items = {
         {
             title: "BAIKAL ",
             tagNames: [
-                "#видео",
-                "#музыкальныйклип",
-                "#созданиекостюма",
-                "#женскийстайлинг",
-                "#мужскойстайлинг"
+                "#фото",
+                "#реклама",
+                "#женскийстайлинг"
             ],
             tags: [
-                "Видео",
-                "Музыкальный клип",
-                "Создание костюма",
-                "Женский",
-                "Мужской"
+                "Фото",
+                "Реклама",
+                "Женский"
             ],
             mainImg: "/images/projects/BAIKAL1/4.jpg",
             images: [
@@ -338,13 +330,15 @@ export const items = {
             title: "SPIN4SPIN",
             tagNames: [
                 "#фото",
-                "#реклама",
-                "#женскийстайлинг"
+                "#фешн",
+                "#женскийстайлинг",
+                "#мужскойстайлинг"
             ],
             tags: [
                 "Фото",
-                "Реклама",
-                "Женский"
+                "Фешн",
+                "Женский",
+                "Мужской"
             ],
             mainImg: "/images/projects/SPIN4SPIN/7.jpg",
             images: [
@@ -365,25 +359,6 @@ export const items = {
         {
             title: "AVIAPARK",
             tagNames: [
-                "#фото",
-                "#фешн",
-                "#женскийстайлинг",
-                "#мужскойстайлинг"
-            ],
-            tags: [
-                "Фото",
-                "Фешн",
-                "Женский",
-                "Мужской"
-            ],
-            mainImg: "/images/projects/AVIAPARK/1.jpg",
-            images: [],
-            video: "CkL_ahnFXxI",
-            style: "170px 100px 50px 10px"
-        },
-        {
-            title: "CHIKI cover ",
-            tagNames: [
                 "#видео",
                 "#реклама",
                 "#женскийстайлинг",
@@ -397,6 +372,25 @@ export const items = {
                 "Мужской",
                 "Детский"
             ],
+            mainImg: "/images/projects/AVIAPARK/1.jpg",
+            images: [],
+            video: "CkL_ahnFXxI",
+            style: "170px 100px 50px 10px"
+        },
+        {
+            title: "CHIKI cover ",
+            tagNames: [
+                "#фото",
+                "#реклама",
+                "#эдиториал",
+                "#женскийстайлинг"
+            ],
+            tags: [
+                "Фото",
+                "Реклама",
+                "Эдиториал",
+                "Женский"
+            ],
             mainImg: "/images/projects/Chiki/1.jpeg",
             images: [
                 "/images/projects/Chiki/1.jpeg"
@@ -408,15 +402,13 @@ export const items = {
             tagNames: [
                 "#фото",
                 "#реклама",
-                "#эдиториал",
-                "",
+                "#фешн",
                 "#женскийстайлинг"
             ],
             tags: [
                 "Фото",
                 "Реклама",
-                "Эдиториал",
-                "",
+                "Фешн",
                 "Женский"
             ],
             mainImg: "/images/projects/PHD/Копия PhD 70031.jpg",
@@ -451,14 +443,14 @@ export const items = {
             tagNames: [
                 "#фото",
                 "#реклама",
-                "#фешн",
-                "#женскийстайлинг"
+                "#женскийстайлинг",
+                "#мужскойстайлинг"
             ],
             tags: [
                 "Фото",
                 "Реклама",
-                "Фешн",
-                "Женский"
+                "Женский",
+                "Мужской"
             ],
             mainImg: "/images/projects/AVON SALE ZONE 19/main.png",
             images: [
@@ -473,12 +465,16 @@ export const items = {
             tagNames: [
                 "#видео",
                 "#реклама",
-                "#мужскойстайлинг"
+                "#женскийстайлинг",
+                "#мужскойстайлинг",
+                "#десткийстайлинг",
             ],
             tags: [
                 "Видео",
                 "Реклама",
-                "Мужской"
+                "Женский",
+                "Мужской",
+                "Десткий",
             ],
             mainImg: "/images/projects/A101/1.jpg",
             video: "TrrOqIRkdoM",
@@ -488,14 +484,14 @@ export const items = {
             title: "BELKA CAR",
             tagNames: [
                 "#фото",
-                "#фешн",
                 "#реклама",
+                "#женскийстайлинг",
                 "#мужскойстайлинг"
             ],
             tags: [
                 "Фото",
-                "Фешн",
                 "Реклама",
+                "Женский",
                 "Мужской"
             ],
             mainImg: "/images/projects/BELKA CAR2/Копия 50218023_10156205866328790_8914228640305119232_o.jpg",
@@ -510,19 +506,17 @@ export const items = {
             title: "ZVENTA SVENTANA",
             tagNames: [
                 "#видео",
-                "#реклама",
+                "#музыкальныйклип",
+                "#созданиекостюма",
                 "#женскийстайлинг",
                 "#мужскойстайлинг",
-                "#десткийстайлинг",
-                ""
             ],
             tags: [
                 "Видео",
-                "Реклама",
+                "Музыкальный клип",
+                "Создание костюма",
                 "Женский",
                 "Мужской",
-                "Десткий",
-                ""
             ],
             mainImg: "/images/projects/ZVETANASVENTANA/1.jpg",
             style: "20% 0 20% 10%",
@@ -531,16 +525,16 @@ export const items = {
         {
             title: "STACY",
             tagNames: [
-                "#фото",
-                "#реклама",
-                "#женскийстайлинг",
-                "#мужскойстайлинг"
+                "#видео",
+                "#фешн",
+                "#эдиториал",
+                "#женскийстайлинг"
             ],
             tags: [
-                "Фото",
-                "Реклама",
-                "Женский",
-                "Мужской"
+                "Видео",
+                "Фешн",
+                "Эдиториал",
+                "Женский"
             ],
             mainImg: "/images/projects/STACY/1.jpg",
             video: "epJYlAYVO6M",
@@ -569,15 +563,13 @@ export const items = {
             title: "DELOBANK",
             tagNames: [
                 "#видео",
-                "#фешн",
-                "#эдиториал",
-                "#женскийстайлинг"
+                "#реклама",
+                "#мужскойстайлинг"
             ],
             tags: [
                 "Видео",
-                "Фешн",
-                "Эдиториал",
-                "Женский"
+                "Реклама",
+                "Мужской"
             ],
             mainImg: "/images/projects/DELOBANK/1.jpg",
             video: "Zpu37bReork",
@@ -586,16 +578,14 @@ export const items = {
         {
             title: "WELLA SEBASTIAN SYSTEM ‘19 ",
             tagNames: [
-                "#видео",
-                "#реклама",
+                "#фото",
+                "#фешн",
                 "#женскийстайлинг",
-                "#мужскойстайлинг"
             ],
             tags: [
-                "Видео",
-                "Реклама",
+                "Фото",
+                "Фешн",
                 "Женский",
-                "Мужской"
             ],
             mainImg: "/images/projects/SEBASTIAM/SYSTEM 2019/4.jpg",
             images: [
@@ -608,14 +598,16 @@ export const items = {
         {
             title: "WHO I AM - campaign ",
             tagNames: [
-                "#видео",
+                "#фото",
+                "#фешн",
                 "#реклама",
-                "#мужскойстайлинг"
+                "#женскийстайлинг"
             ],
             tags: [
-                "Видео",
+                "Фото",
+                "Фешн",
                 "Реклама",
-                "Мужской"
+                "Женский"
             ],
             mainImg: "/images/projects/WHO I AM/WHOIAM 002.JPG",
             images: [
@@ -635,16 +627,16 @@ export const items = {
         {
             title: "CEO OF EVERYTHING - ZANYATOY GRAZHDANIN",
             tagNames: [
-                "#фото",
-                "#фешн",
-                "#женскийстайлинг",
-                ""
+                "#видео",
+                "#музыкальныйклип",
+                "#мужскойстайлинг",
+                "#женскийстайлинг"
             ],
             tags: [
-                "Фото",
-                "Фешн",
-                "Женский",
-                ""
+                "Видео",
+                "Музыкальный клип",
+                "Мужской",
+                "Женский"
             ],
             mainImg: "/images/projects/DIRECTOR/1.jpg",
             video: "7X18S0R-jBE",
@@ -654,14 +646,14 @@ export const items = {
             title: "TRAPEZE OF MALEVICH x CNS MAGAZINE",
             tagNames: [
                 "#фото",
+                "#эдиториал",
                 "#фешн",
-                "#реклама",
                 "#женскийстайлинг"
             ],
             tags: [
                 "Фото",
+                "Эдиториал",
                 "Фешн",
-                "Реклама",
                 "Женский"
             ],
             mainImg: "/images/projects/TRAPEZE OF MALEVICH/8.jpg",
@@ -684,14 +676,12 @@ export const items = {
             tagNames: [
                 "#видео",
                 "#музыкальныйклип",
-                "#мужскойстайлинг",
-                "#женскийстайлинг"
+                "#мужскойстайлинг"
             ],
             tags: [
                 "Видео",
                 "Музыкальный клип",
-                "Мужской",
-                "Женский"
+                "Мужской"
             ],
             mainImg: "/images/projects/MONAMI/1.jpg",
             video: "9Wptoc-ejf0",
@@ -701,13 +691,11 @@ export const items = {
             title: "WHAT ABOUT US - LOOKBOOK",
             tagNames: [
                 "#фото",
-                "#эдиториал",
                 "#фешн",
                 "#женскийстайлинг"
             ],
             tags: [
                 "Фото",
-                "Эдиториал",
                 "Фешн",
                 "Женский"
             ],
@@ -726,13 +714,17 @@ export const items = {
             title: "MEGA",
             tagNames: [
                 "#видео",
-                "#музыкальныйклип",
-                "#мужскойстайлинг"
+                "#реклама",
+                "#женскийстайлинг",
+                "#мужскойстайлинг",
+                "#детскийстайлинг"
             ],
             tags: [
                 "Видео",
-                "Музыкальный клип",
-                "Мужской"
+                "Реклама",
+                "Женский",
+                "Мужской",
+                "Детский"
             ],
             mainImg: "/images/projects/MEGA/1.jpg",
             video: "BmOnHc4_sHQ",
@@ -743,12 +735,14 @@ export const items = {
             tagNames: [
                 "#фото",
                 "#фешн",
-                "#женскийстайлинг"
+                "#реклама",
+                "#мужскойстайлинг"
             ],
             tags: [
                 "Фото",
                 "Фешн",
-                "Женский"
+                "Реклама",
+                "Мужской"
             ],
             mainImg: "/images/projects/DR KRIVOROTOV 2.0/Копия Копия BD4A9354.jpg",
             images: [
@@ -765,16 +759,12 @@ export const items = {
             tagNames: [
                 "#видео",
                 "#реклама",
-                "#женскийстайлинг",
-                "#мужскойстайлинг",
-                "#детскийстайлинг"
+                "#мужскойстайлинг"
             ],
             tags: [
                 "Видео",
                 "Реклама",
-                "Женский",
-                "Мужской",
-                "Детский"
+                "Мужской"
             ],
             mainImg: "/images/projects/SBERBANK/1.jpg",
             video: "0TQAb6feqaU",
@@ -784,14 +774,16 @@ export const items = {
             title: "EVOLUTION 2.0 x HUF MAGAZINE",
             tagNames: [
                 "#фото",
+                "#эдиториал",
                 "#фешн",
-                "#реклама",
+                "#женскийстайлинг",
                 "#мужскойстайлинг"
             ],
             tags: [
                 "Фото",
+                "Эдиториал",
                 "Фешн",
-                "Реклама",
+                "Женский",
                 "Мужской"
             ],
             mainImg: "/images/projects/EVOLUTION 2.0/1.jpg",
@@ -816,42 +808,6 @@ export const items = {
             title: "KRASSNA - BOZHE",
             tagNames: [
                 "#видео",
-                "#реклама",
-                "#мужскойстайлинг"
-            ],
-            tags: [
-                "Видео",
-                "Реклама",
-                "Мужской"
-            ],
-            mainImg: "/images/projects/KRASSNA/1.jpg",
-            video: "4Vo3kB6glAg",
-            style: "50% 50% 20% 20%"
-        },
-        {
-            title: "LENTA",
-            tagNames: [
-                "#фото",
-                "#эдиториал",
-                "#фешн",
-                "#женскийстайлинг",
-                "#мужскойстайлинг"
-            ],
-            tags: [
-                "Фото",
-                "Эдиториал",
-                "Фешн",
-                "Женский",
-                "Мужской"
-            ],
-            mainImg: "/images/projects/LENTA/1.jpg",
-            video: "WWsp8LsYWIk",
-            style: "0 0 60% 40%"
-        },
-        {
-            title: "CEO OF EVERYTHING - MBA",
-            tagNames: [
-                "#видео",
                 "#музыкальныйклип",
                 "#созданиекостюма",
                 "#женскийстайлинг"
@@ -862,14 +818,12 @@ export const items = {
                 "Создание костюма",
                 "Женский"
             ],
-            mainImg: "/images/projects/MBA/1.jpg",
-            images: [],
-            "classes": "p-2",
-            video: "ToqpXrivOOY",
-            style: "150px 10px 150px 200px"
+            mainImg: "/images/projects/KRASSNA/1.jpg",
+            video: "4Vo3kB6glAg",
+            style: "50% 50% 20% 20%"
         },
         {
-            title: "LA CHAMBRE VERTE X CONTRIBUTOR MAGAZINE",
+            title: "LENTA",
             tagNames: [
                 "#видео",
                 "#реклама",
@@ -883,6 +837,44 @@ export const items = {
                 "Женский",
                 "Мужской",
                 "Детский"
+            ],
+            mainImg: "/images/projects/LENTA/1.jpg",
+            video: "WWsp8LsYWIk",
+            style: "0 0 60% 40%"
+        },
+        {
+            title: "CEO OF EVERYTHING - MBA",
+            tagNames: [
+                "#видео",
+                "#реклама",
+                "#музыкальныйклип",
+                "#мужскойстайлинг"
+            ],
+            tags: [
+                "Видео",
+                "Реклама",
+                "Музыкальный клип",
+                "Мужской"
+            ],
+            mainImg: "/images/projects/MBA/1.jpg",
+            images: [],
+            "classes": "p-2",
+            video: "ToqpXrivOOY",
+            style: "150px 10px 150px 200px"
+        },
+        {
+            title: "LA CHAMBRE VERTE X CONTRIBUTOR MAGAZINE",
+            tagNames: [
+                "#фото",
+                "#фешн",
+                "#эдиториал",
+                "#женскийстайлинг"
+            ],
+            tags: [
+                "Фото",
+                "Фешн",
+                "Эдиториал",
+                "Женский"
             ],
             mainImg: "/images/projects/LA CHAMBRE VERTE/Копия Копия fuji400 035.jpg",
             images: [
@@ -903,42 +895,6 @@ export const items = {
             tagNames: [
                 "#видео",
                 "#реклама",
-                "#музыкальныйклип",
-                "#мужскойстайлинг"
-            ],
-            tags: [
-                "Видео",
-                "Реклама",
-                "Музыкальный клип",
-                "Мужской"
-            ],
-            mainImg: "/images/projects/MELLER/1.jpg",
-            video: "3GYMgZnxW0s",
-            style: "30% 5% 30% 50%"
-        },
-        {
-            title: "ЦДМ",
-            tagNames: [
-                "#фото",
-                "#фешн",
-                "#эдиториал",
-                "#женскийстайлинг"
-            ],
-            tags: [
-                "Фото",
-                "Фешн",
-                "Эдиториал",
-                "Женский"
-            ],
-            mainImg: "/images/projects/CDM/1.jpg",
-            video: "rF2FJ99-W9M",
-            style: "200px 0 10px 50px"
-        },
-        {
-            title: "MEGAFON x ELKA",
-            tagNames: [
-                "#видео",
-                "#реклама",
                 "#мужскойстайлинг",
                 "#десткийстайлинг"
             ],
@@ -948,12 +904,12 @@ export const items = {
                 "Мужской",
                 "Десткий"
             ],
-            mainImg: "/images/projects/MEGAELKA/1.jpg",
-            video: "SE2j-p0ef1s",
-            style: "30% 0 30% 20%"
+            mainImg: "/images/projects/MELLER/1.jpg",
+            video: "3GYMgZnxW0s",
+            style: "30% 5% 30% 50%"
         },
         {
-            title: "AUSHAN ",
+            title: "ЦДМ",
             tagNames: [
                 "#видео",
                 "#реклама",
@@ -967,6 +923,42 @@ export const items = {
                 "Мужской",
                 "Женский",
                 "Детский"
+            ],
+            mainImg: "/images/projects/CDM/1.jpg",
+            video: "rF2FJ99-W9M",
+            style: "200px 0 10px 50px"
+        },
+        {
+            title: "MEGAFON x ELKA",
+            tagNames: [
+                "#видео",
+                "#реклама",
+                "#женскийстайлинг",
+                "#мужскойстайлинг"
+            ],
+            tags: [
+                "Видео",
+                "Реклама",
+                "Женский",
+                "Мужской"
+            ],
+            mainImg: "/images/projects/MEGAELKA/1.jpg",
+            video: "SE2j-p0ef1s",
+            style: "30% 0 30% 20%"
+        },
+        {
+            title: "AUSHAN ",
+            tagNames: [
+                "#видео",
+                "#реклама",
+                "#женскийстайлинг",
+                "#мужскойстайлинг"
+            ],
+            tags: [
+                "Видео",
+                "Реклама",
+                "Женский",
+                "Мужской"
             ],
             mainImg: "/images/projects/AUSHAN/1.jpg",
             video: "ZAN-1BmxcS4",
@@ -993,16 +985,16 @@ export const items = {
         {
             title: "TTSWTR x PUSHKINSKIY MUSEUM",
             tagNames: [
-                "#видео",
-                "#реклама",
-                "#женскийстайлинг",
-                "#мужскойстайлинг"
+                "#фото",
+                "#эдиториал",
+                "#фешн",
+                "#женскийстайлинг"
             ],
             tags: [
-                "Видео",
-                "Реклама",
-                "Женский",
-                "Мужской"
+                "Фото",
+                "Эдиториал",
+                "Фешн",
+                "Женский"
             ],
             mainImg: "/images/projects/TTSWTR/1.jpg",
             images: [
@@ -1019,13 +1011,11 @@ export const items = {
             tagNames: [
                 "#видео",
                 "#реклама",
-                "#женскийстайлинг",
                 "#мужскойстайлинг"
             ],
             tags: [
                 "Видео",
                 "Реклама",
-                "Женский",
                 "Мужской"
             ],
             mainImg: "/images/projects/AUROUS/1.jpg",
@@ -1036,15 +1026,15 @@ export const items = {
             title: "ХОЛОСТЯК 7 сезон - Антон Криворотов",
             tagNames: [
                 "#фото",
-                "#эдиториал",
                 "#фешн",
-                "#женскийстайлинг"
+                "#реклама",
+                "#мужскойстайлинг"
             ],
             tags: [
                 "Фото",
-                "Эдиториал",
                 "Фешн",
-                "Женский"
+                "Реклама",
+                "Мужской"
             ],
             mainImg: "/images/projects/HOLOSTIAK/5.jpg",
             images: [
@@ -1056,12 +1046,14 @@ export const items = {
         {
             title: "RBK x  Marko Mihić Jeftić & Aleksandr Sysoev",
             tagNames: [
-                "#видео",
+                "#фото",
+                "#фешн",
                 "#реклама",
                 "#мужскойстайлинг"
             ],
             tags: [
-                "Видео",
+                "Фото",
+                "Фешн",
                 "Реклама",
                 "Мужской"
             ],
@@ -1095,16 +1087,16 @@ export const items = {
         {
             title: "DR. KRIVOROTOV - WEEKEND",
             tagNames: [
-                "#фото",
-                "#фешн",
-                "#реклама",
-                "#мужскойстайлинг"
+                "#видео",
+                "#музыкальныйклип",
+                "#мужскойстайлинг",
+                "#женскийстайлинг"
             ],
             tags: [
-                "Фото",
-                "Фешн",
-                "Реклама",
-                "Мужской"
+                "Видео",
+                "Музыкальный клип",
+                "Мужской",
+                "Женский"
             ],
             mainImg: "/images/projects/WEEKEND/1.jpg",
             video: "OqKSO6YFXUA",
@@ -1113,16 +1105,16 @@ export const items = {
         {
             title: "KUNST MAGAZINE",
             tagNames: [
-                "#видео",
-                "#реклама",
-                "#женскийстайлинг",
-                "#мужскойстайлинг"
+                "#фото",
+                "#фешн",
+                "#эдиториал",
+                "#женскийстайлинг"
             ],
             tags: [
-                "Видео",
-                "Реклама",
-                "Женский",
-                "Мужской"
+                "Фото",
+                "Фешн",
+                "Эдиториал",
+                "Женский"
             ],
             mainImg: "/images/projects/FLOWERS AND SHADOWS/Копия 0R2A0402_done_1.jpg",
             images: [
@@ -1142,14 +1134,14 @@ export const items = {
             title: "GLAMOUR x GLUKOZA",
             tagNames: [
                 "#видео",
-                "#музыкальныйклип",
-                "#мужскойстайлинг",
+                "#эдиториал",
+                "#созданиекостюма",
                 "#женскийстайлинг"
             ],
             tags: [
                 "Видео",
-                "Музыкальный клип",
-                "Мужской",
+                "Эдиториал",
+                "Создание костюма",
                 "Женский"
             ],
             mainImg: "/images/projects/GLAMOUR AND GLUKOZA/1.jpg",
@@ -1161,15 +1153,13 @@ export const items = {
             title: "HUF AND HUF",
             tagNames: [
                 "#фото",
-                "#фешн",
-                "#эдиториал",
-                "#женскийстайлинг"
+                "#реклама",
+                "#эдиториал"
             ],
             tags: [
                 "Фото",
-                "Фешн",
-                "Эдиториал",
-                "Женский"
+                "Реклама",
+                "Эдиториал"
             ],
             mainImg: "/images/projects/HUF AHD HUF/1.jpg",
             images: [
@@ -1187,15 +1177,13 @@ export const items = {
         {
             title: "SCHIAP x VGXW MAGAZINE",
             tagNames: [
-                "#видео",
+                "#фото",
                 "#эдиториал",
-                "#созданиекостюма",
                 "#женскийстайлинг"
             ],
             tags: [
-                "Видео",
+                "Фото",
                 "Эдиториал",
-                "Создание костюма",
                 "Женский"
             ],
             mainImg: "/images/projects/SCHIAP_VGXW/Копия 2019_11_17_SCHIAP_6888.jpg",
@@ -1215,13 +1203,15 @@ export const items = {
             title: "HUSKY LOOKBOOK SS20",
             tagNames: [
                 "#фото",
-                "#реклама",
-                "#эдиториал"
+                "#фешн",
+                "#женскийстайлинг",
+                "#мужскойстайлинг"
             ],
             tags: [
                 "Фото",
-                "Реклама",
-                "Эдиториал"
+                "Фешн",
+                "Женский",
+                "Мужской"
             ],
             mainImg: "/images/projects/HASKY LOOKBOOK/Копия Capture One Catalog2344 1.jpg",
             images: [
@@ -1238,12 +1228,12 @@ export const items = {
             tagNames: [
                 "#фото",
                 "#эдиториал",
-                "#женскийстайлинг"
+                "#мужскойстайлинг"
             ],
             tags: [
                 "Фото",
                 "Эдиториал",
-                "Женский"
+                "Мужской"
             ],
             mainImg: "/images/projects/BONELESS VLADIMIR VARNAV/Копия 18.11.27-dance-color11655.jpg",
             images: [
@@ -1263,14 +1253,14 @@ export const items = {
         {
             title: "CITY MOBILE ",
             tagNames: [
-                "#фото",
-                "#фешн",
+                "#видео",
+                "#реклама",
                 "#женскийстайлинг",
                 "#мужскойстайлинг"
             ],
             tags: [
-                "Фото",
-                "Фешн",
+                "Видео",
+                "Реклама",
                 "Женский",
                 "Мужской"
             ],
@@ -1281,13 +1271,15 @@ export const items = {
         {
             title: "MTS SAMSUNG GALAXY X ANNA KHILKEVICH ",
             tagNames: [
-                "#фото",
-                "#эдиториал",
+                "#видео",
+                "#реклама",
+                "#женскийстайлинг",
                 "#мужскойстайлинг"
             ],
             tags: [
-                "Фото",
-                "Эдиториал",
+                "Видео",
+                "Реклама",
+                "Женский",
                 "Мужской"
             ],
             mainImg: "/images/projects/MTS SAMSUNG/1.jpg",
@@ -1335,14 +1327,12 @@ export const items = {
             tagNames: [
                 "#видео",
                 "#реклама",
-                "#мужскойстайлинг",
-                "#женскийстайлинг"
+                "#мужскойстайлинг"
             ],
             tags: [
                 "Видео",
                 "Реклама",
-                "Мужской",
-                "Женский"
+                "Мужской"
             ],
             mainImg: "/images/projects/YANDEX MONEY/1.jpg",
             video: "9HUm8ZchML0",
@@ -1351,16 +1341,14 @@ export const items = {
         {
             title: "MANIQU",
             tagNames: [
-                "#видео",
+                "#фото",
                 "#реклама",
-                "#мужскойстайлинг",
-                "#женскийстайлинг"
+                "#эдиториал"
             ],
             tags: [
-                "Видео",
+                "Фото",
                 "Реклама",
-                "Мужской",
-                "Женский"
+                "Эдиториал"
             ],
             mainImg: "/images/projects/MANIQU.RU/2.JPG",
             images: [
@@ -1373,12 +1361,16 @@ export const items = {
             tagNames: [
                 "#видео",
                 "#реклама",
-                "#мужскойстайлинг"
+                "#женскийстайлинг",
+                "#мужскойстайлинг",
+                "#детскийстайлинг"
             ],
             tags: [
                 "Видео",
                 "Реклама",
-                "Мужской"
+                "Женский",
+                "Мужской",
+                "Детский"
             ],
             mainImg: "/images/projects/SAMOLET/1.jpg",
             style: "40% 7% 20% 4%",
@@ -1388,13 +1380,13 @@ export const items = {
             title: "GERTRUDE X KALTBLUT MAGAZINE",
             tagNames: [
                 "#фото",
-                "#реклама",
-                "#эдиториал"
+                "#эдиториал",
+                "#женскийстайлинг",
             ],
             tags: [
                 "Фото",
-                "Реклама",
-                "Эдиториал"
+                "Эдиториал",
+                "Женский",
             ],
             mainImg: "/images/projects/GERTRUDE_KALTBLUT/1.jpeg",
             images: [
@@ -1413,18 +1405,14 @@ export const items = {
         {
             title: "UTOPIA 1985 X Zhenya Borzykh",
             tagNames: [
-                "#видео",
-                "#реклама",
-                "#женскийстайлинг",
-                "#мужскойстайлинг",
-                "#детскийстайлинг"
+                "#фото",
+                "#эдиториал",
+                "#женскийстайлинг"
             ],
             tags: [
-                "Видео",
-                "Реклама",
-                "Женский",
-                "Мужской",
-                "Детский"
+                "Фото",
+                "Эдиториал",
+                "Женский"
             ],
             mainImg: "/images/projects/UTOPIA/1.jpg",
             images: [
@@ -1441,13 +1429,13 @@ export const items = {
                 "#фото",
                 "#эдиториал",
                 "#женскийстайлинг",
-                ""
+                "#созданиекостюма"
             ],
             tags: [
                 "Фото",
                 "Эдиториал",
                 "Женский",
-                ""
+                "Создание костюма"
             ],
             mainImg: "/images/projects/BLINDING AND KULTBLUT/main.png",
             images: [
@@ -1467,13 +1455,15 @@ export const items = {
             title: "W LOOKBOOK FW’19 ",
             tagNames: [
                 "#фото",
-                "#эдиториал",
-                "#женскийстайлинг"
+                "#реклама",
+                "#фешн",
+                "#женскийстайлинг",
             ],
             tags: [
                 "Фото",
-                "Эдиториал",
-                "Женский"
+                "Реклама",
+                "Фешн",
+                "Женский",
             ],
             mainImg: "/images/projects/SPRING RYAZAN/main.png",
             images: [
@@ -1488,14 +1478,12 @@ export const items = {
             tagNames: [
                 "#фото",
                 "#эдиториал",
-                "#женскийстайлинг",
-                "#созданиекостюма"
+                "#женскийстайлинг"
             ],
             tags: [
                 "Фото",
                 "Эдиториал",
-                "Женский",
-                "Создание костюма"
+                "Женский"
             ],
             mainImg: "/images/projects/THE PROVEN POINT/Копия DSC01545 copy.jpg",
             images: [
@@ -1515,17 +1503,13 @@ export const items = {
             title: "GOGEN",
             tagNames: [
                 "#фото",
-                "#реклама",
-                "#фешн",
-                "#женскийстайлинг",
-                ""
+                "#эдиториал",
+                "#женскийстайлинг"
             ],
             tags: [
                 "Фото",
-                "Реклама",
-                "Фешн",
-                "Женский",
-                ""
+                "Эдиториал",
+                "Женский"
             ],
             mainImg: "/images/projects/GOGEN/Копия 07.jpg",
             images: [
@@ -1540,13 +1524,17 @@ export const items = {
         {
             title: "POKERDOM",
             tagNames: [
-                "#фото",
-                "#эдиториал",
+                "#видео",
+                "#реклама",
+                "#музыкальныйклип",
+                "#мужскойстайлинг",
                 "#женскийстайлинг"
             ],
             tags: [
-                "Фото",
-                "Эдиториал",
+                "Видео",
+                "Реклама",
+                "Музыкальный клип",
+                "Мужской",
                 "Женский"
             ],
             mainImg: "/images/projects/POKERDOM/1.jpg",
@@ -1583,14 +1571,12 @@ export const items = {
             tagNames: [
                 "#видео",
                 "#реклама",
-                "#музыкальныйклип",
                 "#мужскойстайлинг",
                 "#женскийстайлинг"
             ],
             tags: [
                 "Видео",
                 "Реклама",
-                "Музыкальный клип",
                 "Мужской",
                 "Женский"
             ],
