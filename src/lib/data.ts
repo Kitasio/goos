@@ -1374,7 +1374,7 @@ export const items = {
             ],
             mainImg: "/images/projects/SAMOLET/1.jpg",
             style: "40% 7% 20% 4%",
-            video: "https://www.youtube.com/watch?v=es9atp1aTzY"
+            video: "es9atp1aTzY"
         },
         {
             title: "GERTRUDE X KALTBLUT MAGAZINE",
